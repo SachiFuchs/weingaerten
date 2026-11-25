@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-temperaturfuehler-ntc5k",
+  "name": "Weishaupt Temperaturfühler-Set NTC 5k, 5 m",
+  "category": "Heizung",
+  "description": "Tauchfühler für Trinkwasserspeicher sowie Puffer, Weiche, Systemtrennung, 5 m Kabel mit Kabelhalter (B2/B3 im Hydraulikplan)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Temperaturfühler NTC5k 5 m",
+    "article_no": "47130622032",
+    "url": "https://www.loebbeshop.de/weishaupt/zubehoer/temperaturfuehler-ntc-5k-mit-5m-kabel-artikel-47130622032/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 33.16,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.15, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gewinde-reduzierstueck-24-1-mm-rp-3-4-x-33-3-mm-r-1-rotguss",
+  "name": "Gewinde-Reduzierstück 24,1 mm (Rp 3/4) x 33,3 mm (R 1) Rotguss",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874112637_gewinde-reduzierstueck-24-1-mm-rp-3-4-x-33-3-mm-r-1-rotguss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Reduzierstück 24,1 mm (Rp 3/4) x 33,3 mm (R 1) Rotguss",
+    "article_no": "7218126",
+    "ean": "4007874112637",
+    "url": "https://www.obi.de/p/7218126",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "87 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "10,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,6 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-18",
+        "source": "Kassenbon 2023-09-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

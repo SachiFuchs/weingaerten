@@ -1,0 +1,77 @@
+{
+  "id": "marley-kanalgrundrohr-dn-110-500-mm",
+  "name": "Marley Kanalgrundrohr DN 110 500 mm",
+  "category": "Entwässerung",
+  "description": "Das Marley Kanalgrundrohr DN 110 besteht aus robusten PVC. Kanalrohre und Formstücke aus PVC werden zur Fortleitung von Abwasser eingesetzt. Deutlich erkennbar dank orange-brauner Farbe Mit dem Abwasserrohr gelingt die Ableitung von chemisch aggressiven Abwässern im pH-Bereich 2 (sauer) und pH 12 (basisch). Bei der Ableitung industrieller Abwässer ist die DIN 16929 sowie der Entwurf Beiblatt 1 zu DIN 8061 Teil 1 zu beachten. Die Temperaturen dürfen +60°C nicht überschreiten. Dank der orange-braunen Farbe heben sich die Kanalgrundrohre deutlich und erkennbar von den grauen Hochtemperaturrohren ab. Das Rohr kann ohne viel Mühe auch angeschrägt oder entgratet werden. Beachten Sie besonders, dass Regenleitungen unter keinen Umständen an Schmutzwasserleitungen angeschlossen werden dürfen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4006395660016_marley-kanalgrundrohr-dn-110-500-mm"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Kanalgrundrohr DN 110 500 mm",
+    "article_no": "7456478",
+    "ean": "4006395660016",
+    "url": "https://www.obi.de/p/7456478",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-15",
+        "source": "Kassenbon 2023-02-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "680 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "12,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "57,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

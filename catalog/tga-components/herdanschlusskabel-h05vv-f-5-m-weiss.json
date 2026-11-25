@@ -1,0 +1,59 @@
+{
+  "id": "herdanschlusskabel-h05vv-f-5-m-weiss",
+  "name": "Herdanschlusskabel H05VV-F 5 m Weiß",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874127020_herdanschlusskabel-h05vv-f-5-m-weiss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Herdanschlusskabel H05VV-F 5 m Weiß",
+    "article_no": "8673881",
+    "ean": "4007874127020",
+    "url": "https://www.obi.de/p/8673881",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,30 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "25,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "25,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 15.89,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-12-07",
+        "source": "Kassenbon 2024-12-07, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 15.89,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-12-12",
+        "source": "Kassenbon 2024-12-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

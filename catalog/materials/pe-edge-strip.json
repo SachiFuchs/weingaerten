@@ -1,0 +1,36 @@
+{
+  "id": "pe-edge-strip",
+  "name": "Schlüter Randdämmstreifen PE",
+  "category": "Dämmung",
+  "description": "System-Randdämmstreifen aus PE-Schaum an allen aufgehenden Bauteilen; Riempp Angebot 25-0235 Pos. 4 (60 m² Bodenfläche à 1,95 €)",
+  "density": 30,
+  "fire_class": "B2",
+  "values_source": "Richtwert PE-Schaum",
+  "appearance": {
+    "color": "#E07A3A",
+    "roughness": 0.6,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 1.95,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-06-23",
+        "source": "Angebot 25-0235, Pos. 4, je m²",
+        "document": "document:2025-06-23-riempp-25-0235-angebot-heizestrich"
+      },
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 1.95,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-06",
+        "source": "Rechnung 2025397, Pos. 4, je m²",
+        "document": "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+      }
+    ]
+  }
+}

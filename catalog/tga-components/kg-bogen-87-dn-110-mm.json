@@ -1,0 +1,43 @@
+{
+  "id": "kg-bogen-87-dn-110-mm",
+  "name": "KG Bogen 87° DN 110 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.03,
+    "angle": 87
+  },
+  "description": "Möchtest Du sicherstellen, dass Dein Entwässerungssystem zuverlässig funktioniert? Der KG Bogen 87° DN 110 mm bietet die ideale Lösung.\n\nProduktmerkmale des KG Bogen 87° DN 110 mm\nDarum solltest Du zugreifen: Der KG Bogen ist ein essenzielles Formteil für die Haus- und Hofentwässerung. Mit einem Außendurchmesser von 127 mm und einem Nennwert von 110 mm ist er optimal für den Einsatz im Außenbereich geeignet. Hergestellt aus Polyvinylchlorid (PVC), bietet er eine hohe Beständigkeit gegen Wasser und Umwelteinflüsse. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 gewährleisten eine robuste Bauweise, die den Anforderungen im Erdreich standhält. Der Bogen mit einem Winkel von 87° ermöglicht eine präzise Anpassung an bestehende Rohrleitungen, was den Einbau erleichtert und die Effizienz des Entwässerungssystems erhöht.\n\nFestgezurrt: Der KG Bogen 87° DN 110 mm ist die zuverlässige Wahl für ein effizientes und sicheres Entwässerungssystem.",
+  "photos": [
+    "hornbach-267378_1.jpg",
+    "hornbach-267378_2.jpg",
+    "hornbach-267378_3.jpg",
+    "hornbach-267378_4.jpg"
+  ],
+  "imported_from": [
+    "hornbach-267378_kg-bogen-87-dn-110-mm"
+  ],
+  "catalog_material": "material:kg-bogen-87-dn-110-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "cable-nym-3x15",
+  "name": "NYM-J 3 × 1,5 mm²",
+  "description": "Beispiel (Muster, kein reales System): Installationsleitung Steckdosenkreis",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 3,
+    "cross_section_mm2": 1.5,
+    "conduit_type": "none",
+    "outer_diameter": 0.009
+  },
+  "connection": {
+    "line": "power",
+    "conductors": [
+      {
+        "role": "L",
+        "color": "#050505"
+      },
+      {
+        "role": "N",
+        "color": "#1c3ee9"
+      },
+      {
+        "role": "PE",
+        "color": "#cef024"
+      }
+    ],
+    "note": "nicht für Steckdosen, starke Verbraucher (Herd etc.) "
+  },
+  "cut": {
+    "max_length": 50,
+    "default_length": 1
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  },
+  "install": {
+    "trade": "electrical",
+    "shape": "pipe",
+    "size": [
+      0.07,
+      0.07,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.099,
+          0.02,
+          -0.02
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "power",
+        "dn": 3,
+        "gender": "any"
+      }
+    ],
+    "layout": {
+      "shapes": [
+        {
+          "kind": "line",
+          "x": -0.089,
+          "y": 0.05,
+          "x2": 0.093,
+          "y2": 0
+        },
+        {
+          "kind": "line",
+          "x": -0.084,
+          "y": 0.049,
+          "x2": -0.084,
+          "y2": 0.049
+        },
+        {
+          "kind": "line",
+          "x": -0.001,
+          "y": 0.034,
+          "x2": 0.047,
+          "y2": 0.051000000000000004
+        },
+        {
+          "kind": "line",
+          "x": 0,
+          "y": 0.049,
+          "x2": 0,
+          "y2": 0.049
+        },
+        {
+          "kind": "line",
+          "x": 0,
+          "y": 0.049,
+          "x2": 0,
+          "y2": 0.049
+        },
+        {
+          "kind": "line",
+          "x": 0,
+          "y": 0.049,
+          "x2": 0,
+          "y2": 0.049
+        },
+        {
+          "kind": "line",
+          "x": 0,
+          "y": 0.049,
+          "x2": 0,
+          "y2": 0.049
+        },
+        {
+          "kind": "line",
+          "x": 0,
+          "y": 0.049,
+          "x2": 0,
+          "y2": 0.049
+        }
+      ],
+      "symbol": "cable"
+    }
+  }
+}

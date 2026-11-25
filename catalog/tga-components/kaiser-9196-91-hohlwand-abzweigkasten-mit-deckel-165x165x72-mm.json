@@ -1,0 +1,212 @@
+{
+  "id": "kaiser-9196-91-hohlwand-abzweigkasten-mit-deckel-165x165x72-mm",
+  "name": "Kaiser 9196-91 Hohlwand-Abzweigkasten mit Deckel H165 x B165 x T72 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "junction",
+    "size": "165 × 165 × 72 mm"
+  },
+  "note": "Hohlwand-Abzweigkasten mit Deckel, orange/weiß, zur Unterbringung von Leitungsverbindungen.; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 9196-91 Hohlwand-Abzweigkasten mit Deckel H165 x B165 x T72 mm orange/weiß",
+    "article_no": "4063087",
+    "ean": "4013456231009",
+    "url": "https://www.hornbach.de/p/kaiser-9196-91-hohlwand-abzweigkasten-mit-deckel-h165-x-b165-x-t72-mm-orange-weiss/4063087/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Abzweigkasten"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Hohlwanddose"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Mit Deckel"
+        },
+        {
+          "label": "Befestigung der Geräte",
+          "value": "Schrauben"
+        },
+        {
+          "label": "Montageart",
+          "value": "Hohlwand"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "GZY4"
+        },
+        {
+          "label": "EAN",
+          "value": "2004063087006, 4013456231009"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "165 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "165 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "72 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 26.53,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "hornbach.de Online-Preis 2026-11-21, 1 Stück inkl. MwSt."
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.165,
+      0.165,
+      0.072
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0825,
+          -0.036
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0825,
+          -0.036
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0825,
+          0.0,
+          -0.036
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0825,
+          0.0,
+          -0.036
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

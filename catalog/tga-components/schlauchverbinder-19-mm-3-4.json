@@ -1,0 +1,47 @@
+{
+  "id": "schlauchverbinder-19-mm-3-4",
+  "name": "Schlauchverbinder Ø 19 mm (3/4\")",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "hose"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873931093_schlauchverbinder-19-mm-3-4"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Schlauchverbinder Ø 19 mm (3/4\")",
+    "article_no": "4711735",
+    "ean": "4007873931093",
+    "url": "https://www.obi.de/p/4711735",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "80 g"
+        },
+        {
+          "label": "Breite",
+          "value": "1,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lehmkleber-naturbo",
+  "name": "Lehmkleber (stark klebender Lehm)",
+  "category": "Putz",
+  "description": "Stark klebender Lehm zum vollflächigen Verkleben der Holzfaserplatten auf der Wand, ca. 3 mm",
+  "conductivity": null,
+  "values_source": "geschätzt; Kleberschicht, bauphysikalisch vernachlässigbar",
+  "appearance": { "color": "#A8865E", "roughness": 0.9, "hatch": "plaster" },
+  "product": { "manufacturer": "company:naturbo", "model": "Lehmkleber" }
+}

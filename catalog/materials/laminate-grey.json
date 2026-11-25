@@ -1,0 +1,11 @@
+{
+  "id": "laminate-grey",
+  "name": "Laminat grau 2 mm (Bestand)",
+  "category": "Belag",
+  "description": "Altes Laminat EG, grau, 0,2 cm; bleibt unter der PUR-Dämmung liegen",
+  "conductivity": 0.17,
+  "density": 900,
+  "fire_class": "B2",
+  "values_source": "Richtwert HDF/Laminat",
+  "appearance": { "color": "#9A9A96", "roughness": 0.5, "hatch": "none" }
+}

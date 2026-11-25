@@ -1,0 +1,43 @@
+{
+  "id": "roof-ridge",
+  "name": "Sattelfirst mit Firstlatte und Firstband",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "ROOFING"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Pos. 05.05: Firstausbildung 10 m à 67,50 € = 675,00 €, inkl. Latte, Firstband und Halter",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 10.0,
+    "height": 0.15,
+    "depth": 0.3,
+    "quantity": 10,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:clay-tile-rubin"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 67.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 05.05, je m",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 67.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 05.05, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

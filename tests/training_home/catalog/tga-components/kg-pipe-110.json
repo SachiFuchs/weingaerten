@@ -1,0 +1,40 @@
+{
+  "id": "kg-pipe-110",
+  "name": "KG-Rohr DN 110",
+  "description": "Abwasserrohr KG DN 110",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 110,
+    "outer_diameter": 0.11,
+    "medium": "waste_water",
+    "system_line": "kg"
+  },
+  "stock": {
+    "lengths": [
+      2.0,
+      1.0,
+      0.5
+    ],
+    "cuttable": true
+  },
+  "note": "Sortiment laut Bauherr (Nov 2026)",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

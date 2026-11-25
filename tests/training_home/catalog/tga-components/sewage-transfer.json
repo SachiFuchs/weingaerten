@@ -1,0 +1,11 @@
+{
+  "id": "sewage-transfer",
+  "name": "Übergabe Kläranlage",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "transfer",
+    "mounting": "free"
+  }
+}

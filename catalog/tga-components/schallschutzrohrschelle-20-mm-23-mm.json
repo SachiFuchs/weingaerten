@@ -1,0 +1,59 @@
+{
+  "id": "schallschutzrohrschelle-20-mm-23-mm",
+  "name": "Schallschutzrohrschelle Ø 20 mm - Ø 23 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "pipe_clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4006596105569_schallschutzrohrschelle-20-mm-23-mm"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Schallschutzrohrschelle Ø 20 mm - Ø 23 mm",
+    "article_no": "7217417",
+    "ean": "4006596105569",
+    "url": "https://www.obi.de/p/7217417",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "48 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "12,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-16",
+        "source": "Kassenbon 2025-04-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-27",
+        "source": "Kassenbon 2026-04-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 6×"
+      }
+    ]
+  }
+}

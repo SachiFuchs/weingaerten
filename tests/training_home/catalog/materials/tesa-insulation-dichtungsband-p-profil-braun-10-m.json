@@ -1,0 +1,53 @@
+{
+  "id": "tesa-insulation-dichtungsband-p-profil-braun-10-m",
+  "name": "tesa® Insulation Dichtungsband P-Profil Braun 10 m",
+  "category": "Baustoffe",
+  "description": "Das tesa® Insulation Dichtungsband ist Ihre Lösung für undichte Fenster und Türen.Es schützt vor Kälte, Hitze, Lärm und Feuchtigkeit und sorgt so für ein angenehmes Wohnklima. Das selbstklebende Band ist einfach zu montieren - Sie benötigen lediglich eine Schere. Nach einer gründlichen Reinigung des Untergrunds von Schmutz, Fett und Staub kann die Montage sofort beginnen. Mit seinem Profil, das in seiner Form im Querschnitt dem Buchstaben P ähnelt, dichtet das hochwertige Gummidichtungsband kleinere Spalten von 2 bis 5 mm zwischen Fensterrahmen und Fensterzarge ab. Es eignet sich für nahezu alle Arten von Fenstern, Zimmertüren oder Schranktüren. Das tesa® Insulation Dichtungsband ist UV- und temperaturbeständig und lässt sich einfach wieder entfernen - ganz ohne Rückstände.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4042448102225_tesa-insulation-dichtungsband-p-profil-braun-10-m"
+  ],
+  "product": {
+    "manufacturer": "company:tesa",
+    "model": "tesa® Insulation Dichtungsband P-Profil Braun 10 m",
+    "article_no": "2502151",
+    "ean": "4042448102225",
+    "url": "https://www.obi.de/p/2502151",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "161 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "23,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "19,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 16.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-23",
+        "source": "Kassenbon 2023-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

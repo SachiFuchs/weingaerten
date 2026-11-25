@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-terminal",
+  "title": "TGA-Endstelle (house/tga/terminals/<id>.json)",
+  "description": "Endstelle in einem Raum oder an einer Wand. Unterputz-Endstellen erzeugen eine Aussparung (penetration kind recess).",
+  "type": "object",
+  "required": ["id", "component", "storey", "position"],
+  "additionalProperties": false,
+  "properties": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":      { "type": "string" },
+    "component": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Komponente einer Klasse mit kind terminal" },
+    "storey":    { "type": "string", "pattern": "^storey:[a-z0-9]+(-[a-z0-9]+)*$" },
+    "room":      { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Raum-id im Geschoss" },
+    "wall":      { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Wand-id im Geschoss, wenn wandmontiert" },
+    "position":  { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3, "description": "[x, y, z] absolut in m" },
+    "estimated": { "type": "boolean" },
+    "note":      { "type": "string" }
+  }
+}

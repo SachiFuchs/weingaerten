@@ -1,0 +1,104 @@
+{
+  "id": "2026-03-02-marquardt-2026-072-haustuer-balkontuer",
+  "name": "Marquardt 2026-072 – Haustür Balkontür",
+  "doc_type": "invoice",
+  "supplier": "company:marquardt",
+  "date": "2026-03-02",
+  "number": "2026-072",
+  "customer_number": null,
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung der Firma Marquardt Fenster Türen Rollläden über die Lieferung und Montage einer Aluminium-Haustür (UP System DS 77 SI, Taubenblau RAL 5014/Weiß) sowie einer dreifach verglasten Balkontür (Rehau Synego AD) für Weingärten 8. Die Montageleistungen wurden am 08.10.2025 und 27.02.2026 erbracht. Die Rechnung umfasst 6.051,15 € brutto inklusive Montagematerial, Arbeitszeit und angehängter Leistungserklärung.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01",
+      "description": "1-flg. Aluminium-Haustür Fabr. UP System DS 77 SI (1050x2100 mm, DIN rechts nach innen öffnend, außen Taubenblau RAL 5014 Matt / innen Verkehrsweiß RAL 9016 Matt, Füllung NEO 10, Uw <= 1,3, 3-fach Verglasung, Griffstange 1600 mm Schwarzstahl, BKS 8812 Profilzylinder, 2-fach Schwenkriegel, thermisch getrennte Anschlagschwelle)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 2694.0,
+      "total_price": 2694.0,
+      "ref": "component:door-d1"
+    },
+    {
+      "position": "02",
+      "description": "Mehrpreis außen Aufsatzfüllung",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 315.0,
+      "total_price": 315.0
+    },
+    {
+      "position": "03",
+      "description": "1-flg. Balkontür, Dreh-Kipp-Links (1040x2220 mm, Hauber Kunststofffenster-System Rehau Synego AD 80 mm, weiß, Roto NX Sicherheitsbeschläge RC 2 mit abschließbarem Griff, 3-fach Verglasung Ug 0,5 / Uw 0,78)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 630.0,
+      "total_price": 630.0,
+      "ref": "component:door-balkon-rehau-synego"
+    },
+    {
+      "position": "04",
+      "description": "Montagematerial (Befestigungsmaterial, Schrauben) und Abdichtungsmaterial (Schaum, Silikon, Acryl, Putzacryl, Stopfmaterial)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 220.0,
+      "total_price": 220.0
+    },
+    {
+      "position": "05a",
+      "description": "Demontage und Montage inkl. An- und Abfahrtszeit – Monteur 1",
+      "quantity": 8.75,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 560.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "05b",
+      "description": "Demontage und Montage inkl. An- und Abfahrtszeit – Monteur 2",
+      "quantity": 8.75,
+      "unit": "Std",
+      "unit_price": 58.0,
+      "total_price": 507.5,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "06",
+      "description": "Extra Rahmen abholen und montieren für Haustüre",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 45.0,
+      "total_price": 45.0
+    },
+    {
+      "position": "07",
+      "description": "Baustelleneinrichtung und Lkw-Anteil",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 25.0,
+      "total_price": 25.0
+    },
+    {
+      "position": "08",
+      "description": "Fracht- und Energiekostenzulage Hersteller",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 88.5,
+      "total_price": 88.5
+    }
+  ],
+  "subtotal_net": 5085.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 5085.0,
+  "vat_rate": 19,
+  "vat_amount": 966.15,
+  "total_gross": 6051.15,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-03-02-marquardt-2026-072-haustuer-balkontuer.json",
+  "source_sha256": "19d40a21e2c0648d262b14fd2d1b28ffa19ef4fa9df02602f212bc2f16466660",
+  "original_filename": "2026-03-03 Marquardt - Rechung Tueren - CCE_001544.pdf"
+}

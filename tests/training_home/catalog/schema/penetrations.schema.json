@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/penetrations",
+  "title": "Durchdringungen – Bestätigungen/Overrides (house/penetrations.json)",
+  "description": "Durchdringungen werden aus Leitungsverlauf × Bauteil berechnet. Berechnete Felder (nicht gespeichert): position, needs_fire_stop (aus fire_rating des Aufbaus), airtight (Außenbauteil). Diese Datei speichert nur, was der Mensch ergänzt; Einträge ohne passende Berechnung sind Warnungen (verwaist).",
+  "type": "object",
+  "required": ["items"],
+  "additionalProperties": false,
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["element", "source", "index", "kind"],
+        "additionalProperties": false,
+        "properties": {
+          "element": { "type": "string", "pattern": "^(wall|ceiling|floor|foundation):[a-z0-9]+(-[a-z0-9]+)*(/[a-z0-9]+(-[a-z0-9]+)*)?$", "description": "Bauteil, z. B. wall:ground/w-north (storey/wall), foundation:main" },
+          "source":  { "type": "string", "pattern": "^(tga-run|tga-terminal):[a-z0-9]+(-[a-z0-9]+)*$", "description": "Leitung (through) oder Endstelle (recess)" },
+          "index":   { "type": "integer", "minimum": 0, "description": "n-te Durchdringung derselben Leitung durch dasselbe Bauteil, entlang points[]" },
+          "kind":    { "enum": ["through", "recess"], "description": "through = Durchführung, recess = Aussparung/Schlitz" },
+          "fire_stop_type": { "type": "string", "description": "gewähltes Brandschott-System" },
+          "sealing":  { "type": "string", "description": "Luftdichte Manschette o. Ä." },
+          "done":     { "type": "boolean", "description": "ausgeführt/abgenommen" },
+          "note":     { "type": "string" }
+        }
+      }
+    }
+  }
+}

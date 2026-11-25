@@ -1,0 +1,19 @@
+{
+  "id": "interior-wall-kw2",
+  "name": "Kellerinnenwand Beton 12 cm",
+  "ifc": { "entity": "IfcWall", "predefined_type": "PARTITIONING" },
+  "category": "interior_wall",
+  "din276": "340",
+  "description": "Beton 12 cm, Schutzwände vor dem Öltank (Bestand, Dicke geschätzt)",
+  "layer_order": "left_right",
+  "layers": [
+    {
+      "material": "material:concrete-c25",
+      "thickness": 0.12
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "naturbo-alu-verbundrohr-11-6",
+  "name": "Naturbo Alu-Verbundrohr Ø 11,6 mm",
+  "class": "tga-class:pipe",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "nominal_size_dn": 8,
+    "outer_diameter": 0.0116,
+    "medium": "heating_supply"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Alu-Verbundrohr Ø 11,6 mm",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 2.1,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 16, je m",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "connection": {
+    "line": "alu_composite",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 11.6,
+        "gender": "spigot"
+      },
+      {
+        "id": "b",
+        "dn": 11.6,
+        "gender": "spigot"
+      }
+    ]
+  }
+}

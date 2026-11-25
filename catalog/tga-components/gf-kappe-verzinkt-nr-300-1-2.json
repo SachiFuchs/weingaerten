@@ -1,0 +1,104 @@
+{
+  "id": "gf-kappe-verzinkt-nr-300-1-2",
+  "name": "GF-Kappe verzinkt Nr. 300 1/2\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6074340_gf-kappe-verzinkt-nr-300-1-2"
+  ],
+  "product": {
+    "manufacturer": "company:georg-fischer-gf",
+    "model": "GF-Kappe verzinkt Nr. 300 1/2\"",
+    "article_no": "6074340",
+    "ean": "53608",
+    "url": "https://www.hornbach.de/p/gf-kappe-verzinkt-nr-300-1-2/6074340/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Fitting"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kappe"
+        },
+        {
+          "label": "Größe",
+          "value": "1/2 \""
+        },
+        {
+          "label": "Variante",
+          "value": "Schraubfitting"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Verbinden, Schrauben"
+        },
+        {
+          "label": "Gewinde-Typ",
+          "value": "Innengewinde"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Druckluft, Heizung, Trinkwasser, Wasser, Gasleitung"
+        },
+        {
+          "label": "Material",
+          "value": "Temperguss"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Verzinktes Stahlrohr"
+        },
+        {
+          "label": "Modell",
+          "value": "300"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Verzinkt"
+        },
+        {
+          "label": "Max. Betriebstemperatur",
+          "value": "120 °C"
+        },
+        {
+          "label": "Zulässiger Betriebsdruck",
+          "value": "0 bar - 25 bar"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "23ZS"
+        },
+        {
+          "label": "EAN",
+          "value": "7611205430658"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "57 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.55,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-13",
+        "source": "Kassenbon 2026-07-13, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6074340_1.jpg"
+  ]
+}

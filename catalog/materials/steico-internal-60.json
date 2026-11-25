@@ -1,0 +1,45 @@
+{
+  "id": "steico-internal-60",
+  "name": "Steico internal Holzfaser-Innendämmung 60 mm",
+  "category": "Dämmung",
+  "description": "Holzfaserplatte mit Nut und Feder, 1200 × 380 × 60 mm, WLG 038",
+  "conductivity": 0.038,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Steico internal Holzfaser-Innendämmung 60 mm",
+    "offers": [
+      {
+        "supplier": "company:theodor-woelpert",
+        "price": 15.59,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-07-01",
+        "source": "Rechnung 29010060, Pos. 1, je m²",
+        "document": "document:2025-07-01-woelpert-29010060-steico-werkzeug"
+      },
+      {
+        "supplier": "company:theodor-woelpert",
+        "price": 15.59,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-08-15",
+        "source": "Rechnung 57731806, Pos. 1, je m²",
+        "document": "document:2025-08-15-woelpert-57731806-steico-internal-57stk"
+      },
+      {
+        "supplier": "company:theodor-woelpert",
+        "price": 15.59,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-12-05",
+        "source": "Rechnung 57897672, Pos. 1, je m²",
+        "document": "document:2025-12-05-woelpert-57897672-steico-scheren-set"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C9B48A",
+    "roughness": 0.9,
+    "hatch": "insulation"
+  }
+}

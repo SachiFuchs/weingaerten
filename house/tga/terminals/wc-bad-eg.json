@@ -1,0 +1,13 @@
+{
+  "id": "wc-bad-eg",
+  "name": "WC Bad EG",
+  "component": "tga-component:sanitary-wc",
+  "storey": "storey:ground",
+  "room": "room-bad",
+  "position": [
+    6.45,
+    0.65,
+    0.2
+  ],
+  "estimated": true
+}

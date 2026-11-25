@@ -1,0 +1,53 @@
+{
+  "id": "obi-innenlasur-kastanie-375-ml",
+  "name": "OBI Innenlasur Kastanie 375 ml",
+  "category": "Farbe",
+  "description": "Wasserverdünnbare OBI Innenlasur für dekorative Anstriche auf allen maßhaltigen und nicht maßhaltigen Holzuntergründen im Innenbereich wie z.B. Vertäfelungen, Fenster, Türen, Möbel, Holzdecken, Holzgeländer, etc. Besonders in sensiblen Bereichen wie Krankenhäusern, Schulen, Kindergärten, Tierzuchthaltung usw. geeignet. OBI Innenlasur enthält keine bioziden Wirkstoffe, ist geruchsmild, tropfgehemmt, schnelltrocknend, UV-schützend, lichtecht, blockfest, elastisch, diffusionsoffen, feuchtigkeitsregulierend und schützt durch eine hydrophobe Oberflächeneinstellung das Holz vor eindringender Feuchtigkeit. Inhalt reicht für ca. 4 m².",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4003498376905_obi-innenlasur-kastanie-375-ml"
+  ],
+  "product": {
+    "manufacturer": "company:meffert-farbwerke",
+    "model": "OBI Innenlasur Kastanie 375 ml",
+    "article_no": "2577815",
+    "ean": "4003498376905",
+    "url": "https://www.obi.de/p/2577815",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-11-04",
+        "source": "Kassenbon 2022-11-04, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "464 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,7 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,4 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "8,4 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

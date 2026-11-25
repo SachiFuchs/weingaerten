@@ -1,0 +1,16 @@
+{
+  "id": "terrace-roof-tr1",
+  "name": "Terrassendach: Holzschalung 24 mm",
+  "ifc": { "entity": "IfcSlab", "predefined_type": "ROOF" },
+  "category": "slab",
+  "din276": "360",
+  "description": "Flaches Holzdach über der Terrasse (Korrektur EG, rot: „Terrasse überdacht mit Holz“); Aufbau angenommen: Fichte-Schalung 24 mm auf Sparren (siehe ceilings[].joists).",
+  "layer_order": "top_down",
+  "layers": [
+    { "material": "material:spruce-wood", "thickness": 0.024 }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

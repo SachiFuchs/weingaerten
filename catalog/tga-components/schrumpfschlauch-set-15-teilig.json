@@ -1,0 +1,51 @@
+{
+  "id": "schrumpfschlauch-set-15-teilig",
+  "name": "Schrumpfschlauch-Set 15-teilig",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007875355118_schrumpfschlauch-set-15-teilig"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Schrumpfschlauch-Set 15-teilig",
+    "article_no": "9509266",
+    "ean": "4007875355118",
+    "url": "https://www.obi.de/p/9509266",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "24,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-12-23",
+        "source": "Kassenbon 2024-12-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

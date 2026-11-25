@@ -1,0 +1,27 @@
+{
+  "id": "cable-liycy-2x0-75",
+  "name": "Steuerleitung LIYCY 2 × 0,75 mm² grau",
+  "category": "Heizung",
+  "description": "abgeschirmte Steuerleitung (PVC, Kupfergeflecht), je m",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "LIYCY 2x0,75",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 2.74,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.4, je m",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

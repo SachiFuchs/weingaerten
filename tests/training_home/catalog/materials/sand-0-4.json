@@ -1,0 +1,27 @@
+{
+  "id": "sand-0-4",
+  "name": "Sand 0–4 mm",
+  "category": "Schüttgut",
+  "description": "Egginger Sand, lose, je Tonne",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Sand 0–4 mm",
+    "offers": [
+      {
+        "supplier": "company:helmut-kaelberer",
+        "price": 31.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-31",
+        "source": "Rechnung S9-4427907, Pos. 4, je t",
+        "document": "document:2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#A8A39A",
+    "roughness": 1.0,
+    "hatch": "concrete"
+  }
+}

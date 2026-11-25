@@ -1,0 +1,93 @@
+{
+  "id": "konsta-dreikantleiste-kiefer-roh-900-x-2",
+  "name": "Konsta Dreikantleiste Kiefer roh 900 x 22 x 22 mm",
+  "category": "Holz",
+  "description": "Möchtest Du Deine DIY-Projekte mit einem professionellen Finish versehen? Die Konsta Dreikantleiste Kiefer roh bietet Dir die perfekte Lösung.\n\nProduktmerkmale der Konsta Dreikantleiste Kiefer roh 900 x 22 x 22 mm\nDarum solltest Du zugreifen: Diese Dreikantleiste aus Kieferholz ist ideal für den Innenbereich geeignet. Mit ihrem typischen Dreikantprofil passt sie optimal in Ecken und deckt unsaubere Stellen ab. Die astfreie Oberfläche sorgt für ein makelloses Erscheinungsbild und erleichtert die Reinigung. Dank der Länge von 900 mm kannst Du die Leiste individuell zuschneiden, um sie perfekt an Deine Bedürfnisse anzupassen. Die Montage erfolgt schnell und einfach mit Kleber oder Nägeln, wodurch Du Deine Projekte effizient abschließen kannst. Die blanke Oberfläche der Leiste verleiht Deinen Räumen eine frische Optik und fügt sich harmonisch in verschiedene Einrichtungsstile ein.\n\nFestgezurrt: Die Konsta Dreikantleiste Kiefer roh ist die ideale Wahl für ein sauberes und professionelles Finish Deiner Innenprojekte.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5491098_konsta-dreikantleiste-kiefer-roh-900-x-2"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Dreikantleiste Kiefer roh 900 x 22 x 22 mm",
+    "article_no": "5491098",
+    "ean": "9003719073069",
+    "url": "https://www.hornbach.de/p/konsta-dreikantleiste-kiefer-roh-900-x-22-x-22-mm/5491098/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Leiste"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Dreikantleiste"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Kiefer"
+        },
+        {
+          "label": "Qualitätsmerkmal",
+          "value": "Astfrei"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Blank"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "J3WC"
+        },
+        {
+          "label": "EAN",
+          "value": "9003719073069"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "22 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "22 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "900 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.4,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-5491098_1.jpg",
+    "hornbach-5491098_2.jpg",
+    "hornbach-5491098_3.jpg",
+    "hornbach-5491098_4.jpg"
+  ]
+}

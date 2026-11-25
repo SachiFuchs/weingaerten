@@ -1,0 +1,173 @@
+{
+  "id": "hohlwanddose-68-mm-x-35-mm-orange-ip30",
+  "name": "Hohlwanddose Ø 68 mm x 35 mm Orange IP30",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "device",
+    "size": "68 × 68 × 35 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "ean-4007873915017_hohlwanddose-68-mm-x-35-mm-orange-ip30"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Hohlwanddose Ø 68 mm x 35 mm Orange IP30",
+    "article_no": "1612670",
+    "ean": "4007873915017",
+    "url": "https://www.obi.de/p/1612670",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "27 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.75,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-25",
+        "source": "Kassenbon 2024-05-25, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.035
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.034,
+          -0.0175
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.034,
+          -0.0175
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0.0,
+          -0.0175
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          0.0,
+          -0.0175
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

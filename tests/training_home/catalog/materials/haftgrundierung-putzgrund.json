@@ -1,0 +1,27 @@
+{
+  "id": "haftgrundierung-putzgrund",
+  "name": "Haftgrundierung Putzgrund",
+  "category": "Baustoffe",
+  "description": "haftvermittelnde Grundierung Wand/Decke (Cetin, je m² inkl. Auftrag)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Haftgrundierung Putzgrund",
+    "offers": [
+      {
+        "supplier": "company:stuckateur-cetin",
+        "price": 3.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2024-07-24",
+        "source": "Rechnung 2407115, Pos. 09, je m²",
+        "document": "document:2024-07-24-cetin-2407115-innensanierung-putz-dg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

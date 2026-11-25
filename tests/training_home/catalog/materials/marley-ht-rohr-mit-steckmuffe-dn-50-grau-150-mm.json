@@ -1,0 +1,53 @@
+{
+  "id": "marley-ht-rohr-mit-steckmuffe-dn-50-grau-150-mm",
+  "name": "Marley HT-Rohr mit Steckmuffe DN 50 Grau 150 mm",
+  "category": "Entwässerung",
+  "description": "Das Marley HT-Rohr mit Steckmuffe ist für alle Abwasseranschlüsse innerhalb eines Gebäudes geeignet. Die saubere und sichere Steckmontage macht Ihnen das Verlegen ganz leicht. Zudem sind die Lippendichtringe bereits vormontiert. Robuster, langlebiger SpezialkunststoffDas Rohr besteht aus schwer entflammbarem Polypropylen. Durch das robuste Material eignet sich die Steckmuffe und das Rohr für heiße, kalte und aggressive Abwässer. Produktmerkmale auf einen Blick - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644090030_marley-ht-rohr-mit-steckmuffe-dn-50-grau-150-mm"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Rohr mit Steckmuffe DN 50 Grau 150 mm",
+    "article_no": "7436736",
+    "ean": "4002644090030",
+    "url": "https://www.obi.de/p/7436736",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "70 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,4 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "21,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "6,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-26",
+        "source": "Kassenbon 2025-03-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

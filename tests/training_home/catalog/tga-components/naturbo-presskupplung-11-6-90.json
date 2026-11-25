@@ -1,0 +1,45 @@
+{
+  "id": "naturbo-presskupplung-11-6-90",
+  "name": "Naturbo Presskupplung 11,6 / 11,6 mm 90°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "alu_composite",
+    "connection_method": "press",
+    "dn": 11.6,
+    "angle": 90
+  },
+  "note": "aus Beleg (catalog/documents); Pressfitting für naturbo Wandheizung",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Presskupplung 11,6 / 11,6 mm 90°",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 7.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 18, je Stk",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "connection": {
+    "line": "alu_composite",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 11.6,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 11.6,
+        "gender": "socket"
+      }
+    ]
+  }
+}

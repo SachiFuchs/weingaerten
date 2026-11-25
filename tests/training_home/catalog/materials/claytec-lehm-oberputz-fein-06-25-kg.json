@@ -1,0 +1,62 @@
+{
+  "id": "claytec-lehm-oberputz-fein-06-25-kg",
+  "name": "Claytec Lehm Oberputz Fein 06 25 kg",
+  "category": "Baustoffe",
+  "description": "Einlagiger Oberputz im Innenbereich. Claytec Lehm-Oberputz fein hat alle Vorteile von Lehmmörteln die mit langen Fasern bewehrt sind. Dabei ist er einfach aufzubereiten und sehr gut zu verarbeiten, ohne Faserkonzentrationen im Rührwerk und beim Auftrag. Der Mörtel ist sehr pastös und geschmeidig. Durch seine feine Kornabstufung bis 0,6 mm lässt er sich gut ausziehen und in der Oberfläche fein bearbeiten.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4042356101136_claytec-lehm-oberputz-fein-06-25-kg"
+  ],
+  "product": {
+    "manufacturer": "company:rudolf-laier",
+    "model": "Claytec Lehm Oberputz Fein 06 25 kg",
+    "article_no": "3554821",
+    "ean": "4042356101136",
+    "url": "https://www.obi.de/p/3554821",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 27.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-14",
+        "source": "Kassenbon 2026-02-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:gottfried-wiedmann",
+        "price": 21.45,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-14",
+        "source": "Rechnung KBV 1025804, Pos. 1, je Sack",
+        "document": "document:2026-01-14-wiedmann-kbv-1025804-lehm-oberputz"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "55,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "28,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

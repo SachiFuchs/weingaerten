@@ -1,0 +1,117 @@
+{
+  "id": "jung-a-1520-steckdose-ww-alpinweiss-as50",
+  "name": "Jung A 1520 Steckdose WW alpinweiß AS500",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-5628534_jung-a-1520-steckdose-ww-alpinweiss-as50"
+  ],
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung A 1520 Steckdose WW alpinweiß AS500",
+    "article_no": "5628534",
+    "ean": "4011377057487",
+    "url": "https://www.hornbach.de/p/jung-a-1520-steckdose-ww-alpinweiss-as500/5628534/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Steckdose"
+        },
+        {
+          "label": "Variante",
+          "value": "1-Fach"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Steckanschluß, 1-polig"
+        },
+        {
+          "label": "Serie",
+          "value": "AS500"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "A1520WW"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 20"
+        },
+        {
+          "label": "Entspricht RAL-Farbton",
+          "value": "9010 Reinweiß"
+        },
+        {
+          "label": "Farbton",
+          "value": "Alpinweiß"
+        },
+        {
+          "label": "Nennspannung",
+          "value": "220 V - 250 V"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Hinweis zur Entsorgung",
+          "value": "Bitte beachte die Hinweise zur Entsorgung"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "2EED"
+        },
+        {
+          "label": "EAN",
+          "value": "4011377057487"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "55 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "55 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "40 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.96,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-11-22",
+        "source": "Kassenbon 2025-11-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-5628534_1.jpg"
+  ],
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

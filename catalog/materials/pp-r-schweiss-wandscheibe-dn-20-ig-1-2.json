@@ -1,0 +1,28 @@
+{
+  "id": "pp-r-schweiss-wandscheibe-dn-20-ig-1-2",
+  "name": "Schweiß-Wandscheibe PP-R DN 20, Innengewinde ½″",
+  "category": "Trinkwasser",
+  "description": "Wandscheibe mit Innengewinde ½″ zum Anschluss einer Armatur oder eines Eckventils an der Wand; bündig mit der gefliesten Wand, schallentkoppelt und verdrehsicher montieren. Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "product": {
+    "model": "Schweiß-Wandscheibe DN 20, Innengewinde ½″, Polypropylen",
+    "article_no": "13563159",
+    "url": "https://www.bauhaus.info/schweissfittings/schweiss-wandscheibe/p/13563159",
+    "offers": [
+      {
+        "supplier": "company:bauhaus",
+        "price": 4.2,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "bauhaus.info Produktseite 2026-11-21, pro Stück inkl. MwSt."
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#3E8E41",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

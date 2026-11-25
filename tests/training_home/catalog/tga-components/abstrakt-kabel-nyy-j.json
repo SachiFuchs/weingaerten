@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-kabel-nyy-j",
+  "name": "NYY-J",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYY-J"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:emskabel-erdkabel-nyy-j-3-x-2-5-mm2-25-m"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

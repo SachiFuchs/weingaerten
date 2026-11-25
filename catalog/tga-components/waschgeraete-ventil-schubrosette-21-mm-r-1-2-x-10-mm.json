@@ -1,0 +1,55 @@
+{
+  "id": "waschgeraete-ventil-schubrosette-21-mm-r-1-2-x-10-mm",
+  "name": "Waschgeräte-Ventil Schubrosette 21 mm (R 1/2) x 10 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4006596195096_waschgeraete-ventil-schubrosette-21-mm-r-1-2-x-10-mm"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Waschgeräte-Ventil Schubrosette 21 mm (R 1/2) x 10 mm",
+    "article_no": "6752802",
+    "ean": "4006596195096",
+    "url": "https://www.obi.de/p/6752802",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "100 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-18",
+        "source": "Kassenbon 2023-09-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-26",
+        "source": "Kassenbon 2025-03-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 4.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-30",
+        "source": "Kassenbon 2026-05-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

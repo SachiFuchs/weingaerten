@@ -1,0 +1,43 @@
+{
+  "id": "roof-verge-tile",
+  "name": "Ortgangziegel Braas Rubin 13 V",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "ROOFING"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Pos. 05.02: Ortgangausbildung 22 m à 62,00 € = 1.364,00 €, sturmsicher verschraubt",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 22.0,
+    "height": 0.1,
+    "depth": 0.3,
+    "quantity": 22,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:clay-tile-rubin"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 62.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 05.02, je m",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 62.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 05.02, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

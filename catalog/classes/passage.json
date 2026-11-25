@@ -1,0 +1,13 @@
+{
+  "id": "passage",
+  "name": "Durchgang",
+  "ifc": { "entity": "IfcOpeningElement", "predefined_type": "OPENING" },
+  "description": "Wandöffnung ohne Zarge und Türblatt (Durchgang); Laibungen über die ganze Wanddicke",
+  "geometry": "passage",
+  "opening_capable": true,
+  "parameters": [
+    { "key": "width",  "name": "Breite", "type": "length", "default": 0.8, "min": 0.4, "max": 3.0, "required": true },
+    { "key": "height", "name": "Höhe",   "type": "length", "default": 2.0, "min": 1.5, "max": 2.8, "required": true }
+  ],
+  "material_roles": []
+}

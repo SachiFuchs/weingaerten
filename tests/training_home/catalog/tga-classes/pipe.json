@@ -1,0 +1,128 @@
+{
+  "id": "pipe",
+  "name": "Rohrleitung",
+  "ifc": {
+    "entity": "IfcPipeSegment",
+    "predefined_type": "RIGIDSEGMENT"
+  },
+  "description": "Rohrleitung für Wasser, Heizung oder Abwasser",
+  "kind": "pipe",
+  "parameters": [
+    {
+      "key": "nominal_size_dn",
+      "name": "Nennweite DN",
+      "type": "number",
+      "default": 15,
+      "min": 6,
+      "max": 200,
+      "required": true
+    },
+    {
+      "key": "outer_diameter",
+      "name": "Außendurchmesser",
+      "type": "length",
+      "default": 0.016,
+      "min": 0.006,
+      "max": 0.25,
+      "required": true
+    },
+    {
+      "key": "pressure_bar",
+      "name": "Betriebsdruck bar",
+      "type": "number",
+      "default": 3,
+      "min": 0,
+      "max": 25,
+      "required": false
+    },
+    {
+      "key": "insulation",
+      "name": "Dämmstärke",
+      "type": "length",
+      "default": 0,
+      "min": 0,
+      "max": 0.1,
+      "required": false
+    },
+    {
+      "key": "medium",
+      "name": "Medium",
+      "type": "choice",
+      "default": "heating_supply",
+      "options": [
+        "cold_water",
+        "hot_water",
+        "circulation",
+        "heating_supply",
+        "heating_return",
+        "waste_water",
+        "rain_water",
+        "gas"
+      ],
+      "required": true
+    },
+    {
+      "key": "system_line",
+      "name": "Rohrsystem",
+      "type": "choice",
+      "default": "none",
+      "options": [
+        "none",
+        "ht",
+        "kg",
+        "ppr"
+      ],
+      "required": false
+    }
+  ],
+  "material_roles": [
+    {
+      "key": "pipe",
+      "name": "Rohrwerkstoff"
+    }
+  ],
+  "connection_rules": [
+    {
+      "line": "ht",
+      "medium": "waste_water",
+      "method": "push",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "directed": true,
+      "note": "Spitzende in Muffe, Muffe gegen die Fließrichtung; gleiche DN direkt, andere DN nur über Übergang oder Abzweig"
+    },
+    {
+      "line": "kg",
+      "medium": "waste_water",
+      "method": "push",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "directed": true,
+      "note": "Spitzende in Muffe, Muffe gegen die Fließrichtung; gleiche DN direkt, andere DN nur über Übergang oder Abzweig"
+    },
+    {
+      "line": "ppr",
+      "medium": "water_supply",
+      "method": "weld",
+      "partners": [
+        "fitting",
+        "part",
+        "terminal"
+      ],
+      "note": "Rohr nur über Formteile (Muffe, Winkel, T-Stück, Kappe, Übergang) verbinden"
+    },
+    {
+      "line": "alu_composite",
+      "medium": "heating",
+      "method": "press",
+      "partners": [
+        "fitting"
+      ],
+      "note": "Alu-Verbundrohr (11,6 / 16 mm) nur über Presskupplungen gleichen Durchmessers verbinden"
+    }
+  ]
+}

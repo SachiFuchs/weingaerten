@@ -1,0 +1,157 @@
+{
+  "id": "kaiser-9063-02-hohlwand-geraetedose-o-range-49-mm",
+  "name": "Kaiser Hohlwand-Gerätedose 9063-02 O-range 49 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "device",
+    "size": "68 × 68 × 49 mm"
+  },
+  "note": "Hohlwand-Gerätedose, 49 mm tief, orange. Laschenschrauben, ausbrechbare Einführungen für Leitungen und Rohre, über Verbindungsstutzen kombinierbar, vormontierte Geräteschrauben, VDE-zertifiziert.; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser Hohlwand-Gerätedose 9063-02 O-range 49 mm",
+    "article_no": "8999484",
+    "url": "https://www.obi.de/p/8999484",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Tiefe",
+          "value": "49 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "obi.de Online-Preis 2026-11-21, 1 Stück inkl. MwSt."
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.049
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.034,
+          -0.0245
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.034,
+          -0.0245
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0.0,
+          -0.0245
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          0.0,
+          -0.0245
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

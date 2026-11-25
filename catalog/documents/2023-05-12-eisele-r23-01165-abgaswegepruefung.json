@@ -1,0 +1,36 @@
+{
+  "id": "2023-05-12-eisele-r23-01165-abgaswegepruefung",
+  "name": "Eisele R23/01165 – Abgaswegeprüfung",
+  "doc_type": "invoice",
+  "supplier": "company:eisele-kaminfeger",
+  "date": "2023-05-12",
+  "number": "R23/01165",
+  "customer_number": "855.000",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Liegenschaft: Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung des Kaminfegers Stefan Eisele für die Schornsteinfegerarbeiten 2023 in der Liegenschaft Weingärten 8. Abgerechnet wird die Messung beziehungsweise Abgaswegeprüfung vom 02.05.2023 als freie Tätigkeit ohne Materialkosten. Zahlbar bis 11.06.2023; als Handwerkerleistung nach Paragraf 35a EStG absetzbar.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Messung/Abgaswegeprüfung (Termin 02.05.23)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 63.44,
+      "total_price": 63.44
+    }
+  ],
+  "subtotal_net": 63.44,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 63.44,
+  "vat_rate": 19,
+  "vat_amount": 12.05,
+  "total_gross": 75.49,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-05-12-eisele-R23-01165-abgaswegepruefung.json",
+  "source_sha256": "f35371907db11b8d0696f33a27d51c47b91248b1e2c8d42524da0969ad1707fc",
+  "original_filename": "2023-05-12-Kaminfeger Eisele-Rechnung.pdf"
+}

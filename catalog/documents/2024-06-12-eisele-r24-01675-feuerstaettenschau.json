@@ -1,0 +1,60 @@
+{
+  "id": "2024-06-12-eisele-r24-01675-feuerstaettenschau",
+  "name": "Eisele R24/01675 – Feuerstättenschau",
+  "doc_type": "invoice",
+  "supplier": "company:eisele-kaminfeger",
+  "date": "2024-06-12",
+  "number": "R24/01675",
+  "customer_number": "855.000",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Liegenschaft: Weingärten 8, 73037 Göppingen",
+  "description": "Gebührenrechnung des bevollmächtigten Bezirksschornsteinfegers Stefan Eisele für hoheitliche Tätigkeiten 2024 in der Liegenschaft Weingärten 8. Abgerechnet werden der Feuerstättenbescheid, der Grundwert je Gebäude und die Feuerstättenschau vom 27.05.2024 nach Arbeitswerten mit Faktor 1,20. Zahlbar bis 26.06.2024.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.1",
+      "description": "Feuerstättenbescheid für bis zu drei Feuerungsanlagen (10,00 AW x 1,20)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 12.0,
+      "total_price": 12.0
+    },
+    {
+      "position": "2.1",
+      "description": "Grundwert je Gebäude oder in Sondereigentum stehender Anlage nach §20 Absatz 2 SchfHwG einschließlich der ersten Nutzungseinheit (11,70 AW x 1,20)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 14.04,
+      "total_price": 14.04
+    },
+    {
+      "position": "2.4",
+      "description": "Feuerstättenschau je Feuerstätte (6,00 AW x 1,20)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 7.2,
+      "total_price": 7.2
+    },
+    {
+      "position": "2.3.1",
+      "description": "Feuerstättenschau an senkrechten Teilen von Abgasanlagen und Gruppen von Abgasanlagen (8,00 AW x 1,20)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 9.6,
+      "total_price": 9.6
+    }
+  ],
+  "subtotal_net": 42.84,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 42.84,
+  "vat_rate": 19,
+  "vat_amount": 8.14,
+  "total_gross": 50.98,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-06-12-eisele-R24-01675-feuerstaettenschau.json",
+  "source_sha256": "42c895f3cbc62cb58ef517c88fda52fa49b99cfb4e4376ed6287754a3fd39ae7",
+  "original_filename": "2024-06-12-Rechung-Schornsteinfeger.pdf"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2024-03-04-ecowatersolution-24-02-0025-dichtigkeitspruefung",
+  "name": "ECO Water 24-02-0025 – Dichtigkeitsprüfung",
+  "doc_type": "invoice",
+  "supplier": "company:eco-water-solution",
+  "date": "2024-03-04",
+  "number": "24-02-0025",
+  "customer_number": "12769",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Kleinkläranlage Weingärten 8, 73037 Göppingen (Auftrags-Nr. 12769A01_240304)",
+  "description": "Rechnung der ECO Water Solution GmbH über die Dichtigkeitsprüfung der Kleinkläranlage in Weingärten 8. Vom Gesamtaufwand über 669,17 € netto wurde vereinbarungsgemäß nur die Hälfte (334,58 € netto / 398,15 € brutto) berechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "KG-Rohrmaterial DN 160 (Bögen 15°, Muffenstopfen, Rohr 1000 mm; Pos. 1-3, Gesamtaufwand 71,76 € netto)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 71.76,
+      "total_price": 71.76,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "4",
+      "description": "Stunden Wartungsfachmann",
+      "quantity": 6.25,
+      "unit": "Std",
+      "unit_price": 89.0,
+      "total_price": 556.25
+    },
+    {
+      "position": "5",
+      "description": "Fahrtkosten PKW",
+      "quantity": 42.0,
+      "unit": "km",
+      "unit_price": 0.98,
+      "total_price": 41.16
+    }
+  ],
+  "subtotal_net": 669.17,
+  "discount_net": -334.59,
+  "shipping_net": 0.0,
+  "deductions_net": 669.18,
+  "total_net": 334.58,
+  "vat_rate": 19,
+  "vat_amount": 63.57,
+  "total_gross": 398.15,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-03-04-ecowatersolution-24-02-0025-dichtigkeitspruefung.json",
+  "source_sha256": "b3c23afed4a2703041770d4b4dcff56a8bbd5c876f2ac5c42474bdc3fedb0e70",
+  "original_filename": "2024-03-11 ecoWatersolutions-Dichtigkeitspruefung.pdf"
+}

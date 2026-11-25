@@ -1,0 +1,16 @@
+{
+  "id": "interior-lining-wandheizung-naturbo",
+  "name": "Lehm-Wandheizung naturbo Klima 6 cm",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "INSULATION" },
+  "category": "interior_lining",
+  "din276": "345",
+  "description": "Wandheizung auf Wandbereichen (naturbo): Haftfix 3 mm, Klima-Dämmplatte 6 cm mit Alu-Verbundrohr 11,6 (Heizebene), Armierungsgewebe, Lehm-Finishputz weiß 3 mm; Schichten von der Wand zum Raum. Plattenraster und Heizkreise in storey.wall_heating",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:naturbo-haftfix", "thickness": 0.003 },
+    { "material": "material:naturbo-klima-daemmplatte", "thickness": 0.06, "heated": true },
+    { "material": "material:naturbo-fugenarmierungsgewebe", "thickness": 0.001 },
+    { "material": "material:naturbo-lehm-finishputz-weiss", "thickness": 0.003 }
+  ],
+  "visualization": { "view": "outer_layers", "section": "all_layers" }
+}

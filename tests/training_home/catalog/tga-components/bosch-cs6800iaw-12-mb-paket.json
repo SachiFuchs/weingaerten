@@ -1,0 +1,27 @@
+{
+  "id": "bosch-cs6800iaw-12-mb-paket",
+  "name": "Bosch Luft-Wärmepumpe CS6800iAW 12 MB (Paket BOPA CS804)",
+  "class": "tga-class:terminal",
+  "din276": "420",
+  "system_type": "Heizung",
+  "params": {
+    "terminal_type": "heat_pump",
+    "mounting": "free"
+  },
+  "note": "Kupinic Angebot A-104 Titel 1: AW 7 OR-S, CS6800iAW 12 MB, WH 290 mit Zubehör (Paketpreis)",
+  "product": {
+    "manufacturer": "company:bosch",
+    "model": "BOPA CS804",
+    "offers": [
+      {
+        "supplier": "company:waermesysteme-filstal",
+        "price": 28600.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-05-11",
+        "source": "Angebot A-104, Pos. 1, je Titel",
+        "document": "document:2025-05-11-kupinic-a-104-waermepumpe-fbh"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ppr-tee-20",
+  "name": "PP-R Schweiß-T-Stück DN 20",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "estimated": true,
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "ppr",
+    "dn": 20,
+    "dn_branch": 20,
+    "angle": 90,
+    "z_length": 0.011
+  },
+  "note": "Platzhalter: Schweiß-T-Stück DN 20/20 nicht im Sortiment (nur PPR-T-Stück mit Rp ½) - bitte bestätigen",
+  "install": {
+    "trade": "water_supply",
+    "group": "Abzweige",
+    "shape": "fitting",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.011,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.011,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "c",
+        "pos": [
+          0.0,
+          0.011,
+          0
+        ],
+        "dir": [
+          0.0,
+          1.0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "c",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

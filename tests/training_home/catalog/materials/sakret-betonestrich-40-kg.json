@@ -1,0 +1,53 @@
+{
+  "id": "sakret-betonestrich-40-kg",
+  "name": "Sakret Betonestrich 40 kg",
+  "category": "Baustoffe",
+  "description": "Sakret Betonestrich ist ein zementgebundener, hydraulisch erhärtender Trockenbeton und speziell zur Herstellung von Beton und Stahlbeton, Verbundestrich, schwimmendem Estrich und Heizestrich geeignet. Sakret Betonestrich ist besonders frost- und alterungsbeständig und ideal für die Innen- und Außenanwendung. Hand- und maschinenverarbeitbar Körnung: 0 mm - 8 mm Verbrauch: 20 kg/m² pro cm Farbe: Grau",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4005813611043_sakret-betonestrich-40-kg"
+  ],
+  "product": {
+    "manufacturer": "company:sakret-trockenbaustoffe",
+    "model": "Sakret Betonestrich 40 kg",
+    "article_no": "6722565",
+    "ean": "4005813611043",
+    "url": "https://www.obi.de/p/6722565",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-15",
+        "source": "Kassenbon 2023-02-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "40,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "48,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "31,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "12,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

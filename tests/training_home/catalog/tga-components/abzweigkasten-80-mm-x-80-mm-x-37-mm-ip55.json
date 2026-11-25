@@ -1,0 +1,174 @@
+{
+  "id": "abzweigkasten-80-mm-x-80-mm-x-37-mm-ip55",
+  "name": "Abzweigkasten 80 mm x 80 mm x 37 mm IP55",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface",
+    "box_function": "junction",
+    "size": "80 × 80 × 37 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873896880_abzweigkasten-80-mm-x-80-mm-x-37-mm-ip55"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Abzweigkasten 80 mm x 80 mm x 37 mm IP55",
+    "article_no": "1512540",
+    "ean": "4007873896880",
+    "url": "https://www.obi.de/p/1512540",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "53 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.19,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-01",
+        "source": "Kassenbon 2023-04-01, OBI München-Westend, Westendstr. 221, 80686 München, 4×"
+      }
+    ]
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Verteilerdosen",
+    "shape": "box",
+    "size": [
+      0.08,
+      0.08,
+      0.037
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0,
+          0.04,
+          -0.0185
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0,
+          -0.04,
+          -0.0185
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.04,
+          0,
+          -0.0185
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.04,
+          0,
+          -0.0185
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "surface",
+    "box_function": "junction",
+    "note": "Montageart aus Schutzart/Bauform angenommen"
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "on"
+    ],
+    "estimated": true
+  }
+}

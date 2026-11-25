@@ -1,0 +1,61 @@
+{
+  "id": "2025-05-11-kupinic-a-104-waermepumpe-fbh",
+  "name": "Kupinic A-104 – Wärmepumpe FBH",
+  "doc_type": "quote",
+  "supplier": "company:waermesysteme-filstal",
+  "date": "2025-05-11",
+  "number": "A-104",
+  "customer_number": null,
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Objekt: Weingärten 8 (Montage Wärmepumpe und wassergeführte Fußbodenheizung)",
+  "description": "Angebot von Wärmesysteme Filstal (Benamin Kupinic, Göppingen) für die Montage einer Bosch-Luft-Wasser-Wärmepumpe und einer wassergeführten Fußbodenheizung im Objekt Weingärten 8. Zusätzlich angeboten sind eine Wandheizung für Schlafzimmer und Bad sowie Heizkörper für Bad und Vorraum im OG; die Positionen sind je Abschnitt zusammengefasst. Es handelt sich um ein Vergleichsangebot, beauftragt wurde nach Aktenlage die Firma Böhringer.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Bosch Luftwärmepumpen-Paket BOPA CS804 (AW 7 OR-S, CS6800iAW 12 MB, WH 290) mit Zubehör, Heizungswasseraufbereitung, Installationsmaterial und Montage inkl. Inbetriebnahme, geliefert und montiert",
+      "quantity": 1,
+      "unit": "Titel",
+      "unit_price": 28600.5,
+      "total_price": 28600.5,
+      "ref": "tga-component:bosch-cs6800iaw-12-mb-paket"
+    },
+    {
+      "position": "2",
+      "description": "Fußbodenheizung komplett mit Trockenestrich (Material, Mehrschichtverbundrohr, Anbindung und Verlegung)",
+      "quantity": 1,
+      "unit": "Titel",
+      "unit_price": 7914.71,
+      "total_price": 7914.71
+    },
+    {
+      "position": "3",
+      "description": "Wandheizung Schlafzimmer/Bad (Trockenbau-Klimaplatten, Verteiler, Stellantriebe, Installationsmaterial, Arbeitsaufwand)",
+      "quantity": 1,
+      "unit": "Titel",
+      "unit_price": 4719.09,
+      "total_price": 4719.09
+    },
+    {
+      "position": "4",
+      "description": "Heizkörper/Handtuchheizkörper Bad und Vorraum OG inkl. Anbindung und Arbeitsaufwand",
+      "quantity": 1,
+      "unit": "Titel",
+      "unit_price": 1761.13,
+      "total_price": 1761.13
+    }
+  ],
+  "subtotal_net": 42995.43,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 42995.43,
+  "vat_rate": 19,
+  "vat_amount": 8169.13,
+  "total_gross": 51164.56,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-05-11-kupinic-A-104-waermepumpe-fbh.json",
+  "source_sha256": "9e48836fe1fdd475a2e3c7449d59433de48b41832d489ba558b59ea021a7791e",
+  "original_filename": "_Angebot_A-104_2025-05-11_pdfa-Suri.pdf"
+}

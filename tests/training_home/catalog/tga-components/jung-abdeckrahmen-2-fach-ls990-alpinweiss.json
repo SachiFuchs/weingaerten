@@ -1,0 +1,75 @@
+{
+  "id": "jung-abdeckrahmen-2-fach-ls990-alpinweiss",
+  "name": "Jung Abdeckrahmen 2-fach LS990 Alpinweiß",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4011377117501_jung-abdeckrahmen-2-fach-ls990-alpinweiss"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Jung Abdeckrahmen 2-fach LS990 Alpinweiß",
+    "article_no": "5841507",
+    "ean": "4011377117501",
+    "url": "https://www.obi.de/p/5841507",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "15,2 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-29",
+        "source": "Kassenbon 2026-01-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-30",
+        "source": "Kassenbon 2026-05-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-25",
+        "source": "Kassenbon 2026-07-25, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-02",
+        "source": "Kassenbon 2026-09-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-22",
+        "source": "Kassenbon 2026-09-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

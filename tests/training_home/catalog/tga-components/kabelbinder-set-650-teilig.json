@@ -1,0 +1,59 @@
+{
+  "id": "kabelbinder-set-650-teilig",
+  "name": "Kabelbinder-Set 650-teilig",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873670428_kabelbinder-set-650-teilig"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Kabelbinder-Set 650-teilig",
+    "article_no": "2550366",
+    "ean": "4007873670428",
+    "url": "https://www.obi.de/p/2550366",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "700 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "31,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "12,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "12,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-09-22",
+        "source": "Kassenbon 2022-09-22, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 10.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-04-29",
+        "source": "Kassenbon 2024-04-29, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      }
+    ]
+  }
+}

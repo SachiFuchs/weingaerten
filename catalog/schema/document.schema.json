@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/document",
+  "title": "Beleg (Rechnung, Angebot, Auftragsbestätigung, Gutschrift, Plan)",
+  "type": "object",
+  "required": ["id", "name", "doc_type", "supplier", "date", "items", "currency"],
+  "additionalProperties": false,
+  "$defs": {
+    "money": { "type": ["number", "null"] },
+    "item": {
+      "type": "object",
+      "required": ["description"],
+      "additionalProperties": false,
+      "properties": {
+        "position":    { "type": ["string", "null"] },
+        "description": { "type": "string" },
+        "quantity":    { "type": ["number", "null"] },
+        "unit":        { "type": ["string", "null"] },
+        "unit_raw":    { "type": "string", "description": "Einheit wie im Beleg, wenn sie vereinheitlicht wurde" },
+        "unit_price":  { "$ref": "#/$defs/money" },
+        "total_price": { "$ref": "#/$defs/money" },
+        "ref": { "type": "string", "pattern": "^(material|component|tga-component):[a-z0-9]+(-[a-z0-9]+)*$",
+                 "description": "Katalogelement dieser Position" }
+      }
+    }
+  },
+  "properties": {
+    "id":              { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":            { "type": "string", "minLength": 1 },
+    "doc_type":        { "enum": ["invoice", "quote", "order_confirmation", "credit_note", "plan"] },
+    "supplier":        { "type": "string", "pattern": "^company:[a-z0-9]+(-[a-z0-9]+)*$" },
+    "date":            { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "number":          { "type": ["string", "null"] },
+    "customer_number": { "type": ["string", "null"] },
+    "category":        { "type": "string" },
+    "object":          { "type": "string" },
+    "project":         { "type": ["string", "null"] },
+    "description":     { "type": "string" },
+    "prices_are_net":  { "type": "boolean" },
+    "items_gross":     { "type": "boolean", "description": "Positionspreise sind brutto, die Summenfelder netto" },
+    "items":           { "type": "array", "items": { "$ref": "#/$defs/item" } },
+    "subtotal_net":    { "$ref": "#/$defs/money" },
+    "discount_net":    { "$ref": "#/$defs/money" },
+    "shipping_net":    { "$ref": "#/$defs/money" },
+    "deductions_net":  { "$ref": "#/$defs/money", "description": "Abzüge ohne eigenes Feld (Abschläge, Rabatte)" },
+    "total_net":       { "$ref": "#/$defs/money" },
+    "vat_rate":        { "type": ["number", "null"] },
+    "vat_amount":      { "$ref": "#/$defs/money" },
+    "total_gross":     { "$ref": "#/$defs/money" },
+    "currency":        { "type": "string" },
+    "related": { "type": "array", "items": { "type": "string", "pattern": "^document:[a-z0-9]+(-[a-z0-9]+)*$" } },
+    "pdf":             { "type": ["string", "null"] },
+    "imported_from":   { "type": "string" },
+    "source_sha256":   { "type": "string" },
+    "original_filename": { "type": "string" },
+    "photos": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(jpg|jpeg|png|webp)$" } }
+  }
+}

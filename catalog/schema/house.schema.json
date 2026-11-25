@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/house",
+  "title": "Haus (house/house.json)",
+  "type": "object",
+  "required": ["id", "name", "foundation", "storeys"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":        { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "foundation": {
+      "type": "object",
+      "required": ["assembly", "top"],
+      "additionalProperties": false,
+      "properties": {
+        "assembly": { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "rect":     { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "[x, y, w, h] – alternativ zu follow" },
+        "follow":   { "enum": ["outline"], "description": "Bodenplatte folgt dem Außenumriss des Erdgeschosses" },
+        "overhang": { "type": "number", "minimum": 0, "description": "Überstand über den Umriss in m (bei follow)" },
+        "top":      { "type": "number", "description": "Oberkante, vorerst 0" },
+        "cutouts":  { "type": "array", "description": "Aussparungen in der Platte (z. B. Kellertreppe), je [x, y, w, h]", "items": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 } },
+        "plinth":   { "type": "object", "description": "später: { assembly, height }" }
+      }
+    },
+    "storeys": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^storey:[a-z0-9]+(-[a-z0-9]+)*$" }
+    },
+    "shafts": {
+      "description": "Schächte (IfcOpeningElement) durch Böden und Decken mehrerer Geschosse, z. B. Versorgungsschacht",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "polygon", "from_storey", "to_storey"],
+        "additionalProperties": false,
+        "properties": {
+          "id":           { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "name":         { "type": "string", "minLength": 1 },
+          "purpose":      { "enum": ["supply", "ventilation", "chimney", "other"], "description": "Versorgung, Lüftung, Kamin, Sonstiges" },
+          "polygon":      { "type": "array", "minItems": 4, "items": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 }, "description": "Grundriss des Schachts (lichte Öffnung), rechtwinklig" },
+          "from_storey":  { "type": "string", "pattern": "^storey:[a-z0-9]+(-[a-z0-9]+)*$", "description": "oberstes Geschoss (sein Boden wird geöffnet)" },
+          "to_storey":    { "type": "string", "pattern": "^storey:[a-z0-9]+(-[a-z0-9]+)*$", "description": "unterstes Geschoss (seine Decke wird geöffnet, sein Boden nicht)" },
+          "penetrations": { "type": "array", "items": { "type": "string" }, "description": "Leitungen (tga-run:<id>), die im Schacht verlaufen" },
+          "ifc":          { "type": "object" },
+          "estimated":    { "type": "boolean" },
+          "note":         { "type": "string" }
+        }
+      }
+    },
+    "roof": {
+      "description": "VORSCHLAG (noch nicht ausgewertet): Dach über dem obersten Geschoss, KG 360",
+      "type": "object",
+      "required": ["assembly", "form"],
+      "additionalProperties": false,
+      "properties": {
+        "assembly":        { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie roof" },
+        "form":            { "enum": ["gable", "hip", "mono", "flat"], "description": "Satteldach, Walmdach, Pultdach, Flachdach" },
+        "pitch_deg":       { "type": "number", "minimum": 0, "maximum": 75, "description": "Dachneigung in Grad" },
+        "eaves_overhang":  { "type": "number", "minimum": 0, "description": "Dachüberstand Traufe in m" },
+        "verge_overhang":  { "type": "number", "minimum": 0, "description": "Dachüberstand Ortgang in m" },
+        "ridge_direction": { "enum": ["x", "y"], "description": "Firstrichtung (gable/hip/mono: Richtung der Traufe)" }
+      }
+    }
+  }
+}

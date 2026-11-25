@@ -1,0 +1,39 @@
+{
+  "id": "2023-08-17-hubrig-20230651-angebot-restgeruest",
+  "name": "Hubrig 20230651 – Angebot Restgerüst",
+  "doc_type": "quote",
+  "supplier": "company:achim-hubrig-geruestbau",
+  "date": "2023-08-17",
+  "number": "20230651",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Objekt: Göppingen Weingärten 8 (weitere Vorhaltung Restgerüst ab 16.08.2023)",
+  "description": "Angebot von Achim Hubrig Gerüstbau (Dürnau) für die weitere Vorhaltung des Restgerüsts in Weingärten 8 ab 16.08.2023 zu 34,49 EUR netto pro Woche. Die Miete wurde später mit der Abschlagsrechnung 20230731 und der Schlussrechnung 20230794 abgerechnet (insgesamt 8 Wochen). Das Angebot enthält ausführliche Ausführungs- und Haftungsbedingungen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "001",
+      "description": "Miete Restgerüst der gekennzeichneten Flächen pro Woche ab 16.08.2023",
+      "quantity": 1.0,
+      "unit": "pauschWo",
+      "unit_price": 34.49,
+      "total_price": 34.49
+    }
+  ],
+  "subtotal_net": 34.49,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 34.49,
+  "vat_rate": 19,
+  "vat_amount": 6.55,
+  "total_gross": 41.04,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-08-17-hubrig-20230651-angebot-restgeruest.json",
+  "source_sha256": "80cf0963785ad62945845ab2031282b7e88d294dd425b68626c1df362aa81606",
+  "original_filename": "2023-08-17 Angebot Verlaengerung Geruest - Fa Hubrig 20230651.PDF",
+  "related": [
+    "document:2023-10-12-hubrig-20230794-schlussrg-restgeruest"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "exterior-paint-white",
+  "name": "Fassadenfarbe weiß",
+  "category": "Farbe",
+  "description": "Mineralische Fassadenfarbe, weiß; OBI-Einkauf Alpina Fassadenschutz Weiß matt (10 l, 2,5 l, 1 l)",
+  "conductivity": null,
+  "values_source": "Beschichtung, bauphysikalisch vernachlässigbar",
+  "appearance": {
+    "color": "#FAFAF7",
+    "roughness": 0.8,
+    "hatch": "none"
+  },
+  "imported_from": [
+    "ean-4001244709106_alpina-fassadenschutz-weiss-matt-10-liter",
+    "obi-6791222_alpina-fassadenschutz-weiss-matt-2-5-liter",
+    "ean-4001244753734_alpina-fassadenschutz-weiss-matt-1-liter"
+  ],
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 74.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-14",
+        "source": "Kassenbon 2024-05-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-21",
+        "source": "Kassenbon 2023-04-21, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 16.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-13",
+        "source": "Kassenbon 2024-05-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "15,8 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "23,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "36,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "23,5 cm"
+        }
+      ]
+    }
+  }
+}

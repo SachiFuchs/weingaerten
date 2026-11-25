@@ -1,0 +1,105 @@
+{
+  "id": "balkonbrett-fichte-gehobelt-abgerundet-1",
+  "name": "Balkonbrett Fichte gehobelt abgerundet 1180 x 130 x 18 mm",
+  "category": "Holz",
+  "description": "Suchst Du eine einfache Lösung, um Deinen Balkon oder Sitzplatz vor Blicken abzugrenzen und dabei eine saubere Holzoptik zu erhalten?\n\nProduktmerkmale des/der Balkonbrett Fichte gehobelt abgerundet 1180 x 130 x 18 mm\n\nDarum solltest Du zugreifen: Als Sichtschutz im Außenbereich schafft das Balkonbrett eine klare Abgrenzung, ohne den Bereich komplett zu schließen. Die gehobelte Oberfläche sorgt für eine glatte Haptik und erleichtert das Streichen oder Ölen, während die abgerundeten Kanten das Risiko von Splittern an häufig berührten Stellen reduzieren.\n\nDas Brett aus Fichte passt durch seine typische Holzstruktur gut zu Balkonen und Bereichen im Garten und lässt sich als Balkonelement flexibel in gängige Konstruktionen integrieren. Durch die gleichmäßige Bearbeitung wirkt die Fläche ordentlich und eignet sich für durchgehende Reihen, wenn Du mehrere Elemente zu einem Sichtschutz kombinierst.\n\nFestgezurrt: Mit dem gehobelten, abgerundeten Fichten-Balkonbrett setzt Du im Außenbereich einen praktischen Sichtschutz um, der sich angenehm anfassen lässt und sich gut weiterbehandeln lässt.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-6100361_balkonbrett-fichte-gehobelt-abgerundet-1"
+  ],
+  "product": {
+    "model": "Balkonbrett Fichte gehobelt abgerundet 1180 x 130 x 18 mm",
+    "article_no": "6100361",
+    "ean": "4007622047419",
+    "url": "https://www.hornbach.de/p/balkonbrett-fichte-gehobelt-abgerundet-1180-x-130-x-18-mm/6100361/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Brett"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Balkonbrett, Balkonelement"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Sichtschutz"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Balkongeländer"
+        },
+        {
+          "label": "Räume",
+          "value": "Balkon, Garten"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Gehobelt, -"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "YPTJ"
+        },
+        {
+          "label": "EAN",
+          "value": "4005985823404, 4007622047419"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "130 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "18 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "1.180 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.9,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-21",
+        "source": "Kassenbon 2023-07-21, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 3.9,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 6×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-6100361_1.jpg"
+  ]
+}

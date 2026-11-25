@@ -1,0 +1,23 @@
+{
+  "id": "terminal-socket",
+  "name": "Schutzkontaktsteckdose UP",
+  "description": "Beispiel (Muster, kein reales System): Unterputz-Steckdose in Gerätedose",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush",
+    "width": 0.068,
+    "height": 0.068,
+    "depth": 0.045
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

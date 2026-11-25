@@ -1,0 +1,41 @@
+{
+  "id": "window-wz-gross",
+  "name": "Fenster Wohnzimmer groß 2,97 × 1,175 (3-teilig)",
+  "description": "Neuffer RE 3358369 vom 06.10.2024, Pos. 1; Aluplast IDEAL 8000, 3-teilig Dreh-Kipp links/links/rechts (je 990 mm), Ug 0,7, Schallschutzklasse 2 (32 dB), VSG 8 mm innen/außen, Helima-Sprossen 18 mm, RC 1 N, abschließbare Griffe",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 2.97,
+    "height": 1.175,
+    "depth": 0.085,
+    "frame_width": 0.07,
+    "sashes": 3,
+    "opening_1": "tilt_turn_left",
+    "opening_2": "tilt_turn_left",
+    "opening_3": "tilt_turn_right",
+    "glazing_type": "triple",
+    "ug_value": 0.7,
+    "sound_class": "SSK2",
+    "safety_glass": "VSG",
+    "glazing_bars": true,
+    "burglary_class": "RC1"
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:aluplast",
+    "model": "IDEAL 8000",
+    "offers": [
+      {
+        "supplier": "company:neuffer",
+        "price": 1448.05,
+        "currency": "EUR",
+        "date": "2024-10-06",
+        "source": "RE 3358369, Pos. 1",
+        "document": "document:2024-10-06-fensterversand-3358369-fenster-wohnzimmer-eg"
+      }
+    ]
+  }
+}

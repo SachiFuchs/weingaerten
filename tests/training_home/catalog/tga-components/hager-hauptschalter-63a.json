@@ -1,0 +1,27 @@
+{
+  "id": "hager-hauptschalter-63a",
+  "name": "Hager Hauptschalter 63 A",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other",
+    "size": "63 A"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:hager",
+    "model": "Hager Hauptschalter 63 A",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 53.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 005, je Stk",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      }
+    ]
+  }
+}

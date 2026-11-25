@@ -1,0 +1,27 @@
+{
+  "id": "trennband-trockenbau",
+  "name": "Trennband Trockenbau",
+  "category": "Baustoffe",
+  "description": "Abtrennungsband Decke/Wand (Cetin, je m)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Trennband Trockenbau",
+    "offers": [
+      {
+        "supplier": "company:stuckateur-cetin",
+        "price": 2.4,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2024-07-24",
+        "source": "Rechnung 2407115, Pos. 04, je m",
+        "document": "document:2024-07-24-cetin-2407115-innensanierung-putz-dg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

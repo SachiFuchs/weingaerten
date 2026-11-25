@@ -1,0 +1,89 @@
+{
+  "id": "lugato-duschabdichtung-4-kg",
+  "name": "Lugato Duschabdichtung 4 kg",
+  "category": "Fliesen",
+  "description": "Die Duschabdichtung ist eine mintgrüne Latexbeschichtung zum Abdichten von Duschen und Bädern vor dem Fliesenkleben. Mit zwei Anstrichen bekommen sie alles absolut wasserdicht. Das Produkt ist roll-, streich- und spachtelbar, außerdem lösemittelfrei, flexibel und rissüberbrückend bis 1 mm. Die Duschabdichtung ist amtlich geprüft. Kann im Wand-, Boden- und Innenbereich angewendet werden.\n\n\nACHTUNG: Die Duschabdichtung ist für Wand und Boden geeignet, sofern NICHT eine ebenerdige Dusche eingebaut wird. In diesem Fall ist die Lugato Universalabdichtung anzuwenden.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-6738285_lugato-duschabdichtung-4-kg"
+  ],
+  "product": {
+    "manufacturer": "company:lugato",
+    "model": "Lugato Duschabdichtung 4 kg",
+    "article_no": "6738285",
+    "ean": "4009071016602",
+    "url": "https://www.hornbach.de/p/lugato-duschabdichtung-4-kg/6738285/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Material Inhaltsstoffe",
+          "value": "Kunstharzdispersion, Calcitische Füllstoffe, Pigmente, Entschäumer, Verdickungsmittel, Netzmittel, Konservierungsmittel"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "An Wand und Boden, Innen"
+        },
+        {
+          "label": "Inhalt",
+          "value": "4 kg"
+        },
+        {
+          "label": "Hinweis zur Norm",
+          "value": "DIN 18195: Abdichtung von Bauwerken, DIN 18534-1: Abdichtung von Innenräumen, Anforderungen, Planungs- und Ausführungsgrundsätze, DIN 18534-3: Abdichtung von Innenräumen, Abdichtung mit flüssig zu verarbeitenden Abdichtungsstoffen im Verbund mit Fliesen und Platten (AIV-F)., Europäische Norm: DIN EN 14891: Flüssig zu verarbeitende wasserundurchlässige Produkte im Verbund mit keramischen Fliesen und PlattenbelägenAnforderungen, Prüfverfahren, Bewertung und Überprüfung der Leis-tungsbeständigkeit, Klassifizierung und Kennzeichnung"
+        },
+        {
+          "label": "Benötigtes Zubehör",
+          "value": "Rolle für Duschabdichtung (kurzflorige Rolle), Pinsel oder  Glätter., Dichtungsband, Innenecken, Außenecken"
+        },
+        {
+          "label": "Signalwort",
+          "value": "Achtung"
+        },
+        {
+          "label": "Gefahrenhinweise (H-Sätze)",
+          "value": "(H317) Kann allergische Hautreaktionen verursachen."
+        },
+        {
+          "label": "Sicherheitshinweise (P-Sätze)",
+          "value": "(P102) Darf nicht in die Hände von Kindern gelangen., (P103) Vor Gebrauch Kennzeichnungsetikett lesen."
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH208) Enthält 1,2-Benzisothiazol-3(2H)-on. Kann allergische Reaktionen hervorrufen., (EUH208) Enthält Reaktionsmasse aus: 5-Chlor-2-methyl-2H-isothiazol-3-on [EG nr. 247-500-7] und 2-Methyl-2H-isothiazol-3-on [EG nr. 220-239-6] (3:1). Kann allergische Reaktionen hervorrufen."
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "KCP5"
+        },
+        {
+          "label": "EAN",
+          "value": "4009071016602"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 29.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-22",
+        "source": "Kassenbon 2026-07-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-6738285_1.jpg",
+    "hornbach-6738285_2.jpg",
+    "hornbach-6738285_3.jpg",
+    "hornbach-6738285_4.jpg",
+    "hornbach-6738285_5.jpg",
+    "hornbach-6738285_6.jpg"
+  ]
+}

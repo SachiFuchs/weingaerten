@@ -1,0 +1,27 @@
+{
+  "id": "landhausdiele-eiche-primitivo",
+  "name": "Landhausdiele Eiche Primitivo, Naturöl",
+  "category": "Belag",
+  "description": "1-Stab rustikal, handgehobelt, 14 × 190 × 1900 mm, Woodloc 2G",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Landhausdiele Eiche Primitivo, Naturöl",
+    "offers": [
+      {
+        "supplier": "company:holz-metzger",
+        "price": 41.9,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-23",
+        "source": "Angebot 2048550, Pos. 1, je m²",
+        "document": "document:2026-01-23-metzger-2048550-angebot-landhausdiele"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#9A7650",
+    "roughness": 0.6,
+    "hatch": "wood"
+  }
+}

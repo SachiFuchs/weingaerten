@@ -1,0 +1,51 @@
+{
+  "id": "herdanschlussleitung-h05vv-f-5g2-5-weiss-3-m",
+  "name": "Herdanschlussleitung H05VV-F 5G2,5 Weiß 3 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "H05VV-F",
+    "cores": 5,
+    "cross_section_mm2": 2.5
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007872963729_herdanschlussleitung-h05vv-f-5g2-5-weiss-3-m"
+  ],
+  "product": {
+    "manufacturer": "company:s-c-omni-cable-s-r-l",
+    "model": "Herdanschlussleitung H05VV-F 5G2,5 Weiß 3 m",
+    "article_no": "7623325",
+    "ean": "4007872963729",
+    "url": "https://www.obi.de/p/7623325",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-12-12",
+        "source": "Kassenbon 2024-12-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "conductors": []
+  },
+  "cut": {
+    "max_length": 3,
+    "default_length": 1
+  },
+  "placement": {
+    "hosts": [
+      "wall"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

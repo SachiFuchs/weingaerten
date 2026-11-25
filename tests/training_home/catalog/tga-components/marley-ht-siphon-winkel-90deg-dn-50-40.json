@@ -1,0 +1,51 @@
+{
+  "id": "marley-ht-siphon-winkel-90deg-dn-50-40",
+  "name": "Marley HT-Siphon-Winkel 90° DN 50 / 40",
+  "class": "tga-class:install-part",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "part_type": "drain"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4006395642838_marley-ht-siphon-winkel-90deg-dn-50-40"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Siphon-Winkel 90° DN 50 / 40",
+    "article_no": "7432966",
+    "ean": "4006395642838",
+    "url": "https://www.obi.de/p/7432966",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "40 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "11,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

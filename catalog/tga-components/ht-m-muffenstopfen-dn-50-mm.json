@@ -1,0 +1,34 @@
+{
+  "id": "ht-m-muffenstopfen-dn-50-mm",
+  "name": "HT-M Muffenstopfen DN 50 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03
+  },
+  "description": "Brauchst Du ein zuverlässiges Formteil für Dein Hausabflussrohrsystem? Der HT-M Muffenstopfen DN 50 mm bietet die perfekte Lösung.\n\nProduktmerkmale des HT-M Muffenstopfens DN 50 mm\nDarum solltest Du zugreifen: Dieser Muffenstopfen ist speziell für die Hausentwässerung im Innenbereich konzipiert. Hergestellt aus Polypropylen (PP), bietet er eine hohe chemische Beständigkeit und ist heißwasserbeständig, was ihn ideal für den Einsatz in Abwassersystemen macht. Die Materialstärke von 1,8 mm sorgt für Langlebigkeit und Stabilität. Der Muffenstopfen entspricht der Norm DIN EN 1451-1 und bietet eine Ringsteifigkeit von SN2, was eine hohe Belastbarkeit gewährleistet. Die graue Farbe fügt sich unauffällig in bestehende Rohrsysteme ein. \n\nFestgezurrt: Der HT-M Muffenstopfen DN 50 mm vereint Schall- und Brandschutz mit bewährter Beständigkeit und ist die ideale Wahl für Dein Hausabflussrohrsystem.",
+  "photos": [
+    "hornbach-266397_1.jpg",
+    "hornbach-266397_2.jpg"
+  ],
+  "imported_from": [
+    "hornbach-266397_ht-m-muffenstopfen-dn-50-mm"
+  ],
+  "catalog_material": "material:ht-m-muffenstopfen-dn-50-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

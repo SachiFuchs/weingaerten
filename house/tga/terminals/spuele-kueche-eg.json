@@ -1,0 +1,13 @@
+{
+  "id": "spuele-kueche-eg",
+  "name": "Spüle Küche EG",
+  "component": "tga-component:sanitary-sink",
+  "storey": "storey:ground",
+  "room": "room-kueche",
+  "position": [
+    6.55,
+    3.9,
+    0.45
+  ],
+  "estimated": true
+}

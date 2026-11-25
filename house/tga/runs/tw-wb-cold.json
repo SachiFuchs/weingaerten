@@ -1,0 +1,31 @@
+{
+  "id": "tw-wb-cold",
+  "name": "Kaltwasser Waschbecken",
+  "component": "tga-component:ppr-rohr-dn-20-x-2-m",
+  "system": "drinking-water-eg",
+  "medium": "cold_water",
+  "installation": "surface",
+  "points": [
+    [
+      4.7,
+      2.0300000000000002,
+      0.5
+    ],
+    [
+      4.7,
+      2.0300000000000002,
+      0.2
+    ],
+    [
+      6.742,
+      2.0300000000000002,
+      0.2
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:tw-eg-cold",
+    "kind": "branch"
+  },
+  "from": "tga-terminal:ws-wb-cold"
+}

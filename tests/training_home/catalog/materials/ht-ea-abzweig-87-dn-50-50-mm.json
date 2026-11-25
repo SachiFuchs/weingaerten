@@ -1,0 +1,120 @@
+{
+  "id": "ht-ea-abzweig-87-dn-50-50-mm",
+  "name": "HT-EA Abzweig 87° DN 50/50 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du ein zuverlässiges Abflussrohrsystem für Dein Zuhause installieren? Der HT-EA Abzweig 87° DN 50/50 mm bietet Dir die ideale Lösung.\n\nProduktmerkmale des HT-EA Abzweigs 87° DN 50/50 mm\nDarum solltest Du zugreifen: Dieser Einfachabzweig ist speziell für die Hausentwässerung konzipiert und erfüllt die Anforderungen an Schall- und Brandschutz. Hergestellt aus Polypropylen (PP), ist er chemisch beständig und heißwasserbeständig, was ihn für den Einsatz im Innenbereich besonders geeignet macht. Mit einem Außendurchmesser von 63 mm und einem Abzweigdurchmesser von 50 mm lässt sich der Abzweig problemlos in bestehende Systeme integrieren. Die Materialstärke von 1,8 mm sorgt für Stabilität und Langlebigkeit. Der Abzweig entspricht der Norm DIN EN 1451-1 und bietet mit seiner Ringsteifigkeit SN2 eine hohe Belastbarkeit. Der Winkel von 87° ermöglicht eine effiziente Wasserführung, was die Entwässerung optimiert.\n\nFestgezurrt: Der HT-EA Abzweig 87° DN 50/50 mm vereint Schall- und Brandschutz mit chemischer Beständigkeit und ist die ideale Wahl für eine zuverlässige Hausentwässerung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-266342_ht-ea-abzweig-87-dn-50-50-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "HT-EA Abzweig 87° DN 50/50 mm",
+    "article_no": "266342",
+    "ean": "4052836124005",
+    "url": "https://www.hornbach.de/p/ht-ea-abzweig-87-dn-50-50-mm/266342/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "HT"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Einfachabzweig"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polypropylen (PP)"
+        },
+        {
+          "label": "Winkel",
+          "value": "87 °"
+        },
+        {
+          "label": "Nennweite",
+          "value": "50 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "1,8 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Heißwasserbeständig"
+        },
+        {
+          "label": "Norm",
+          "value": "DIN EN 1451-1"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN2"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "YYY9"
+        },
+        {
+          "label": "EAN",
+          "value": "2000266342003, 4002644091938, 4025075141102, 4052836124005, 4052836124050, 5902650652156, 5907660710209, 8023857033764, 8028025014316, 8586019761078, 8594169670768, 8595156224216, 8600198010229, 9003844002170"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser Abzweig",
+          "value": "50 mm"
+        },
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "50 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "63 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-266342_1.jpg",
+    "hornbach-266342_2.jpg",
+    "hornbach-266342_3.jpg"
+  ]
+}

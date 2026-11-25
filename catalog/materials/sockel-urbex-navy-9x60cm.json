@@ -1,0 +1,101 @@
+{
+  "id": "sockel-urbex-navy-9x60cm",
+  "name": "Sockel Urbex navy 9x60cm",
+  "category": "Fliesen",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10599752_sockel-urbex-navy-9x60cm"
+  ],
+  "product": {
+    "manufacturer": "company:pamesa",
+    "model": "Sockel Urbex navy 9x60cm",
+    "article_no": "10599752",
+    "url": "https://www.hornbach.de/p/sockel-urbex-navy-9x60cm/10599752/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Sockel"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Sockelfliese"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Wandbelag"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer, Flur / Diele, Gäste-WC, Hauswirtschaftsraum, Küche, Wohnzimmer"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Blau"
+        },
+        {
+          "label": "Farbton",
+          "value": "Blau"
+        },
+        {
+          "label": "Material",
+          "value": "Feinsteinzeug"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Frostsicher"
+        },
+        {
+          "label": "Optik",
+          "value": "Betonoptik"
+        },
+        {
+          "label": "Serie",
+          "value": "Urbex"
+        },
+        {
+          "label": "Maße (LxB)",
+          "value": "60 cm x 9 cm"
+        },
+        {
+          "label": "Fliesenoberfläche",
+          "value": "Matt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "W5RG"
+        },
+        {
+          "label": "EAN",
+          "value": "2007009161921"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 6.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "source": "Import Sockel Urbex navy 9x60cm"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10599752_1.jpg"
+  ]
+}

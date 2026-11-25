@@ -1,0 +1,30 @@
+{
+  "id": "aw-kueche-spuele",
+  "name": "Spüle Küche EG",
+  "component": "tga-component:ht-pipe-50",
+  "system": "waste-water-eg",
+  "installation": "concealed",
+  "points": [
+    [
+      6.55,
+      3.9,
+      0.45
+    ],
+    [
+      6.55,
+      5.0,
+      0.428
+    ],
+    [
+      6.65,
+      5.0,
+      0.426
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:spuele-kueche-eg",
+  "into": {
+    "run": "tga-run:aw-kueche-fall",
+    "kind": "branch"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "konsta-kantholz-fichte-2000-x-60-x-60-mm",
+  "name": "Konsta Kantholz Fichte 2000 x 60 x 60 mm",
+  "category": "Holz",
+  "description": "Planst Du ein Bauprojekt und benötigst zuverlässige Materialien? Dann ist das Konsta Kantholz Fichte 2000 x 60 x 60 mm genau das Richtige für Dich.\n\nProduktmerkmale des Konsta Kantholzes Fichte 2000 x 60 x 60 mm\nDarum solltest Du zugreifen: Dieses Kantholz aus Fichtenholz ist ein tragender und stützender Bestandteil für zahlreiche Bauvorhaben im Innen- und Außenbereich. Mit einer Stärke und Breite von jeweils 60 mm bietet es eine hohe Tragfähigkeit, die es ideal für Dach- und Unterkonstruktionen, Zwischenwände und Verschalungen macht. Die Länge von 2000 mm ermöglicht eine vielseitige Verwendung in verschiedenen Projekten. Die sägeraue Oberfläche verleiht dem Holz eine rustikale Optik und sorgt dafür, dass Lasuren und Lacke gut aufgenommen werden, was eine einfache und effektive Oberflächenbehandlung ermöglicht. \n\nFestgezurrt: Mit dem Konsta Kantholz Fichte setzt Du auf ein robustes und vielseitig einsetzbares Material, das Deine Bauprojekte zuverlässig unterstützt.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-3303922_konsta-kantholz-fichte-2000-x-60-x-60-mm"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Kantholz Fichte 2000 x 60 x 60 mm",
+    "article_no": "3303922",
+    "ean": "4007622012066",
+    "url": "https://www.hornbach.de/p/konsta-kantholz-fichte-2000-x-60-x-60-mm/3303922/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Kreuzrahmen"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bauholz"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Messebau, Neubau"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "-"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "Sägerau"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "F6S5"
+        },
+        {
+          "label": "EAN",
+          "value": "2003303922008, 4005014017163, 4007622012066, 4049868000315, 4049868001824, 4250821000086, 4260031140465, 4260162490132"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "60 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "60 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 6.4,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-05-10",
+        "source": "Kassenbon 2025-05-10, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 6×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-3303922_1.jpg",
+    "hornbach-3303922_2.jpg",
+    "hornbach-3303922_3.jpg"
+  ]
+}

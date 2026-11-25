@@ -1,0 +1,152 @@
+{
+  "id": "steckbogen-m20-fuer-installationsrohr-2",
+  "name": "Steckbogen M20 für Installationsrohr 2 Stück grau",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "conduit",
+    "unit": "pcs",
+    "size": "M20",
+    "pack_size": 2
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-5005533_steckbogen-m20-fuer-installationsrohr-2"
+  ],
+  "product": {
+    "manufacturer": "company:pm-flex",
+    "model": "Steckbogen M20 für Installationsrohr 2 Stück grau",
+    "article_no": "5005533",
+    "ean": "8027788360432",
+    "url": "https://www.hornbach.de/p/steckbogen-m20-fuer-installationsrohr-2-stueck-grau/5005533/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Bogen"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Steckbogen"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 40"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Zubehör, Weite Ausführung"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Befestigung"
+        },
+        {
+          "label": "Montageart",
+          "value": "Aufputz, Unterputz"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Installationsrohr"
+        },
+        {
+          "label": "Größe",
+          "value": "M20"
+        },
+        {
+          "label": "Anzahl",
+          "value": "2 Stück"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "VC8E"
+        },
+        {
+          "label": "EAN",
+          "value": "2005005533001, 4029624100299, 8027788360432"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "20 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "20 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "0,1 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-03",
+        "source": "Kassenbon 2026-09-03, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 3×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-5005533_1.jpg",
+    "hornbach-5005533_2.jpg"
+  ],
+  "install": {
+    "trade": "electrical",
+    "group": "Bögen",
+    "shape": "fitting",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.06,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.0,
+          0.06,
+          0
+        ],
+        "dir": [
+          0.0,
+          1.0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

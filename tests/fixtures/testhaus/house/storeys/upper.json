@@ -1,0 +1,99 @@
+{
+  "id": "upper",
+  "name": "Dachgeschoss",
+  "elevation": 2.95,
+  "height": 2.4,
+  "roof": {
+    "kind": "gable",
+    "pitch": 30,
+    "knee_wall_height": 1.25,
+    "ridge_direction": "south_north",
+    "eaves": [0, 6]
+  },
+  "roof_structure": {
+    "material": "material:spruce-wood",
+    "rafters": { "width": 0.08, "height": 0.16, "spacing": 0.8 },
+    "purlins": { "width": 0.14, "height": 0.2, "z_top": 2.1 },
+    "foot_purlins": { "width": 0.12, "height": 0.12 },
+    "collars": { "width": 0.06, "height": 0.16, "z": 2.4 },
+    "slopes": [
+      { "id": "west", "side": "west", "range": [0, 8] },
+      { "id": "east", "side": "east", "range": [0, 8] }
+    ]
+  },
+  "roof_covering": {
+    "assembly": "assembly:roof-r1",
+    "eaves_overhang": 0.5,
+    "verge_overhang": 0.5,
+    "openings": [
+      {
+        "id": "dfe-west",
+        "component": "component:roof-window-velux-ck04",
+        "flashing": "component:roof-flashing-velux-ck04",
+        "slope": "west",
+        "y": 4.0,
+        "sill": 1.35
+      }
+    ],
+    "items": [
+      { "component": "component:roof-ridge", "measure": "ridge" },
+      { "component": "component:roof-verge-tile", "measure": "verge" },
+      { "component": "component:roof-gutter", "measure": "eaves" }
+    ]
+  },
+  "walls": [
+    {
+      "id": "w-dg-north",
+      "name": "Giebel Nord",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [0, 0],
+      "end": [6, 0],
+      "reference": "outside_face",
+      "shape": { "kind": "roof" },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "w-dg-east",
+      "name": "Kniestock Ost",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [6, 0],
+      "end": [6, 8],
+      "reference": "outside_face",
+      "shape": { "kind": "roof" },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "w-dg-south",
+      "name": "Giebel Süd",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [6, 8],
+      "end": [0, 8],
+      "reference": "outside_face",
+      "shape": { "kind": "roof" },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "w-dg-west",
+      "name": "Kniestock West",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [0, 8],
+      "end": [0, 0],
+      "reference": "outside_face",
+      "shape": { "kind": "roof" },
+      "outside": "left",
+      "openings": []
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-dg",
+      "number": "1.01",
+      "name": "Dachraum",
+      "usage": "NUF1",
+      "polygon": [ [0.328, 0.328], [5.672, 0.328], [5.672, 7.672], [0.328, 7.672] ]
+    }
+  ]
+}

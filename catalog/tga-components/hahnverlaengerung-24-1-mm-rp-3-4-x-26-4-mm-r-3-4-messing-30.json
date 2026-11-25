@@ -1,0 +1,39 @@
+{
+  "id": "hahnverlaengerung-24-1-mm-rp-3-4-x-26-4-mm-r-3-4-messing-30",
+  "name": "Hahnverlängerung 24,1 mm (Rp 3/4) x 26,4 mm (R 3/4) Messing 30 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4006596151160_hahnverlaengerung-24-1-mm-rp-3-4-x-26-4-mm-r-3-4-messing-30"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Hahnverlängerung 24,1 mm (Rp 3/4) x 26,4 mm (R 3/4) Messing 30 mm",
+    "article_no": "7403959",
+    "ean": "4006596151160",
+    "url": "https://www.obi.de/p/7403959",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "108 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-25",
+        "source": "Kassenbon 2026-07-25, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

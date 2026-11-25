@@ -1,0 +1,49 @@
+{
+  "id": "kg-rohr-dn-110-500-mm",
+  "name": "KG Rohr DN 110 500 mm",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 110,
+    "outer_diameter": 0.11,
+    "medium": "waste_water",
+    "system_line": "kg"
+  },
+  "description": "Möchtest Du ein zuverlässiges Rohr für die Entwässerung im Außenbereich? Das KG Rohr DN 110 500 mm bietet Dir genau das.\n\nProduktmerkmale des KG Rohr DN 110 500 mm\nDarum solltest Du zugreifen: Dieses Abflussrohr aus Polyvinylchlorid (PVC) ist speziell für die Haus- und Hofentwässerung konzipiert. Mit einer Länge von 500 mm und einem Außendurchmesser von 110 mm ist es ideal für den Einsatz im Außenbereich geeignet. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 sorgen für eine hohe Belastbarkeit und Langlebigkeit. Die orange Farbe ermöglicht eine einfache Identifikation und Verlegung im Erdreich. Dank der Wasserfestigkeit bietet das Rohr einen zuverlässigen Schutz vor Verunreinigungen durch Abwasser, was zu einem sicheren Betrieb beiträgt.\n\nFestgezurrt: Das KG Rohr DN 110 500 mm ist die ideale Wahl für eine effiziente und langlebige Entwässerungslösung im Außenbereich.",
+  "stock": {
+    "lengths": [
+      0.5
+    ],
+    "cuttable": true
+  },
+  "photos": [
+    "hornbach-267287_1.jpg",
+    "hornbach-267287_2.jpg",
+    "hornbach-267287_3.jpg",
+    "hornbach-267287_4.jpg",
+    "hornbach-267287_5.jpg"
+  ],
+  "imported_from": [
+    "hornbach-267287_kg-rohr-dn-110-500-mm"
+  ],
+  "catalog_material": "material:kg-rohr-dn-110-500-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

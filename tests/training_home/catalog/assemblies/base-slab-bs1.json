@@ -1,0 +1,19 @@
+{
+  "id": "base-slab-bs1",
+  "name": "Bodenplatte Stahlbeton 25 cm",
+  "ifc": { "entity": "IfcSlab", "predefined_type": "BASESLAB" },
+  "category": "base_slab",
+  "description": "Vorläufige Bodenplatte, Aufbau folgt",
+  "din276": "320",
+  "layer_order": "top_down",
+  "layers": [
+    {
+      "material": "material:concrete-c25",
+      "thickness": 0.25
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

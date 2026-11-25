@@ -1,0 +1,35 @@
+{
+  "id": "chimney-flashing",
+  "name": "Kaminverwahrung Kupfer, Sondergröße",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "USERDEFINED",
+    "object_type": "Verwahrung"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Kaminverwahrung Sondergröße liefern und montieren, Kupfer; 460,00 €. Kaminmaße nicht angegeben",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.8,
+    "height": 0.3,
+    "depth": 0.8,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:copper-sheet"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 460.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.06, je Stk",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

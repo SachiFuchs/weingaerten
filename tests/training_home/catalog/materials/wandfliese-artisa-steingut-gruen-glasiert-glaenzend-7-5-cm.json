@@ -1,0 +1,53 @@
+{
+  "id": "wandfliese-artisa-steingut-gruen-glasiert-glaenzend-7-5-cm",
+  "name": "Wandfliese Artisa Steingut Grün Glasiert Glänzend 7,5 cm x 30 cm",
+  "category": "Fliesen",
+  "description": "Die Wandfliese Artisa aus glasiertem Steingut in glänzender Retro-Optik verleiht Ihren Räumen einen unverwechselbaren Flair. Dank ihres eleganten und zeitlosen Vintage-Designs schafft sie auf innovative Weise eine nostalgische Optik, die einen einzigartigen Charme vermittelt. Mit der Artisa-Wandfliese erhalten Ihre Räume eine besondere Atmosphäre und eine ansprechende Gestaltung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4330542112746_wandfliese-artisa-steingut-gruen-glasiert-glaenzend-7-5-cm"
+  ],
+  "product": {
+    "manufacturer": "company:happe-handelszentrale",
+    "model": "Wandfliese Artisa Steingut Grün Glasiert Glänzend 7,5 cm x 30 cm",
+    "article_no": "1519842",
+    "ean": "4330542112746",
+    "url": "https://www.obi.de/p/1519842",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 14,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-24",
+        "source": "Kassenbon 2026-07-24, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "311 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "7 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "30,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

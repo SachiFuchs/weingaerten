@@ -1,0 +1,30 @@
+{
+  "id": "marley-ht-muffenstopfen-dn-90",
+  "name": "Marley HT-Muffenstopfen DN 90",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "ht",
+    "dn": 90,
+    "z_length": 0.03
+  },
+  "description": "Der Marley HT-Muffenstopfen dient dem sicheren Verschließen von Muffen an HT-Rohren oder Formstücken. Produktmerkmale: - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Verbindung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "imported_from": [
+    "ean-4002644092874_marley-ht-muffenstopfen-dn-90"
+  ],
+  "catalog_material": "material:marley-ht-muffenstopfen-dn-90",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tw-stutzen-dg-cold",
+  "name": "Anschluss Kaltwasser DG (verschlossen)",
+  "component": "tga-component:water-stub",
+  "storey": "storey:upper",
+  "room": "room-dg-bad",
+  "position": [
+    6.742,
+    4.93,
+    3.25
+  ],
+  "estimated": true
+}

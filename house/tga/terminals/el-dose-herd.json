@@ -1,0 +1,14 @@
+{
+  "id": "el-dose-herd",
+  "name": "Aufputz-Verteiler Herd",
+  "component": "tga-component:abzweigkasten-mit-klemmleiste-aufputz-85-mm-x-85-mm-grau",
+  "storey": "storey:ground",
+  "room": "room-kueche",
+  "wall": "iw-kueche-kammer",
+  "position": [
+    6.2,
+    5.3715,
+    0.4
+  ],
+  "estimated": true
+}

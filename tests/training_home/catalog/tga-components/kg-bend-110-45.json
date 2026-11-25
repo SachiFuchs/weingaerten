@@ -1,0 +1,32 @@
+{
+  "id": "kg-bend-110-45",
+  "name": "KG-Bogen DN 110 45°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.05,
+    "angle": 45
+  },
+  "note": "Sortiment laut Bauherr (Nov 2026)",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

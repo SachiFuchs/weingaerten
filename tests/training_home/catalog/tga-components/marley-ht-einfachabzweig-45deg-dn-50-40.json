@@ -1,0 +1,44 @@
+{
+  "id": "marley-ht-einfachabzweig-45deg-dn-50-40",
+  "name": "Marley HT-Einfachabzweig 45° DN 50/40",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 45,
+    "dn_branch": 40
+  },
+  "description": "Das Marley HT-Einfachabzweig-Rohr ist für alle Abwasseranschlüsse innerhalb eines Gebäudes geeignet. Die saubere und sichere Steckmontage macht Ihnen das Verlegen ganz leicht. Zudem sind die Lippendichtringe bereits vormontiert. Produktmerkmale: - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "imported_from": [
+    "ean-4002644091723_marley-ht-einfachabzweig-45deg-dn-50-40"
+  ],
+  "catalog_material": "material:marley-ht-einfachabzweig-45deg-dn-50-40",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 40,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2023-09-09-sorwat-062-ortgang-lackieren",
+  "name": "Sorwat 062 – Ortgang Lackieren",
+  "doc_type": "invoice",
+  "supplier": "company:sorwat-stuckateur",
+  "date": "2023-09-09",
+  "number": "062",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "BV Weingärten, 73037 Göppingen (Rechnungsadresse Weingärten 8)",
+  "description": "Rechnung von Sorwat Stuckateur Fachbetrieb über das Lackieren des Ortgangbretts von blau auf weiß in Weingärten 8. Abgerechnet werden Arbeitszeit 270,00 EUR und Material 110,00 EUR netto. Es handelt sich um die in Rechnung 061 angekündigte Nachberechnung.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Ortgangbrett lackieren von blau auf weiß, Arbeitszeit",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 270.0,
+      "total_price": 270.0,
+      "unit_raw": "pauschal"
+    },
+    {
+      "position": "2",
+      "description": "Materialkosten",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 110.0,
+      "total_price": 110.0,
+      "unit_raw": "pauschal"
+    }
+  ],
+  "subtotal_net": 380.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 380.0,
+  "vat_rate": 19,
+  "vat_amount": 72.2,
+  "total_gross": 452.2,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-09-09-sorwat-062-ortgang-lackieren.json",
+  "source_sha256": "28f6347452834d7d4cfc33404ead1f814feec9c37a68ebafe5febb35933cd9c5",
+  "original_filename": "2023-09-09-Rechung Ortgang-Sorwat.pdf",
+  "related": [
+    "document:2023-08-14-sorwat-061-fassadenanstrich"
+  ]
+}

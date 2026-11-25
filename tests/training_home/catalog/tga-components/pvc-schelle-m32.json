@@ -1,0 +1,25 @@
+{
+  "id": "pvc-schelle-m32",
+  "name": "PVC-Schelle M32",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing",
+    "size": "M32"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 0.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 009, je Stk",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      }
+    ]
+  }
+}

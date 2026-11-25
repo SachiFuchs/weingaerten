@@ -1,0 +1,38 @@
+{
+  "id": "obi-schutzkontakt-steckdose-ariane-polarweiss",
+  "name": "OBI Schutzkontakt Steckdose Ariane Polarweiß",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "obi-2572816_obi-schutzkontakt-steckdose-ariane-polarweiss"
+  ],
+  "product": {
+    "model": "OBI Schutzkontakt Steckdose Ariane Polarweiß",
+    "article_no": "2572816",
+    "url": "https://www.obi.de/p/2572816",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.89,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-28",
+        "source": "Kassenbon 2023-04-28, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

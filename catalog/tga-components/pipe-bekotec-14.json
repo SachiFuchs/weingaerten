@@ -1,0 +1,18 @@
+{
+  "id": "pipe-bekotec-14",
+  "name": "Schlüter Bekotec-Therm Systemrohr 14 mm",
+  "description": "Systemrohr Fußbodenheizung Ø 14 × 2 mm in der Noppenplatte Bekotec EN 23F (Riempp Angebot 25-0235); Rohr laut Böhringer 25-0023 Pos. 3.1 = Material schlueter-bekotec-therm-hr-14x2",
+  "class": "tga-class:pipe",
+  "din276": "420",
+  "system_type": "Fußbodenheizung",
+  "params": {
+    "nominal_size_dn": 10,
+    "outer_diameter": 0.014,
+    "pressure_bar": 3,
+    "insulation": 0,
+    "medium": "heating_supply"
+  },
+  "materials": {
+    "pipe": "material:schlueter-bekotec-therm-hr-14x2"
+  }
+}

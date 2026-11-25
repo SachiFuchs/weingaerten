@@ -1,0 +1,124 @@
+{
+  "id": "leimholzplatte-fichte-a-b-2500-x-300-x-1",
+  "name": "Leimholzplatte Fichte A/B 2500 x 300 x 18 mm",
+  "category": "Holz",
+  "description": "Du willst eine stabile Holzplatte, die sich sauber verarbeiten lässt und im sichtbaren Bereich ordentlich aussieht? Dann kommt es auf Material, Sortierung und Kanten an.\n\nProduktmerkmale der Leimholzplatte Fichte A/B 2500 x 300 x 18 mm\n\nDarum solltest Du zugreifen: Die Sortierung A/B gibt Dir eine hochwertige Sichtseite für Möbel, Regale oder Verkleidungen, während die zweite Seite mit kleinen holztypischen Merkmalen ideal ist, wenn sie später verdeckt liegt. Durchgehende Lamellen sorgen für ein ruhiges Gesamtbild und erleichtern Dir das Ausrichten von Bauteilen, weil die Fläche gleichmäßig wirkt. Die längs gefasten Kanten reduzieren die Gefahr von Ausrissen und machen die Platte angenehmer in der Handhabung, etwa beim Einpassen in Korpusse oder beim Transport.\n\nDie unbehandelte Oberfläche lässt Dir freie Wahl bei der Weiterverarbeitung, sodass Du die Platte passend zum Projekt schleifen und anschließend ölen, lackieren oder lasieren kannst. Als Massivholzplatte aus Fichte eignet sie sich für viele Anwendungen im Innenausbau, Möbelbau oder Modellbau und kann je nach Aufbau auch im Außenbereich eingesetzt werden, wenn Du sie passend schützt. Der Hinweis „formaldehydfrei verleimt“ ist besonders praktisch, wenn die Platte in Innenräumen verbaut wird und Du Wert auf eine verleimte Konstruktion ohne entsprechende Zusätze legst.\n\nFestgezurrt: Leimholzplatte Fichte A/B 2500 x 300 x 18 mm ist eine vielseitige Massivholzplatte mit guter Sichtseite, durchgehenden Lamellen und gefasten Kanten, die Dir saubere Ergebnisse im Ausbau- und Möbelbereich ermöglicht.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5065238_leimholzplatte-fichte-a-b-2500-x-300-x-1"
+  ],
+  "product": {
+    "manufacturer": "company:buildify",
+    "model": "Leimholzplatte Fichte A/B 2500 x 300 x 18 mm",
+    "article_no": "5065238",
+    "ean": "4002908137679",
+    "url": "https://www.hornbach.de/p/leimholzplatte-fichte-a-b-2500-x-300-x-18-mm/5065238/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Hinweis",
+          "value": "formaldehydfrei verleimt"
+        },
+        {
+          "label": "Artikeltyp",
+          "value": "Platte"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Massivholzplatte"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Basteln, Fahrzeugbau, Innenausbau, Ladenbau, Messebau, Möbelbau, Renovierung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Bauholz, Modellbau, Möbel, Zaunbau"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Unbehandelt"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Braun"
+        },
+        {
+          "label": "Art der Verleimung",
+          "value": "D 3 (Innenbereich mit häufig kurzzeitiger Wassereinwirkung oder höherer Luftfeuchte)"
+        },
+        {
+          "label": "Qualität",
+          "value": "A/B"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Durchgehende Lamellen"
+        },
+        {
+          "label": "Kantenausprägung",
+          "value": "Längskanten gefast"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "NU75"
+        },
+        {
+          "label": "EAN",
+          "value": "2005065238007, 4002908137679, 4005014001414, 4005087073035, 4306517864729, 5945844001507, 5949161701041, 8720514390429"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "300 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "18 mm"
+        },
+        {
+          "label": "Gewicht pro Stück",
+          "value": "6,08 kg"
+        },
+        {
+          "label": "Länge",
+          "value": "2.500 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 35.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-03-20",
+        "source": "Kassenbon 2026-03-20, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-5065238_1.jpg",
+    "hornbach-5065238_2.jpg",
+    "hornbach-5065238_3.jpg"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "2022-12-20-ecowatersolution-221108s-b-angebot-klaeranlage",
+  "name": "ECO Water 221108S-b – Angebot Kläranlage",
+  "doc_type": "quote",
+  "supplier": "company:eco-water-solution",
+  "date": "2022-12-20",
+  "number": "221108S-b",
+  "customer_number": "30024",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Neubau Kleinkläranlage BioTopp OK 4 EW mit Schlammvererdung, Weingärten 8, 73037 Göppingen",
+  "description": "Angebot der ECO Water Solution GmbH (Kirchheim unter Teck) über die Lieferung und Montage einer biologischen Kleinkläranlage BioTopp OK 4 EW mit Schlammvererdungsmodul für Weingärten 8. Die Montage wurde im Angebot als Maximalabschätzung mit drei vollen Arbeitstagen kalkuliert und später nach tatsächlichem Aufwand mit der Schlussrechnung vom 15.05.2023 (10.325,09 € brutto) sowie der Planungsrechnung 23-01-0025 (1.066,24 € brutto) abgerechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Betreuung und notwendige Dokumentation für das Wasserrechtsverfahren",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 896.0,
+      "total_price": 896.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "2",
+      "description": "Kleinkläranlage BioTopp OK 4 EW (2 Sätze Membranrohrbelüfter, 3 Luftheber, Rechen, PE-Klärbehälter, Gebläse, Steuerung)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 5322.6,
+      "total_price": 5322.6,
+      "ref": "tga-component:biotopp-ok-4-ew"
+    },
+    {
+      "position": "3",
+      "description": "Vererdung 4-6 EW (Vererdungsbecken inkl. Trennwand, Beschickung, Drainage, Edelstahltauchpumpe) und 25 l Pflanzenkohle (Pos. 3-4)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 893.5,
+      "total_price": 893.5,
+      "unit_raw": "Pausch",
+      "ref": "tga-component:biotopp-vererdung-4-6-ew"
+    },
+    {
+      "position": "5",
+      "description": "PE Außensäule 400x250x1695 mm inkl. Lüftungsgitter",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 472.0,
+      "total_price": 472.0,
+      "ref": "tga-component:biotopp-pe-aussensaeule"
+    },
+    {
+      "position": "6",
+      "description": "Anschluss- und Montagematerial: Wellrohr, KG-Rohre und Bögen DN 110/160, Fixbeton, Stopfmörtel, Steckdose IP44, 30 m Feuchtraumleitung (Pos. 6-15, 21)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 588.11,
+      "total_price": 588.11,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "16",
+      "description": "Montage- und Fahrtkosten (kalkuliert mit 3 Arbeitstagen: je 30 Std. Spezialmonteur/Monteur/Wartungsfachmann, 128 km Fahrt, Anfahrtspauschale; Pos. 16-20)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 6742.0,
+      "total_price": 6742.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 14914.21,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 14914.21,
+  "vat_rate": 19,
+  "vat_amount": 2833.7,
+  "total_gross": 17747.91,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-12-20-ecowatersolution-221108S-b-angebot-klaeranlage.json",
+  "source_sha256": "c18f9f10785805d0027f72533c46ba6ee6ba8fc18db06758b3261fa5d6200dd5",
+  "original_filename": "221108S-b BioTopp OK4-VE mit Anschlussmaterial__Angebot.pdf",
+  "related": [
+    "document:2023-01-19-ecowatersolution-23-01-0025-planung-wasserrecht"
+  ]
+}

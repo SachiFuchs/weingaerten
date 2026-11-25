@@ -1,0 +1,94 @@
+{
+  "id": "moltofill-spachtelpulver-innen-1-kg",
+  "name": "Moltofill Spachtelpulver innen 1 kg",
+  "category": "Baustoffe",
+  "description": "Unebene Wände, Risse oder ausgebrochene Stellen lassen sich mit dem richtigen Material schnell wieder sauber aufbauen und glätten.\n\nProduktmerkmale des Moltofill Spachtelpulver innen 1 kg\n\nDarum solltest Du zugreifen: Das aushärtende Spachtelpulver auf Gips- und Dispersionsbasis ist riss- und schwundfrei, dadurch bleiben ausgebesserte Stellen formstabil und müssen nach dem Trocknen nicht ständig nachgearbeitet werden. Weil die Fläche überstreichbar, spachtelbar und schleifbar ist, kannst Du nach dem Ausbessern direkt für einen glatten, streichfertigen Untergrund sorgen. Mit bis zu 60 Minuten Verarbeitungszeit arbeitest Du in Ruhe und kannst auch größere Bereiche gleichmäßig glätten.\n\nFür den Innenbereich eignet sich das Material zum Füllen, Reparieren, Modellieren, Glätten, Fixieren und Montieren und deckt damit typische Arbeiten bei Renovierung und Ausbau ab. Es haftet auf gängigen Untergründen wie Putz, Gipskarton und Mauerwerk sowie laut Hinweis auch auf Beton, Zement, Mauerstein, Styropor und Hartschaum, was den Einsatz bei Ausbesserungen und beim Ansetzen von Gipskarton- und Hartschaumplatten erleichtert. Pro Arbeitsgang sind Schichtdicken bis 5 mm möglich, sodass Du kleinere Fehlstellen zügig schließt und bei Bedarf in mehreren Lagen sauber aufbaust.\n\nFestgezurrt: Mit dem Moltofill Spachtelpulver innen 1 kg bekommst Du eine vielseitige Lösung für stabile, gut schleif- und überstreichbare Ausbesserungen im Innenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-4010453_moltofill-spachtelpulver-innen-1-kg"
+  ],
+  "product": {
+    "manufacturer": "company:molto",
+    "model": "Moltofill Spachtelpulver innen 1 kg",
+    "article_no": "4010453",
+    "ean": "4007591110060",
+    "url": "https://www.hornbach.de/p/moltofill-spachtelpulver-innen-1-kg/4010453/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Spachtelmasse"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Spachtelpulver"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Basis",
+          "value": "Gips, Dispersion"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 kg"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Putz, Gipskarton, Mauerwerk"
+        },
+        {
+          "label": "Verarbeitungszeit ca.",
+          "value": "60 min"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Aushärtend, Riss- und schwundfrei, Überstreichbar, Spachtelbar, Schleifbar"
+        },
+        {
+          "label": "Schichtdicke max. je Arbeitsgang in mm",
+          "value": "5 mm"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Füllen, Reparieren, Modellieren, Glätten, Fixieren, Montieren"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Zum universellen Ausbessern, Füllen, Spachteln, Glätten, Formen und Modellieren, Für jede Schichtstärke im Innenbereich. Auch zum Verlegen und Kleben von Gipskarton- und Hartschaumplatten, Untergründe: Putz, Beton, Gipskarton, Zement, Mauerstein, Styropor, Hartschaum"
+        },
+        {
+          "label": "EAN",
+          "value": "2004010453007, 4007591110060"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 4.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-03-23",
+        "source": "Kassenbon 2024-03-23, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-4010453_1.jpg",
+    "hornbach-4010453_2.jpg",
+    "hornbach-4010453_3.jpg"
+  ]
+}

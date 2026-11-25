@@ -1,0 +1,109 @@
+{
+  "id": "kg-bogen-30-dn-110-mm",
+  "name": "KG Bogen 30° DN 110 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du Dein Entwässerungssystem effizient gestalten? Der KG Bogen 30° DN 110 mm ist die ideale Lösung für eine zuverlässige Haus- und Hofentwässerung.\n\nProduktmerkmale des KG Bogen 30° DN 110 mm\nDarum solltest Du zugreifen: Dieses Formteil aus Polyvinylchlorid (PVC) bietet eine hervorragende Wasserfestigkeit und schützt effektiv vor Verunreinigungen durch Abwasser. Mit einem Außendurchmesser von 127 mm und einer Nennweite von 110 mm ist der Bogen optimal für den Einsatz im Außenbereich geeignet. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 gewährleisten eine hohe Stabilität und Belastbarkeit. Der 30-Grad-Winkel ermöglicht eine präzise Anpassung an bestehende Rohrsysteme, was eine einfache Installation und Anpassung sicherstellt. Die orange Farbe sorgt für eine gute Sichtbarkeit bei der Installation und Wartung.\n\nFestgezurrt: Der KG Bogen 30° DN 110 mm bietet eine zuverlässige und stabile Lösung für Dein Entwässerungssystem.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-267345_kg-bogen-30-dn-110-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "KG Bogen 30° DN 110 mm",
+    "article_no": "267345",
+    "ean": "4052836202109",
+    "url": "https://www.hornbach.de/p/kg-bogen-30-dn-110-mm/267345/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "KG"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bogen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung, Hofentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Winkel",
+          "value": "30 °"
+        },
+        {
+          "label": "Nennweite",
+          "value": "110 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "3,2 mm"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN4"
+        },
+        {
+          "label": "Farbton",
+          "value": "Orange"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "CNJT"
+        },
+        {
+          "label": "EAN",
+          "value": "2000267345003, 4002644096223, 4002644806693, 4022804050056, 4025075213106, 4036494106764, 4052836017192, 4052836202109, 8586019764512, 8594157260025, 8594169671154, 8600198027296, 9003844006413"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "110 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "127 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.85,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-06-09",
+        "source": "Kassenbon 2023-06-09, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-267345_1.jpg",
+    "hornbach-267345_2.jpg",
+    "hornbach-267345_3.jpg",
+    "hornbach-267345_4.jpg"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "2025-08-04-nieswandt-25031-angebot-tueroeffnungen",
+  "name": "Nieswandt 25031 – Angebot Türöffnungen",
+  "doc_type": "quote",
+  "supplier": "company:ringschmiede-nieswandt",
+  "date": "2025-08-04",
+  "number": "25031",
+  "customer_number": "10345",
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, Göppingen (BV: Änderung Türöffnungen)",
+  "description": "Angebot von Frank Nieswandt (Ringschmiede Holz- und Montagebau) für Mauerarbeiten zur Änderung von zwei Türöffnungen im Bauvorhaben Weingärten 8. Die Leistung umfasst das Öffnen des Mauerwerks, das Ausbauen und Höhenversetzen der Stürze sowie das Beiputzen und zweimalige Streichen der Laibungs- und Sturzflächen. Das Angebot wurde später betragsgleich mit Rechnung 26030 abgerechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01.01",
+      "description": "Mauerwerk öffnen, Sturz ausbauen und in der Höhe versetzen; Laibungs- und Sturzflächen wieder anputzen und an den Wandputz angleichen; zweimaliger Farbanstrich auf den neu verputzten Flächen",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 1680.0,
+      "total_price": 3360.0
+    }
+  ],
+  "subtotal_net": 3360.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 3360.0,
+  "vat_rate": 19,
+  "vat_amount": 638.4,
+  "total_gross": 3998.4,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-08-04-nieswandt-25031-angebot-tueroeffnungen.json",
+  "source_sha256": "4a2a81a56591d36742ad693dd2ac4a2c92ca7aef4d6bcde8f65cb798d23ce4af",
+  "original_filename": "2025-08-04 Nieswald - Angebot Mauerarbeiten.PDF",
+  "related": [
+    "document:2026-08-03-nieswandt-26030-mauerarbeiten-tueren"
+  ]
+}

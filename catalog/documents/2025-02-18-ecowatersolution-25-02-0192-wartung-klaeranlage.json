@@ -1,0 +1,52 @@
+{
+  "id": "2025-02-18-ecowatersolution-25-02-0192-wartung-klaeranlage",
+  "name": "ECO Water 25-02-0192 – Wartung Kläranlage",
+  "doc_type": "invoice",
+  "supplier": "company:eco-water-solution",
+  "date": "2025-02-18",
+  "number": "25-02-0192",
+  "customer_number": "12769W01",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Anlagenstandort: Weingärten 8, 73037 Göppingen (Wartungsprotokoll vom 07.02.2025)",
+  "description": "Rechnung der ECO Water Solution GmbH über die vertragliche Wartung der Kleinkläranlage in Weingärten 8 vom Februar 2025 inklusive Laboruntersuchung der Ablaufwerte CSB und NH4-N. Zahlbar innerhalb von 14 Tagen rein netto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Wartung der Kläranlage laut Vertrag",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 150.0,
+      "total_price": 150.0
+    },
+    {
+      "position": "2",
+      "description": "Laboranalyse CSB",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 36.0,
+      "total_price": 36.0
+    },
+    {
+      "position": "3",
+      "description": "Laboranalyse NH4-N",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 34.0,
+      "total_price": 34.0
+    }
+  ],
+  "subtotal_net": 220.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 220.0,
+  "vat_rate": 19,
+  "vat_amount": 41.8,
+  "total_gross": 261.8,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-02-18-ecowatersolution-25-02-0192-wartung-klaeranlage.json",
+  "source_sha256": "894faa582fb50f6761e2be9eec4ea0557d543e9db3d3e3ed865da4fd528d2c85",
+  "original_filename": "20250218_12769W01_EcoRechnung.pdf"
+}

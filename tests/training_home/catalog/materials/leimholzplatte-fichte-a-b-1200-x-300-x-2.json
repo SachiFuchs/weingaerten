@@ -1,0 +1,123 @@
+{
+  "id": "leimholzplatte-fichte-a-b-1200-x-300-x-2",
+  "name": "Leimholzplatte Fichte A/B 1200 x 300 x 28 mm",
+  "category": "Holz",
+  "description": "Du willst eine stabile Grundlage für passgenaue Projekte schaffen, die sich sauber weiterverarbeiten lässt?\n\nProduktmerkmale der Leimholzplatte Fichte A/B 1200 x 300 x 28 mm\n\nDarum solltest Du zugreifen: Die Massivholzplatte aus Fichte mit durchgehenden Lamellen wirkt ruhig und gleichmäßig, wodurch sie sich für sichtbare Flächen im Möbel- und Innenausbau eignet. Die Qualitätsstufe A/B bedeutet: Eine Seite ist optisch besonders ansprechend, die andere Seite darf mehr holztypische Merkmale zeigen – so kannst Du die bessere Seite nach vorn planen und die zweite Seite dort einsetzen, wo sie weniger im Blick ist. Die Verleimung nach D3 ist für den Innenbereich mit zeitweise höherer Luftfeuchte ausgelegt, wodurch die Platte auch in stärker beanspruchten Räumen wie Flur oder Küche sinnvoll eingesetzt werden kann.\n\nDie unbehandelte Oberfläche ist eine gute Basis, wenn Du die Platte an Dein Projekt anpassen willst, denn sie lässt sich je nach Einsatz als Regal, Arbeits- oder Tischfläche weiter bearbeiten. Längskanten mit Fase reduzieren die Empfindlichkeit an den Kanten im Alltag und sorgen beim Anfassen und Reinigen für eine angenehmere Handhabung.\n\nFestgezurrt: Mit der Leimholzplatte Fichte A/B 1200 x 300 x 28 mm bekommst Du eine vielseitige Massivholzplatte mit planbarer Sichtseite, solider Verleimung für Innenbereiche mit höherer Luftfeuchte und kantenfreundlicher Ausführung für saubere Ergebnisse.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-1061332_leimholzplatte-fichte-a-b-1200-x-300-x-2"
+  ],
+  "product": {
+    "model": "Leimholzplatte Fichte A/B 1200 x 300 x 28 mm",
+    "article_no": "1061332",
+    "ean": "4002908137754",
+    "url": "https://www.hornbach.de/p/leimholzplatte-fichte-a-b-1200-x-300-x-28-mm/1061332/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Hinweis",
+          "value": "formaldehydfrei verleimt"
+        },
+        {
+          "label": "Artikeltyp",
+          "value": "Platte"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Massivholzplatte"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Basteln, Fahrzeugbau, Innenausbau, Ladenbau, Messebau, Möbelbau, Renovierung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Bauholz, Modellbau, Möbel, Zaunbau"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Unbehandelt"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Braun"
+        },
+        {
+          "label": "Art der Verleimung",
+          "value": "D 3 (Innenbereich mit häufig kurzzeitiger Wassereinwirkung oder höherer Luftfeuchte)"
+        },
+        {
+          "label": "Qualität",
+          "value": "A/B"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Durchgehende Lamellen"
+        },
+        {
+          "label": "Kantenausprägung",
+          "value": "Längskanten gefast"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "FWVP"
+        },
+        {
+          "label": "EAN",
+          "value": "2001061332008, 2007002021185, 4002908137754, 4005014001636, 4306517864637, 5945844001309, 5945844003280, 5949161701133"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "300 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "28 mm"
+        },
+        {
+          "label": "Gewicht pro Stück",
+          "value": "4,54 kg"
+        },
+        {
+          "label": "Länge",
+          "value": "1.200 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-1061332_1.jpg",
+    "hornbach-1061332_2.jpg",
+    "hornbach-1061332_3.jpg"
+  ]
+}

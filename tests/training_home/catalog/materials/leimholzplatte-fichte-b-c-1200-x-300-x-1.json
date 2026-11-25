@@ -1,0 +1,126 @@
+{
+  "id": "leimholzplatte-fichte-b-c-1200-x-300-x-1",
+  "name": "Leimholzplatte Fichte B/C 1200 x 300 x 18 mm",
+  "category": "Holz",
+  "description": "Du willst eine Holzplatte, die sich sauber verarbeiten lässt und für viele Projekte im Innenausbau taugt.\n\nProduktmerkmale der Leimholzplatte Fichte B/C 1200 x 300 x 18 mm\n\nDarum solltest Du zugreifen: Die durchgehenden Lamellen sorgen für eine ruhige, gleichmäßige Fläche, wodurch sich die Platte gut für sichtbare Bauteile wie Regalböden, Möbelteile oder Verkleidungen eignet. Die Verleimung nach D 3 ist für Innenbereiche mit zeitweise höherer Luftfeuchte ausgelegt, sodass die Platte auch in stärker beanspruchten Räumen sinnvoll eingesetzt werden kann. Mit der Qualitätsstufe B/C kannst Du die bessere Seite gezielt nach außen drehen, während die Seite mit mehr holztypischen Merkmalen dort bleibt, wo sie optisch weniger ins Gewicht fällt.\n\nDie Platte ist beidseitig glatt und unbehandelt, dadurch kannst Du sie je nach Projekt passend weiterbearbeiten und die Oberfläche an den gewünschten Einsatz anpassen. Gefaste Längskanten reduzieren die Empfindlichkeit an den Kanten im Alltag und erleichtern das Handling beim Einpassen. Der Hinweis „formaldehydfrei verleimt“ ist besonders dann relevant, wenn die Platte im Innenbereich verbaut wird und Du Wert auf eine klare Materialauswahl legst.\n\nFestgezurrt: Diese Leimholzplatte aus Fichte ist eine vielseitige Massivholzplatte für Innenausbau und Möbelprojekte, bei der Du dank B/C-Qualität und D-3-Verleimung Optik und Einsatz passend zum Vorhaben ausrichten kannst.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5053043_leimholzplatte-fichte-b-c-1200-x-300-x-1"
+  ],
+  "product": {
+    "model": "Leimholzplatte Fichte B/C 1200 x 300 x 18 mm",
+    "article_no": "5053043",
+    "ean": "4002908129551",
+    "url": "https://www.hornbach.de/p/leimholzplatte-fichte-b-c-1200-x-300-x-18-mm/5053043/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Hinweis Zuschnitt",
+          "value": "Die angegebenen Preise (Stück bzw. qm) beziehen sich auf die Abnahme ganzer Platten. Beim mm-genauen Zuschnitt im Markt entstehen Mehrkosten, deren Berechnung anhand der im Markt gültigen Zuschnittspreisliste erfolgt"
+        },
+        {
+          "label": "Hinweis",
+          "value": "formaldehydfrei verleimt"
+        },
+        {
+          "label": "Artikeltyp",
+          "value": "Platte"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Massivholzplatte"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Basteln, Fahrzeugbau, Innenausbau, Ladenbau, Messebau, Möbelbau, Renovierung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Bauholz, Modellbau, Möbel, Zaunbau"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "2-seitig glatt, Unbehandelt"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Braun"
+        },
+        {
+          "label": "Art der Verleimung",
+          "value": "D 3 (Innenbereich mit häufig kurzzeitiger Wassereinwirkung oder höherer Luftfeuchte)"
+        },
+        {
+          "label": "Qualität",
+          "value": "B/C"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Durchgehende Lamellen"
+        },
+        {
+          "label": "Kantenausprägung",
+          "value": "Längskanten gefast"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "W1XC"
+        },
+        {
+          "label": "EAN",
+          "value": "2005053043002, 4002908129551, 4005014003012, 4014307099076, 4260162492075, 5945844000265, 5949161700402, 7394064510050"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "300 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "18 mm"
+        },
+        {
+          "label": "Gewicht pro Stück",
+          "value": "2,92 kg"
+        },
+        {
+          "label": "Länge",
+          "value": "1.200 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 9.1,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 3×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-5053043_1.jpg",
+    "hornbach-5053043_2.jpg"
+  ]
+}

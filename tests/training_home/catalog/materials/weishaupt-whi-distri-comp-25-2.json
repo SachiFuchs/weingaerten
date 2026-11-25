@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-whi-distri-comp-25-2",
+  "name": "Weishaupt Verteiler WHI distri-comp 25-2-3,5 #1",
+  "category": "Heizung",
+  "description": "Verteiler mit integrierter Weiche für 2 Heizkreise NW 25 bis 3,5 m³/h, Kammer 80 × 50 mm, H × B × T 166 × 560 × 219 mm, mit Wärmedämmung",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WHI distri-comp 25-2-3,5 #1",
+    "article_no": "40900012242",
+    "url": "https://www.loebbeshop.de/weichenverteiler-whi-distri-comp-25-2-351/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 454.41,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.13, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

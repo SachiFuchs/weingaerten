@@ -1,0 +1,28 @@
+{
+  "id": "federdeckel",
+  "name": "Federdeckel",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "obi-6574354_federdeckel"
+  ],
+  "product": {
+    "model": "Federdeckel",
+    "article_no": "6574354",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.38,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-22",
+        "source": "Kassenbon 2026-09-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  }
+}

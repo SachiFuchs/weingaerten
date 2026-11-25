@@ -1,0 +1,46 @@
+{
+  "id": "feuchtraum-schalterserie-basic-2-fach-grau",
+  "name": "Feuchtraum-Schalterserie Basic 2-fach Grau",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "switch",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873220319_feuchtraum-schalterserie-basic-2-fach-grau"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Feuchtraum-Schalterserie Basic 2-fach Grau",
+    "article_no": "1697697",
+    "ean": "4007873220319",
+    "url": "https://www.obi.de/p/1697697",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "212 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L"
+    ]
+  }
+}

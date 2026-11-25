@@ -1,0 +1,39 @@
+{
+  "id": "naturbo-klima-platte-f",
+  "name": "Naturbo Klima-Dämmplatte Typ F",
+  "class": "tga-class:wall-heating-panel",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "catalog_material": "material:naturbo-klima-daemmplatte",
+  "material_offer": 0,
+  "params": {
+    "panel_type": "F",
+    "width": 0.625,
+    "height": 1.05,
+    "thickness": 0.06,
+    "pipe_direction": "horizontal",
+    "pipe_spacing": 0.1,
+    "pipe_length": 7.3,
+    "port_corner": "bottom",
+    "pipe_runs": 10
+  },
+  "estimated": true,
+  "note": "Maße/Rohrverlauf/Anschlussseite aus Verlegeskizze 260508_01DG_B; Rohrabstand und Rohrlänge geschätzt; Preis Rechnung 13202600675 Pos. 5",
+  "connection": {
+    "line": "alu_composite",
+    "ends": [
+      {
+        "id": "supply",
+        "dn": 11.6,
+        "gender": "spigot",
+        "flow": "in"
+      },
+      {
+        "id": "return",
+        "dn": 11.6,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

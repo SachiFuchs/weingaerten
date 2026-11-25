@@ -1,0 +1,53 @@
+{
+  "id": "obi-sanitaer-silikon-transparent-310-ml",
+  "name": "OBI Sanitär-Silikon Transparent 310 ml",
+  "category": "Fliesen",
+  "description": "OBI Sanitär-Silikon ist ein essigvernetzender Silikon-Dichtstoff für dauerelastische Abdichtungen in Bad, Küche und WC. Es ist haftstark und wirkt pilzhemmend. Das Sanitär-Silikon ist nicht für Naturstein und Marmor geeignet. Nach der Durchhärtung ist es beständig gegen haushaltsübliche Reiniger. Der Untergrund muss tragfähig, sauber, trocken und fettfrei sein. Außerdem müssen Kunststoffe und mineralische/metallische Untergründe mit Silikon Primer vorbehandelt werden. Grundsätzlich sind Vorversuche erforderlich. Technisches Merkblatt beachten. Von Kindern fernhalten. Verarbeitungstemperatur: von +5 °C bis +40 °C Durchhärtung: ca. 2 mm nach 24 Stunden Hautbildungszeit: ca. 10 Minuten Temperaturbeständigkeit: von -50 °C bis +150 °C Gesamtverformung: max. 25 % Lagerfähigkeit: Originalverschlossen, kühl (frostfrei, +5 °C bis +25 °C), trocken, 24 Monate Fungizid ausgerüstet, beugt Pilz- und Schimmelbefall auf dem Dichtstoff vor. Enthält Octylisothiazolinone",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-5411183117587_obi-sanitaer-silikon-transparent-310-ml"
+  ],
+  "product": {
+    "manufacturer": "company:aerotrim",
+    "model": "OBI Sanitär-Silikon Transparent 310 ml",
+    "article_no": "8215659",
+    "ean": "5411183117587",
+    "url": "https://www.obi.de/p/8215659",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-10",
+        "source": "Kassenbon 2026-10-10, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "358 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "23,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,1 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,1 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

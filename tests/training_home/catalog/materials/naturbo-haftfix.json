@@ -1,0 +1,28 @@
+{
+  "id": "naturbo-haftfix",
+  "name": "Naturbo Haftfix",
+  "category": "Putz",
+  "description": "Lehm-Klebe- und Haftmörtel, Sack",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Haftfix",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 37.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 11, je Sack",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8B79E",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

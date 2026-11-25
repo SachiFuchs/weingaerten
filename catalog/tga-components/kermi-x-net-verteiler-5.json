@@ -1,0 +1,27 @@
+{
+  "id": "kermi-x-net-verteiler-5",
+  "name": "Kermi x-net Verteiler 1\" Komfort, 5 Heizkreise",
+  "class": "tga-class:terminal",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "terminal_type": "manifold",
+    "mounting": "flush"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:kermi",
+    "model": "Kermi x-net Verteiler 1\" Komfort, 5 Heizkreise",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 232.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.3, je Stk",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

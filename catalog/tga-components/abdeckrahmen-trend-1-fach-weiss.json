@@ -1,0 +1,60 @@
+{
+  "id": "abdeckrahmen-trend-1-fach-weiss",
+  "name": "Abdeckrahmen Trend 1-fach Weiß",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873941801_abdeckrahmen-trend-1-fach-weiss",
+    "ean-4007873941801_abdeckrahmen-trend-1-fach-weiss_2573236"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Abdeckrahmen Trend 1-fach Weiß",
+    "article_no": "2573178",
+    "ean": "4007873941801",
+    "url": "https://www.obi.de/p/2573178",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "11 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "10 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-06",
+        "source": "Kassenbon 2022-08-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-06",
+        "source": "Kassenbon 2022-08-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

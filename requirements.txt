@@ -1,0 +1,6 @@
+# Core and Web packages (weingaerten_core, weingaerten_web) use only the Python 3 standard library.
+# Pygments is vendored in code/weingaerten_web/vendor/pygments (pinned to 2.20.0).
+Pygments==2.20.0
+
+# Used by scripts/validate_schemas.py (Draft 2020-12 JSON Schema validation)
+jsonschema>=4.20.0

@@ -1,0 +1,68 @@
+{
+  "id": "lampenfassung-gz10-gu10-fuer-hochvolt-halogenleuchtmittel",
+  "name": "Lampenfassung GZ10/GU10 für Hochvolt-Halogenleuchtmittel",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Beleuchtung",
+  "params": {
+    "terminal_type": "light",
+    "mounting": "surface"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297030065_lampenfassung-gz10-gu10-fuer-hochvolt-halogenleuchtmittel"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Lampenfassung GZ10/GU10 für Hochvolt-Halogenleuchtmittel",
+    "article_no": "8333973",
+    "ean": "4008297030065",
+    "url": "https://www.obi.de/p/8333973",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "15,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-26",
+        "source": "Kassenbon 2026-05-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 4.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-29",
+        "source": "Kassenbon 2026-05-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N"
+    ],
+    "note": "Fassung ohne Schutzleiteranschluss angenommen (PE in Klemme als Endstück)"
+  }
+}

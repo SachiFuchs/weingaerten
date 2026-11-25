@@ -1,0 +1,14 @@
+{
+  "id": "covering-wandfliese",
+  "name": "Wandbelag Fliesenspiegel Steingut",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "CLADDING" },
+  "category": "covering",
+  "din276": "345",
+  "description": "Wandfliese im Flexmörtel (Fliesenspiegel Küche/Bad); Schichten von der Wand zum Raum; Dicken geschätzt",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:mapei-flexmoertel-c2te-s1-5-kg", "thickness": 0.003 },
+    { "material": "material:wandfliese-artisa-steingut-gruen-glasiert-glaenzend-7-5-cm", "thickness": 0.008 }
+  ],
+  "visualization": { "view": "all_layers", "section": "all_layers" }
+}

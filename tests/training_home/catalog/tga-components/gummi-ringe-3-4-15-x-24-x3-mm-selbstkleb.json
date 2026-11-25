@@ -1,0 +1,110 @@
+{
+  "id": "gummi-ringe-3-4-15-x-24-x3-mm-selbstkleb",
+  "name": "Gummi-Ringe 3/4\" 15 x 24 x3 mm Selbstklebend",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "seal"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-10257140_gummi-ringe-3-4-15-x-24-x3-mm-selbstkleb"
+  ],
+  "product": {
+    "manufacturer": "company:koero",
+    "model": "Gummi-Ringe 3/4\" 15 x 24 x3 mm Selbstklebend",
+    "article_no": "10257140",
+    "ean": "8711962032627",
+    "url": "https://www.hornbach.de/p/gummi-ringe-3-4-15-x-24-x3-mm-selbstklebend/10257140/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dichtung"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Dichtungsring"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Abdichten"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Verschraubung, Siphon, Schlauchkupplungen"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer, Küche, Gäste-WC, Hauswirtschaftsraum, Keller"
+        },
+        {
+          "label": "Material",
+          "value": "Gummi"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Wasser, Abwasser"
+        },
+        {
+          "label": "Größe",
+          "value": "3/4 \""
+        },
+        {
+          "label": "Inhalt",
+          "value": "4 Stück"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "152480977"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "3RN5"
+        },
+        {
+          "label": "EAN",
+          "value": "8711962032627"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "3 mm"
+        },
+        {
+          "label": "Durchmesser außen",
+          "value": "24 mm"
+        },
+        {
+          "label": "Durchmesser innen",
+          "value": "15 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.35,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-13",
+        "source": "Kassenbon 2026-07-13, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-10257140_1.jpg",
+    "hornbach-10257140_2.jpg",
+    "hornbach-10257140_3.jpg"
+  ]
+}

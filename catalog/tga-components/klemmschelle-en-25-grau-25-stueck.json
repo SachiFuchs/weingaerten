@@ -1,0 +1,51 @@
+{
+  "id": "klemmschelle-en-25-grau-25-stueck",
+  "name": "Klemmschelle EN 25 Grau 25 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873916755_klemmschelle-en-25-grau-25-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Klemmschelle EN 25 Grau 25 Stück",
+    "article_no": "5372164",
+    "ean": "4007873916755",
+    "url": "https://www.obi.de/p/5372164",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "4 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "10 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "3,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

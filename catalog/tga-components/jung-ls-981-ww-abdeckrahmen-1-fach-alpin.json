@@ -1,0 +1,104 @@
+{
+  "id": "jung-ls-981-ww-abdeckrahmen-1-fach-alpin",
+  "name": "Jung LS 981 WW Abdeckrahmen 1-fach alpinweiß LS990",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-7790532_jung-ls-981-ww-abdeckrahmen-1-fach-alpin"
+  ],
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung LS 981 WW Abdeckrahmen 1-fach alpinweiß LS990",
+    "article_no": "7790532",
+    "ean": "4011377114609",
+    "url": "https://www.hornbach.de/p/jung-ls-981-ww-abdeckrahmen-1-fach-alpinweiss-ls990/7790532/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rahmen"
+        },
+        {
+          "label": "Variante",
+          "value": "1-Fach"
+        },
+        {
+          "label": "Serie",
+          "value": "LS990"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "LS981WW"
+        },
+        {
+          "label": "Einbau",
+          "value": "Senkrecht, Waagerecht"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 44"
+        },
+        {
+          "label": "Farbton",
+          "value": "Alpinweiß"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Feuchtraum"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Schutzgrad IP44 nur mit Dichtungsflansch 551WU"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "HCFP"
+        },
+        {
+          "label": "EAN",
+          "value": "4011377114609"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "81 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "81 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.28,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-23",
+        "source": "Kassenbon 2025-12-23, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 3.28,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-03",
+        "source": "Kassenbon 2026-09-03, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-7790532_1.jpg"
+  ]
+}

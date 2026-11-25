@@ -1,0 +1,22 @@
+{
+  "id": "aw-grund-ost",
+  "name": "Grundleitung KG Ost zur Kläranlage",
+  "component": "tga-component:kg-pipe-110",
+  "system": "waste-water-eg",
+  "installation": "buried",
+  "points": [
+    [
+      7.92,
+      0.4,
+      -0.7
+    ],
+    [
+      7.92,
+      14.5,
+      -0.841
+    ]
+  ],
+  "estimated": true,
+  "to": "tga-terminal:uebergabe-klaeranlage",
+  "note": "Tiefe und Lage geschätzt (Skizze), 1 % Gefälle"
+}

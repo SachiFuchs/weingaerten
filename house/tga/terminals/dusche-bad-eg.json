@@ -1,0 +1,13 @@
+{
+  "id": "dusche-bad-eg",
+  "name": "Duschablauf Bad EG",
+  "component": "tga-component:sanitary-shower-drain",
+  "storey": "storey:ground",
+  "room": "room-bad",
+  "position": [
+    6.4,
+    1.68,
+    0.06
+  ],
+  "estimated": true
+}

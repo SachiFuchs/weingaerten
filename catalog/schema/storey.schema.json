@@ -1,0 +1,531 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/storey",
+  "title": "Geschoss (house/storeys/<id>.json)",
+  "type": "object",
+  "required": ["id", "name", "elevation", "height", "walls", "rooms"],
+  "additionalProperties": false,
+  "$defs": {
+    "id":    { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "point": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+    "ortho_polygon": { "type": "array", "minItems": 4, "items": { "$ref": "#/$defs/point" }, "description": "geschlossener Ring ohne wiederholten Endpunkt, nur achsparallele Kanten" },
+    "ifc": {
+      "type": "object",
+      "required": ["entity"],
+      "additionalProperties": false,
+      "properties": {
+        "entity":          { "type": "string", "pattern": "^Ifc[A-Za-z]+$" },
+        "predefined_type": { "type": "string" },
+        "object_type":     { "type": "string" }
+      }
+    },
+    "covering": {
+      "type": "object",
+      "required": ["id", "surface", "assembly"],
+      "additionalProperties": false,
+      "description": "Belag (IfcCovering): Boden (ganzer Raum oder Teilbereich) oder Wand (Fliesenspiegel, Sockelleiste)",
+      "properties": {
+        "id":        { "$ref": "#/$defs/id" },
+        "name":      { "type": "string" },
+        "surface":   { "enum": ["floor", "wall"] },
+        "assembly":  { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie covering" },
+        "area":      { "type": ["string", "array"], "description": "Boden: \"room\" (ganzer Raum) oder rechtwinkliges Teil-Polygon [[x, y], ...]" },
+        "walls":     { "type": ["string", "array"], "description": "Wand: \"all\" (alle Wandflächen des Raums) oder [{wall, u: [u0, u1]?}]" },
+        "z":         { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2, "description": "Wand: Höhenbereich [z0, z1] über Geschossboden (Standard: ganze Wandhöhe)" },
+        "estimated": { "type": "boolean" },
+        "note":      { "type": "string" }
+      }
+    }
+  },
+  "properties": {
+    "id":        { "$ref": "#/$defs/id" },
+    "name":      { "type": "string", "minLength": 1 },
+    "elevation": { "type": "number", "description": "z der Geschossunterkante; EG = foundation.top" },
+    "height":    { "type": "number", "exclusiveMinimum": 0, "description": "Wandhöhe" },
+    "roof": {
+      "type": "object",
+      "required": ["pitch", "knee_wall_height", "eaves"],
+      "additionalProperties": false,
+      "description": "Satteldach des Geschosses; Wände mit shape.kind roof folgen seiner Unterkante",
+      "properties": {
+        "kind": { "enum": ["gable"] },
+        "pitch": { "type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 90, "description": "Dachneigung in Grad" },
+        "knee_wall_height": { "type": "number", "exclusiveMinimum": 0, "description": "Höhe der Dachlinie an der Traufe (Kniestock), m über Geschossboden" },
+        "ridge_direction": { "enum": ["south_north", "west_east"], "description": "Firstrichtung; south_north = Traufen bei x" },
+        "eaves": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2, "description": "Traufkoordinaten (Außenkante), aufsteigend" },
+        "note": { "type": "string" }
+      }
+    },
+    "roof_structure": {
+      "type": "object",
+      "required": ["material", "rafters", "purlins", "foot_purlins", "collars", "slopes"],
+      "additionalProperties": false,
+      "description": "Dachstuhl (Pfettendach mit Mittelpfetten), aus Parametern und storey.roof berechnet",
+      "properties": {
+        "material":  { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "estimated": { "type": "boolean" },
+        "note":      { "type": "string" },
+        "rafters":      { "type": "object", "required": ["width", "height", "spacing"], "description": "Sparren b × h, Abstand (m)" },
+        "purlins":      { "type": "object", "required": ["width", "height", "z_top"], "description": "Mittelpfetten b × h, Oberkante über Geschossboden" },
+        "foot_purlins": { "type": "object", "required": ["width", "height"], "description": "Fußpfetten auf dem Kniestock" },
+        "collars":      { "type": "object", "required": ["width", "height", "z"], "description": "Kehlbalken b × h, Unterkante über Geschossboden" },
+        "slopes": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["side", "range"], "additionalProperties": false,
+            "properties": {
+              "id":    { "$ref": "#/$defs/id" },
+              "side":  { "enum": ["west", "east"] },
+              "range": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2, "description": "Bereich entlang des Firsts, aufsteigend" },
+              "end":   { "type": "number", "description": "Sparrenende quer zum First (fehlt = First)" }
+            }
+          }
+        },
+        "ridge_purlins": {
+          "type": "array",
+          "description": "Firstpfetten unter dem First (Oberkante = Dachunterseite am First)",
+          "items": {
+            "type": "object", "required": ["range", "width", "height"], "additionalProperties": false,
+            "properties": {
+              "id":     { "$ref": "#/$defs/id" },
+              "range":  { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2, "description": "Bereich entlang des Firsts, aufsteigend" },
+              "width":  { "type": "number", "exclusiveMinimum": 0 },
+              "height": { "type": "number", "exclusiveMinimum": 0 }
+            }
+          }
+        }
+      }
+    },
+    "roof_covering": {
+      "type": "object",
+      "required": ["assembly"],
+      "additionalProperties": false,
+      "description": "Dachdeckung: Schichten eines Dachaufbaus auf den Sparren der Dachflächen (roof_structure.slopes), mit Überständen, Dachfenstern, Kamin und Rechnungspositionen",
+      "properties": {
+        "assembly":       { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie roof (top_down)" },
+        "estimated":      { "type": "boolean" },
+        "note":           { "type": "string" },
+        "eaves_overhang": { "type": "number", "minimum": 0, "description": "Überstand an der Traufe (m, waagerecht)" },
+        "verge_overhang": { "type": "number", "minimum": 0, "description": "Überstand am Ortgang (m, freie Enden der Dachflächen)" },
+        "invoice":        { "type": "object", "properties": { "area": { "type": "number" } }, "description": "Rechnungswerte zum Vergleich" },
+        "openings": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id", "slope"], "additionalProperties": false,
+            "properties": {
+              "id":        { "$ref": "#/$defs/id" },
+              "kind":      { "enum": ["window", "chimney"], "description": "fehlt = window" },
+              "name":      { "type": "string" },
+              "slope":     { "$ref": "#/$defs/id" },
+              "component": { "type": "string", "pattern": "^component:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "flashing":  { "type": "string", "pattern": "^component:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "y":         { "type": "number", "description": "Fenstermitte entlang des Firsts" },
+              "sill":      { "type": "number", "description": "Unterkante an der Dachunterseite über Geschossboden (≥ Kniestock)" },
+              "rect_plan": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "Kamin [x, y, w, h] im Grundriss" },
+              "parts":     { "type": "array", "items": { "type": "string", "pattern": "^component:[a-z0-9]+(-[a-z0-9]+)*$" } }
+            }
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["component", "measure"], "additionalProperties": false,
+            "properties": {
+              "component": { "type": "string", "pattern": "^component:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "measure":   { "enum": ["ridge", "verge", "eaves", "invoice"] },
+              "per_m":     { "type": "number", "exclusiveMinimum": 0, "description": "Stück je m Kante" }
+            }
+          }
+        }
+      }
+    },
+    "stairs": {
+      "type": "array",
+      "description": "Treppen vom Geschossboden zum Boden von to_storey: gerader Lauf, optional Viertelwendel",
+      "items": {
+        "type": "object", "required": ["id", "material", "to_storey", "risers", "run"], "additionalProperties": false,
+        "properties": {
+          "id":        { "$ref": "#/$defs/id" },
+          "name":      { "type": "string" },
+          "material":  { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "estimated": { "type": "boolean" },
+          "note":      { "type": "string" },
+          "to_storey": { "type": "string", "pattern": "^storey:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "risers":    { "type": "integer", "minimum": 2, "description": "Steigungen = gerade Stufen + Wendelstufen + 1" },
+          "run": {
+            "type": "object", "required": ["rect", "direction", "straight_steps"], "additionalProperties": false,
+            "properties": {
+              "rect":           { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "[x, y, w, h] der ganzen Treppe" },
+              "direction":      { "enum": ["west", "east", "north", "south"], "description": "Laufrichtung aufwärts" },
+              "straight_steps": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "turn": {
+            "type": "object", "required": ["side", "steps"], "additionalProperties": false,
+            "properties": { "side": { "enum": ["left", "right"] }, "steps": { "type": "integer", "minimum": 0 } }
+          },
+          "tread_thickness": { "type": "number", "exclusiveMinimum": 0 },
+          "riser_thickness": { "type": "number", "exclusiveMinimum": 0 },
+          "construction":    { "enum": ["stringer", "solid"], "description": "stringer = Wangentreppe (Default), solid = massive Blockstufen (Beton)" },
+          "stringer": { "type": "object", "required": ["width", "height"], "properties": { "width": { "type": "number" }, "height": { "type": "number" } } }
+        }
+      }
+    },
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "assembly", "start", "end", "reference"],
+        "additionalProperties": false,
+        "properties": {
+          "id":        { "$ref": "#/$defs/id" },
+          "name":      { "type": "string" },
+          "assembly":  { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "start":     { "$ref": "#/$defs/point" },
+          "end":       { "$ref": "#/$defs/point" },
+          "reference": { "enum": ["outside_face", "center", "inside_face", "left_face", "right_face"],
+                         "description": "Lage der Linie start→end im Wandquerschnitt; Außenwand: outside_face|center|inside_face, Innenwand: left_face|center|right_face" },
+          "outside":   { "enum": ["left", "right"], "description": "Pflicht bei exterior_wall: Außenseite relativ zur Laufrichtung" },
+          "load_bearing": { "type": "boolean", "description": "tragend" },
+          "free_ends": { "type": "array", "uniqueItems": true, "items": { "enum": ["start", "end"] },
+                         "description": "nur Innenwand: Enden, die bewusst ohne Anschluss bleiben (keine Warnung offenes Wandende)" },
+          "height":    { "type": "number", "exclusiveMinimum": 0, "description": "eigene Wandhöhe (z. B. Kniestock), ≤ Geschosshöhe; fehlt = Geschosshöhe" },
+          "shape": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {
+              "kind":         { "enum": ["rect", "gable", "roof"], "description": "roof = Oberkante folgt storey.roof" },
+              "ridge_height": { "type": "number", "description": "gable, später" },
+              "ridge_offset": { "type": "number", "description": "gable, später" }
+            }
+          },
+          "openings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "component", "offset", "sill"],
+              "additionalProperties": false,
+              "properties": {
+                "id":              { "$ref": "#/$defs/id" },
+                "component":       { "type": "string", "pattern": "^component:[a-z0-9]+(-[a-z0-9]+)*$" },
+                "offset":          { "type": "number", "description": "Wandanfang (start, Referenzlinie) → linke Kante der Rohbauöffnung; außerhalb der Wand → Öffnungskonflikt" },
+                "sill":            { "type": "number", "minimum": 0, "description": "Unterkante der Rohbauöffnung ab Geschossboden" },
+                "joint":           { "type": "number", "minimum": 0, "description": "Einbaufuge je Seite, Default 0.01" },
+                "inset":           { "type": "number", "minimum": 0, "description": "Einbautiefe: Außenseite der Wand → Außenseite des Bauteils, Default 0.10" },
+                "reveal_material": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Laibung" }
+              }
+            }
+          },
+          "linings": {
+            "description": "Innendämmung/Vorsatzschale auf Bereichen einer Wandseite; Öffnungen werden ausgespart, keine Laibung",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "assembly", "face", "u0", "u1"],
+              "additionalProperties": false,
+              "properties": {
+                "id":       { "$ref": "#/$defs/id" },
+                "assembly": { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie interior_lining" },
+                "face":     { "enum": ["inside", "left", "right"], "description": "Außenwand: inside; Innenwand: left|right" },
+                "u0":       { "type": "number", "description": "Beginn ab Wandanfang (start, Referenzlinie); Meter" },
+                "u1":       { "type": "number", "description": "Ende ab Wandanfang; Meter" },
+                "z0":       { "type": "number", "minimum": 0, "description": "Unterkante ab Geschossboden; fehlt = 0" },
+                "z1":       { "type": "number", "description": "Oberkante ab Geschossboden; fehlt = Wandoberkante (Dachprofil)" },
+                "note":     { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ceilings": {
+      "description": "VORSCHLAG (noch nicht ausgewertet): Decken über diesem Geschoss, KG 350",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "assembly"],
+        "additionalProperties": false,
+        "properties": {
+          "id":       { "$ref": "#/$defs/id" },
+          "name":     { "type": "string" },
+          "assembly": { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie slab, layer_order top_down" },
+          "z":        { "type": "number", "description": "Unterkante relativ zum Geschossboden; Default = height" },
+          "outline":  {
+            "description": "\"storey\" = Außenumriss des Geschosses, sonst Polygon [[x,y], …]",
+            "oneOf": [ { "const": "storey" }, { "type": "array", "items": { "$ref": "#/$defs/point" }, "minItems": 3 } ]
+          },
+          "joists": {
+            "description": "Deckenbalken als eigenes Bauteil (KG 351), nicht Teil des Aufbaus; Unterkante Balken = z",
+            "type": "object",
+            "required": ["material", "width", "height", "spacing", "direction"],
+            "additionalProperties": false,
+            "properties": {
+              "material":  { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "width":     { "type": "number", "exclusiveMinimum": 0, "description": "Meter" },
+              "height":    { "type": "number", "exclusiveMinimum": 0, "description": "Meter" },
+              "spacing":   { "type": "number", "exclusiveMinimum": 0, "description": "Achsabstand, Meter" },
+              "direction": { "enum": ["south_north", "west_east"] },
+              "estimated": { "type": "boolean" },
+              "note":      { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "floors": {
+      "description": "Fußbodenaufbauten auf dem Geschossboden (KG 352), je Aufbau eine Liste von Raumnamen",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "assembly", "rooms"],
+        "additionalProperties": false,
+        "properties": {
+          "id":       { "$ref": "#/$defs/id" },
+          "name":     { "type": "string" },
+          "assembly": { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau der Kategorie slab, layer_order top_down" },
+          "z":        { "type": "number", "description": "Unterkante relativ zum Geschossboden; Default 0" },
+          "rooms":    { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 }, "description": "Raumnamen; alle Rechtecke mit diesem Namen bilden einen Raum" },
+          "estimated": { "type": "boolean" },
+          "note":     { "type": "string" },
+          "offer": {
+            "type": "object",
+            "required": ["company", "items"],
+            "additionalProperties": false,
+            "properties": {
+              "company":  { "type": "string", "pattern": "^company:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "document": { "type": "string" },
+              "date":     { "type": "string" },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["pos", "name", "measure", "quantity", "unit", "unit_price"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "pos":        { "type": "string" },
+                    "name":       { "type": "string" },
+                    "material":   { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+                    "measure":    { "enum": ["area", "edge", "offer"], "description": "Modellmenge: Bodenfläche, Randlänge oder Angebotsmenge" },
+                    "quantity":   { "type": "number", "minimum": 0, "description": "Menge laut Angebot" },
+                    "unit":       { "type": "string" },
+                    "unit_price": { "type": "number", "minimum": 0, "description": "EUR netto" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "heating": {
+      "description": "Fußbodenheizung des Geschosses: Verteiler und Heizkreise mit parametrischem Rohrverlauf",
+      "type": "object",
+      "required": ["floor", "pipe_diameter", "manifold", "circuits"],
+      "additionalProperties": false,
+      "properties": {
+        "name":          { "type": "string" },
+        "pipe":          { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "pipe_diameter": { "type": "number", "exclusiveMinimum": 0, "description": "Meter" },
+        "floor":         { "$ref": "#/$defs/id", "description": "id in floors[]; Rohrebene = Schicht mit heated" },
+        "estimated":     { "type": "boolean" },
+        "note":          { "type": "string" },
+        "manifold": {
+          "type": "object",
+          "required": ["position"],
+          "additionalProperties": false,
+          "properties": {
+            "name":     { "type": "string" },
+            "position": { "$ref": "#/$defs/point" },
+            "width":    { "type": "number", "exclusiveMinimum": 0 }
+          }
+        },
+        "circuits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "room", "rect", "pattern", "spacing", "entry", "feed"],
+            "additionalProperties": false,
+            "properties": {
+              "id":      { "$ref": "#/$defs/id" },
+              "name":    { "type": "string" },
+              "room":    { "type": "string", "minLength": 1, "description": "Raumname" },
+              "rect":    { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "Verlegefläche [x, y, w, h]" },
+              "cutout":  { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "unbeheizte Aussparung [x, y, w, h] in einer Ecke von rect (z. B. Dusche)" },
+              "pattern": { "enum": ["spiral", "meander"] },
+              "spacing": { "type": "number", "exclusiveMinimum": 0, "description": "Verlegeabstand, Meter" },
+              "edge":    { "type": "number", "minimum": 0, "description": "Randabstand innerhalb rect, Default 0.1" },
+              "entry":   { "enum": ["nw", "ne", "sw", "se"], "description": "Ecke, an der Vor- und Rücklauf anschließen" },
+              "feed":    { "type": "array", "items": { "$ref": "#/$defs/point" }, "minItems": 1, "description": "Anbindeleitung ab Verteiler bis vor die Verlegefläche" },
+              "color":   { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "wall_heating": {
+      "description": "Wandheizung des Geschosses (Plattensystem, z. B. naturbo Klima): Heizkreise, Plattenfelder auf den Raumseiten der Wände, Verteiler",
+      "type": "object",
+      "required": ["assembly", "panel_components", "distributor", "circuits", "fields"],
+      "additionalProperties": false,
+      "properties": {
+        "name":               { "type": "string" },
+        "assembly":           { "type": "string", "pattern": "^assembly:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Aufbau interior_lining mit heated-Schicht (Plattenebene)" },
+        "pipe":               { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "pipe_diameter":      { "type": "number", "exclusiveMinimum": 0, "description": "Meter (Rohr in der Platte)" },
+        "feed_diameter":      { "type": "number", "exclusiveMinimum": 0, "description": "Meter (Anbindeleitung)" },
+        "panel_components":   { "type": "object", "additionalProperties": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" }, "description": "Plattentyp → tga-component der Klasse wall-heating-panel" },
+        "coupling":           { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Presskupplung Platte–Platte" },
+        "adapter":            { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Übergang Platte → Anbindeleitung" },
+        "supply_temperature": { "type": "number" },
+        "return_temperature": { "type": "number" },
+        "estimated":          { "type": "boolean" },
+        "note":               { "type": "string" },
+        "distributor": {
+          "type": "object",
+          "required": ["position"],
+          "additionalProperties": false,
+          "properties": {
+            "name":      { "type": "string" },
+            "component": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+            "wall":      { "$ref": "#/$defs/id" },
+            "position":  { "$ref": "#/$defs/point" },
+            "z":         { "type": "number", "minimum": 0, "description": "Unterkante über Geschossboden" },
+            "width":     { "type": "number", "exclusiveMinimum": 0 },
+            "height":    { "type": "number", "exclusiveMinimum": 0 },
+            "outlets":   { "type": "integer", "minimum": 1, "description": "Heizkreisabgänge" },
+            "note":      { "type": "string" }
+          }
+        },
+        "duct": {
+          "type": "object", "required": ["rect"], "additionalProperties": false,
+          "properties": { "name": { "type": "string" }, "rect": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "[x, y, w, h]" } }
+        },
+        "circuits": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id", "room"], "additionalProperties": false,
+            "properties": {
+              "id":            { "$ref": "#/$defs/id" },
+              "name":          { "type": "string" },
+              "room":          { "type": "string", "minLength": 1, "description": "Raumname" },
+              "design_area":   { "type": "number", "minimum": 0, "description": "Heizfläche lt. Auslegung, m²" },
+              "design_output": { "type": "number", "minimum": 0, "description": "Heizleistung lt. Auslegung, W" },
+              "color":         { "type": "string" }
+            }
+          }
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id", "circuit", "room", "origin", "direction", "panels", "port_u", "feed"],
+            "additionalProperties": false,
+            "properties": {
+              "id":        { "$ref": "#/$defs/id" },
+              "name":      { "type": "string" },
+              "circuit":   { "$ref": "#/$defs/id" },
+              "room":      { "type": "string", "minLength": 1 },
+              "wall":      { "$ref": "#/$defs/id", "description": "Bezugswand (Name in Tabellen); Öffnungen aller Wände in der Feldebene werden geprüft" },
+              "origin":    { "$ref": "#/$defs/point", "description": "Punkt auf der Raumseite der Wand (u = 0)" },
+              "direction": { "$ref": "#/$defs/point", "description": "achsparallele Richtung u, vom Raum aus gesehen nach rechts" },
+              "panels": {
+                "type": "array", "minItems": 1,
+                "items": {
+                  "type": "object", "required": ["type", "u", "z"], "additionalProperties": false,
+                  "properties": { "type": { "type": "string", "minLength": 1 }, "u": { "type": "number" }, "z": { "type": "number", "minimum": 0 }, "rotated": { "type": "boolean", "description": "um 90° gedreht verlegt (Breite und Höhe getauscht)" } }
+                }
+              },
+              "port_u":    { "type": "number", "description": "u der Anschlüsse Vor-/Rücklauf (Unterkante)" },
+              "feed":      { "type": "array", "items": { "$ref": "#/$defs/point" }, "minItems": 1, "description": "Anbindeleitung ab Verteiler bis vor den Anschluss (Grundriss)" }
+            }
+          }
+        }
+      }
+    },
+    "structure": {
+      "description": "Tragwerk außerhalb von Wand und Decke: Unterzüge (beam) und Stützen (post)",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "material", "width"],
+        "additionalProperties": false,
+        "properties": {
+          "id":       { "$ref": "#/$defs/id" },
+          "name":     { "type": "string" },
+          "kind":     { "enum": ["beam", "post"] },
+          "material": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "width":    { "type": "number", "description": "beam: quer zur Achse, post: in x; Meter" },
+          "height":   { "type": "number", "description": "beam: Querschnittshöhe; Meter" },
+          "depth":    { "type": "number", "description": "post: in y; Meter" },
+          "start":    { "$ref": "#/$defs/point" },
+          "end":      { "$ref": "#/$defs/point" },
+          "z_top":    { "type": "number", "description": "beam: Oberkante relativ zum Geschossboden; Default = height" },
+          "position": { "$ref": "#/$defs/point", "description": "post: Mittelpunkt" },
+          "z0":       { "type": "number", "description": "post: Unterkante relativ zum Geschossboden; Default 0" },
+          "z1":       { "type": "number", "description": "post: Oberkante relativ zum Geschossboden; Default = height" }
+        }
+      }
+    },
+    "light_wells": {
+      "description": "Lichtschächte vor Kellerfenstern: Schachtwände, Sohle, Gitterrost",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "wall", "opening", "width", "projection", "depth", "terrain", "wall_thickness", "material", "grating"],
+        "additionalProperties": false,
+        "properties": {
+          "id":             { "$ref": "#/$defs/id" },
+          "name":           { "type": "string" },
+          "wall":           { "$ref": "#/$defs/id", "description": "Außenwand mit dem Fenster" },
+          "opening":        { "$ref": "#/$defs/id", "description": "Öffnung, vor der der Schacht sitzt (mittig)" },
+          "width":          { "type": "number", "description": "lichte Breite entlang der Wand; Meter" },
+          "projection":     { "type": "number", "description": "lichte Ausladung von der Außenfläche; Meter" },
+          "depth":          { "type": "number", "description": "lichte Tiefe unter Gelände; Meter" },
+          "terrain":        { "type": "number", "description": "Geländehöhe = Schachtoberkante, absolut; Meter" },
+          "wall_thickness": { "type": "number", "description": "Dicke von Schachtwänden und Sohle; Meter" },
+          "material":       { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "grating": {
+            "type": "object", "required": ["material", "thickness"], "additionalProperties": false,
+            "properties": { "material": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" }, "thickness": { "type": "number" } }
+          },
+          "estimated":      { "type": "boolean" },
+          "note":           { "type": "string" }
+        }
+      }
+    },
+    "outdoor_areas": {
+      "description": "Außenflächen (z. B. überdachte Terrasse)",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "rect"],
+        "additionalProperties": false,
+        "properties": {
+          "id":   { "$ref": "#/$defs/id" },
+          "name": { "type": "string", "minLength": 1 },
+          "rect": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4, "description": "[x, y, w, h]" }
+        }
+      }
+    },
+    "rooms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "polygon"],
+        "additionalProperties": false,
+        "properties": {
+          "id":        { "$ref": "#/$defs/id" },
+          "number":    { "type": "string", "minLength": 1, "description": "Raumnummer, eindeutig im Haus (z. B. 0.03)" },
+          "name":      { "type": "string", "minLength": 1 },
+          "usage":     { "enum": ["NUF1", "NUF2", "NUF3", "NUF4", "NUF5", "NUF6", "NUF7", "TF8", "VF9"], "description": "Nutzung nach DIN 277 (NUF1 Wohnen und Aufenthalt, NUF2 Büroarbeit, NUF3 Produktion, NUF4 Lagern, NUF5 Bildung, NUF6 Heilen, NUF7 Sonstige, TF8 Technik, VF9 Verkehr)" },
+          "height":    { "type": "number", "exclusiveMinimum": 0, "description": "lichte Raumhöhe in m (sonst Geschosshöhe minus Bodenaufbau)" },
+          "polygon":   { "$ref": "#/$defs/ortho_polygon", "description": "Lichtmaß (fertige Innenoberflächen), rechtwinklig, [[x, y], ...]" },
+          "ifc":       { "$ref": "#/$defs/ifc" },
+          "estimated": { "type": "boolean" },
+          "note":      { "type": "string" },
+          "coverings": { "type": "array", "items": { "$ref": "#/$defs/covering" } },
+          "furniture": { "type": "array", "description": "später: Möblierung", "items": { "type": "object" } }
+        }
+      }
+    }
+  }
+}

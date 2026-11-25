@@ -1,0 +1,68 @@
+{
+  "id": "merten-aquastar-schutzkontakt-steckdose",
+  "name": "Merten AQUASTAR Schutzkontakt-Steckdose",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4042811222277_merten-aquastar-schutzkontakt-steckdose"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Merten AQUASTAR Schutzkontakt-Steckdose",
+    "article_no": "8449910",
+    "ean": "4042811222277",
+    "url": "https://www.obi.de/p/8449910",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "125 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "7,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-06",
+        "source": "Kassenbon 2022-08-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 7.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-08",
+        "source": "Kassenbon 2023-04-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "schnellentluefter-3-8",
+  "name": "Schnellentlüfter 3/8\" Messing",
+  "category": "Heizung",
+  "description": "10 bar, mit automatischem Absperrventil",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Schnellentlüfter 3/8\"",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 10.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 2.2, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

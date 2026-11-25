@@ -1,0 +1,64 @@
+{
+  "id": "lampenfassung-e27",
+  "name": "Lampenfassung E27",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other",
+    "mounting": "flush",
+    "box_function": "device",
+    "size": "40 × 60 × 40 mm"
+  },
+  "estimated": true,
+  "note": "Platzhalter: Birnenfassung E27 mit Zuleitung von oben (3-adrig), Maße geschätzt",
+  "install": {
+    "trade": "electrical",
+    "group": "Fassungen",
+    "shape": "box",
+    "size": [
+      0.04,
+      0.06,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "top",
+        "pos": [
+          0,
+          0.03,
+          0
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "lehmfarbe-fesche-farbe",
+  "name": "Lehmfarbe",
+  "category": "Farbe",
+  "description": "Anstrich mit Lehmfarbe auf dem Lehmputz",
+  "conductivity": null,
+  "values_source": "Beschichtung, bauphysikalisch vernachlässigbar; Dicke geschätzt 1 mm",
+  "appearance": { "color": "#E6DCCB", "roughness": 0.8, "hatch": "none" },
+  "product": { "manufacturer": "company:fesche-farbe", "model": "Lehmfarbe" }
+}

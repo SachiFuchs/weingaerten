@@ -1,0 +1,43 @@
+{
+  "id": "roof-gutter",
+  "name": "Dachrinne (Bestand, neu montiert)",
+  "ifc": {
+    "entity": "IfcPipeSegment",
+    "predefined_type": "GUTTER"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Pos. 06.01: vorhandene Rinne 24 m reinigen, abnehmen, lagern und auf die neue Keilbohle montieren, 24 m à 35,00 € = 840,00 €. Material der Bestandsrinne nicht angegeben (Kupfer angenommen)",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 24.0,
+    "height": 0.1,
+    "depth": 0.15,
+    "quantity": 24,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:copper-sheet"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 35.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 06.01, je m",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 35.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.01, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

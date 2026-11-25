@@ -1,0 +1,32 @@
+{
+  "id": "p-1",
+  "component": "tga-component:kaiser-up-geraetedose",
+  "storey": "ground",
+  "host": {
+    "wall": "w-west-z2",
+    "face": "inside"
+  },
+  "u": 2.2,
+  "z": 1.7,
+  "depth": 0,
+  "rot": {},
+  "clamps": [
+    {
+      "role": "L",
+      "clamp": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange"
+    },
+    {
+      "role": "N",
+      "clamp": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange"
+    },
+    {
+      "role": "PE",
+      "clamp": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange"
+    }
+  ],
+  "connections": {
+    "top": "p-4.b",
+    "bottom": "p-3.b",
+    "left": "p-2.b"
+  }
+}

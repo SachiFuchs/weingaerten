@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/class",
+  "title": "Bauteil-Klasse (Fenster, Tür, …) – legt die Parameter der Bauteile fest",
+  "type": "object",
+  "required": ["id", "name", "geometry", "opening_capable", "parameters", "material_roles"],
+  "additionalProperties": false,
+  "properties": {
+    "id":              { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "photos": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(jpg|jpeg|png|webp)$" } },
+    "name":            { "type": "string", "minLength": 1 },
+    "description":     { "type": "string" },
+    "geometry":        { "enum": ["window", "door", "box", "passage"], "description": "Zeichenrezept; window/door brauchen width, height, depth, frame_width; window zusätzlich sashes; passage (Durchgang ohne Zarge) nur width, height" },
+    "opening_capable": { "type": "boolean", "description": "Default für Bauteile dieser Klasse: in Wandöffnungen einsetzbar" },
+    "din276":          { "type": "string", "pattern": "^3[0-9]{2}$", "description": "Optional; ohne Angabe aus der Wand abgeleitet (330 → 334, 340 → 344)" },
+    "ifc": {
+      "type": "object",
+      "description": "IFC-Zuordnung (IFC4) der Bauteile dieser Klasse; Instanzklasse, der Typ (…Type) ergibt sich daraus; Bauteile können sie überschreiben. Vom Core nicht ausgewertet",
+      "required": ["entity"],
+      "additionalProperties": false,
+      "properties": {
+        "entity":          { "type": "string", "pattern": "^Ifc[A-Z][A-Za-z]+$", "description": "z. B. IfcWindow" },
+        "predefined_type": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$", "description": "PredefinedType, z. B. WINDOW; USERDEFINED zusammen mit object_type" },
+        "object_type":     { "type": "string", "minLength": 1, "description": "ObjectType bei predefined_type USERDEFINED" }
+      }
+    },
+    "parameters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "key":      { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "name":     { "type": "string", "minLength": 1 },
+          "type":     { "enum": ["length", "number", "choice", "bool"], "description": "length in m (Formular in cm)" },
+          "default":  {},
+          "min":      { "type": "number" },
+          "max":      { "type": "number" },
+          "options":  { "type": "array", "description": "Pflicht bei choice" },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "material_roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "key":     { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "name":    { "type": "string", "minLength": 1 },
+          "default": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "pu-white",
+  "name": "Holzkern mit Polyurethanummantelung weiß",
+  "category": "Kunststoff",
+  "description": "Rahmenmaterial VELUX GGU (Holzkern, PU-ummantelt)",
+  "values_source": "keine Kennwerte – maßgeblich ist Uw des Fensters",
+  "appearance": { "color": "#F2F2EE", "roughness": 0.4, "hatch": "none" }
+}

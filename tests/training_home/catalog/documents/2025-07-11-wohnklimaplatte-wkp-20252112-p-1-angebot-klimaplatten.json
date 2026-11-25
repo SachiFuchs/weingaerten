@@ -1,0 +1,76 @@
+{
+  "id": "2025-07-11-wohnklimaplatte-wkp-20252112-p-1-angebot-klimaplatten",
+  "name": "Wohnklimaplatte WKP-20252112-P-1 – Angebot Klimaplatten",
+  "doc_type": "quote",
+  "supplier": "company:wohnklimaplatte",
+  "date": "2025-07-11",
+  "number": "WKP-20252112-P-1",
+  "customer_number": null,
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Rechnungs- und Lieferanschrift: Nadja Suri-Bernas, Weingärten 8, 73037 Göppingen",
+  "description": "Vorangebot von Wohnklimaplatte.de (Aux 1804 GmbH) vom 11.07.2025 über 20 Kalziumsilikatplatten im Format 1000x1000x50 mm samt Kleber, Spachtel und Grundierung für Weingärten 8. Ausgeführt wurde die Bestellung anschließend mit 17 größeren Platten (1000x1220 mm) gemäß Rechnung RE-WKP-1243133 vom 16.07.2025.",
+  "prices_are_net": false,
+  "items": [
+    {
+      "position": "1",
+      "description": "KP08.EP01.050.0001-00 Kalziumsilikatplatte 1.000x1.000x50 mm / 1,00 m² (Bruttopreis)",
+      "quantity": 20.0,
+      "unit": "Stk",
+      "unit_price": 51.9,
+      "total_price": 1038.0,
+      "ref": "material:kalziumsilikatplatte-50"
+    },
+    {
+      "position": "2",
+      "description": "ZB08.SK01.025.0025-00 Spezial KP-Silikatkleber (Bruttopreis)",
+      "quantity": 4.0,
+      "unit": "Stk",
+      "unit_price": 42.5,
+      "total_price": 170.0,
+      "ref": "material:kp-silikatkleber"
+    },
+    {
+      "position": "3",
+      "description": "ZB08.GS01.020.0020-00 Glätt-/Kalkspachtel (Bruttopreis)",
+      "quantity": 2.0,
+      "unit": "Stk",
+      "unit_price": 34.0,
+      "total_price": 68.0,
+      "ref": "material:kalkspachtel-kalziumsilikat"
+    },
+    {
+      "position": "4",
+      "description": "ZB08.SG01.005.0005-00 Silikatgrundierung (Bruttopreis)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 27.9,
+      "total_price": 27.9,
+      "ref": "material:silikatgrundierung-kalziumsilikat"
+    },
+    {
+      "position": "5",
+      "description": "Speditionslieferung Standard",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 0.0,
+      "total_price": 0.0
+    }
+  ],
+  "items_gross": true,
+  "subtotal_net": 1095.71,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1095.71,
+  "vat_rate": 19,
+  "vat_amount": 208.19,
+  "total_gross": 1303.9,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-07-11-wohnklimaplatte-WKP-20252112-P-1-angebot-klimaplatten.json",
+  "source_sha256": "3e619d768bf58ddc14b75f83072b72d95670f66e5bbf16acdf040736f42f098a",
+  "original_filename": "2025-07-16 WKP-20252112-P-1.pdf",
+  "related": [
+    "document:2025-07-16-wohnklimaplatte-re-wkp-1243133-kalziumsilikatplatten"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nagelschelle-10-mm-14-mm-40-stueck",
+  "name": "Nagelschelle Ø 10 mm - Ø 14 mm 40 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007872908157_nagelschelle-10-mm-14-mm-40-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Nagelschelle Ø 10 mm - Ø 14 mm 40 Stück",
+    "article_no": "5462031",
+    "ean": "4007872908157",
+    "url": "https://www.obi.de/p/5462031",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "2 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,3 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "10 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

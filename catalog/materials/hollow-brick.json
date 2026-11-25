@@ -1,0 +1,12 @@
+{
+  "id": "hollow-brick",
+  "name": "Hohlraumziegel",
+  "category": "Mauerwerk",
+  "description": "Hochlochziegel-Mauerwerk",
+  "conductivity": 0.14,
+  "density": 800,
+  "vapour_resistance": 5,
+  "fire_class": "A1",
+  "values_source": "Richtwert Hochlochziegel; genaues Produkt unbekannt",
+  "appearance": { "color": "#B5562F", "roughness": 0.95, "hatch": "masonry" }
+}

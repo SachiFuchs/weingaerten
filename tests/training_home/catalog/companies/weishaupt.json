@@ -1,0 +1,8 @@
+{
+  "id": "weishaupt",
+  "name": "Weishaupt",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "Hersteller laut Beleg: Weishaupt (Wärmepumpen)"
+}

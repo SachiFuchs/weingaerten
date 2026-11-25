@@ -1,0 +1,45 @@
+{
+  "id": "siemens-fi-ls-b16-30ma",
+  "name": "Siemens FI/LS B16 30 mA",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "fuse",
+    "size": "B16 30 mA"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:siemens",
+    "model": "Siemens FI/LS B16 30 mA",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 43.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 006, je Stk",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      },
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 43.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-20",
+        "source": "Rechnung 10100108, Pos. 002, je Stk",
+        "document": "document:2023-04-20-speidel-10100108-uv-nachruestung"
+      },
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 55.28,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-10-17",
+        "source": "Rechnung 10101973, Pos. 003, je Stk",
+        "document": "document:2023-10-17-speidel-10101973-verteiler-haus-garten"
+      }
+    ]
+  }
+}

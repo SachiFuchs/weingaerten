@@ -1,0 +1,132 @@
+{
+  "id": "swissporboard-winkelelement-1300-mm-x-20",
+  "name": "swissporBOARD Winkelelement 1300 mm x 200 mm x 200 mm x 20 mm",
+  "category": "Baustoffe",
+  "description": "Du möchtest Dein Zuhause effizient dämmen und gestalten? Mit dem swissporBOARD Winkelelement 1300 mm x 200 mm x 200 mm x 20 mm ist das ganz einfach.\n \nProduktmerkmale des swissporBOARD Winkelelement 1300 mm x 200 mm x 200 mm x 20 mm\nDarum solltest Du zugreifen: Dieses Winkelelement ist ideal für Neubauten, Raumgestaltungen und Renovierungen geeignet. Es kann an Decken, Wänden und Böden eingesetzt werden und bietet eine hervorragende Wärmedämmung. Der Kern aus extrudiertem Polystyrolschaum (XPS) sorgt für eine hohe Druckfestigkeit und ein geringes Gewicht, was die Handhabung erleichtert. Die wasserabweisenden Eigenschaften schützen vor Feuchtigkeit, während die Beschichtung aus Spezialmörtel und Glasfasergewebe zusätzliche Stabilität und Langlebigkeit bietet. Mit einer Länge von 1300 mm und einer Breite von 200 mm ist es vielseitig einsetzbar und passt sich verschiedenen baulichen Anforderungen an.\n \nFestgezurrt: Der swissporBOARD Winkelelement bietet eine effektive Dämmung und flexible Einsatzmöglichkeiten für Dein Bauprojekt.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10601588_swissporboard-winkelelement-1300-mm-x-20"
+  ],
+  "product": {
+    "manufacturer": "company:swisspor",
+    "model": "swissporBOARD Winkelelement 1300 mm x 200 mm x 200 mm x 20 mm",
+    "article_no": "10601588",
+    "ean": "4260650873973",
+    "url": "https://www.hornbach.de/p/swissporboard-winkelelement-1300-mm-x-200-mm-x-200-mm-x-20-mm/10601588/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Bauplattensystem"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Winkelelement"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Neubau, Raumgestaltung, Renovierung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Decke, Wand, Boden"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Innen"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Wasserabweisend, Wärmedämmend, Druckfest, Geringes Gewicht"
+        },
+        {
+          "label": "Material",
+          "value": "Verbundwerkstoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "XPS (extrudiertes Polystyrol)"
+        },
+        {
+          "label": "Material Kern",
+          "value": "Extrudierter Polystyrolschaum (XPS)"
+        },
+        {
+          "label": "Material Beschichtung",
+          "value": "Spezialmörtel, Glasfasergewebe"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Bauplatte"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer"
+        },
+        {
+          "label": "Brandklasse",
+          "value": "Euroklasse E"
+        },
+        {
+          "label": "Einsatztemperatur",
+          "value": "0 °C - 35 °C"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Speziell für Ecklösnugen und Rohrverkleidungen"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "PA7J"
+        },
+        {
+          "label": "EAN",
+          "value": "4260650873973"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Länge",
+          "value": "1.300 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "200 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "20 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 19.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-08-17",
+        "source": "Kassenbon 2026-08-17, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 19.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-08-21",
+        "source": "Kassenbon 2026-08-21, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-10601588_1.jpg",
+    "hornbach-10601588_2.jpg",
+    "hornbach-10601588_3.jpg"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "telefonkabel-jy-st-y-2-x-2-x-0-6-grau-10-m",
+  "name": "Telefonkabel JY(ST)Y 2 x 2 x 0,6 Grau 10 m",
+  "class": "tga-class:cable",
+  "din276": "450",
+  "system_type": "Fernmelde",
+  "params": {
+    "cable_type": "JY(ST)Y",
+    "cores": 4,
+    "cross_section_mm2": 0.28
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297714767_telefonkabel-jy-st-y-2-x-2-x-0-6-grau-10-m"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Telefonkabel JY(ST)Y 2 x 2 x 0,6 Grau 10 m",
+    "article_no": "7625379",
+    "ean": "4008297714767",
+    "url": "https://www.obi.de/p/7625379",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "370 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.19,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-12",
+        "source": "Kassenbon 2023-08-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "cut": {
+    "max_length": 10.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

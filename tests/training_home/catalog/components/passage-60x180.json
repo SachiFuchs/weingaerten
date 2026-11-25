@@ -1,0 +1,12 @@
+{
+  "id": "passage-60x180",
+  "name": "Durchgang 0,60 × 1,80",
+  "description": "Durchgang Küche – Kammer (Korrektur EG, rot)",
+  "class": "class:passage",
+  "opening_capable": true,
+  "params": {
+    "width": 0.6,
+    "height": 1.8
+  },
+  "materials": {}
+}

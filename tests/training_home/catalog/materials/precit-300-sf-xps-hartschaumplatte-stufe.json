@@ -1,0 +1,130 @@
+{
+  "id": "precit-300-sf-xps-hartschaumplatte-stufe",
+  "name": "PRECIT 300-SF XPS-Hartschaumplatte Stufenfalz WLS 034 Deckfläche 1250 mm x 600 mm x 60 mm (Plattenmaß 1265 mm x 615 mm) Pack = 5,25 m²",
+  "category": "Baustoffe",
+  "description": "Du willst Kellerwand oder Boden zuverlässig dämmen, ohne dass Feuchtigkeit die Leistung ausbremst?\n\nProduktmerkmale des/der PRECIT 300-SF XPS-Hartschaumplatte Stufenfalz WLS 034 Deckfläche 1250 mm x 600 mm x 60 mm (Plattenmaß 1265 mm x 615 mm) Pack = 5,25 m²\n\nDarum solltest Du zugreifen: Als XPS-Dämmplatte für die Perimeterdämmung ist das Material wasserresistent und frostsicher, sodass die Dämmwirkung auch in erdberührten Bereichen stabil bleibt. Die sehr hohe Druckfestigkeit macht sie zur passenden Wahl unter Bodenaufbauten, weil die Platte Lasten aufnehmen kann und die Dämmschicht dadurch dauerhaft funktionsfähig bleibt. Der Stufenfalz unterstützt eine passgenaue Verlegung, wodurch Fugen reduziert werden und die Fläche gleichmäßiger dämmt.\n\nDie glatte Oberfläche erleichtert das saubere Ansetzen und Ausrichten an Wand und Boden. Alterungsbeständigkeit, Formbeständigkeit und schwundfreie Eigenschaften sorgen dafür, dass die Platte ihre Maße behält und die Dämmung langfristig plan anliegt. Die orange Grundfarbe unterstützt die schnelle Erkennung auf der Baustelle und hilft beim zügigen Sortieren und Verlegen.\n\nFestgezurrt: Diese XPS-Dämmplatte ist eine robuste Lösung für die Perimeterdämmung an Boden und Wand, wenn Druckfestigkeit, Feuchtebeständigkeit und eine fugenarme Verlegung im Vordergrund stehen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-8453606_precit-300-sf-xps-hartschaumplatte-stufe"
+  ],
+  "product": {
+    "manufacturer": "company:precit-therm",
+    "model": "PRECIT 300-SF XPS-Hartschaumplatte Stufenfalz WLS 034 Deckfläche 1250 mm x 600 mm x 60 mm (Plattenmaß 1265 mm x 615 mm) Pack = 5,25 m²",
+    "article_no": "8453606",
+    "ean": "2007003876883",
+    "url": "https://www.hornbach.de/p/precit-300-sf-xps-hartschaumplatte-stufenfalz-wls-034-deckflaeche-1250-mm-x-600-mm-x-60-mm-plattenmass-1265-mm-x-615-mm-pack-5-25-m/8453606/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dämmplatte"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Perimeterdämmung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Boden, Wand"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Außen"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "XPS (extrudiertes Polystyrol)"
+        },
+        {
+          "label": "Kantenausprägung",
+          "value": "Stufenfalz"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Glatt"
+        },
+        {
+          "label": "Druckbelastung",
+          "value": "300 kPA"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Alterungsbeständig, Formbeständig, Schwundfrei"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Orange"
+        },
+        {
+          "label": "Wärmeleitgruppe",
+          "value": "WLG 035"
+        },
+        {
+          "label": "Wärmeleitzahl",
+          "value": "34 Wärmeleitfähigkeit (λ)"
+        },
+        {
+          "label": "Nennwert der Wärmeleitfähigkeit λD",
+          "value": "0,034 W/(mK)"
+        },
+        {
+          "label": "Packinhalt",
+          "value": "7 Stück"
+        },
+        {
+          "label": "Brandschutzklasse",
+          "value": "Euroklasse E"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Oberfläche glatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "Z7U1"
+        },
+        {
+          "label": "EAN",
+          "value": "4032443175690, 4055243026900, 4306516389711"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "615 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "60 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "1.265 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 12.38,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-14",
+        "source": "Kassenbon 2023-10-14, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-8453606_1.jpg"
+  ]
+}

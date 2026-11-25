@@ -1,0 +1,12 @@
+{
+  "id": "concrete-c25",
+  "name": "Stahlbeton C25/30",
+  "category": "Beton",
+  "description": "Stahlbeton für die Bodenplatte",
+  "conductivity": 2.3,
+  "density": 2400,
+  "vapour_resistance": 80,
+  "fire_class": "A1",
+  "values_source": "Richtwert (DIN EN ISO 10456)",
+  "appearance": { "color": "#9E9E9A", "roughness": 0.9, "hatch": "concrete" }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "biotopp-pe-aussensaeule",
+  "name": "PE-Außensäule 400 × 250 × 1695 mm",
+  "class": "tga-class:install-part",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "part_type": "box",
+    "size": "400x250x1695"
+  },
+  "note": "Steuer-/Gebläsesäule mit Lüftungsgitter",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:eco-water-solution",
+        "price": 472.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-12-20",
+        "source": "Angebot 221108S-b, Pos. 5, je Stk",
+        "document": "document:2022-12-20-ecowatersolution-221108s-b-angebot-klaeranlage"
+      },
+      {
+        "supplier": "company:eco-water-solution",
+        "price": 472.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-05-15",
+        "source": "Rechnung 30024A01, Pos. 5, je Stk",
+        "document": "document:2023-05-15-ecowatersolution-30024a01-schlussrechnung-biotopp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "gebo-rohrnippel-3-4",
+  "name": "Gebo Rohrnippel 3/4\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6636315_gebo-rohrnippel-3-4",
+    "hornbach-6636316_gebo-rohrnippel-3-4"
+  ],
+  "product": {
+    "model": "Gebo Rohrnippel 3/4\"",
+    "article_no": "6636315",
+    "ean": "4019576059387",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.55,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-26",
+        "source": "Kassenbon 2026-06-26, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 2.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-26",
+        "source": "Kassenbon 2026-06-26, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

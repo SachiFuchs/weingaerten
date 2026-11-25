@@ -1,0 +1,34 @@
+{
+  "id": "pp-r-schweiss-uebergangsstueck-dn-20-ag-1-2",
+  "name": "Schweiß-Übergangsstück PP-R DN 20, Außengewinde ½″",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "fitting_type": "adapter",
+    "system_line": "ppr",
+    "dn": 20,
+    "z_length": 0.03,
+    "line_to": "thread",
+    "dn_to": 15
+  },
+  "description": "Übergang von PP-R-Schweißrohr DN 20 auf Außengewinde ½″ (Messing-Gewindeeinsatz). Unlösbare Muffenschweißverbindung, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "catalog_material": "material:pp-r-schweiss-uebergangsstueck-dn-20-ag-1-2",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "line": "thread",
+        "dn": 15,
+        "gender": "spigot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "eckventil-schell-comfort-12-verchromt-mi",
+  "name": "Eckventil SCHELL Comfort ½\" verchromt mit Dichtung",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-3829149_eckventil-schell-comfort-12-verchromt-mi"
+  ],
+  "product": {
+    "manufacturer": "company:schell",
+    "model": "Eckventil SCHELL Comfort ½\" verchromt mit Dichtung",
+    "article_no": "3829149",
+    "ean": "4021163105582",
+    "url": "https://www.hornbach.de/p/eckventil-schell-comfort-12-verchromt-mit-dichtung/3829149/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Ventil"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Eckventil"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Absperrung von Armaturen"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer, Gäste-WC"
+        },
+        {
+          "label": "Material",
+          "value": "Messing"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Glänzend"
+        },
+        {
+          "label": "Anschluss",
+          "value": "1/2 Zoll"
+        },
+        {
+          "label": "Funktionen",
+          "value": "Selbstdichtend"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Wasser"
+        },
+        {
+          "label": "Beschreibung",
+          "value": "Werkstoff: Messing konform TrinkwV, Prüfzeichen: P-IX 212/IA, Geräuschklasse: I, Gewicht: 0.15 kg/St, Durchflussklasse A"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Langer Schubschaft, Schubrosette Durchmesser 54 mm, Zugfeste SCHELL Messing-Konus-Quetschverschraubung mit Längenausgleich"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Chrom"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "049170699"
+        },
+        {
+          "label": "Modell",
+          "value": "Comfort"
+        },
+        {
+          "label": "Armaturenanschluss",
+          "value": "3/8 Zoll"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "2W6W"
+        },
+        {
+          "label": "EAN",
+          "value": "2003829149002, 4021163105582, 4021163131918"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 4.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-25",
+        "source": "Kassenbon 2026-04-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-3829149_1.jpg"
+  ]
+}

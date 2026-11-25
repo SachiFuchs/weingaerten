@@ -1,0 +1,145 @@
+{
+  "id": "avital-brausegarnitur-nera-graphit-matt",
+  "name": "AVITAL Brausegarnitur NERA graphit matt Brausestangenlänge 800 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-12038036_avital-brausegarnitur-nera-graphit-matt"
+  ],
+  "product": {
+    "manufacturer": "company:avital",
+    "model": "AVITAL Brausegarnitur NERA graphit matt Brausestangenlänge 800 mm",
+    "article_no": "12038036",
+    "ean": "4306516303229",
+    "url": "https://www.hornbach.de/p/avital-brausegarnitur-nera-graphit-matt-brausestangenlaenge-800-mm/12038036/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Brausegarnitur"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Duschstangenset"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Grau"
+        },
+        {
+          "label": "Farbton",
+          "value": "Graphit"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Matt"
+        },
+        {
+          "label": "Form",
+          "value": "Rund"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Brausestange, Handbrause, Brauseschlauch"
+        },
+        {
+          "label": "Brausestange - Länge",
+          "value": "800 mm"
+        },
+        {
+          "label": "Brausestange - Tiefe",
+          "value": "104 mm"
+        },
+        {
+          "label": "Montageart",
+          "value": "Schrauben"
+        },
+        {
+          "label": "Bohrlochabstand",
+          "value": "760 mm"
+        },
+        {
+          "label": "Handbrause - Anzahl Strahlarten",
+          "value": "3-fach verstellbar"
+        },
+        {
+          "label": "Strahlarten",
+          "value": "Rain, Massage, Mix"
+        },
+        {
+          "label": "Besonderheiten",
+          "value": "Easy Clean, Knopfumstellung"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Brauseschlauch mit Verdrehsicherung, Einfache Entkalkung, Innenliegende Wasserführung, Variable Befestigung"
+        },
+        {
+          "label": "Durchflussmenge bei 3 bar",
+          "value": "7,8 l"
+        },
+        {
+          "label": "Brauseschlauchlänge",
+          "value": "1.500 mm"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Duschen"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Duschwanne, Badewanne"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff, Metall"
+        },
+        {
+          "label": "Serie",
+          "value": "NERA"
+        },
+        {
+          "label": "Handbrause - Breite",
+          "value": "130 mm"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "PUTV"
+        },
+        {
+          "label": "EAN",
+          "value": "4306516303229"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 49.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-02",
+        "source": "Kassenbon 2026-10-02, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-12038036_1.jpg",
+    "hornbach-12038036_2.jpg",
+    "hornbach-12038036_3.jpg",
+    "hornbach-12038036_4.jpg",
+    "hornbach-12038036_5.jpg",
+    "hornbach-12038036_6.jpg",
+    "hornbach-12038036_7.jpg",
+    "hornbach-12038036_8.jpg"
+  ]
+}

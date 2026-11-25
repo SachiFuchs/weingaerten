@@ -1,0 +1,43 @@
+{
+  "id": "roof-eaves-boards",
+  "name": "Traufausbildung: Stützbohle 140 mm, Keilbohle, Windbrett",
+  "ifc": {
+    "entity": "IfcMember",
+    "predefined_type": "MEMBER"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 03: Stützbohle Nadelholz imprägniert, Höhe 140 mm, an der Traufe durchgehend; Keilbohle als Übergang zur Rinne; Windbrett als seitliche Abdeckung der Aufsparrendämmung. Mengen und Preise im Scan nicht lesbar – Länge 24 m angenommen (= Rinnenlänge)",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 24.0,
+    "height": 0.14,
+    "depth": 0.06,
+    "quantity": 24,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:softwood-battens"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 15.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 03.06, je m",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 15.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 03.06, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

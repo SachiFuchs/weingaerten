@@ -1,0 +1,39 @@
+{
+  "id": "2023-08-30-schuck-1800-geruest-verlaengerung",
+  "name": "Schuck 1800 – Gerüst Verlängerung",
+  "doc_type": "invoice",
+  "supplier": "company:schuck-dach",
+  "date": "2023-08-30",
+  "number": "1800",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Objekt nicht im Beleg; Zuordnung Weingärten 8 lt. Auftraggeber (Beleg: \"Suri Verlängerungsmiete Gerüst\")",
+  "description": "Rechnung der Schuck Dachdeckungen GmbH über die Verlängerungsmiete des Gerüsts für 7 Wochen zu je 135,00 EUR netto. Der Beleg nennt kein Objekt; die Zuordnung zur Dachsanierung Weingärten 8 erfolgt nach Auftraggeber. Die Rechnung ist eine Nachberechnung zusätzlich zur Schlussrechnung 1783.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01.01",
+      "description": "Verlängerungsmiete Gerüst für 7 Wochen",
+      "quantity": 7,
+      "unit": "Stk",
+      "unit_price": 135.0,
+      "total_price": 945.0
+    }
+  ],
+  "subtotal_net": 945.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 945.0,
+  "vat_rate": 19,
+  "vat_amount": 179.55,
+  "total_gross": 1124.55,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-08-30-schuck-1800-geruest-verlaengerung.json",
+  "source_sha256": "862b1f93dd3f9cd3ee1cd04dfd1432ef96e5325bdaa5ae93333667a6a9360065",
+  "original_filename": "2023-08-30 Dachdecker Schuck - Nachzahlung Dach Suri1 RE-Nr_ 1800.PDF",
+  "related": [
+    "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+  ]
+}

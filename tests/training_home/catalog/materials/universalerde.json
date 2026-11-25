@@ -1,0 +1,27 @@
+{
+  "id": "universalerde",
+  "name": "Universalerde",
+  "category": "Schüttgut",
+  "description": "1 m³ ≈ 0,85 t, je Tonne",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Universalerde",
+    "offers": [
+      {
+        "supplier": "company:helmut-kaelberer",
+        "price": 71.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-31",
+        "source": "Rechnung S9-4427907, Pos. 6, je t",
+        "document": "document:2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#A8A39A",
+    "roughness": 1.0,
+    "hatch": "concrete"
+  }
+}

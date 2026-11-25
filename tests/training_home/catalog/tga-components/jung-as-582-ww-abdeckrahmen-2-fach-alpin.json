@@ -1,0 +1,96 @@
+{
+  "id": "jung-as-582-ww-abdeckrahmen-2-fach-alpin",
+  "name": "Jung AS 582 WW Abdeckrahmen 2-fach alpinweiß AS500",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-7041339_jung-as-582-ww-abdeckrahmen-2-fach-alpin"
+  ],
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung AS 582 WW Abdeckrahmen 2-fach alpinweiß AS500",
+    "article_no": "7041339",
+    "ean": "4011377309555",
+    "url": "https://www.hornbach.de/p/jung-as-582-ww-abdeckrahmen-2-fach-alpinweiss-as500/7041339/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rahmen"
+        },
+        {
+          "label": "Variante",
+          "value": "2-Fach"
+        },
+        {
+          "label": "Serie",
+          "value": "AS500"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "AS582WW"
+        },
+        {
+          "label": "Einbau",
+          "value": "Senkrecht, Waagerecht"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 44"
+        },
+        {
+          "label": "Farbton",
+          "value": "Alpinweiß"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Schutzgrad IP44 nur mit Dichtungsflansch 551WU, AS500"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "YVKA"
+        },
+        {
+          "label": "EAN",
+          "value": "4008153478369, 4011377309555"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "80,5 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "151,5 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-11-22",
+        "source": "Kassenbon 2025-11-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-7041339_1.jpg"
+  ]
+}

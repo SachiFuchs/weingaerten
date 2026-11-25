@@ -1,0 +1,16 @@
+{
+  "id": "interior-insulation-ii1",
+  "name": "Innendämmung Holzfaser 6 cm, Lehm",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "INSULATION" },
+  "category": "interior_lining",
+  "din276": "345",
+  "description": "Innendämmung auf Wandbereichen: Lehmkleber 3 mm, Holzfaserplatte 6 cm, Lehmputz 3 mm (Naturbo), Lehmfarbe (Fesche Farbe); Schichten von der Wand zum Raum",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:lehmkleber-naturbo", "thickness": 0.003 },
+    { "material": "material:holzfaserplatte-naturbo", "thickness": 0.06 },
+    { "material": "material:lehmputz-naturbo", "thickness": 0.003 },
+    { "material": "material:lehmfarbe-fesche-farbe", "thickness": 0.001 }
+  ],
+  "visualization": { "view": "outer_layers", "section": "all_layers" }
+}

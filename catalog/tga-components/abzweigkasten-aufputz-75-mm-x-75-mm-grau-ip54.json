@@ -1,0 +1,173 @@
+{
+  "id": "abzweigkasten-aufputz-75-mm-x-75-mm-grau-ip54",
+  "name": "Abzweigkasten Aufputz 75 mm x 75 mm Grau IP54",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface",
+    "box_function": "junction",
+    "size": "75 × 75 × 40 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Abzweigkasten 80x80)",
+  "imported_from": [
+    "ean-4007873915369_abzweigkasten-aufputz-75-mm-x-75-mm-grau-ip54"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Abzweigkasten Aufputz 75 mm x 75 mm Grau IP54",
+    "article_no": "7510944",
+    "ean": "4007873915369",
+    "url": "https://www.obi.de/p/7510944",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-09",
+        "source": "Kassenbon 2023-09-09, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "surface",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Verteilerdosen",
+    "shape": "box",
+    "size": [
+      0.075,
+      0.075,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0375,
+          -0.02
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0375,
+          -0.02
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0375,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0375,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "on"
+    ],
+    "estimated": true
+  }
+}

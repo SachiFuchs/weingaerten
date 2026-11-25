@@ -1,0 +1,13 @@
+{
+  "id": "tw-stutzen-dg-hot",
+  "name": "Anschluss Warmwasser DG (verschlossen)",
+  "component": "tga-component:water-stub",
+  "storey": "storey:upper",
+  "room": "room-dg-bad",
+  "position": [
+    6.742,
+    5.03,
+    3.25
+  ],
+  "estimated": true
+}

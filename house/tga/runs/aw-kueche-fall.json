@@ -1,0 +1,31 @@
+{
+  "id": "aw-kueche-fall",
+  "name": "Fallleitung Küche (Stutzen DG bis Keller)",
+  "component": "tga-component:ht-pipe-90",
+  "system": "waste-water-eg",
+  "installation": "concealed",
+  "points": [
+    [
+      6.65,
+      5.0,
+      3.05
+    ],
+    [
+      6.65,
+      5.0,
+      -0.4
+    ],
+    [
+      6.8,
+      5.0,
+      -0.403
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:stutzen-dg-kueche",
+  "into": {
+    "run": "tga-run:aw-kueche-kg",
+    "kind": "continue"
+  },
+  "note": "Durch EG-Decke, Bodenplatte und Keller; im DG verschlossener Stutzen für späteres Bad"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "isolierrohr-leicht-en-16-laenge-10-m",
+  "name": "Isolierrohr leicht EN 16 Länge 10 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "conduit"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873916489_isolierrohr-leicht-en-16-laenge-10-m"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Isolierrohr leicht EN 16 Länge 10 m",
+    "article_no": "7539414",
+    "ean": "4007873916489",
+    "url": "https://www.obi.de/p/7539414",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "560 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "1,6 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "1,6 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

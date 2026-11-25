@@ -1,0 +1,45 @@
+{
+  "id": "2022-12-05-agrieuro-38109-2022de-benzin-haecksler",
+  "name": "Agrieuro 38109/2022DE – Benzin Häcksler",
+  "doc_type": "invoice",
+  "supplier": "company:agrieuro",
+  "date": "2022-12-05",
+  "number": "38109/2022DE",
+  "customer_number": null,
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Versandadresse: Sachindra Suri, Weingärten 8, 73037 Göppingen (Rechnungsempfänger: Monika Bernas, Bestellung Nr. 2043427 vom 28.11.2022)",
+  "description": "Rechnung von AgriEuro (Italien) über einen professionellen Benzin-Häcksler GreenBay GB-WRC 100 H für den Garten Weingärten 8. Bestellnummer 2043427 vom 28.11.2022, Zahlung per Banküberweisung, versandkostenfrei. Preise inkl. 19 % deutscher MwSt.",
+  "prices_are_net": false,
+  "items": [
+    {
+      "position": "1",
+      "description": "K602900 GreenBay GB-WRC 100 H professioneller Benzin-Häcksler (Bruttopreis)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 806.46,
+      "total_price": 806.46
+    },
+    {
+      "position": "2",
+      "description": "Versandkosten",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 0.0,
+      "total_price": 0.0
+    }
+  ],
+  "items_gross": true,
+  "subtotal_net": 677.7,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 677.7,
+  "vat_rate": 19,
+  "vat_amount": 128.76,
+  "total_gross": 806.46,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-12-05-agrieuro-38109-2022DE-benzin-haecksler.json",
+  "source_sha256": "c7b79417f2d9ceac26f411e5849f07757f7c482efa71526da557e305ea3e5572",
+  "original_filename": "2022-12-06  AgriEuro Haecksler #2043427.pdf"
+}

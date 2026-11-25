@@ -1,0 +1,30 @@
+{
+  "id": "bekotec-verschraubung-14-3-4",
+  "name": "Schlüter-BEKOTEC-THERM-KV Klemmringverschraubung 14 mm, 3/4\"",
+  "category": "Heizung",
+  "description": "vernickeltes Messing, 3/4\" (DN 20) Eurokonus, Set mit 2 Stück für Vor- und Rücklauf",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:schlueter",
+    "model": "BEKOTEC-THERM-KV 14",
+    "article_no": "BTZ2KV14",
+    "url": "https://www.bau99.de/schlueter-bekotec-therm-kv-klemmringverschraubung-dn-20-3-4-14-mm-btz2kv14/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 6.63,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 3.7, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

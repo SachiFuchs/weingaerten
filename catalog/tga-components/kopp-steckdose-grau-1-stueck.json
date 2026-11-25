@@ -1,0 +1,56 @@
+{
+  "id": "kopp-steckdose-grau-1-stueck",
+  "name": "Kopp Steckdose Grau 1 Stück",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008224528412_kopp-steckdose-grau-1-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:heinrich-kopp",
+    "model": "Kopp Steckdose Grau 1 Stück",
+    "article_no": "8411407",
+    "ean": "4008224528412",
+    "url": "https://www.obi.de/p/8411407",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "107 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-15",
+        "source": "Kassenbon 2026-10-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

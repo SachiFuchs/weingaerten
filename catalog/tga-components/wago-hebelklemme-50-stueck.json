@@ -1,0 +1,78 @@
+{
+  "id": "wago-hebelklemme-50-stueck",
+  "name": "Wago Hebelklemme 50 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873152757_wago-hebelklemme-50-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Hebelklemme 50 Stück",
+    "article_no": "1144864",
+    "ean": "4007873152757",
+    "url": "https://www.obi.de/p/1144864",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "3 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "1,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 19.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 19.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-18",
+        "source": "Kassenbon 2023-09-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 17.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-02",
+        "source": "Kassenbon 2026-09-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 3,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "Sortiment 2/3/5-polig, Polzahl gemischt (3 angenommen)"
+  }
+}

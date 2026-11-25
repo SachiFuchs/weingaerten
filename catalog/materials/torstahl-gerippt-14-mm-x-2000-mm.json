@@ -1,0 +1,53 @@
+{
+  "id": "torstahl-gerippt-14-mm-x-2000-mm",
+  "name": "Torstahl gerippt 14 mm x 2000 mm",
+  "category": "Baustoffe",
+  "description": "Catnic bietet Ihnen gerippten und immens belastbaren Torstahl zur Bewehrung von Beton. Er erhöht die Belastbarkeit und Haltbarkeit Ihrer Betonplatten.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4022842005940_torstahl-gerippt-14-mm-x-2000-mm"
+  ],
+  "product": {
+    "manufacturer": "company:catnic",
+    "model": "Torstahl gerippt 14 mm x 2000 mm",
+    "article_no": "6275226",
+    "ean": "4022842005940",
+    "url": "https://www.obi.de/p/6275226",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-27",
+        "source": "Kassenbon 2026-04-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "2,42 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "1,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

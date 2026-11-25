@@ -1,0 +1,34 @@
+{
+  "id": "chimney-cladding",
+  "name": "Kaminverkleidung Alu braun 0,7 mm",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "CLADDING"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Kaminverkleidung aus Alu braun d = 0,7 mm bis 3 m²; 470,00 €",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 3.0,
+    "height": 0.0007,
+    "depth": 1.0,
+    "quantity": 3,
+    "unit": "m2"
+  },
+  "materials": {
+    "main": "material:aluminium-brown"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 470.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.07, je Stk",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

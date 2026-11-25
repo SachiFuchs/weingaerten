@@ -1,0 +1,30 @@
+{
+  "id": "modulan-fensterkitt",
+  "name": "MODULAN Fensterkitt",
+  "category": "Baustoffe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5803381_modulan-fensterkitt"
+  ],
+  "product": {
+    "model": "MODULAN Fensterkitt",
+    "article_no": "5803381",
+    "ean": "4306517223359",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-30",
+        "source": "Kassenbon 2025-04-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

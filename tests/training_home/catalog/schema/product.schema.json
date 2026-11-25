@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/product",
+  "title": "Importierter Artikel (Baumarkt-Einkauf)",
+  "description": "Datei catalog/imported_material/<präfix>-<ean|artikelnr>_<slug>.json; Präfix ean (mit EAN), obi (OBI ohne EAN), hornbach. Slug ASCII kebab-case aus dem Artikelnamen. Materialien verweisen per products[] auf den Dateinamen ohne .json.",
+  "type": "object",
+  "required": ["article_number", "ean", "name", "unit_price", "supplier"],
+  "additionalProperties": false,
+  "properties": {
+    "article_number": { "type": ["string", "null"] },
+    "ean":            { "type": ["string", "null"], "pattern": "^[0-9]+$", "description": "EAN/GTIN; bei Hornbach teils kurze Hausnummer" },
+    "name":           { "type": "string", "minLength": 1 },
+    "receipt_name":   { "type": ["string", "null"], "description": "Bezeichnung auf dem Kassenbon" },
+    "unit_price":     { "type": ["number", "null"], "description": "Preis in EUR pro Einheit" },
+    "unit":           { "type": ["string", "null"] },
+    "url":            { "type": ["string", "null"] },
+    "description":    { "type": ["string", "null"] },
+    "dimensions_and_weight": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] },
+      "description": "Originalangaben des Händlers, z. B. \"1,89 kg\""
+    },
+    "images":         { "type": "array", "items": { "type": "string" } },
+    "image_urls":     { "type": "array", "items": { "type": "string" } },
+    "image_alts":     { "type": "array", "items": { "type": "string" }, "description": "Bildbeschreibungen (Hornbach)" },
+    "attributes":     { "type": "object", "description": "Technische Merkmale des Händlers als Text (Hornbach), z. B. Holzart, Stärke" },
+    "details": {
+      "type": "object",
+      "description": "Tabellen der Produktseite: product_data (Produktdaten), dimensions_weight (Maße & Gewicht); je Zeile label/value im Originaltext",
+      "additionalProperties": false,
+      "properties": {
+        "product_data":      { "type": "array", "items": { "type": "object", "required": ["label", "value"], "additionalProperties": false, "properties": { "label": { "type": "string" }, "value": { "type": "string" } } } },
+        "dimensions_weight": { "type": "array", "items": { "type": "object", "required": ["label", "value"], "additionalProperties": false, "properties": { "label": { "type": "string" }, "value": { "type": "string" } } } }
+      }
+    },
+    "details_status": { "type": "string" },
+    "category_path":  { "type": ["string", "null"] },
+    "manufacturer":   { "type": ["string", "null"] },
+    "supplier":       { "type": ["string", "null"] }
+  }
+}

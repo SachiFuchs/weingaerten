@@ -1,0 +1,62 @@
+{
+  "id": "2026-01-02-koch-bvfis-3352-angebot-parkett-eiche",
+  "name": "Koch BVFIS/3352 – Angebot Parkett Eiche",
+  "doc_type": "quote",
+  "supplier": "company:koch-holzwerke",
+  "date": "2026-01-02",
+  "number": "BVFIS/3352",
+  "customer_number": null,
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Objekt nicht im Beleg; Zuordnung Weingärten 8 lt. Auftraggeber (Anfrage Parkettboden)",
+  "description": "Angebot der Koch Holzwerke (Eislingen) über 50,19 m² Eichen-Fertigparkett (Eiche USED Lava rustikal natur geölt) inklusive 5 Gebinden Parkettkleber, Zahnspachtel und Holzseife. Zahlbar sofort nach Erhalt netto Kasse.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Fertigparkett Eiche USED Lava rustikal natur geölt, angeräuchert, braun gespachtelt Maroneiche (117 Stück 2,200 x 19,5 x 15,0)",
+      "quantity": 50.19,
+      "unit": "m²",
+      "unit_price": 94.0,
+      "total_price": 4717.86,
+      "ref": "material:fertigparkett-eiche-lava"
+    },
+    {
+      "position": "2",
+      "description": "Fertigparkettkleber BAKIT FPK 17 kg Gebinde",
+      "quantity": 5.0,
+      "unit": "Stk",
+      "unit_price": 87.5,
+      "total_price": 437.5,
+      "ref": "material:bakit-fpk-parkettkleber"
+    },
+    {
+      "position": "3",
+      "description": "Zahnspachtel B 15",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 3.9,
+      "total_price": 3.9
+    },
+    {
+      "position": "4",
+      "description": "HAIN Pflegesortiment Spezial Seife farblos (1 Liter)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 31.6,
+      "total_price": 31.6
+    }
+  ],
+  "subtotal_net": 5190.86,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 5190.86,
+  "vat_rate": 19,
+  "vat_amount": 986.26,
+  "total_gross": 6177.12,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-01-02-koch-BVFIS-3352-angebot-parkett-eiche.json",
+  "source_sha256": "79b86473aed85bd9f1b9ece8e07a9e81d06cd93badc4e7f3ebfc0aec70b59b78",
+  "original_filename": "2026-01-02-Anfrage-Holz Parkett.pdf"
+}

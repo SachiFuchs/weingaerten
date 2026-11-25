@@ -1,0 +1,8 @@
+{
+  "id": "waermesysteme-filstal",
+  "name": "Wärmesysteme Filstal (Benamin Kupinic)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

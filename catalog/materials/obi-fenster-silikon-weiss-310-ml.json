@@ -1,0 +1,53 @@
+{
+  "id": "obi-fenster-silikon-weiss-310-ml",
+  "name": "OBI Fenster-Silikon Weiß 310 ml",
+  "category": "Fliesen",
+  "description": "OBI Fenster-Silikon ist eine dauerelastische Silikon-Dichtungsmasse für Versiegelungen im Fensterbau und für Verglasungen von Metall-, PVC- und Holzfenstern. Sie ist auch für die Verglasung von Holzfenstern ohne Vorlegeband, für Anschlussfugen zwischen Fensterrahmen und Mauerwerk etc. geeignet. Das Silikon ist dauerelastisch und alterungs- sowie witterungsbeständig.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-5411183117839_obi-fenster-silikon-weiss-310-ml"
+  ],
+  "product": {
+    "manufacturer": "company:aerotrim",
+    "model": "OBI Fenster-Silikon Weiß 310 ml",
+    "article_no": "8215774",
+    "ean": "5411183117839",
+    "url": "https://www.obi.de/p/8215774",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.89,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-05",
+        "source": "Kassenbon 2023-05-05, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "500 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "23,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,1 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,1 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

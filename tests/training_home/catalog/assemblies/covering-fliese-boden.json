@@ -1,0 +1,14 @@
+{
+  "id": "covering-fliese-boden",
+  "name": "Bodenbelag Fliese 33 × 33 im Dünnbett",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "FLOORING" },
+  "category": "covering",
+  "din276": "352",
+  "description": "Bodenfliese im Flexmörtel C2TE S1, verfugt; Schichten vom Untergrund zum Raum; Dicken geschätzt",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:mapei-flexmoertel-c2te-s1-5-kg", "thickness": 0.004 },
+    { "material": "material:bodenfliese-leeds-blue-33x33", "thickness": 0.009 }
+  ],
+  "visualization": { "view": "all_layers", "section": "all_layers" }
+}

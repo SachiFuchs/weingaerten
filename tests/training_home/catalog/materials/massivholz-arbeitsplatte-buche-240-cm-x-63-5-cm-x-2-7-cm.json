@@ -1,0 +1,53 @@
+{
+  "id": "massivholz-arbeitsplatte-buche-240-cm-x-63-5-cm-x-2-7-cm",
+  "name": "Massivholz Arbeitsplatte Buche 240 cm x 63,5 cm x 2,7 cm",
+  "category": "Holz",
+  "description": "Die moderne Arbeitsplatte aus hochwertigem Buche Massivholz verleiht Ihrer Küche einen exklusiven Look. Mit der Platte erzielen sie eine natürliche Optik, die eine gemütliche Atmosphäre in Ihren Räumen schafft. Die Arbeitsplatte hat die Maße 240 cm x 63,5 cm x 2,7 cm (L x B x H). Arbeitsplatten aus Buche sind ein echter Blickfang, langlebig und wertbeständig. Das Hartholz lässt sich gut bearbeiten und ist eine echte Alternative zu Tropenholz. Durch die abgerundete vordere Kante, wird die Stoßgefahr minimiert. Dieser Kantentyp ist besonders für Haushalte mit Kindern geeignet. Universell einsetzbare Arbeitsplatte aus Massivholz Die robuste Arbeitsplatte hält allen Belastungen, die in einer Küche auf sie einwirken, stand. Die Arbeitsplatte eignet neben dem Einsatz als Küchenarbeitsplatte noch für eine Vielzahl an weiteren Einsatzmöglichkeiten. Sie ist universell z.B. als Tischplatte, Arbeitsplatte einsetzbar. Die Arbeitsplatte vereint alle Vorteile von Massivholz. Das heißt: schleifen, ölen, lackieren, sägen, hobeln, bohren und fräsen können Sie problemlos durchführen. Damit sind Ihrer Kreativität keine Grenzen gesetzt. Ein weiterer Vorteil im Vergleich zu Kunststoffplatten ist die Unempfindlichkeit. Das Holz zieht Staub und Schmutz deutlich weniger an. Hinweis: Massivholzplatten sind ein Naturprodukt und jede Platte ist ein Unikat. Diese naturgegebenen Eigenschaften können von der Produktabbildung abweichen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4000868763433_massivholz-arbeitsplatte-buche-240-cm-x-63-5-cm-x-2-7-cm"
+  ],
+  "product": {
+    "manufacturer": "company:rettenmeier-holzindustrie-wilburgstetten",
+    "model": "Massivholz Arbeitsplatte Buche 240 cm x 63,5 cm x 2,7 cm",
+    "article_no": "8277683",
+    "ean": "4000868763433",
+    "url": "https://www.obi.de/p/8277683",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "28,8 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,7 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,40 m"
+        },
+        {
+          "label": "Tiefe",
+          "value": "63,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 114.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-11-22",
+        "source": "Kassenbon 2024-11-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

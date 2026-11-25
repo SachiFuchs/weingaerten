@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-kabel-einzelader",
+  "name": "Einzelader",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "Einzelader"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:cable-1x10"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

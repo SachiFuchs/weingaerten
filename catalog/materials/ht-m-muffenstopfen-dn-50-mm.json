@@ -1,0 +1,101 @@
+{
+  "id": "ht-m-muffenstopfen-dn-50-mm",
+  "name": "HT-M Muffenstopfen DN 50 mm",
+  "category": "Entwässerung",
+  "description": "Brauchst Du ein zuverlässiges Formteil für Dein Hausabflussrohrsystem? Der HT-M Muffenstopfen DN 50 mm bietet die perfekte Lösung.\n\nProduktmerkmale des HT-M Muffenstopfens DN 50 mm\nDarum solltest Du zugreifen: Dieser Muffenstopfen ist speziell für die Hausentwässerung im Innenbereich konzipiert. Hergestellt aus Polypropylen (PP), bietet er eine hohe chemische Beständigkeit und ist heißwasserbeständig, was ihn ideal für den Einsatz in Abwassersystemen macht. Die Materialstärke von 1,8 mm sorgt für Langlebigkeit und Stabilität. Der Muffenstopfen entspricht der Norm DIN EN 1451-1 und bietet eine Ringsteifigkeit von SN2, was eine hohe Belastbarkeit gewährleistet. Die graue Farbe fügt sich unauffällig in bestehende Rohrsysteme ein. \n\nFestgezurrt: Der HT-M Muffenstopfen DN 50 mm vereint Schall- und Brandschutz mit bewährter Beständigkeit und ist die ideale Wahl für Dein Hausabflussrohrsystem.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-266397_ht-m-muffenstopfen-dn-50-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "HT-M Muffenstopfen DN 50 mm",
+    "article_no": "266397",
+    "ean": "4052836126207",
+    "url": "https://www.hornbach.de/p/ht-m-muffenstopfen-dn-50-mm/266397/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "HT"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Muffenstopfen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polypropylen (PP)"
+        },
+        {
+          "label": "Nennweite",
+          "value": "50 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "1,8 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Heißwasserbeständig"
+        },
+        {
+          "label": "Norm",
+          "value": "DIN EN 1451-1"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN2"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "1SZC"
+        },
+        {
+          "label": "EAN",
+          "value": "2000266397003, 4002644092836, 4025075171208, 4052836126207, 5902650652668, 5907660711381, 8028025014941, 8586019761924, 8594169671581, 8595156223332, 8600198010618"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.65,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-18",
+        "source": "Kassenbon 2025-10-18, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-266397_1.jpg",
+    "hornbach-266397_2.jpg"
+  ]
+}

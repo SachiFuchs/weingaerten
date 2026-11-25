@@ -1,0 +1,14 @@
+{
+  "id": "ws-wb-cold",
+  "name": "Wandscheibe Kaltwasser Waschbecken",
+  "component": "tga-component:ppr-wall-plate-20",
+  "storey": "storey:ground",
+  "room": "room-bad",
+  "wall": "iw-alt-nord-ost",
+  "position": [
+    4.7,
+    2.0300000000000002,
+    0.5
+  ],
+  "estimated": true
+}

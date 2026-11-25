@@ -1,0 +1,51 @@
+{
+  "id": "gewinde-stopfen-21-mm-r-1-2-rotguss",
+  "name": "Gewinde-Stopfen 21 mm (R 1/2) Rotguss",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874113191_gewinde-stopfen-21-mm-r-1-2-rotguss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Stopfen 21 mm (R 1/2) Rotguss",
+    "article_no": "7218217",
+    "ean": "4007874113191",
+    "url": "https://www.obi.de/p/7218217",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "40 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "10,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-11",
+        "source": "Kassenbon 2025-10-11, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "gewindenippel-ig-26-4-mm-r-3-4-x-ag-30-3-mm-rp-1",
+  "name": "Gewindenippel IG 26,4 mm (R 3/4) x AG 30,3 mm (Rp 1)",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4078500726405_gewindenippel-ig-26-4-mm-r-3-4-x-ag-30-3-mm-rp-1"
+  ],
+  "product": {
+    "manufacturer": "company:gardena-germany-ab",
+    "model": "Gewindenippel IG 26,4 mm (R 3/4) x AG 30,3 mm (Rp 1)",
+    "article_no": "8394926",
+    "ean": "4078500726405",
+    "url": "https://www.obi.de/p/8394926",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "58 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "3,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-25",
+        "source": "Kassenbon 2026-07-25, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

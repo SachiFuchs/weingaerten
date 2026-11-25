@@ -1,0 +1,27 @@
+{
+  "id": "siemens-fi-ls-5su1354-6kk16",
+  "name": "Siemens FI/LS 5SU1354-6KK16",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "fuse",
+    "size": "B16 30 mA"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:siemens",
+    "model": "5SU1354-6KK16",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 59.69,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-05-05",
+        "source": "Rechnung 10100184, Pos. 002, je Stk",
+        "document": "document:2023-05-05-speidel-10100184-fi-ls-verteiler"
+      }
+    ]
+  }
+}

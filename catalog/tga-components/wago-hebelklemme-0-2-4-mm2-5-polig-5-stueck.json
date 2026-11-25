@@ -1,0 +1,61 @@
+{
+  "id": "wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck",
+  "name": "Wago Hebelklemme Ø 0,2 - 4 mm² 5-polig 5 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873152962_wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Hebelklemme Ø 0,2 - 4 mm² 5-polig 5 Stück",
+    "article_no": "7952286",
+    "ean": "4007873152962",
+    "url": "https://www.obi.de/p/7952286",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "58 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "9,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "5,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-22",
+        "source": "Kassenbon 2024-06-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 5,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true
+  }
+}

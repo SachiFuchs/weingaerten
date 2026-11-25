@@ -1,0 +1,28 @@
+{
+  "id": "aluminium-brown",
+  "name": "Aluminium braun",
+  "category": "Metall",
+  "description": "Alublech braun 0,7 mm (Kaminverkleidung, Alu-Tafel)",
+  "conductivity": 160,
+  "density": 2700,
+  "fire_class": "A1",
+  "values_source": "Richtwert Aluminium (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#5C4033",
+    "roughness": 0.4,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 120.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.15, je Stk",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

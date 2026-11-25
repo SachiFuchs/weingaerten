@@ -1,0 +1,36 @@
+{
+  "id": "aw-bad-wb",
+  "name": "Waschbecken Bad EG",
+  "component": "tga-component:ht-pipe-50",
+  "system": "waste-water-eg",
+  "installation": "screed",
+  "points": [
+    [
+      4.65,
+      1.98,
+      0.45
+    ],
+    [
+      4.65,
+      1.98,
+      0.0923
+    ],
+    [
+      6.4,
+      1.98,
+      0.0573
+    ],
+    [
+      6.7,
+      1.68,
+      0.0488
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:wb-bad-eg",
+  "into": {
+    "run": "tga-run:aw-bad-dusche",
+    "kind": "branch"
+  },
+  "note": "Waschbecken an der Wand zur Küche auf der Türseite; im Bodenaufbau zur Duschleitung"
+}

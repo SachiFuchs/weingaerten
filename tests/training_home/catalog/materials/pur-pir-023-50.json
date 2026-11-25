@@ -1,0 +1,27 @@
+{
+  "id": "pur-pir-023-50",
+  "name": "PUR/PIR-Dämmung WLG 023, 50 mm",
+  "category": "Dämmung",
+  "description": "Estrichdämmung unter Bekotec, 50 mm",
+  "conductivity": 0.023,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "PUR/PIR-Dämmung WLG 023, 50 mm",
+    "offers": [
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 13.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-06",
+        "source": "Rechnung 2025397, Pos. 5a, je m²",
+        "document": "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C9B48A",
+    "roughness": 0.9,
+    "hatch": "insulation"
+  }
+}

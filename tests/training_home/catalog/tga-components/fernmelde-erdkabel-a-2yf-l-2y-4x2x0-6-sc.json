@@ -1,0 +1,106 @@
+{
+  "id": "fernmelde-erdkabel-a-2yf-l-2y-4x2x0-6-sc",
+  "name": "Fernmelde-Erdkabel A-2YF(L)2Y 4x2x0,6 schwarz Meterware",
+  "class": "tga-class:cable",
+  "din276": "450",
+  "system_type": "Fernmelde",
+  "params": {
+    "cable_type": "A-2YF(L)2Y",
+    "cores": 8,
+    "cross_section_mm2": 0.28
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-5770928_fernmelde-erdkabel-a-2yf-l-2y-4x2x0-6-sc"
+  ],
+  "product": {
+    "model": "Fernmelde-Erdkabel A-2YF(L)2Y 4x2x0,6 schwarz Meterware",
+    "article_no": "5770928",
+    "url": "https://www.hornbach.de/p/fernmelde-erdkabel-a-2yfl2y-4x2x0-6-schwarz-meterware/5770928/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Leitung"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Telefonleitung, Erdkabel"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Außen, Feuchtraum"
+        },
+        {
+          "label": "Verlegung",
+          "value": "Aufputz, Erdreich, In Installationsrohr, In Wellrohr, Unterputz"
+        },
+        {
+          "label": "Kabeltyp",
+          "value": "A-2YF(L)2Y"
+        },
+        {
+          "label": "Kabelart",
+          "value": "Kommunikationskabel"
+        },
+        {
+          "label": "Einheit",
+          "value": "Meter"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Starr"
+        },
+        {
+          "label": "Leiterquerschnitt",
+          "value": "0,25mm²"
+        },
+        {
+          "label": "Kabelmaß",
+          "value": "4x2x0,6mm²"
+        },
+        {
+          "label": "Anzahl Adern",
+          "value": "4x2"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "HRRX"
+        },
+        {
+          "label": "EAN",
+          "value": "4022873056195"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.28,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "source": "Import Fernm.-Erdkabel A-2YF(L)2Y4x2x0,6 Meterw"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-5770928_1.jpg"
+  ],
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

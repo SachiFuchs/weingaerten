@@ -1,0 +1,29 @@
+{
+  "id": "xps-gl-20-mm-daemm",
+  "name": "XPS GL 20 mm Dämm-",
+  "category": "Baustoffe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "obi-3820776_xps-gl-20-mm-daemm"
+  ],
+  "product": {
+    "model": "XPS GL 20 mm Dämm-",
+    "article_no": "3820776",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.11,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-21",
+        "source": "Kassenbon 2023-10-21, OBI Uhingen, Seestr. 2-4, 73066 Uhingen, 6×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

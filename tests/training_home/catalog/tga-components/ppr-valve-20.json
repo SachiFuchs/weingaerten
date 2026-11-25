@@ -1,0 +1,68 @@
+{
+  "id": "ppr-valve-20",
+  "name": "PP-R Absperrventil DN 20 (Unterputz)",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve",
+    "size": "DN 20"
+  },
+  "estimated": true,
+  "note": "Platzhalter für den Einbau in Wänden, Maße geschätzt - bitte Produkt wählen",
+  "install": {
+    "trade": "water_supply",
+    "group": "Ventile",
+    "shape": "valve",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.03,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.03,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

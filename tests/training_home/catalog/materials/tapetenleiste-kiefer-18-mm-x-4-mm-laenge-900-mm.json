@@ -1,0 +1,53 @@
+{
+  "id": "tapetenleiste-kiefer-18-mm-x-4-mm-laenge-900-mm",
+  "name": "Tapetenleiste Kiefer 18 mm x 4 mm Länge 900 mm",
+  "category": "Holz",
+  "description": "Mit der Tapetenleiste in der Farbe Kiefer bringen Sie Ihre Tapeten zu einem eleganten Abschluss oder setzen dekorative Akzente an Ihren Wänden. Sie ist universell einsetzbar und in verschiedenen Größen und Materialausführungen erhältlich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4012102319504_tapetenleiste-kiefer-18-mm-x-4-mm-laenge-900-mm"
+  ],
+  "product": {
+    "manufacturer": "company:doellken-profiles",
+    "model": "Tapetenleiste Kiefer 18 mm x 4 mm Länge 900 mm",
+    "article_no": "1041680",
+    "ean": "4012102319504",
+    "url": "https://www.obi.de/p/1041680",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-17",
+        "source": "Kassenbon 2023-07-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "29 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "1,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "90,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4 mm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

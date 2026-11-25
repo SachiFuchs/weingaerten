@@ -1,0 +1,29 @@
+{
+  "id": "weishaupt-wsb-8-a-rme-ai",
+  "name": "Weishaupt Splitblock WSB 8-A-RME-AI",
+  "category": "Heizung",
+  "description": "Luft/Wasser-Split-Wärmepumpe 2,0–7,7 kW aus Innengerät WSB 8-A-RME-I und Außengerät WSB 8-A-RME-A, verbunden über Kältemittelleitung (Zubehör); Heizen und Kühlen, Heizwasser nach VDI 2035",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WSB 8-A-RME-AI",
+    "url": "https://www.weishaupt.de/produkte/waermepumpen-solar/weishaupt-splitwaermepumpe",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 9701.47,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.1, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

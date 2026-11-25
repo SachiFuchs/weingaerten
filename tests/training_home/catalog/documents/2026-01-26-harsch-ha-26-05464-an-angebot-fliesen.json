@@ -1,0 +1,72 @@
+{
+  "id": "2026-01-26-harsch-ha-26-05464-an-angebot-fliesen",
+  "name": "Harsch HA-26-05464-AN – Angebot Fliesen",
+  "doc_type": "quote",
+  "supplier": "company:harsch-fliese-stein-fachhandel",
+  "date": "2026-01-26",
+  "number": "HA-26-05464-AN",
+  "customer_number": "48824",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Objekt nicht im Beleg; Zuordnung Weingärten 8 lt. Auftraggeber (Projektnummer HA-26-14228-V, Selbstabholung Lager Ebersbach)",
+  "description": "Freibleibendes Angebot der HARSCH Fliese + Stein Fachhandel GmbH (Ebersbach) über insgesamt 27,04 m² Feinsteinzeug- und Uni-Fliesen im Format 20x20 cm inklusive Fracht bis zum Lager Ebersbach zur Selbstabholung. Zahlbar sofort rein netto ohne Abzug innerhalb von 8 Tagen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "490-1006797 Fliesen Uni 20x20 cm inkl. Sockel",
+      "quantity": 5.2,
+      "unit": "m²",
+      "unit_price": 44.93,
+      "total_price": 233.64,
+      "ref": "material:fliese-uni-20x20"
+    },
+    {
+      "position": "2",
+      "description": "490-00065 Feinsteinzeug rot Dekor mix 20x20x1 cm R10/B (VE 1,04 m²/Karton)",
+      "quantity": 4.16,
+      "unit": "m²",
+      "unit_price": 57.98,
+      "total_price": 241.2,
+      "ref": "material:feinsteinzeug-rot-dekor-20x20"
+    },
+    {
+      "position": "3",
+      "description": "490-1006794 Fliesen Uni 20x20 cm inkl. Sockel",
+      "quantity": 8.32,
+      "unit": "m²",
+      "unit_price": 44.93,
+      "total_price": 373.82,
+      "ref": "material:fliese-uni-20x20"
+    },
+    {
+      "position": "4",
+      "description": "490-00066 Feinsteinzeug braun Dekor mix 20x20x1 cm R10/B (VE 1,04 m²/Karton)",
+      "quantity": 9.36,
+      "unit": "m²",
+      "unit_price": 57.98,
+      "total_price": 542.69,
+      "ref": "material:feinsteinzeug-braun-dekor-20x20"
+    },
+    {
+      "position": "5",
+      "description": "Fracht und Verpackung bis Lager Ebersbach (Selbstabholung)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 50.0,
+      "total_price": 50.0
+    }
+  ],
+  "subtotal_net": 1441.35,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1441.35,
+  "vat_rate": 19,
+  "vat_amount": 273.86,
+  "total_gross": 1715.21,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-01-26-harsch-HA-26-05464-AN-angebot-fliesen.json",
+  "source_sha256": "cd846fbdc55fd58e2e7e45f60e7ab3e67921e90ed60d851e52503cc72ec594c2",
+  "original_filename": "2026-01-26 Harsch - Fliesen - Angebot_HA-26-05464-AN.pdf"
+}

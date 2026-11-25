@@ -1,0 +1,117 @@
+{
+  "id": "wall-heating-panel",
+  "name": "Wandheizungsplatte",
+  "ifc": {
+    "entity": "IfcSpaceHeater",
+    "predefined_type": "RADIATOR"
+  },
+  "description": "Dämmplatte mit eingelegtem Heizrohr (Register); wird mit Lehm verputzt",
+  "kind": "terminal",
+  "parameters": [
+    {
+      "key": "panel_type",
+      "name": "Plattentyp",
+      "type": "text",
+      "required": true
+    },
+    {
+      "key": "width",
+      "name": "Breite",
+      "type": "length",
+      "min": 0.1,
+      "max": 3.0,
+      "required": true
+    },
+    {
+      "key": "height",
+      "name": "Höhe",
+      "type": "length",
+      "min": 0.1,
+      "max": 3.0,
+      "required": true
+    },
+    {
+      "key": "thickness",
+      "name": "Dicke",
+      "type": "length",
+      "min": 0.01,
+      "max": 0.2,
+      "required": true
+    },
+    {
+      "key": "pipe_direction",
+      "name": "Rohrverlauf",
+      "type": "choice",
+      "options": [
+        "vertical",
+        "horizontal"
+      ],
+      "required": true
+    },
+    {
+      "key": "pipe_spacing",
+      "name": "Rohrabstand",
+      "type": "length",
+      "min": 0.03,
+      "max": 0.3,
+      "required": false
+    },
+    {
+      "key": "pipe_length",
+      "name": "Rohrlänge je Platte",
+      "type": "length",
+      "min": 0.1,
+      "max": 50,
+      "required": false
+    },
+    {
+      "key": "port_corner",
+      "name": "Anschlussecke",
+      "type": "choice",
+      "options": [
+        "bottom_left",
+        "bottom_right",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "required": false
+    },
+    {
+      "key": "pipe_runs",
+      "name": "Schleifen (Rohrlagen)",
+      "type": "number",
+      "min": 1,
+      "max": 40,
+      "required": false
+    },
+    {
+      "key": "port_exits",
+      "name": "Rohraustritt",
+      "type": "choice",
+      "options": [
+        "side_bottom",
+        "side_bottom_180"
+      ],
+      "required": false
+    }
+  ],
+  "material_roles": [
+    {
+      "key": "board",
+      "name": "Platte"
+    }
+  ],
+  "connection_rules": [
+    {
+      "line": "alu_composite",
+      "medium": "heating",
+      "method": "press",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "note": "Rohrenden der Platte mit Presskupplung 11,6 an Nachbarplatte bzw. Anbindeleitung 16"
+    }
+  ]
+}

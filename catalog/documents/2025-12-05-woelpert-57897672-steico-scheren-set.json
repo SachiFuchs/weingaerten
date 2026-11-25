@@ -1,0 +1,45 @@
+{
+  "id": "2025-12-05-woelpert-57897672-steico-scheren-set",
+  "name": "Wölpert 57897672 – Steico Scheren Set",
+  "doc_type": "invoice",
+  "supplier": "company:theodor-woelpert",
+  "date": "2025-12-05",
+  "number": "57897672",
+  "customer_number": "310245",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "E-Mail weingaerten@suri.de; Zuordnung Weingärten 8 (Sammel-PDF: Barverkauf 57897672 / Auftrag 29335358 und Barverkauf 57897675 / Auftrag 29356871 vom 05.12.2025, Abholung Göppingen)",
+  "description": "Sammelscan zweier Barverkaufsrechnungen von Wölpert Göppingen vom 05.12.2025: Beleg 57897672 über eine weitere Palette (57 Stück / 25,992 m²) Steico internal Innendämmplatten (482,21 € brutto) sowie Beleg 57897675 über ein DeWalt Scheren-Set (59,50 € brutto). Beide Käufe wurden vor Ort bei Abholung beglichen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "36100121 Steico internal Innendämmung mit N+F WLG038, 1200x380x60 mm (57 Stück = 1 Palette, Beleg 57897672)",
+      "quantity": 25.992,
+      "unit": "m²",
+      "unit_price": 15.59,
+      "total_price": 405.22,
+      "ref": "material:steico-internal-60"
+    },
+    {
+      "position": "2",
+      "description": "78009996 DeWalt Scheren-Set DWHT14676-0 (Beleg 57897675)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 50.0,
+      "total_price": 50.0
+    }
+  ],
+  "subtotal_net": 455.22,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 455.22,
+  "vat_rate": 19,
+  "vat_amount": 86.49,
+  "total_gross": 541.71,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-12-05-woelpert-57897672-steico-scheren-set.json",
+  "source_sha256": "1122d1afa6b1ad32a3cea523877b0c8b68c56636b8e56d2f2feade6a85da6cc8",
+  "original_filename": "2025-12-01-Rechnung-Woelpert Steico Platten.pdf"
+}

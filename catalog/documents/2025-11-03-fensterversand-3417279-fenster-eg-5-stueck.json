@@ -1,0 +1,73 @@
+{
+  "id": "2025-11-03-fensterversand-3417279-fenster-eg-5-stueck",
+  "name": "Fensterversand 3417279 – Fenster EG 5 Stück",
+  "doc_type": "invoice",
+  "supplier": "company:neuffer",
+  "date": "2025-11-03",
+  "number": "3417279",
+  "customer_number": "239043",
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung von fensterversand.com über fünf dreifach verglaste Kunststofffenster (Aluplast IDEAL 8000, Ug 0,6, VSG-Sicherheitsglas) für das Erdgeschoss in Weingärten 8 (Küche inkl. Insektenschutz, Bad, Flur, Kammer und kleines Wohnzimmerfenster). Die Lieferung erfolgt versandkostenfrei. Der Gesamtbetrag von 1.735,46 € brutto wurde per Vorkasse bereits beglichen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Fenster Kunststoff – EG Küche (Aluplast IDEAL 8000, Weiß, 1-teilig drehkipp links mit festem Unterlicht, 900x1010 mm, Rahmenverbreiterung unten 30 mm, 3-fach Ug 0,6, VSG 8 mm innen & außen, Helima Sprosse 18 mm, RC 1 N, abschließbarer Griff, Insektenschutz-Spannrahmen)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 530.27,
+      "total_price": 530.27,
+      "ref": "component:window-eg-kueche"
+    },
+    {
+      "position": "2",
+      "description": "Fenster Kunststoff – EG Bad (Aluplast IDEAL 8000, Weiß, 1-teilig drehkipp links, 650x850 mm, 3-fach Ug 0,6, VSG 8 mm innen & außen, RC 1 N, abschließbarer Griff)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 311.42,
+      "total_price": 311.42,
+      "ref": "component:window-eg-bad"
+    },
+    {
+      "position": "3",
+      "description": "Fenster Kunststoff – EG Flur (Aluplast IDEAL 8000, Weiß, 1-teilig festverglast, 1000x650 mm, 3-fach Ug 0,6, VSG 8 mm innen & außen)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 192.05,
+      "total_price": 192.05,
+      "ref": "component:window-eg-flur"
+    },
+    {
+      "position": "4",
+      "description": "Fenster Kunststoff – EG Kammer (Aluplast IDEAL 8000, Weiß, 1-teilig festverglast, 510x510 mm, 3-fach Ug 0,6, VSG 8 mm außen)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 56.06,
+      "total_price": 56.06,
+      "ref": "component:window-eg-kammer"
+    },
+    {
+      "position": "5",
+      "description": "Fenster Kunststoff – Wohnzimmer kleines Fenster (Aluplast IDEAL 8000, Weiß, 1-teilig drehkipp links, 510x1010 mm, 3-fach Ug 0,6, VSG 8 mm innen & außen, RC 1 N, abschließbarer Griff)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 368.57,
+      "total_price": 368.57,
+      "ref": "component:window-wz-klein"
+    }
+  ],
+  "subtotal_net": 1458.37,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1458.37,
+  "vat_rate": 19,
+  "vat_amount": 277.09,
+  "total_gross": 1735.46,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-11-03-fensterversand-3417279-fenster-eg-5-stueck.json",
+  "source_sha256": "464c9fc1f82c02b1db05abcf54f9dcf1154d9b77095a8ec3323e60585a42c9e9",
+  "original_filename": "2025-11-06 Rechnung-3417279-05-11-2025_0901.pdf"
+}

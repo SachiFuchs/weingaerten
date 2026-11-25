@@ -1,0 +1,46 @@
+{
+  "id": "2023-05-04-hofele-23431-grubenentleerung-schlamm",
+  "name": "Hofele 23431 – Grubenentleerung Schlamm",
+  "doc_type": "invoice",
+  "supplier": "company:hofele-mobile-umweltservice",
+  "date": "2023-05-04",
+  "number": "23431",
+  "customer_number": "20021",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Göppingen, Weingärten 8 (Leistungsdatum: 03.05.2023)",
+  "description": "Rechnung der Hofele Mobile Umweltservice GmbH (Salach) über das Absaugen und Entsorgen der alten Grube in Weingärten 8 am 03.05.2023 vor Einbau der neuen Kleinkläranlage. Die zugehörigen Lieferscheine/Rapporte vom 03.05.2023 sowie eine ältere Mahnung vom 17.11.2022 (zu Rechnung 22934 vom 29.09.2022, deren Originalrechnung fehlt) sind nicht als eigene Rechnungen importiert.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Schlammsaugewagen inkl. 1 Fachkraft: Grube abgesaugt, Schlamm zur Entsorgung abgefahren",
+      "quantity": 2.5,
+      "unit": "Std",
+      "unit_price": 103.0,
+      "total_price": 257.5,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "2",
+      "description": "Abladegebühr Kläranlage",
+      "quantity": 1.0,
+      "unit": "m³",
+      "unit_price": 15.0,
+      "total_price": 15.0,
+      "unit_raw": "cbm"
+    }
+  ],
+  "subtotal_net": 272.5,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 272.5,
+  "vat_rate": 19,
+  "vat_amount": 51.78,
+  "total_gross": 324.28,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-05-04-hofele-23431-grubenentleerung-schlamm.json",
+  "source_sha256": "453b3bbe755c202a40594c295761fd784b49b2caf8be2a2db673e1dbc68c0854",
+  "original_filename": "2023-05-04-Rechnung-Hofele.pdf"
+}

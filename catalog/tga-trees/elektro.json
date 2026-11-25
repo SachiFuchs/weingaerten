@@ -1,0 +1,145 @@
+{
+  "id": "elektro",
+  "name": "Elektro",
+  "order": 1,
+  "nodes": [
+    {
+      "id": "leitungen",
+      "name": "Leitungen",
+      "nodes": [
+        {
+          "id": "installations-elektro-und-stromkabel-nym-j-3-x-1-5-mm2-50-m",
+          "ref": "tga-component:installations-elektro-und-stromkabel-nym-j-3-x-1-5-mm2-50-m"
+        },
+        {
+          "id": "emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m",
+          "ref": "tga-component:emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m"
+        },
+        {
+          "id": "emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m",
+          "ref": "tga-component:emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m"
+        },
+        {
+          "id": "emskabel-erdkabel-nyy-j-3-x-2-5-mm2-50-m",
+          "ref": "tga-component:emskabel-erdkabel-nyy-j-3-x-2-5-mm2-50-m"
+        },
+        {
+          "id": "herdanschlussleitung-h05vv-f-5g2-5-weiss-3-m",
+          "ref": "tga-component:herdanschlussleitung-h05vv-f-5g2-5-weiss-3-m"
+        },
+        {
+          "id": "schlauchleitung-h05vv-f-3-g1-0-weiss-10-m",
+          "ref": "tga-component:schlauchleitung-h05vv-f-3-g1-0-weiss-10-m"
+        },
+        {
+          "id": "fernmelde-erdkabel-a-2yf-l-2y-4x2x0-6-sc",
+          "ref": "tga-component:fernmelde-erdkabel-a-2yf-l-2y-4x2x0-6-sc"
+        },
+        {
+          "id": "telefonkabel-jy-st-y-2-x-2-x-0-6-grau-10-m",
+          "ref": "tga-component:telefonkabel-jy-st-y-2-x-2-x-0-6-grau-10-m"
+        }
+      ],
+      "filter": {
+        "class": "tga-class:cable"
+      }
+    },
+    {
+      "id": "rohre",
+      "name": "Rohre",
+      "nodes": [
+        {
+          "id": "rohre",
+          "name": "Rohre",
+          "nodes": [
+            {
+              "id": "installationsrohr-m20-starr-lichtgrau-dr",
+              "ref": "tga-component:installationsrohr-m20-starr-lichtgrau-dr"
+            }
+          ]
+        },
+        {
+          "id": "boegen",
+          "name": "Bögen",
+          "nodes": [
+            {
+              "id": "steckbogen-m20-fuer-installationsrohr-2",
+              "ref": "tga-component:steckbogen-m20-fuer-installationsrohr-2"
+            }
+          ]
+        },
+        {
+          "id": "muffen",
+          "name": "Muffen",
+          "nodes": [
+            {
+              "id": "steckmuffe-m20-fuer-installationsrohr-5",
+              "ref": "tga-component:steckmuffe-m20-fuer-installationsrohr-5"
+            }
+          ]
+        }
+      ],
+      "filter": {
+        "class": "tga-class:install-part",
+        "query": "m20"
+      }
+    },
+    {
+      "id": "endgeraete",
+      "name": "Endgeräte",
+      "nodes": [
+        {
+          "id": "steckdosen",
+          "name": "Steckdosen",
+          "nodes": [
+            {
+              "id": "jung-steckdose-1-stueck",
+              "ref": "tga-component:jung-steckdose-1-stueck"
+            }
+          ]
+        }
+      ],
+      "filter": {
+        "class": "tga-class:terminal"
+      }
+    },
+    {
+      "id": "verteiler",
+      "name": "Verteiler",
+      "nodes": [
+        {
+          "id": "verteilerdose-up-3x-wago-3-polig",
+          "ref": "tga-component:verteilerdose-up-3x-wago-3-polig"
+        },
+        {
+          "id": "kaiser-up-geraetedose",
+          "ref": "tga-component:kaiser-up-geraetedose"
+        },
+        {
+          "id": "abzweigkasten-unterputz-95-mm-x-95-mm-schwarz-weiss-ip20",
+          "ref": "tga-component:abzweigkasten-unterputz-95-mm-x-95-mm-schwarz-weiss-ip20"
+        },
+        {
+          "id": "abzweigkasten-aufputz-85-mm-x-85-mm-grau-ip54",
+          "ref": "tga-component:abzweigkasten-aufputz-85-mm-x-85-mm-grau-ip54"
+        },
+        {
+          "id": "hohlwanddose",
+          "ref": "tga-component:hohlwanddose"
+        },
+        {
+          "id": "herd-anschlussdose",
+          "ref": "tga-component:herd-anschlussdose"
+        },
+        {
+          "id": "herd-anschlussdose-aufputz",
+          "ref": "tga-component:herd-anschlussdose-aufputz"
+        }
+      ],
+      "filter": {
+        "class": "tga-class:install-part",
+        "query": "\"part_type\":\"box\""
+      }
+    }
+  ]
+}

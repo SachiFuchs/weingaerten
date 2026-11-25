@@ -1,0 +1,109 @@
+{
+  "id": "roth-lange-kabelkanal-bxh-15-x-15-mm-rei",
+  "name": "ROTH LANGE Kabelkanal BxH 15 x 15 mm reinweiß 2 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_duct",
+    "unit": "m"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-4685159_roth-lange-kabelkanal-bxh-15-x-15-mm-rei"
+  ],
+  "product": {
+    "manufacturer": "company:roth-lange",
+    "model": "ROTH LANGE Kabelkanal BxH 15 x 15 mm reinweiß 2 m",
+    "article_no": "4685159",
+    "ean": "4306517395766",
+    "url": "https://www.hornbach.de/p/roth-lange-kabelkanal-bxh-15-x-15-mm-reinweiss-2-m/4685159/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Kabelkanal"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Steckklemmschelle"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 20"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Starr"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Schutz, Befestigung"
+        },
+        {
+          "label": "Montageart",
+          "value": "Aufputz"
+        },
+        {
+          "label": "Farbton",
+          "value": "Reinweiß"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Kabel"
+        },
+        {
+          "label": "Größe",
+          "value": "15 x 15 mm"
+        },
+        {
+          "label": "Anzahl",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "NR19"
+        },
+        {
+          "label": "EAN",
+          "value": "4306517395766"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "15 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "15 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-11-22",
+        "source": "Kassenbon 2025-11-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-4685159_1.jpg",
+    "hornbach-4685159_2.jpg",
+    "hornbach-4685159_3.jpg",
+    "hornbach-4685159_4.jpg",
+    "hornbach-4685159_5.jpg"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "door-winterraum",
+  "name": "Holztür Winterraum 1,00 × 2,00",
+  "description": "Holztür West, einfach verglast; Zimmer nicht beheizt",
+  "class": "class:door",
+  "opening_capable": true,
+  "params": { "width": 1.0, "height": 2.0, "depth": 0.06, "frame_width": 0.08, "swing": "left" },
+  "materials": { "frame": "material:spruce-wood", "leaf": "material:wood-door" }
+}

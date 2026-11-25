@@ -1,0 +1,167 @@
+{
+  "id": "form-style-waschtischarmatur-malden-schw",
+  "name": "form&style Waschtischarmatur MALDEN schwarz matt",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-10695089_form-style-waschtischarmatur-malden-schw"
+  ],
+  "product": {
+    "manufacturer": "company:form-style",
+    "model": "form&style Waschtischarmatur MALDEN schwarz matt",
+    "article_no": "10695089",
+    "ean": "4306516448944",
+    "url": "https://www.hornbach.de/p/formstyle-waschtischarmatur-malden-schwarz-matt/10695089/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Armatur"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Badarmatur"
+        },
+        {
+          "label": "Variante",
+          "value": "Einhebel Waschtischarmatur"
+        },
+        {
+          "label": "Farbton",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Matt"
+        },
+        {
+          "label": "Armaturengröße",
+          "value": "M"
+        },
+        {
+          "label": "Auslaufform",
+          "value": "Gerader-Auslauf"
+        },
+        {
+          "label": "Auslaufhöhe",
+          "value": "103 mm"
+        },
+        {
+          "label": "Ausladung",
+          "value": "120 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Anti-Fingerprint, Bedienhebel aus Metall"
+        },
+        {
+          "label": "Merkmale",
+          "value": "Einhebelmischer, Bedienhebel aus Metall, AntiFingerprint"
+        },
+        {
+          "label": "Durchflussmenge bei 3 bar",
+          "value": "5,1 l"
+        },
+        {
+          "label": "Perlator/Mischdüse",
+          "value": "M20x1 AG"
+        },
+        {
+          "label": "System der Ablaufgarnitur",
+          "value": "Ohne Ablaufgarnitur"
+        },
+        {
+          "label": "Montageart",
+          "value": "Standmontage"
+        },
+        {
+          "label": "Anschlussart",
+          "value": "Flexible Anschlussschläuche 3/8\""
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Druckspeicher, Durchlauferhitzer"
+        },
+        {
+          "label": "Anschluss",
+          "value": "Hochdruck - druckfest"
+        },
+        {
+          "label": "Form",
+          "value": "Rund, Oval"
+        },
+        {
+          "label": "Serie",
+          "value": "MALDEN"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "2 flexible Anschlussschläuche 3/8\", Befestigungsmaterial, Montageanleitung"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Achten Sie darauf, dass keine ätzenden oder korrosiven Mittel, wie z. B. Putzmittel oderHaushaltsreiniger an die Anschluss-Schläuchegelangen, dies kann zu Wasserschädenführen"
+        },
+        {
+          "label": "Passendes Ersatzteil",
+          "value": "12729396"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "154953"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer, Gäste-WC"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "TATV"
+        },
+        {
+          "label": "EAN",
+          "value": "4046786154953, 4306516448944"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "178 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "46 mm"
+        },
+        {
+          "label": "Länge Anschlussschlauch",
+          "value": "450 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 54.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-10695089_1.jpg",
+    "hornbach-10695089_2.jpg",
+    "hornbach-10695089_3.jpg",
+    "hornbach-10695089_4.jpg",
+    "hornbach-10695089_5.jpg",
+    "hornbach-10695089_6.jpg",
+    "hornbach-10695089_7.jpg",
+    "hornbach-10695089_8.jpg"
+  ]
+}

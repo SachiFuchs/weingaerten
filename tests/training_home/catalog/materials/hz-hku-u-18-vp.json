@@ -1,0 +1,30 @@
+{
+  "id": "hz-hku-u-18-vp",
+  "name": "HZ Heizkörperanschluss HKU U 18 VP",
+  "category": "Heizung",
+  "description": "zweiteilig, Messing, Presssystem Kontur V für Cu/C-Stahl 18 mm, 10 bar, 90 °C",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:hz-weitzel",
+    "model": "HKU 18 VP",
+    "article_no": "1448",
+    "url": "https://www.hz-weitzel.de/produkte/hku-3/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 63.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.8, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "kermi-verteilerschrank-u-xl-l2",
+  "name": "Kermi Verteilerschrank U-XL-L2 UP Komfort XL",
+  "class": "tga-class:install-part",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "part_type": "box",
+    "size": "B 535 mm"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:kermi",
+    "model": "Kermi Verteilerschrank U-XL-L2 UP Komfort XL",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 196.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.2, je Stk",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

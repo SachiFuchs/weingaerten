@@ -1,0 +1,9 @@
+{
+  "id": "hornbach",
+  "name": "HORNBACH",
+  "roles": [
+    "supplier",
+    "manufacturer"
+  ],
+  "description": "HORNBACH Baumarkt AG"
+}

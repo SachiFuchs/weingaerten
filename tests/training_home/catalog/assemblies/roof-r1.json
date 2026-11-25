@@ -1,0 +1,35 @@
+{
+  "id": "roof-r1",
+  "name": "Steildach Aufsparrendämmung PIR 140 mm, Tondachziegel",
+  "ifc": { "entity": "IfcSlab", "predefined_type": "ROOF" },
+  "category": "roof",
+  "din276": "360",
+  "description": "Dachsanierung Juli 2023 (Schuck Dach RE 17.07.2023), 130 m²: Braas Rubin 13 V auf Trag- und Konterlattung, DivoDämm Top 140 mm auf Dampfbremse DivoDämm Membran über den Sparren; Ziegelverklammerung 50 m². Sparren (Bestand) nicht Teil des Aufbaus – Maße unbekannt.",
+  "layer_order": "top_down",
+  "layers": [
+    {
+      "material": "material:clay-tile-rubin",
+      "thickness": 0.02
+    },
+    {
+      "material": "material:softwood-battens",
+      "thickness": 0.03
+    },
+    {
+      "material": "material:softwood-battens",
+      "thickness": 0.04
+    },
+    {
+      "material": "material:pir-divodaemm-top",
+      "thickness": 0.14
+    },
+    {
+      "material": "material:vapour-membrane-divodaemm",
+      "thickness": 0.0005
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

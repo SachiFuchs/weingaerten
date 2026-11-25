@@ -1,0 +1,173 @@
+{
+  "id": "kombi-geraetedose-3-fach-218-mm-x-75-mm-schwarz-ip20",
+  "name": "Kombi-Gerätedose 3-fach 218 mm x 75 mm Schwarz IP20",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "flush",
+    "box_function": "device",
+    "size": "218 × 75 × 47 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "ean-4007873915598_kombi-geraetedose-3-fach-218-mm-x-75-mm-schwarz-ip20"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Kombi-Gerätedose 3-fach 218 mm x 75 mm Schwarz IP20",
+    "article_no": "4397014",
+    "ean": "4007873915598",
+    "url": "https://www.obi.de/p/4397014",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "52 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "21,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.19,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-03",
+        "source": "Kassenbon 2026-01-03, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "flush",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.218,
+      0.075,
+      0.047
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0375,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0375,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.109,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.109,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

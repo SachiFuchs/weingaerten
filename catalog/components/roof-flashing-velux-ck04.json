@@ -1,0 +1,45 @@
+{
+  "id": "roof-flashing-velux-ck04",
+  "name": "VELUX-Eindeckrahmen EDZ 2000 für 55 × 98",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "USERDEFINED",
+    "object_type": "Eindeckrahmen"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Eindeckrahmen Aluminium Typ EDZ 2000 passend zum Dachfenster CK04 (55 × 98 cm)",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.55,
+    "height": 0.05,
+    "depth": 0.98,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:aluminium-brown"
+  },
+  "product": {
+    "manufacturer": "company:velux",
+    "model": "EDZ 2000 CK04",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 140.0,
+        "currency": "EUR",
+        "date": "2023-07-17",
+        "source": "RE 17.07.2023, Titel 06",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 140.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.01, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      }
+    ]
+  }
+}

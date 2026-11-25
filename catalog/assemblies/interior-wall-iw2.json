@@ -1,0 +1,27 @@
+{
+  "id": "interior-wall-iw2",
+  "name": "Innenwand Ziegel 28 cm (ehem. Außenwand), beidseitig verputzt",
+  "ifc": { "entity": "IfcWall", "predefined_type": "STANDARD" },
+  "category": "interior_wall",
+  "din276": "340",
+  "description": "Ehemalige Nordwand vor Anbau Eingang/Bad ca. 1960; Wandstärke 30 cm laut Grundriss, Aufbau angenommen",
+  "layer_order": "left_right",
+  "layers": [
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    },
+    {
+      "material": "material:hollow-brick",
+      "thickness": 0.28
+    },
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

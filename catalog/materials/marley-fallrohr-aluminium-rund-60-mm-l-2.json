@@ -1,0 +1,94 @@
+{
+  "id": "marley-fallrohr-aluminium-rund-60-mm-l-2",
+  "name": "Marley Fallrohr Aluminium rund Ø 60 mm L = 2000 mm",
+  "category": "Entwässerung",
+  "description": "Sorgst Du für eine zuverlässige Wasserableitung vom Dach? Mit dem Marley Fallrohr aus Aluminium hast Du die Lösung, die Du brauchst.\n\nProduktmerkmale des Marley Fallrohrs aus Aluminium\nDarum solltest Du zugreifen: Dieses Fallrohr aus hochwertigem Aluminium ist perfekt für die Dachentwässerung und sorgt für eine zuverlässige Wasserableitung bei Garagen, kleinen Dächern und Hausanbauten. Mit einer Länge von 2000 mm und einem Durchmesser von 60 mm bietet es eine große Kapazität und gewährleistet eine effiziente Ableitung größerer Wassermengen. Seine silberne Grundfarbe passt sich harmonisch den meisten Gebäudeoptiken an und wertet sie optisch auf. Aluminium ist leicht und korrosionsbeständig, was eine lange Lebensdauer auch unter harten Wetterbedingungen sicherstellt.\n\nFestgezurrt: Das Marley Fallrohr aus Aluminium bietet eine langlebige und effiziente Lösung für die Dachentwässerung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10133927_marley-fallrohr-aluminium-rund-60-mm-l-2"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Fallrohr Aluminium rund Ø 60 mm L = 2000 mm",
+    "article_no": "10133927",
+    "ean": "4002644342436",
+    "url": "https://www.hornbach.de/p/marley-fallrohr-aluminium-rund-o-60-mm-l-2000-mm/10133927/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rohr"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Fallrohr"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Dachentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Metall"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Aluminium"
+        },
+        {
+          "label": "Nennweite",
+          "value": "60 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Witterungsbeständig, UV-beständig"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Silber"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Garagen, Kleine Dächer, Hausanbauten"
+        },
+        {
+          "label": "EAN",
+          "value": "4002644342436"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Länge",
+          "value": "2.000 mm"
+        },
+        {
+          "label": "Durchmesser",
+          "value": "60 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 18.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-02",
+        "source": "Kassenbon 2023-01-02, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10133927_1.jpg"
+  ]
+}

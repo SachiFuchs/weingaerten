@@ -1,0 +1,51 @@
+{
+  "id": "marley-schelle-fuer-ht-rohr-mit-gewindestift-8-x-80-mm-dn-50",
+  "name": "Marley Schelle für HT-Rohr mit Gewindestift 8 X 80 mm DN 50",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "pipe_clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4006395643279_marley-schelle-fuer-ht-rohr-mit-gewindestift-8-x-80-mm-dn-50"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Schelle für HT-Rohr mit Gewindestift 8 X 80 mm DN 50",
+    "article_no": "3710373",
+    "ean": "4006395643279",
+    "url": "https://www.obi.de/p/3710373",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "88 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "9,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,7 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-15",
+        "source": "Kassenbon 2023-02-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  }
+}

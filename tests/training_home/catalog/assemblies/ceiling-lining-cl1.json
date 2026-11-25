@@ -1,0 +1,28 @@
+{
+  "id": "ceiling-lining-cl1",
+  "name": "Deckenbekleidung EG: Lattung 30 mm, GKB 12,5 mm, weiß gestrichen",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "CEILING" },
+  "category": "slab",
+  "din276": "354",
+  "description": "Neue Deckenbekleidung EG unter den Bestands-Deckenbalken (W-O). Lattung 30 mm Süd-Nord unten an die Balken geschraubt, darunter Gipskarton Standard 12,5 mm, weiß gestrichen. Balken nicht Teil des Aufbaus (siehe Geschoss ceilings[].joists).",
+  "layer_order": "top_down",
+  "layers": [
+    {
+      "material": "material:softwood-battens",
+      "thickness": 0.03,
+      "direction": "south_north"
+    },
+    {
+      "material": "material:gypsum-board-gkb",
+      "thickness": 0.0125
+    },
+    {
+      "material": "material:interior-paint-white",
+      "thickness": 0.002
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

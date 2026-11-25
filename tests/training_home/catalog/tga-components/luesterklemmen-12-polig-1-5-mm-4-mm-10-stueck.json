@@ -1,0 +1,62 @@
+{
+  "id": "luesterklemmen-12-polig-1-5-mm-4-mm-10-stueck",
+  "name": "Lüsterklemmen 12-polig Ø 1,5 mm - 4 mm 10 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007875354876_luesterklemmen-12-polig-1-5-mm-4-mm-10-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Lüsterklemmen 12-polig Ø 1,5 mm - 4 mm 10 Stück",
+    "article_no": "9509225",
+    "ean": "4007875354876",
+    "url": "https://www.obi.de/p/9509225",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "177 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "9,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,3 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-08-24",
+        "source": "Kassenbon 2026-08-24, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 2,
+    "cross_section": [
+      1.5,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "12er-Leiste, je Klemmstelle 2 Adern"
+  }
+}

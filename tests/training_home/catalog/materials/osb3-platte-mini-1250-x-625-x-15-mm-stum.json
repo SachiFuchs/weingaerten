@@ -1,0 +1,116 @@
+{
+  "id": "osb3-platte-mini-1250-x-625-x-15-mm-stum",
+  "name": "OSB3 Platte Mini 1250 x 625 x 15 mm stumpfe Kante ungeschliffen",
+  "category": "Holz",
+  "description": "Suchst Du eine stabile Platte, die sich flexibel im Innenausbau einsetzen lässt und auch in Räumen mit zeitweise höherer Luftfeuchte zuverlässig bleibt?\n\nProduktmerkmale der OSB3 Platte Mini 1250 x 625 x 15 mm stumpfe Kante ungeschliffen\n\nDarum solltest Du zugreifen: Die formstabile Grobspanplatte nach EN 300 eignet sich für Boden, Wand, Decke und den Dachboden und ist damit eine solide Basis für Innenausbau, Schalungen sowie Laden- und Messebau. Durch die Eignung für Innenbereiche und Feuchträume kannst Du sie auch im Keller oder in der Werkstatt einsetzen, ohne bei normaler Nutzung ständig auf wechselnde Bedingungen achten zu müssen. Das handliche Mini-Format mit 1250 x 625 mm und das Stückgewicht von 6,8 kg erleichtern Transport und Zuschnitt, wenn Du auf engem Raum arbeitest oder einzelne Flächen beplanken willst.\n\nAls OSB-Verlegeplatte in 15 mm Stärke unterstützt sie einen belastbaren Aufbau, zum Beispiel als Untergrund für Bodenaufbauten oder zur Aussteifung von Konstruktionen. Die holzfarbene Optik passt gut zu funktionalen Ausbauten, etwa im Dachboden oder im Gartenhaus, und die Emissionsklasse E 1 macht sie passend für viele Innenräume.\n\nFestgezurrt: Diese OSB3 Platte im Mini-Format ist eine praktische Wahl, wenn Du eine formstabile Ausbauplatte für vielseitige Innenprojekte bis hin zu Feuchträumen suchst.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10587891_osb3-platte-mini-1250-x-625-x-15-mm-stum"
+  ],
+  "product": {
+    "model": "OSB3 Platte Mini 1250 x 625 x 15 mm stumpfe Kante ungeschliffen",
+    "article_no": "10587891",
+    "ean": "8591000058884",
+    "url": "https://www.hornbach.de/p/osb3-platte-mini-1250-x-625-x-15-mm-stumpfe-kante-ungeschliffen/10587891/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Ausbauplatte"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Grobspanplatte"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Feuchtraum"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Bodenbelag, Innenausbau, Ladenbau, Messebau, Schalung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Dachboden"
+        },
+        {
+          "label": "Räume",
+          "value": "Dachboden, Gartenhaus, Werkstatt, Keller"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Formstabil"
+        },
+        {
+          "label": "Material",
+          "value": "Holzwerkstoff"
+        },
+        {
+          "label": "Norm",
+          "value": "EN 300"
+        },
+        {
+          "label": "Emissionsklasse",
+          "value": "E 1"
+        },
+        {
+          "label": "Kantenausprägung",
+          "value": "Stumpfe Kante"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Braun"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Ungeschliffen"
+        },
+        {
+          "label": "EAN",
+          "value": "8591000058884"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "625 mm"
+        },
+        {
+          "label": "Stärke",
+          "value": "15 mm"
+        },
+        {
+          "label": "Gewicht pro Stück",
+          "value": "6,8 kg"
+        },
+        {
+          "label": "Länge",
+          "value": "1.250 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 7.4,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-06-09",
+        "source": "Kassenbon 2023-06-09, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-10587891_1.jpg",
+    "hornbach-10587891_2.jpg",
+    "hornbach-10587891_3.jpg",
+    "hornbach-10587891_4.jpg"
+  ]
+}

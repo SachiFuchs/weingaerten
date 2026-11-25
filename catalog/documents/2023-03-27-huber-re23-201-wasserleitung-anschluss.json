@@ -1,0 +1,86 @@
+{
+  "id": "2023-03-27-huber-re23-201-wasserleitung-anschluss",
+  "name": "Huber RE23/201 – Wasserleitung Anschluss",
+  "doc_type": "invoice",
+  "supplier": "company:huber-sanitaer",
+  "date": "2023-03-27",
+  "number": "RE23/201",
+  "customer_number": "10497",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Haus Weingärten 8, Göppingen (Ausführung 16.02. und 22.03.2023)",
+  "description": "Rechnung von Alexander Huber (Göppingen) über die Verlegung von 84 m PE-Trinkwasserleitung vom Übergabepunkt zum Haus Weingärten 8 sowie die Installation eines DIN-gerechten Hauswasseranschlusses mit Wasserzähler und Syr-Drufi-Rückspülfilter. Enthält Lohnkosten über 1.097,56 € netto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Aduxa Druckrohr PE100RC 32x3,0 SDR11 TW schwarz mit blauer Außenschicht",
+      "quantity": 84.0,
+      "unit": "m",
+      "unit_price": 3.93,
+      "total_price": 330.12,
+      "ref": "material:pe100rc-druckrohr-32"
+    },
+    {
+      "position": "2",
+      "description": "Viega Maxiplex und Geberit Mepla Rotguss-Verschraubungen, Übergänge, Ventile (Freistrom/KFR), Wasserzähler-Anschlussgarnitur, Kaltwasserzähler, Rückspülfilter Syr-Drufi DFR mit Druckminderer und Flansch sowie Befestigungsmaterial (Pos. 2 bis 23)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 1473.18,
+      "total_price": 1473.18,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "24",
+      "description": "Arbeitszeit Fachmonteur Steinel am 16.02.2023",
+      "quantity": 3.0,
+      "unit": "Std",
+      "unit_price": 62.25,
+      "total_price": 186.75
+    },
+    {
+      "position": "25",
+      "description": "Arbeitszeit Monteur Miele am 16.02.2023",
+      "quantity": 2.0,
+      "unit": "Std",
+      "unit_price": 59.55,
+      "total_price": 119.1
+    },
+    {
+      "position": "26",
+      "description": "Arbeitszeit Fachmonteur Steinel am 22.03.2023",
+      "quantity": 6.5,
+      "unit": "Std",
+      "unit_price": 62.25,
+      "total_price": 404.63
+    },
+    {
+      "position": "27",
+      "description": "Arbeitszeit Monteur Elezaj am 22.03.2023",
+      "quantity": 6.5,
+      "unit": "Std",
+      "unit_price": 59.55,
+      "total_price": 387.08
+    },
+    {
+      "position": "28",
+      "description": "Fahrzeugbenützung",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 15.0,
+      "total_price": 15.0
+    }
+  ],
+  "subtotal_net": 2915.86,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2915.86,
+  "vat_rate": 19,
+  "vat_amount": 554.01,
+  "total_gross": 3469.87,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-03-27-huber-RE23-201-wasserleitung-anschluss.json",
+  "source_sha256": "78b646b893476cf6473dd6e83f6523468da74047887fce871ad778dda408aa77",
+  "original_filename": "2023-03-27-Rechnung-Huber Wasser.pdf"
+}

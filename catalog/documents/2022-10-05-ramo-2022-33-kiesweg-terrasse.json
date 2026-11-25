@@ -1,0 +1,40 @@
+{
+  "id": "2022-10-05-ramo-2022-33-kiesweg-terrasse",
+  "name": "Ramo 2022/33 – Kiesweg Terrasse",
+  "doc_type": "invoice",
+  "supplier": "company:ramo-landschaftsgaertner",
+  "date": "2022-10-05",
+  "number": "2022/33",
+  "customer_number": null,
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "BV: Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung von Ramo Garten- & Landschaftsbau für das Einschottern des PKW-Kieswegs und des Hauseingangswegs sowie das Einschalen und Betonieren der Terrasse in Weingärten 8. Pauschal 2.500,00 € netto. Im Kopf steht Rechnungsnummer 2022/33, in der Betreffzeile 2022/32.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Kiesweg für PKW einschottern, Hauseingangsweg einschottern, Terrasse einschalen und betonieren (Pauschale)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 2500.0,
+      "total_price": 2500.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 2500.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2500.0,
+  "vat_rate": 19,
+  "vat_amount": 475.0,
+  "total_gross": 2975.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-10-05-ramo-2022-33-kiesweg-terrasse.json",
+  "source_sha256": "a81c5a20e424f4266eec61effcce5aec9feb80f695511dc1c04455ef6d6464e2",
+  "original_filename": "2022-10-22 Ramo - Kiesweg, Terrassa.pdf",
+  "related": [
+    "document:2022-09-13-ramo-2022-22-angebot-pkw-weg"
+  ]
+}

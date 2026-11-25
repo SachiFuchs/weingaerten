@@ -1,0 +1,46 @@
+{
+  "id": "2023-07-31-kaelberer-s5-4389390-container-altholz",
+  "name": "Kälberer S5-4389390 – Container Altholz",
+  "doc_type": "invoice",
+  "supplier": "company:helmut-kaelberer",
+  "date": "2023-07-31",
+  "number": "S5-4389390",
+  "customer_number": "15144",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse: Weingärten 8, Göppingen (Containerauftrag Nr. S5-46901 vom 28.07.2023, Wägeschein 076016 vom 31.07.2023)",
+  "description": "Rechnung der Helmut Kälberer GmbH (Süssen) über die Stellung eines offenen 7-m³-Containers und die Entsorgung von 1,47 Tonnen Altholz (A I-III) auf der Baustelle Weingärten 8. Im selben PDF sind der Containerauftrag S5-46901 vom 28.07.2023 und der Wägeschein 076016 vom 31.07.2023 beigefügt.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "16034 7 m³ Container offen für Holz in Göppingen",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 90.0,
+      "total_price": 90.0,
+      "unit_raw": "St."
+    },
+    {
+      "position": "2",
+      "description": "14013 Entsorgung Holz A I-III (Wägeschein 76016 vom 31.07.2023)",
+      "quantity": 1.47,
+      "unit": "t",
+      "unit_price": 60.0,
+      "total_price": 88.2,
+      "unit_raw": "to"
+    }
+  ],
+  "subtotal_net": 178.2,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 178.2,
+  "vat_rate": 19,
+  "vat_amount": 33.86,
+  "total_gross": 212.06,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-07-31-kaelberer-S5-4389390-container-altholz.json",
+  "source_sha256": "c07d9321c695c44a6fdb84b02539c338f5ac33e7da3eb90b91295ff1d3929ad0",
+  "original_filename": "2023-07-28-Rechnung-Kaelberer Container.pdf"
+}

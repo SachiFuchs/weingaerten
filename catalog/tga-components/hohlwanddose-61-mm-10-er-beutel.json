@@ -1,0 +1,173 @@
+{
+  "id": "hohlwanddose-61-mm-10-er-beutel",
+  "name": "Hohlwanddose 61 mm 10-er Beutel",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "device",
+    "size": "61 × 61 × 47 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "ean-4008297183662_hohlwanddose-61-mm-10-er-beutel"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Hohlwanddose 61 mm 10-er Beutel",
+    "article_no": "1612811",
+    "ean": "4008297183662",
+    "url": "https://www.obi.de/p/1612811",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "276 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "6,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-29",
+        "source": "Kassenbon 2026-01-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.061,
+      0.061,
+      0.047
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0305,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0305,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0305,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0305,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

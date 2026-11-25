@@ -1,0 +1,63 @@
+{
+  "id": "2026-02-15-nexterio-auf-www-2026-02-05996-bodenfliesen-leeds",
+  "name": "Nexterio AUF/WWW/2026/02/05996 – Bodenfliesen Leeds",
+  "doc_type": "order_confirmation",
+  "supplier": "company:nexterio-de",
+  "date": "2026-02-15",
+  "number": "AUF/WWW/2026/02/05996",
+  "customer_number": "1625970",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse: Nadja Suri-Bernas, Weingärten 8, 73037 Göppingen (Rechnungsadresse: Vorderer Berg 20)",
+  "description": "Auftragsbestätigung von NEXTERIO.DE (Chemnitz) über 22 Pakete Bodenfliesen Realonda Leeds (13 Pakete Leeds Blue Matt und 9 Pakete Leeds Garden Matt, 33x33 cm) inklusive Versandkosten und 50 € Aktionsrabatt für Weingärten 8. Da keine separate Rechnung im Ordner vorliegt, wird die Auftragsbestätigung erfasst.",
+  "prices_are_net": false,
+  "items": [
+    {
+      "position": "1",
+      "description": "NX13087 Bodenfliese Leeds Blue Matt 33x33 Realonda (Bruttopreis)",
+      "quantity": 13.0,
+      "unit": "Paket",
+      "unit_price": 32.99,
+      "total_price": 428.87,
+      "ref": "material:bodenfliese-leeds-blue-33x33"
+    },
+    {
+      "position": "2",
+      "description": "NX13088 Bodenfliese Leeds Garden Matt 33x33 Realonda (Bruttopreis)",
+      "quantity": 9.0,
+      "unit": "Paket",
+      "unit_price": 32.99,
+      "total_price": 296.91,
+      "ref": "material:bodenfliese-leeds-garden-33x33"
+    },
+    {
+      "position": "3",
+      "description": "1000002 Rabattaktion 50 € für 500 € (Bruttobetrag)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": -50.0,
+      "total_price": -50.0
+    },
+    {
+      "position": "4",
+      "description": "1000001 Versandkosten (Bruttobetrag)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 79.95,
+      "total_price": 79.95
+    }
+  ],
+  "items_gross": true,
+  "subtotal_net": 635.07,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 635.07,
+  "vat_rate": 19,
+  "vat_amount": 120.66,
+  "total_gross": 755.73,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-02-15-nexterio-AUF-WWW-2026-02-05996-bodenfliesen-leeds.json",
+  "source_sha256": "8f2c0c6738df4ed3d24aae7984113cfbef11fa7e9e879d5a825f32afcb5c09d5",
+  "original_filename": "2026-02-15 Fliesen Nexterio_ABAUFWWW20260205996.pdf"
+}

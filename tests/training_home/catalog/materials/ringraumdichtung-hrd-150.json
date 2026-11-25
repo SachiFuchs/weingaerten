@@ -1,0 +1,29 @@
+{
+  "id": "ringraumdichtung-hrd-150",
+  "name": "Ringraumdichtung HRD 150 für Kältemittelleitungen",
+  "category": "Heizung",
+  "description": "geteilte Ringraumdichtung für Kernbohrung/Futterrohr Ø 150 mm, Pressplatten Polyamid GF, EPDM, Edelstahlschrauben, gas- und wasserdicht (Hersteller-Nr. bei Händlern 50900103622 bzw. 50900102862, nicht eindeutig)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "HRD 150",
+    "url": "https://www.haustechnik-handrich.de/weishaupt-systemtechnik/weishaupt-ringraumdichtung-hrd-150",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 223.87,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.7, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

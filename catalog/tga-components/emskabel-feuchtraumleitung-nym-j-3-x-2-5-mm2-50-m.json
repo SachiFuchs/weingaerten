@@ -1,0 +1,80 @@
+{
+  "id": "emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m",
+  "name": "Emskabel Feuchtraumleitung NYM-J 3 x 2,5 mm² 50 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 3,
+    "cross_section_mm2": 2.5,
+    "outer_diameter": 0.0105,
+    "conduit_type": "rigid"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4010480002216_emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m"
+  ],
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Emskabel Feuchtraumleitung NYM-J 3 x 2,5 mm² 50 m",
+    "article_no": "8041824",
+    "ean": "4010480002216",
+    "url": "https://www.obi.de/p/8041824",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "7,6 kg"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 52.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-17",
+        "source": "Kassenbon 2023-02-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 53.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 1.37,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 012, je m",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

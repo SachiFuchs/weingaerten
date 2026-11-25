@@ -1,0 +1,38 @@
+{
+  "id": "gebo-rohrnippel-1-2",
+  "name": "Gebo Rohrnippel 1/2\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6571502_gebo-rohrnippel-1-2",
+    "hornbach-6571503_gebo-rohrnippel-1-2"
+  ],
+  "product": {
+    "model": "Gebo Rohrnippel 1/2\"",
+    "article_no": "6571502",
+    "ean": "4019576066880",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 11.35,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-16",
+        "source": "Kassenbon 2026-10-16, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 13.15,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-16",
+        "source": "Kassenbon 2026-10-16, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "floor-eg-fbh",
+  "name": "Fußboden EG mit Fußbodenheizung (Bekotec EN 23F)",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "FLOORING" },
+  "category": "slab",
+  "description": "Altbelag Dielen/Kork/Laminat bleibt liegen; darauf Riempp Angebot 25-0235 Pos. 2-6: PUR 30 mm, Noppenplatte EN 23F mit Rohr 14 mm, Heizestrich bis S38 über Dämmung. Oberbelag noch offen.",
+  "din276": "352",
+  "layer_order": "top_down",
+  "layers": [
+    { "material": "material:heating-screed", "thickness": 0.015 },
+    { "material": "material:bekotec-en23f-plate", "thickness": 0.023, "heated": true },
+    { "material": "material:pur-pir-023", "thickness": 0.03 },
+    { "material": "material:laminate-grey", "thickness": 0.002 },
+    { "material": "material:cork-underlay", "thickness": 0.005 },
+    { "material": "material:floorboards-spruce", "thickness": 0.03 }
+  ],
+  "visualization": {
+    "view": "all_layers",
+    "section": "all_layers"
+  }
+}

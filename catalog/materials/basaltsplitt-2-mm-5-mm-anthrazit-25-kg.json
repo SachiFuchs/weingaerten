@@ -1,0 +1,53 @@
+{
+  "id": "basaltsplitt-2-mm-5-mm-anthrazit-25-kg",
+  "name": "Basaltsplitt 2 mm - 5 mm Anthrazit 25 kg",
+  "category": "Baustoffe",
+  "description": "Der Basaltsplitt mit einer Körnung von 2 mm bis 5 mm ist ein echter Allrounder, wenn es um den Einsatz rund ums Haus geht. Vielfältige Verwendung Sie können Basaltsplitt sowohl für den Unterbau von Terrassen. Auch die Verwendung auf der Einfahrt, dem Parkplatz oder im Hof ist möglich. Außerdem ist Basaltsplitt auch als Zierkies im Garten beispielsweise als Gartenweg oder zur Bodenbedeckung geeignet. Hochwertiger und langlebiger Naturstein Basaltsplitt zeichnet sich durch eine hohe Robustheit und Widerstandsfähigkeit aus und bietet daher auch besonderen Halt. Aufgrund seiner Farbbeständigkeit bleibt der Basaltsplitt auch nach langer Einsatzdauer schön.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4260073471237_basaltsplitt-2-mm-5-mm-anthrazit-25-kg"
+  ],
+  "product": {
+    "manufacturer": "company:weco",
+    "model": "Basaltsplitt 2 mm - 5 mm Anthrazit 25 kg",
+    "article_no": "1902436",
+    "ean": "4260073471237",
+    "url": "https://www.obi.de/p/1902436",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 5×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "17,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "42,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "65,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

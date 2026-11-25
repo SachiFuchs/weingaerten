@@ -1,0 +1,27 @@
+{
+  "id": "gsa-fl150-muendungsabschluss",
+  "name": "GSA Future_Line150 Mündungsabschluss",
+  "class": "tga-class:install-part",
+  "din276": "420",
+  "system_type": "Abgasanlage",
+  "params": {
+    "part_type": "other",
+    "size": "DN 150"
+  },
+  "note": "Edelstahlschornstein doppelwandig (GSA Angebot 016SH24)",
+  "product": {
+    "manufacturer": "company:gsa-schornstein",
+    "model": "Future_Line150",
+    "offers": [
+      {
+        "supplier": "company:gsa-schornstein",
+        "price": 44.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2024-01-23",
+        "source": "Angebot 016SH24, Pos. 6, je Stk",
+        "document": "document:2024-01-23-gsa-016sh24-edelstahlschornstein"
+      }
+    ]
+  }
+}

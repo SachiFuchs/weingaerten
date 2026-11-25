@@ -1,0 +1,60 @@
+{
+  "id": "obo-kabelkanal-15-mm-x-30-mm-weiss-laenge-2-m",
+  "name": "Obo Kabelkanal 15 mm x 30 mm Weiß Länge 2 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_duct",
+    "unit": "m"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873116445_obo-kabelkanal-15-mm-x-30-mm-weiss-laenge-2-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Obo Kabelkanal 15 mm x 30 mm Weiß Länge 2 m",
+    "article_no": "3621224",
+    "ean": "4007873116445",
+    "url": "https://www.obi.de/p/3621224",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "390 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "1,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,00 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 4.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-08",
+        "source": "Kassenbon 2025-12-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

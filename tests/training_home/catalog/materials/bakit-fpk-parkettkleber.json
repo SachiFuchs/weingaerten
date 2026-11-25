@@ -1,0 +1,27 @@
+{
+  "id": "bakit-fpk-parkettkleber",
+  "name": "Fertigparkettkleber BAKIT FPK 17 kg",
+  "category": "Baustoffe",
+  "description": "Parkettkleber, Gebinde 17 kg",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Fertigparkettkleber BAKIT FPK 17 kg",
+    "offers": [
+      {
+        "supplier": "company:koch-holzwerke",
+        "price": 87.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-02",
+        "source": "Angebot BVFIS/3352, Pos. 2, je Stk",
+        "document": "document:2026-01-02-koch-bvfis-3352-angebot-parkett-eiche"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

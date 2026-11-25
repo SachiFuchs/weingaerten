@@ -1,0 +1,56 @@
+{
+  "id": "el-kueche-herd",
+  "name": "Stromleitung Herd (NYM-J 5x2,5)",
+  "component": "tga-component:emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m",
+  "system": "electrical-kueche",
+  "installation": "surface",
+  "points": [
+    [
+      6.575,
+      5.06,
+      -0.6
+    ],
+    [
+      6.575,
+      5.06,
+      0.6
+    ],
+    [
+      6.575,
+      5.38,
+      0.6
+    ],
+    [
+      6.2,
+      5.38,
+      0.6
+    ],
+    [
+      6.2,
+      5.38,
+      0.4425
+    ]
+  ],
+  "conduit": {
+    "pipe": "tga-component:installationsrohr-m20-starr-lichtgrau-dr",
+    "bend": "tga-component:steckbogen-m20-fuer-installationsrohr-2",
+    "sleeve": "tga-component:steckmuffe-m20-fuer-installationsrohr-5",
+    "clamp": "tga-component:klemmschelle-m20-fuer-installationsrohr",
+    "clamp_spacing": 0.5
+  },
+  "open_end": {
+    "reserve": 1.5,
+    "note": "Keller, offen gelassen – Anschluss Sicherungskasten später"
+  },
+  "reserve": 0.5,
+  "to": "tga-terminal:el-dose-herd",
+  "joints": [
+    {"at": "to", "role": "L1", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1, "note": "Endstück bis Herdanschluss"},
+    {"at": "to", "role": "L2", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1},
+    {"at": "to", "role": "L3", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1},
+    {"at": "to", "role": "N", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1},
+    {"at": "to", "role": "PE", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1}
+  ],
+  "estimated": true,
+  "note": "im M20-Rohr aus dem Keller durch den Versorgungsschacht, waagrecht an der Wand Küche/Kammer"
+}

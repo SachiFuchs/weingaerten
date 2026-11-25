@@ -1,0 +1,53 @@
+{
+  "id": "alpinaweiss-wandfarbe-das-original-weiss-matt-11-l",
+  "name": "Alpinaweiß Wandfarbe Das Original Weiß Matt 11 l",
+  "category": "Farbe",
+  "description": "Die Alpina Wand- und Deckenfarbe deckt mit einem Anstrich Neu- und Renovierungsanstriche im Innenbereich. Sie ist beständig, strapazierfähig und hochergiebig. Außerdem ist die Innenfarbe geruchsfreundlich und wasserverdünnbar und ermöglicht bei sachgemäßer Verarbeitung bis zu 100 % spritzfreies Streichen. Wasserbasierte Dispersionsfarbe Die Innenfarbe basiert auf Wasser, wodurch der Raum nicht so stark nach Farbe riecht und sehr wasserdampfdurchlässig ist. Außerdem trocknet die Farbe dadurch schnell, ist tropfgehemmt und du kannst sie gleichmäßig und streifenfrei verarbeiten. Strahlend weiße Wandfarbe mit hoher Deckkraft Durch den hohen Weißgrad und die starke Deckkraft deckt die Innenfarbe beim ersten Anstrich. Zudem ist sie scheuerbeständig. Auf diese Weise eignet sich die Wandfarbe auch für relativ stark beanspruchte Räume wie Kinderzimmer, Flur und Küche. Tipps zur richtigen Anwendung Der zu streichende Untergrund sollte trocken, fest, tragfähig und sauber sein. Nutzen Sie die Dispersionsfarbe auf Putz, Beton, Mauerwerk, Gipskarton und Tapete, indem Sie die Farbe rollend, streichend oder sprühend auftragen. Es empfiehlt sich, den Alpina Spritz-Schutz-Spezialroller zu benutzen, weil dadurch das Risiko von Spritzern und Tropfen bei der Verarbeitung minimiert wird. Alpinaweiß eignet sich für folgende Innenflächen für Neu- und Renovierungsanstriche: - Raufaser-/Strukturtapete - Mauerwerk, Verputz, Beton - Gipskarton-/Deckenplatten, Glasfaserwandbeläge - Alte, festhaftende Dispersionsfarbenanstriche, Kunstharzputze - Stark saugende oder sandende Untergründe sollten vor dem Streichen mit einem geeigneten Tiefgrund grundiert werden.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4001244770373_alpinaweiss-wandfarbe-das-original-weiss-matt-11-l"
+  ],
+  "product": {
+    "manufacturer": "company:alpina-farben",
+    "model": "Alpinaweiß Wandfarbe Das Original Weiß Matt 11 l",
+    "article_no": "7862253",
+    "ean": "4001244770373",
+    "url": "https://www.obi.de/p/7862253",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 52.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-08-15",
+        "source": "Kassenbon 2024-08-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "16,1 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "23,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "34,4 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "26,4 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "regelverteiler-6-raeume",
+  "name": "Regelverteiler 6 Räume / 14 Stellantriebe 230 V",
+  "category": "Heizung",
+  "description": "Klemmleiste für bis zu 6 Raumthermostate und 14 Stellantriebe, 230 V, Absicherung 4 A",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Regelverteiler 6R",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 98.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 3.5, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

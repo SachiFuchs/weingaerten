@@ -1,0 +1,105 @@
+{
+  "id": "2023-05-15-ecowatersolution-30024a01-schlussrechnung-biotopp",
+  "name": "ECO Water 30024A01 – Schlussrechnung Biotopp",
+  "doc_type": "invoice",
+  "supplier": "company:eco-water-solution",
+  "date": "2023-05-15",
+  "number": "30024A01",
+  "customer_number": "30024A01",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Lieferung und Montage Kleinkläranlage BioTopp OK 4 EW, Weingärten 8, 73037 Göppingen (Angebot 221108S-b, Montage am 03./04.05.2023)",
+  "description": "Schlussrechnung der ECO Water Solution GmbH über die Lieferung und Montage der Kleinkläranlage BioTopp OK 4 EW mit Schlammvererdungsbecken in Weingärten 8 über insgesamt 8.676,55 € netto (10.325,09 € brutto). Nach Abzug der Akontozahlung 23-03-0264 (im Beleg mit 7.020,04 € ausgewiesen) verblieb eine Restzahlung von 3.305,05 €; die beiden separaten PDFs zur 1. Abschlagszahlung 23-03-0264 vom 30.03.2023 wurden zur Vermeidung einer Doppelzählung nicht importiert.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "2",
+      "description": "BioTopp OK 4 EW Kleinkläranlage (2 Sätze Silikonmembranrohrbelüfter, 3 Luftheber, Rechenvorrichtung, PE-Klärbehälter, Gebläseaggregat, Steuerung)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 5322.6,
+      "total_price": 5322.6,
+      "ref": "tga-component:biotopp-ok-4-ew"
+    },
+    {
+      "position": "3",
+      "description": "Vererdung 4-6 EW (Vererdungsbecken inkl. Trennwand, Beschickungseinrichtung, Drainage, Edelstahltauchmotorpumpe)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 862.5,
+      "total_price": 862.5,
+      "ref": "tga-component:biotopp-vererdung-4-6-ew"
+    },
+    {
+      "position": "5",
+      "description": "PE Außensäule 400x250x1695 mm inkl. Lüftungsgitter",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 472.0,
+      "total_price": 472.0,
+      "ref": "tga-component:biotopp-pe-aussensaeule"
+    },
+    {
+      "position": "6",
+      "description": "Leitungs-, Elektro- und Montagematerial (M20 Wellrohr, KG-Rohre/Bögen/Muffen DN 110 und DN 160, Fixbeton, Kleinteile, 40 m Kabel, Lageplan; Pos. 6-22, 26-28)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 586.85,
+      "total_price": 586.85,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "23",
+      "description": "Stunden Spezialmonteur (Montageschein vom 03.05.2023)",
+      "quantity": 9.0,
+      "unit": "Std",
+      "unit_price": 71.1,
+      "total_price": 639.9
+    },
+    {
+      "position": "24",
+      "description": "Stunden Monteur (Montageschein vom 03.05.2023)",
+      "quantity": 9.0,
+      "unit": "Std",
+      "unit_price": 61.0,
+      "total_price": 549.0
+    },
+    {
+      "position": "19",
+      "description": "Fahrtkosten (42 km à 1,25 €, Montageschein vom 03.05.2023)",
+      "quantity": 42.0,
+      "unit": "km",
+      "unit_price": 1.25,
+      "total_price": 52.5
+    },
+    {
+      "position": "25",
+      "description": "Stunden Wartungsfachmann (Montageschein vom 04.05.2023)",
+      "quantity": 0.5,
+      "unit": "Std",
+      "unit_price": 82.4,
+      "total_price": 41.2
+    },
+    {
+      "position": "19b",
+      "description": "Anfahrtspauschale (Montageschein vom 04.05.2023)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 150.0,
+      "total_price": 150.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 8676.55,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 8676.55,
+  "vat_rate": 19,
+  "vat_amount": 1648.54,
+  "total_gross": 10325.09,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-05-15-ecowatersolution-30024A01-schlussrechnung-biotopp.json",
+  "source_sha256": "52cbee3d65f4a46c9b9a1f4384055300ac315e2c6aa8064b38e3df1677acdb2d",
+  "original_filename": "2023-05-15 ecoWatersolutions - Schlussrechnung 30024A01_Rechnung.pdf"
+}

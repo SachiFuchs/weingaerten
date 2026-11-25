@@ -1,0 +1,8 @@
+{
+  "id": "pci",
+  "name": "PCI",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "PCI"
+}

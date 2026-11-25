@@ -1,0 +1,27 @@
+{
+  "id": "nord-fichte-nut-feder-21x146",
+  "name": "Nordische Fichte Nut-Feder 21 × 146 mm",
+  "category": "Holz",
+  "description": "A-Sortierung, KD 10–12 %, Mini-Fase, Deckbreite 132 mm, Länge 4,50 m",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Nordische Fichte Nut-Feder 21 × 146 mm",
+    "offers": [
+      {
+        "supplier": "company:koch-holzwerke",
+        "price": 21.17,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2024-08-15",
+        "source": "Rechnung 401482, Pos. 1, je m²",
+        "document": "document:2024-08-15-koch-401482-nord-fichte-nut-feder"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

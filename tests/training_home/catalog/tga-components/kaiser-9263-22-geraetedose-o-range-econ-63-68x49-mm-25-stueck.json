@@ -1,0 +1,204 @@
+{
+  "id": "kaiser-9263-22-geraetedose-o-range-econ-63-68x49-mm-25-stueck",
+  "name": "Kaiser 9263-22 Gerätedose O-range Econ 63 ØxT 68x49 mm 25 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "flush",
+    "box_function": "device",
+    "size": "68 × 68 × 49 mm"
+  },
+  "note": "Gerätedose für Hohlwand und Unterputz, orange, vollisolierte luftdichte Durchverdrahtung über Verbindungsstutzen. Packung 25 Stück.; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 9263-22 Gerätedose O-range Econ 63 ØxT 68x49 mm 25 Stück",
+    "article_no": "10354113",
+    "ean": "4260484710369",
+    "url": "https://www.hornbach.de/p/kaiser-9263-22-geraetedose-o-range-econ-63-oxt-68x49-mm-25-stueck/10354113/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Schalterdose"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Gerätedose"
+        },
+        {
+          "label": "Bohrdurchmesser",
+          "value": "68 mm"
+        },
+        {
+          "label": "Kabeleinführungen",
+          "value": "2"
+        },
+        {
+          "label": "Montageart",
+          "value": "Hohlwand, Unterputz"
+        },
+        {
+          "label": "Inhalt",
+          "value": "25 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Farbton",
+          "value": "Orange"
+        },
+        {
+          "label": "EAN",
+          "value": "2007007877558, 4013456575776, 4260484710369"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "68 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "49 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 34.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "hornbach.de Online-Preis 2026-11-21, Packung 25 Stück inkl. MwSt."
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "flush",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.049
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.034,
+          -0.0245
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.034,
+          -0.0245
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0.0,
+          -0.0245
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          0.0,
+          -0.0245
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cork-underlay",
+  "name": "Kork 5 mm (Bestand)",
+  "category": "Dämmung",
+  "description": "Korkunterlage unter dem alten Laminat EG, 0,5 cm; Bestand",
+  "conductivity": 0.045,
+  "density": 200,
+  "vapour_resistance": 10,
+  "fire_class": "B2",
+  "values_source": "Richtwert Kork (DIN EN ISO 10456)",
+  "appearance": { "color": "#B98A5A", "roughness": 0.9, "hatch": "insulation" }
+}

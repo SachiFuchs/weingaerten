@@ -1,0 +1,8 @@
+{
+  "id": "fenzl-zimmerei-und-holzbau",
+  "name": "Fenzl Zimmerei und Holzbau (Felix Fenzl)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

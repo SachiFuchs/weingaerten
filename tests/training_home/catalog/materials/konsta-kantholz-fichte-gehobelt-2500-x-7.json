@@ -1,0 +1,98 @@
+{
+  "id": "konsta-kantholz-fichte-gehobelt-2500-x-7",
+  "name": "Konsta Kantholz Fichte gehobelt 2500 x 74 x 54 mm",
+  "category": "Holz",
+  "description": "Benötigst Du ein stabiles und vielseitiges Holz für Dein nächstes Projekt? Das Konsta Kantholz Fichte gehobelt 54x74x2500 mm bietet die ideale Grundlage.\n\nProduktmerkmale des Konsta Kantholz Fichte gehobelt 54x74x2500 mm\nDarum solltest Du zugreifen: Dieses Kantholz aus Fichte ist sowohl für den Innen- als auch für den Außenbereich geeignet, was Dir Flexibilität bei verschiedenen Bauvorhaben bietet. Die gehobelte und gefaste Oberfläche sorgt für eine glatte und splitterfreie Verarbeitung, wodurch die Sicherheit und Ästhetik bei der Anwendung erhöht werden. Mit einer Länge von 2500 mm und einer Stärke von 54 mm bietet es die nötige Stabilität für den Innenausbau, Möbelbau und Regalbau. Die Breite von 74 mm ermöglicht eine solide Konstruktion, sei es für Wände, Böden oder Decken. Die natürliche Holzoptik der Fichte verleiht jedem Projekt eine warme und einladende Atmosphäre.\n\nFestgezurrt: Das Konsta Kantholz Fichte ist die perfekte Wahl für stabile und ästhetische Bauprojekte im Innen- und Außenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5146383_konsta-kantholz-fichte-gehobelt-2500-x-7"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Kantholz Fichte gehobelt 2500 x 74 x 54 mm",
+    "article_no": "5146383",
+    "ean": "4250821000529",
+    "url": "https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-74-x-54-mm/5146383/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Balken"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kantholz"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Möbelbau, Regalbau"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Gehobelt"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "4-seitig gehobelt, Gefast"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Anlieferhinweis",
+          "value": "Vor Bestellung muss vom Kunden sichergestellt sein, dass die Entladestelle mit einem 40 Tonnen - LKW erreichbar ist., Weitere Informationen entnehmen Sie bitte dem Datenblatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "PJGJ"
+        },
+        {
+          "label": "EAN",
+          "value": "2005146383008, 4005014417154, 4007622012318, 4015504018501, 4049868001039, 4250821000529, 4260031143169, 4260162496493"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "54 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "74 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2.500 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 17.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-5146383_1.jpg"
+  ]
+}

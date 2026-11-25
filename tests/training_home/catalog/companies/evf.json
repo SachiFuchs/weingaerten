@@ -1,0 +1,8 @@
+{
+  "id": "evf",
+  "name": "Energieversorgung Filstal GmbH & Co. KG (EVF)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

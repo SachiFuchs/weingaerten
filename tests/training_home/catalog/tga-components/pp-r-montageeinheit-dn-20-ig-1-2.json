@@ -1,0 +1,30 @@
+{
+  "id": "pp-r-montageeinheit-dn-20-ig-1-2",
+  "name": "Montageeinheit PP-R DN 20, Innengewinde ½″",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "terminal_type": "wall_plate",
+    "mounting": "flush"
+  },
+  "description": "Montageeinheit (Doppel-Wandanschluss) für den Übergang von Schweißrohr DN 20 auf Innengewinde ½″, Messinganschlüsse. Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "catalog_material": "material:pp-r-montageeinheit-dn-20-ig-1-2",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "out",
+        "line": "thread",
+        "dn": 15,
+        "gender": "socket"
+      }
+    ]
+  }
+}

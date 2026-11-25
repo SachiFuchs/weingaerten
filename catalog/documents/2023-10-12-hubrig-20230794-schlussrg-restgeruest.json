@@ -1,0 +1,39 @@
+{
+  "id": "2023-10-12-hubrig-20230794-schlussrg-restgeruest",
+  "name": "Hubrig 20230794 – Schlussrg Restgerüst",
+  "doc_type": "invoice",
+  "supplier": "company:achim-hubrig-geruestbau",
+  "date": "2023-10-12",
+  "number": "20230794",
+  "customer_number": "28048",
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Objekt: Göppingen Weingärten 8, Projekt 2023229, Aufmaß 2023229-003 (Leistungszeitraum 16.08.2023 bis 11.10.2023)",
+  "description": "Schlussrechnung von Achim Hubrig Gerüstbau über 8 Wochen Miete des Restgerüsts in Weingärten 8 vom 16.08.2023 bis 11.10.2023. Von der Gesamtleistung 328,34 EUR brutto wird die am 06.10.2023 bezahlte 1. Abschlagsrechnung 20230731 vom 26.09.2023 über 246,26 EUR abgezogen, offene Forderung 82,08 EUR. Grundlage ist das Angebot 20230651.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "001",
+      "description": "Miete Restgerüst der gekennzeichneten Flächen pro Woche",
+      "quantity": 8.0,
+      "unit": "pauschWo",
+      "unit_price": 34.49,
+      "total_price": 275.92
+    }
+  ],
+  "subtotal_net": 275.92,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 275.92,
+  "vat_rate": 19,
+  "vat_amount": 52.42,
+  "total_gross": 328.34,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-10-12-hubrig-20230794-schlussrg-restgeruest.json",
+  "source_sha256": "a654f04f0cb5066074e33a8959313fbeb9eec3985be7865e5b7db7b49d520ce0",
+  "original_filename": "2023-10-12-Rechnung-Hubrig.pdf",
+  "related": [
+    "document:2023-08-17-hubrig-20230651-angebot-restgeruest"
+  ]
+}

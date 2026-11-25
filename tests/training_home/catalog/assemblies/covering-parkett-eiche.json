@@ -1,0 +1,14 @@
+{
+  "id": "covering-parkett-eiche",
+  "name": "Bodenbelag Parkett Eiche, verklebt",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "FLOORING" },
+  "category": "covering",
+  "din276": "352",
+  "description": "Fertigparkett Eiche geölt vollflächig verklebt auf Estrich; Schichten vom Untergrund zum Raum; Dicken geschätzt",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:bona-r848-parkettklebstoff", "thickness": 0.002 },
+    { "material": "material:fertigparkett-eiche-lava", "thickness": 0.014 }
+  ],
+  "visualization": { "view": "all_layers", "section": "all_layers" }
+}

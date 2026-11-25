@@ -1,0 +1,29 @@
+{
+  "id": "beste-easyfil-ve",
+  "name": "BESTE Nachfüllkombination easyfil VE",
+  "category": "Heizung",
+  "description": "Nachfüllstation mit Systemtrenner BA für vollentsalztes Heizungswasser nach VDI 2035, Kapazitätskontrolle durch Farbwechsel der Kartusche",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:beste",
+    "model": "easyfil VE",
+    "url": "https://shop.beste-wasser.de/Produkte-zur-Wasseraufbereitung/Heizungswasser/BESTE-Nachfuellkombination-easyfil-VE.html",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 480.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 2.4, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

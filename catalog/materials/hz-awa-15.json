@@ -1,0 +1,29 @@
+{
+  "id": "hz-awa-15",
+  "name": "HZ Ausgleichs-Winkelabsperrverschraubung AWA 15 mm",
+  "category": "Heizung",
+  "description": "mit Klemmringverschraubung 15 mm, für HKU",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:hz-weitzel",
+    "model": "AWA",
+    "article_no": "1022",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 44.16,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.7, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

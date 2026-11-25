@@ -1,0 +1,27 @@
+{
+  "id": "bodenfliese-leeds-blue-33x33",
+  "name": "Bodenfliese Leeds Blue Matt 33 × 33 cm",
+  "category": "Fliesen",
+  "description": "Realonda, Paket",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Bodenfliese Leeds Blue Matt 33 × 33 cm",
+    "offers": [
+      {
+        "supplier": "company:nexterio-de",
+        "price": 32.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-15",
+        "source": "Auftragsbestätigung AUF/WWW/2026/02/05996, Pos. 1, je Paket",
+        "document": "document:2026-02-15-nexterio-auf-www-2026-02-05996-bodenfliesen-leeds"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B5654A",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "siga-majrex",
+  "name": "SIGA Majrex Dampfbremse",
+  "category": "Baustoffe",
+  "description": "feuchtevariable Dampfbremse (Fenzl, Pauschale mit Zubehör)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:siga",
+    "model": "SIGA Majrex Dampfbremse",
+    "offers": []
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

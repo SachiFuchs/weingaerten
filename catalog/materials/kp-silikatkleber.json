@@ -1,0 +1,36 @@
+{
+  "id": "kp-silikatkleber",
+  "name": "Spezial-KP-Silikatkleber",
+  "category": "Baustoffe",
+  "description": "Kleber für Kalziumsilikatplatten",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Spezial-KP-Silikatkleber",
+    "offers": [
+      {
+        "supplier": "company:wohnklimaplatte",
+        "price": 42.5,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-07-11",
+        "source": "Angebot WKP-20252112-P-1, Pos. 2, je Stk",
+        "document": "document:2025-07-11-wohnklimaplatte-wkp-20252112-p-1-angebot-klimaplatten"
+      },
+      {
+        "supplier": "company:wohnklimaplatte",
+        "price": 42.5,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-07-16",
+        "source": "Rechnung RE-WKP-1243133, Pos. 1, je Stk",
+        "document": "document:2025-07-16-wohnklimaplatte-re-wkp-1243133-kalziumsilikatplatten"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

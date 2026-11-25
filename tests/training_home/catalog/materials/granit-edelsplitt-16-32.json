@@ -1,0 +1,27 @@
+{
+  "id": "granit-edelsplitt-16-32",
+  "name": "Granit-Edelsplitt 16–32 mm grau/blau",
+  "category": "Schüttgut",
+  "description": "Bayernwald, lose, je Tonne",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Granit-Edelsplitt 16–32 mm grau/blau",
+    "offers": [
+      {
+        "supplier": "company:helmut-kaelberer",
+        "price": 99.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-31",
+        "source": "Rechnung S9-4427907, Pos. 2, je t",
+        "document": "document:2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#A8A39A",
+    "roughness": 1.0,
+    "hatch": "concrete"
+  }
+}

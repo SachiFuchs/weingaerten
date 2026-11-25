@@ -1,0 +1,27 @@
+{
+  "id": "bona-r848-parkettklebstoff",
+  "name": "Bona R 848 Parkettklebstoff 15 kg",
+  "category": "Baustoffe",
+  "description": "elastischer 1-K-Parkettklebstoff",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Bona R 848 Parkettklebstoff 15 kg",
+    "offers": [
+      {
+        "supplier": "company:holz-metzger",
+        "price": 99.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-23",
+        "source": "Angebot 2048550, Pos. 2, je Stk",
+        "document": "document:2026-01-23-metzger-2048550-angebot-landhausdiele"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

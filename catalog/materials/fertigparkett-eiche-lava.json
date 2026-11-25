@@ -1,0 +1,27 @@
+{
+  "id": "fertigparkett-eiche-lava",
+  "name": "Fertigparkett Eiche USED Lava, geölt",
+  "category": "Belag",
+  "description": "Eiche rustikal natur geölt, angeräuchert, 2200 × 195 × 15 mm",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Fertigparkett Eiche USED Lava, geölt",
+    "offers": [
+      {
+        "supplier": "company:koch-holzwerke",
+        "price": 94.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-02",
+        "source": "Angebot BVFIS/3352, Pos. 1, je m²",
+        "document": "document:2026-01-02-koch-bvfis-3352-angebot-parkett-eiche"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#9A7650",
+    "roughness": 0.6,
+    "hatch": "wood"
+  }
+}

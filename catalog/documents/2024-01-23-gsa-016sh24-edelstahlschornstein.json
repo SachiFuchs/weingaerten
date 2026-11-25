@@ -1,0 +1,185 @@
+{
+  "id": "2024-01-23-gsa-016sh24-edelstahlschornstein",
+  "name": "GSA 016SH24 – Edelstahlschornstein",
+  "doc_type": "quote",
+  "supplier": "company:gsa-schornstein",
+  "date": "2024-01-23",
+  "number": "016SH24",
+  "customer_number": "12118",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "BV: Schornsteinanlage Weingärten 8, Göppingen",
+  "description": "Angebot der GSA (Donzdorf) für ein dreischaliges Edelstahl-Schornsteinsystem Schräder Future Line mit 150 mm Innendurchmesser für die Schornsteinanlage Weingärten 8. Enthalten sind Stützfuß, Prüföffnung, Feuerungsanschluss, sechs Rohrelemente, Dachdurchführungen, Wandhalter und Regenhaube sowie ein Teuerungszuschlag von 20 Prozent. Auf die Positionen wird ein Gesamtrabatt von 32 Prozent (838,04 EUR) gewährt, Legierungszuschlag und Versandpauschale von 55 EUR kommen unrabattiert hinzu; die Alternativposition Stützfuß mit seitlichem Ablauf ist nicht eingerechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "SL01615005B Future_Line150 Stützfuß geschlossen",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 184.1,
+      "total_price": 184.1,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-stuetzfuss"
+    },
+    {
+      "position": "2",
+      "description": "SL02615005B Future_Line150 Prüföffnung m. Kasten",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 240.0,
+      "total_price": 240.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-pruefoeffnung"
+    },
+    {
+      "position": "3",
+      "description": "SL03715005B Future_Line150 Feuerungsanschluss 90°",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 158.0,
+      "total_price": 158.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-feuerungsanschluss-90"
+    },
+    {
+      "position": "4",
+      "description": "SL05315005B Future_Line150 DW/EW incl. Wandfutter 120mm",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 123.6,
+      "total_price": 123.6,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-wandfutter-120"
+    },
+    {
+      "position": "5",
+      "description": "SL00415005B Future_Line150 Rohrelement 1.000 mm GL",
+      "quantity": 6,
+      "unit": "Stk",
+      "unit_price": 121.0,
+      "total_price": 726.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-rohrelement-1000"
+    },
+    {
+      "position": "6",
+      "description": "SL08915005B Future_Line150 Mündungsabschluß",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 44.0,
+      "total_price": 44.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-muendungsabschluss"
+    },
+    {
+      "position": "7",
+      "description": "S008115006 Z150-06 Regenhaube o. Funkenschutz",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 55.8,
+      "total_price": 55.8,
+      "unit_raw": "Stk.",
+      "ref": "tga-component:gsa-z150-regenhaube"
+    },
+    {
+      "position": "8",
+      "description": "SL08815005B Future_Line150 Dachdurchführung 26 - 45°",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 170.4,
+      "total_price": 170.4,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-dachdurchfuehrung-26-45"
+    },
+    {
+      "position": "9",
+      "description": "SL08615005B Future_Line150 Dachdurchführung flach",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 127.8,
+      "total_price": 127.8,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-dachdurchfuehrung-flach"
+    },
+    {
+      "position": "10",
+      "description": "SL12215005B Future_Line150 Klemmband",
+      "quantity": 3,
+      "unit": "Stk",
+      "unit_price": 18.0,
+      "total_price": 54.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-klemmband"
+    },
+    {
+      "position": "11",
+      "description": "SL10115005B Future_Line150 Wandhalter 60 mm",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 40.9,
+      "total_price": 81.8,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-wandhalter-60"
+    },
+    {
+      "position": "12",
+      "description": "SL10715005B Future_Line150 Verl. Wandhalter - 250 mm",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 59.0,
+      "total_price": 118.0,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-wandhalter-verl-250"
+    },
+    {
+      "position": "13",
+      "description": "SL04515005B Future_Line150 Blende 0°",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 27.2,
+      "total_price": 27.2,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-blende-0"
+    },
+    {
+      "position": "14",
+      "description": "SL19315005B Future_Line150 Universalblende hinter-",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 71.7,
+      "total_price": 71.7,
+      "unit_raw": "Stck",
+      "ref": "tga-component:gsa-fl150-universalblende"
+    },
+    {
+      "position": "15",
+      "description": "TZ20 Teuerungszuschlag 20,0%",
+      "quantity": 1,
+      "unit": "mal",
+      "unit_price": 436.48,
+      "total_price": 436.48
+    },
+    {
+      "position": "LZ",
+      "description": "Legierungszuschlag (nicht rabattiert)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 136.26,
+      "total_price": 136.26
+    }
+  ],
+  "subtotal_net": 2755.14,
+  "discount_net": -838.04,
+  "shipping_net": 55.0,
+  "deductions_net": 1676.08,
+  "total_net": 1972.1,
+  "vat_rate": 19,
+  "vat_amount": 374.7,
+  "total_gross": 2346.8,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-01-23-gsa-016SH24-edelstahlschornstein.json",
+  "source_sha256": "19470b8e64ea087f5f8cccd7446b7dfb78d930684821cfa43240669cfcaa1d33",
+  "original_filename": "2024-01-23 Kaminrohr GSA - 016SH24-Angebot.pdf"
+}

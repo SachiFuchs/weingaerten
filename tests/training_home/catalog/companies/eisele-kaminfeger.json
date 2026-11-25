@@ -1,0 +1,8 @@
+{
+  "id": "eisele-kaminfeger",
+  "name": "Stefan Eisele Kaminfegerdienste",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

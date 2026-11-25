@@ -1,0 +1,70 @@
+{
+  "id": "2026-01-23-metzger-2048550-angebot-landhausdiele",
+  "name": "Metzger 2048550 – Angebot Landhausdiele",
+  "doc_type": "quote",
+  "supplier": "company:holz-metzger",
+  "date": "2026-01-23",
+  "number": "2048550",
+  "customer_number": "221494",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Objekt nicht im Beleg; Zuordnung Weingärten 8 lt. Auftraggeber (Angebot adressiert an Stefanie Bernas, Aichelberg, Abholung Plochingen)",
+  "description": "Angebot von Holz Metzger (Plochingen) vom 23.01.2026 über 34,656 m² Eichen-Landhausdielen (Eiche Primitivo) inklusive Bona-Parkettklebstoff, Zahnspachtel und Pflegemitteln zur Abholung in Plochingen. Eine binär identische zweite Kopie im Quellordner wurde als Duplikat übersprungen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "650006 Landhausdiele Eiche Primitivo 1-Stab rustikal, handgehobelt, Naturöl, 14x190x1900 mm, Woodloc 2G (12 Pakete = 96 Stück)",
+      "quantity": 34.656,
+      "unit": "m²",
+      "unit_price": 41.9,
+      "total_price": 1452.09,
+      "ref": "material:landhausdiele-eiche-primitivo"
+    },
+    {
+      "position": "2",
+      "description": "5110002 Bona R 848 elastischer 1-komponentiger Parkettklebstoff 15 kg",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 99.6,
+      "total_price": 298.8,
+      "ref": "material:bona-r848-parkettklebstoff"
+    },
+    {
+      "position": "3",
+      "description": "600036 Zahnspachtel B 13 (1250 g) für Fertigparkett",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 3.35,
+      "total_price": 3.35
+    },
+    {
+      "position": "4",
+      "description": "5910041 Satinöl Seidenmatt 0,5 l für Erst- und Unterhaltspflege",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 22.61,
+      "total_price": 22.61
+    },
+    {
+      "position": "5",
+      "description": "5910014 Holzbodenseife Natur 2,50 Liter",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 26.81,
+      "total_price": 26.81
+    }
+  ],
+  "subtotal_net": 1803.66,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1803.66,
+  "vat_rate": 19,
+  "vat_amount": 342.7,
+  "total_gross": 2146.36,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-01-23-metzger-2048550-angebot-landhausdiele.json",
+  "source_sha256": "e2474444cd6f7d3165c120b0836873822c5a8e5fc55fafac24abed21ea377bc4",
+  "original_filename": "2026-01-15 Metzger - Parket - Angebot_2048550_3DSJQN.pdf"
+}

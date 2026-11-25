@@ -1,0 +1,22 @@
+{
+  "id": "din276",
+  "name": "DIN 276 Kostengruppen (Auszug KG 300/400)",
+  "description": "Referenzliste für das Feld din276 an Aufbauten, Klassen und TGA-Komponenten. Gewerk (trade) wird aus der Kostengruppe abgeleitet.",
+  "groups": [
+    { "code": "300", "name": "Bauwerk – Baukonstruktionen" },
+    { "code": "320", "name": "Gründung, Unterbau",          "parent": "300" },
+    { "code": "330", "name": "Außenwände/Vertikale Baukonstruktionen, außen", "parent": "300" },
+    { "code": "334", "name": "Außenwandöffnungen",          "parent": "330" },
+    { "code": "340", "name": "Innenwände/Vertikale Baukonstruktionen, innen", "parent": "300" },
+    { "code": "336", "name": "Außenwandbekleidungen, innen", "parent": "330" },
+    { "code": "344", "name": "Innenwandöffnungen",          "parent": "340" },
+    { "code": "345", "name": "Innenwandbekleidungen",       "parent": "340" },
+    { "code": "350", "name": "Decken/Horizontale Baukonstruktionen", "parent": "300" },
+    { "code": "360", "name": "Dächer",                      "parent": "300" },
+    { "code": "400", "name": "Bauwerk – Technische Anlagen" },
+    { "code": "410", "name": "Abwasser-, Wasser-, Gasanlagen", "parent": "400", "trade": "Sanitär" },
+    { "code": "420", "name": "Wärmeversorgungsanlagen",     "parent": "400", "trade": "Heizung" },
+    { "code": "430", "name": "Raumlufttechnische Anlagen",  "parent": "400", "trade": "Lüftung" },
+    { "code": "440", "name": "Elektrische Anlagen",         "parent": "400", "trade": "Elektro" }
+  ]
+}

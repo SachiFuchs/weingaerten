@@ -1,0 +1,47 @@
+{
+  "id": "2024-02-21-fensterversand-r3320751-1-gutschrift-reklamation",
+  "name": "Fensterversand R3320751-1 – Gutschrift Reklamation",
+  "doc_type": "credit_note",
+  "supplier": "company:neuffer",
+  "date": "2024-02-21",
+  "number": "R3320751-1",
+  "customer_number": "239043",
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen (Lieferanschrift im PDF mit PLZ 73073)",
+  "description": "Rechnungskorrektur (Gutschrift) der Neuffer Fenster + Türen GmbH infolge einer Reklamation zur Bestellung 3320751 (Fenster/Balkontüren DG, Weingärten 8). Die Erstattung beträgt 75,01 € brutto (-63,03 € netto zzgl. -11,98 € MwSt.) und wird auf das angegebene Konto zurücküberwiesen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Reklamation",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 0.0,
+      "total_price": 0.0
+    },
+    {
+      "position": "2",
+      "description": "Gutschrift",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": -63.03,
+      "total_price": -63.03
+    }
+  ],
+  "subtotal_net": -63.03,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": -63.03,
+  "vat_rate": 19,
+  "vat_amount": -11.98,
+  "total_gross": -75.01,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-02-21-fensterversand-R3320751-1-gutschrift-reklamation.json",
+  "source_sha256": "8f643dc4c51bc8bb348d063d2ff00b16d275e26582d937216bce62b7e73204ca",
+  "original_filename": "2024-02-22 Rechnungskorrektur-R3320751-1-02-21-2024_1151am.pdf",
+  "related": [
+    "document:2023-11-16-fensterversand-3320751-fenster-balkontueren-dg"
+  ]
+}

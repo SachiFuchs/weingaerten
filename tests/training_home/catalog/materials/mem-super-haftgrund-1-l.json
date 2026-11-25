@@ -1,0 +1,53 @@
+{
+  "id": "mem-super-haftgrund-1-l",
+  "name": "MEM Super-Haftgrund 1 l",
+  "category": "Farbe",
+  "description": "Der MEM Super-Haftgrund ist ein Haftvermittler zwischen alten und neuen Materialien. Er zeichnet sich durch eine intensive Wirkung und höchste Qualität aus. Eigenschaften & Anwendungsbereiche Der hochwertige Haftvermittler ist für saugende und nichtsaugende sowie für feuchte Untergründe im Innen- und Außenbereich geeignet. Dabei schafft er eine exzellente Haftung zwischen alten und neuen Materialien. Er ist ideal verwendbar für Beton, Mörtel, Estrich, Fliesen, Putz, Holzfaser- und Gipsplatten, Marmor sowie für Bitumenuntergründe. Intensive Wirkung Der MEM Super-Haftgrund ist ein hochwertiger Primer auf Dispersionsbasis. Er sorgt für einen gleichmäßig saugenden Untergrund und bindet gleichzeitig den Staub. Darüber hinaus bildet er einen Film, welcher effektiv als Haftvermittler wirkt. Einfache Verarbeitung Für eine wirksame Verarbeitung muss die zu bearbeitende Fläche abgebunden und sauber sein, während nicht zu bearbeitende Flächen abgedeckt werden müssen. Zudem ist ein Verwehen der Flüssigkeit zu vermeiden. Tragen Sie zunächst den MEM Super-Haftgrund mit einem Pinsel, einem Quast, einer Rolle oder im Spritzverfahren satt auf. Je nach Witterung entwickelt sich die Masse nach ca. 30 Minuten zu einem klebrigen Film, auf dem der frische Mörtel, Putz, Estrich, Beton, Bitumen oder die Dichtungsschlämme aufgetragen werden kann. Bei stark saugenden Untergründen kann der MEM Super-Haftgrund 1:1 mit Wasser verdünnt werden. Die behandelte Fläche muss bis zum Abbinden vor Frost, Nässe und starker Sonneneinwirkung geschützt werden. Technische Details - Inhalt: 1 l - Form: Flüssig - Farbe: Milchig-Weiß - pH-Wert: 6 - Verbrauch: Ca. 0,2 l/m² (je nach Saugfähigkeit des Untergrundes) - Dichte: Ca. 1,02 g/ml - Verarbeitungstemperatur: 5 °C bis 30 °C - Lagerfähigkeit: Mindestens 36 Monate - Lagerbedingung: Trocken und frostfrei. Im gut verschlossenem Originalgebinde.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4010327007701_mem-super-haftgrund-1-l"
+  ],
+  "product": {
+    "manufacturer": "company:bostik",
+    "model": "MEM Super-Haftgrund 1 l",
+    "article_no": "2373447",
+    "ean": "4010327007701",
+    "url": "https://www.obi.de/p/2373447",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-24",
+        "source": "Kassenbon 2026-07-24, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,00 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "18,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "9,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "7,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

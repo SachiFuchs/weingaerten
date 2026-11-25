@@ -1,0 +1,22 @@
+{
+  "id": "p-4",
+  "component": "tga-component:emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m",
+  "storey": "ground",
+  "host": {
+    "wall": "w-west-z2",
+    "face": "inside"
+  },
+  "u": 2.2,
+  "z": 2.734,
+  "depth": -0.0235,
+  "rot": {
+    "plane": 90,
+    "tilt": 0,
+    "turn": 0,
+    "flip": true
+  },
+  "length": 1,
+  "connections": {
+    "b": "p-1.top"
+  }
+}

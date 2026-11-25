@@ -1,0 +1,125 @@
+{
+  "id": "2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag",
+  "name": "Kälberer S9-4427907 – Schüttgüter Bigbag",
+  "doc_type": "invoice",
+  "supplier": "company:helmut-kaelberer",
+  "date": "2023-07-31",
+  "number": "S9-4427907",
+  "customer_number": "62250",
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Baustelle: Weingärten 8, 73037 Göppingen (Beleg: \"Weingarten-Str. 8, 73033 Göppingen\"; Lieferschein Nr. 4310245 vom 27.07.2023)",
+  "description": "Rechnung der Helmut Kälberer GmbH (Süssen) über Schüttgüter für Garten und Wege in Weingärten 8: Mineralbeton, Granit-Edelsplitt, Betonkies, Sand, Kalksplitt, Universalerde und Kies, geliefert in 9 Big Bags inkl. Transport und Kraneinsatz. Abgerechnet wird der Lieferschein 4310245 vom 27.07.2023 (im Dateinamen als Lieferdatum geführt). Zahlbar bis 10.08.2023.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "95020 Mineralbeton 0-22 mm, lose",
+      "quantity": 1.43,
+      "unit": "t",
+      "unit_price": 23.0,
+      "total_price": 32.89,
+      "unit_raw": "to",
+      "ref": "material:mineralbeton-0-22"
+    },
+    {
+      "position": "2",
+      "description": "95322 Bayernwald Granit-Edelsplitt 16-32 mm grau/blau, lose",
+      "quantity": 1.03,
+      "unit": "t",
+      "unit_price": 99.0,
+      "total_price": 101.97,
+      "unit_raw": "to",
+      "ref": "material:granit-edelsplitt-16-32"
+    },
+    {
+      "position": "3",
+      "description": "95011 Betonkies 0-16 mm, lose",
+      "quantity": 1.29,
+      "unit": "t",
+      "unit_price": 34.5,
+      "total_price": 44.51,
+      "unit_raw": "to",
+      "ref": "material:betonkies-0-16"
+    },
+    {
+      "position": "4",
+      "description": "95007 Egginger Sand 0-4 mm, lose",
+      "quantity": 1.13,
+      "unit": "t",
+      "unit_price": 31.0,
+      "total_price": 35.03,
+      "unit_raw": "to",
+      "ref": "material:sand-0-4"
+    },
+    {
+      "position": "5",
+      "description": "95028 Kalksplitt 11-22 mm, lose",
+      "quantity": 2.12,
+      "unit": "t",
+      "unit_price": 24.2,
+      "total_price": 51.3,
+      "unit_raw": "to",
+      "ref": "material:kalksplitt-11-22"
+    },
+    {
+      "position": "6",
+      "description": "95081 Universalerde (1 m³ = ca. 0,85 to)",
+      "quantity": 2.19,
+      "unit": "t",
+      "unit_price": 71.0,
+      "total_price": 155.49,
+      "unit_raw": "to",
+      "ref": "material:universalerde"
+    },
+    {
+      "position": "7",
+      "description": "95013 Kies 16-32 mm, gewaschen, lose",
+      "quantity": 1.0,
+      "unit": "t",
+      "unit_price": 34.5,
+      "total_price": 34.5,
+      "unit_raw": "to",
+      "ref": "material:kies-16-32"
+    },
+    {
+      "position": "8",
+      "description": "40015 BIG BAG - Sack mit Füllgebühr (Einweg)",
+      "quantity": 9,
+      "unit": "Stk",
+      "unit_price": 25.0,
+      "total_price": 225.0,
+      "unit_raw": "St."
+    },
+    {
+      "position": "9",
+      "description": "10219 Transport nach Göppingen",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 90.0,
+      "total_price": 90.0,
+      "unit_raw": "St."
+    },
+    {
+      "position": "10",
+      "description": "10001 Kraneinsatz nach Aufwand je angefangene 30 min (Abrechnung in Std.)",
+      "quantity": 1,
+      "unit": "Std",
+      "unit_price": 100.0,
+      "total_price": 100.0,
+      "unit_raw": "Std."
+    }
+  ],
+  "subtotal_net": 870.69,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 870.69,
+  "vat_rate": 19,
+  "vat_amount": 165.43,
+  "total_gross": 1036.12,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-07-31-kaelberer-S9-4427907-schuettgueter-bigbag.json",
+  "source_sha256": "7193281463edc184408b70cf6720581459e52d32c6e66029abc2cbb287d0b869",
+  "original_filename": "2023-07-27-Rechnung Baustoffe-Kaelberer.pdf"
+}

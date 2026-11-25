@@ -1,0 +1,8 @@
+{
+  "id": "holz-metzger",
+  "name": "Holz Metzger (Metzger Holzhandel)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "roof-board-flashing",
+  "name": "Blechverkleidung Windbrett / Traufbohle",
+  "description": "Schuck Angebot 2191 Pos. 06.02/06.03, Zuschnitt bis 400 mm, je m; Blechart im Angebot nicht genannt",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 25.0,
+    "height": 0.0007,
+    "depth": 0.4,
+    "quantity": 25,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:copper-sheet"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 43.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 06.02, je m",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      }
+    ]
+  }
+}

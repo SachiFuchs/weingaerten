@@ -1,0 +1,37 @@
+{
+  "id": "2026-01-14-wiedmann-kbv-1025804-lehm-oberputz",
+  "name": "Wiedmann KBV 1025804 – Lehm Oberputz",
+  "doc_type": "invoice",
+  "supplier": "company:gottfried-wiedmann",
+  "date": "2026-01-14",
+  "number": "KBV 1025804",
+  "customer_number": "1002581/01",
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse/Einsatzort: Weingärten 8, 73037 Göppingen (lt. Auftraggeber); Barverkauf, Abholung ab Lager (aus Auftragsbestätigung KAB 210402, Abholung Eislingen)",
+  "description": "Barverkaufsbeleg (Rechnung, Kundenkopie) der Wiedmann Baustoffe über 4 Sack Claytec Lehm-Oberputz Uni Fein 0,6 mm, abgerechnet aus Auftragsbestätigung KAB 210402. Abholung ab Lager am 14.01.2026, Betrag dankend erhalten.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "2505250003 Claytec Lehm-Oberputz Uni Fein 06, 0,6 mm, 25 kg/Sack (10.113)",
+      "quantity": 4,
+      "unit": "Sack",
+      "unit_price": 21.45,
+      "total_price": 85.8,
+      "ref": "material:claytec-lehm-oberputz-fein-06-25-kg"
+    }
+  ],
+  "subtotal_net": 85.8,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 85.8,
+  "vat_rate": 19,
+  "vat_amount": 16.3,
+  "total_gross": 102.1,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-01-14-wiedmann-KBV-1025804-lehm-oberputz.json",
+  "source_sha256": "a72c1d75d04f7e2f01cb67bbf5876c3641f98f50f3e7dfc6d78a369786c2e2cb",
+  "original_filename": "2026-01-14-Rechnung-Wiedmann - Oberputz.pdf"
+}

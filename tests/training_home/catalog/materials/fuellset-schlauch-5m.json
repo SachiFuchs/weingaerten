@@ -1,0 +1,27 @@
+{
+  "id": "fuellset-schlauch-5m",
+  "name": "Füllset mit Schlauch 5 m",
+  "category": "Heizung",
+  "description": "Füllschlauch 5 m mit Wandschlauchhalter",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Füllset 5 m",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 42.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 2.3, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

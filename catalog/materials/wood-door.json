@@ -1,0 +1,12 @@
+{
+  "id": "wood-door",
+  "name": "Holz Türblatt",
+  "category": "Holz",
+  "description": "Massivholz-Türblatt, lackiert",
+  "conductivity": 0.13,
+  "density": 500,
+  "vapour_resistance": 50,
+  "fire_class": "B2",
+  "values_source": "Richtwert Nadelholz (DIN EN ISO 10456)",
+  "appearance": { "color": "#8B5A2B", "roughness": 0.6, "hatch": "wood" }
+}

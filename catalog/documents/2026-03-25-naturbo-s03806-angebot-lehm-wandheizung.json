@@ -1,0 +1,72 @@
+{
+  "id": "2026-03-25-naturbo-s03806-angebot-lehm-wandheizung",
+  "name": "Naturbo S03806 – Angebot Lehm Wandheizung",
+  "doc_type": "quote",
+  "supplier": "company:naturbo",
+  "date": "2026-03-25",
+  "number": "S03806",
+  "customer_number": "P/16864",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Rechnungs- und Lieferadresse: Nadja Suri-Bernas, Weingärten 8, Göppingen (Beleg: 73035 Göppingen)",
+  "description": "Angebot von naturbo (Lehmputz Trockenbausysteme, Görisried) über Lehm-Trockenbau- und Klima-Wandheizungspakete mit Dämmpaketen für Weingärten 8, gültig bis 24.05.2026. Das Angebot wurde handschriftlich angenommen (\"Angebot angenommen, bitte Detailplanung beginnen\", unterschriebener Scan \"2026-04-13 Naturbo - Auftrag.pdf\"). Nach der Detailplanung folgte der Auftrag S03806 vom 13.04.2026 und die Rechnung 13202600675 vom 16.06.2026.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "[2001-02] Trockenbaupaket (zum Kleben an der Wand, Lehmstreichputz)",
+      "quantity": 5,
+      "unit": "m²",
+      "unit_price": 36.96,
+      "total_price": 184.8
+    },
+    {
+      "position": "2",
+      "description": "[2101-02] Klima-Trockenbaupaket (zum Kleben an der Wand, Lehmstreichputz)",
+      "quantity": 15,
+      "unit": "m²",
+      "unit_price": 137.21,
+      "total_price": 2058.15
+    },
+    {
+      "position": "3",
+      "description": "[2301-01] Naturbo Dämmpaket (Lehmstreichputz)",
+      "quantity": 7,
+      "unit": "m²",
+      "unit_price": 56.91,
+      "total_price": 398.37
+    },
+    {
+      "position": "4",
+      "description": "[2401-01] Klima-Dämmpaket (Lehmstreichputz)",
+      "quantity": 8,
+      "unit": "m²",
+      "unit_price": 157.15,
+      "total_price": 1257.2
+    },
+    {
+      "position": "5",
+      "description": "Versand per Spedition (3 Paletten, 1,43 t)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 420.0,
+      "total_price": 420.0,
+      "unit_raw": "Stück"
+    }
+  ],
+  "subtotal_net": 4318.52,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 4318.52,
+  "vat_rate": 19,
+  "vat_amount": 820.52,
+  "total_gross": 5139.04,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-03-25-naturbo-S03806-angebot-lehm-wandheizung.json",
+  "source_sha256": "1c9339942b473a406240f3f04574638e1bfbd75e2796650d9cfe9ce54aaca262",
+  "original_filename": "Angebot - S03806-1.pdf",
+  "related": [
+    "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+  ]
+}

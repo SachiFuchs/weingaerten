@@ -1,0 +1,38 @@
+{
+  "id": "clay-tile-rubin",
+  "name": "Tondachziegel Braas Rubin 13 V, kupfer",
+  "category": "Dachdeckung",
+  "description": "Schuck Dach RE 17.07.2023, Pos. 05.01: 130 m² Flächeneindeckung à 37,50 €",
+  "conductivity": 1.0,
+  "density": 2000,
+  "vapour_resistance": 40,
+  "fire_class": "A1",
+  "values_source": "Richtwert Dachziegel (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#B0522D",
+    "roughness": 0.85,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 37.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 05.01, je m²",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 37.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 05.01, je m²",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

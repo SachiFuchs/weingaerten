@@ -1,0 +1,29 @@
+{
+  "id": "naturbo-alu-verbundrohr-16",
+  "name": "Naturbo Alu-Verbundrohr Ø 16 mm",
+  "class": "tga-class:pipe",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "nominal_size_dn": 12,
+    "outer_diameter": 0.016,
+    "medium": "heating_supply"
+  },
+  "note": "angelegt für die Presskupplungen 11,6/16 (Bauherr: Verbundrohre 11 und 16 vorhanden) - Produktdaten offen",
+  "estimated": true,
+  "connection": {
+    "line": "alu_composite",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 16.0,
+        "gender": "spigot"
+      },
+      {
+        "id": "b",
+        "dn": 16.0,
+        "gender": "spigot"
+      }
+    ]
+  }
+}

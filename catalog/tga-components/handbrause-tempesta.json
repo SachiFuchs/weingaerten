@@ -1,0 +1,29 @@
+{
+  "id": "handbrause-tempesta",
+  "name": "Handbrause Tempesta",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6605373_handbrause-tempesta"
+  ],
+  "product": {
+    "model": "Handbrause Tempesta",
+    "article_no": "6605373",
+    "ean": "4005176985508",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 23.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-03-23",
+        "source": "Kassenbon 2024-03-23, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  }
+}

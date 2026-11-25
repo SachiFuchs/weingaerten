@@ -1,0 +1,35 @@
+{
+  "id": "exterior-wall-ew1",
+  "name": "Außenwand Hohlraumziegel 30 cm, verputzt",
+  "ifc": { "entity": "IfcWall", "predefined_type": "STANDARD" },
+  "category": "exterior_wall",
+  "din276": "330",
+  "description": "Hohlraumziegel 30 cm, außen und innen verputzt und weiß gestrichen",
+  "layer_order": "outside_in",
+  "layers": [
+    {
+      "material": "material:exterior-paint-white",
+      "thickness": 0.005
+    },
+    {
+      "material": "material:exterior-plaster",
+      "thickness": 0.01
+    },
+    {
+      "material": "material:hollow-brick",
+      "thickness": 0.3
+    },
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    },
+    {
+      "material": "material:interior-paint-white",
+      "thickness": 0.003
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

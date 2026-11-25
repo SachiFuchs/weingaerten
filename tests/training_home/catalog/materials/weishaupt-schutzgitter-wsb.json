@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-schutzgitter-wsb",
+  "name": "Weishaupt Schutzgitter-Set WSB 6/8/10",
+  "category": "Heizung",
+  "description": "Schutzgitter für den Verdampfer des Außengeräts",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Schutzgitter-Set WSB 6/8/10",
+    "article_no": "51150505022",
+    "url": "https://www.heizbude.de/waermepumpen/schutzgitter-set-wsb-6-8-10-51150505022-von-weishaupt-hb-191374",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 227.04,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.6, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

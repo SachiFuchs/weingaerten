@@ -1,0 +1,13 @@
+{
+  "id": "tw-uebergabe-kg-hot",
+  "name": "Übergabe Warmwasser Keller (offen)",
+  "component": "tga-component:water-transfer",
+  "storey": "storey:basement",
+  "room": "room-keller",
+  "position": [
+    6.742,
+    5.03,
+    -0.3
+  ],
+  "estimated": true
+}

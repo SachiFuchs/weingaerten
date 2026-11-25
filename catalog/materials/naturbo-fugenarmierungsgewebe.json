@@ -1,0 +1,28 @@
+{
+  "id": "naturbo-fugenarmierungsgewebe",
+  "name": "Naturbo Fugenarmierungsgewebe",
+  "category": "Baustoffe",
+  "description": "Fugenarmierung, Rolle",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Fugenarmierungsgewebe",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 7.3,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 12, je Rolle",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

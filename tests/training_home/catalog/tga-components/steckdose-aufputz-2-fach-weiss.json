@@ -1,0 +1,68 @@
+{
+  "id": "steckdose-aufputz-2-fach-weiss",
+  "name": "Steckdose Aufputz 2-Fach Weiß",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873910395_steckdose-aufputz-2-fach-weiss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Steckdose Aufputz 2-Fach Weiß",
+    "article_no": "1698158",
+    "ean": "4007873910395",
+    "url": "https://www.obi.de/p/1698158",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "150 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,2 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

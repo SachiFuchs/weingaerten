@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-class",
+  "title": "TGA-Klasse (catalog/tga-classes/<id>.json) – KG 400: Leitungsträger (pipe, cable, duct) oder Endstelle (terminal)",
+  "type": "object",
+  "required": ["id", "name", "kind", "parameters"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":        { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "kind":        { "enum": ["pipe", "cable", "duct", "terminal", "fitting", "part"], "description": "pipe/cable/duct = Leitungsträger (Verlauf als points[]), terminal = Endstelle (Punkt im Raum), fitting = Formteil (Bogen, Abzweig, Übergang, Stopfen), part = Installationszubehör ohne Geometrie (Dosen, Armaturen, Gewindeteile; nur Stückliste)" },
+    "ifc": {
+      "type": "object",
+      "description": "IFC-Zuordnung (IFC4) der Leitungen/Endstellen dieser Klasse (Instanzklasse, z. B. IfcPipeSegment). Vom Core nicht ausgewertet",
+      "required": ["entity"],
+      "additionalProperties": false,
+      "properties": {
+        "entity":          { "type": "string", "pattern": "^Ifc[A-Z][A-Za-z]+$" },
+        "predefined_type": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$" },
+        "object_type":     { "type": "string", "minLength": 1 }
+      }
+    },
+    "connection_rules": {
+      "type": "array",
+      "description": "Verbindungslogik der Bauteile dieser Klasse (ConnectionValidator); eine Regel gilt für die Bauteile mit passendem Leitungssystem (line) und Typ (types = part_type / terminal_type / fitting_type)",
+      "items": {
+        "type": "object",
+        "required": ["medium"],
+        "additionalProperties": false,
+        "properties": {
+          "line":      { "enum": ["ht", "kg", "ppr", "alu_composite", "power"] },
+          "types":     { "type": "array", "items": { "type": "string" } },
+          "medium":    { "enum": ["power", "water_supply", "waste_water", "heating"] },
+          "method":    { "enum": ["clamp", "weld", "push", "press", "screw"], "description": "clamp = Klemme (WAGO), weld = PP-R-Muffenschweißen, push = Steckmuffe HT/KG, press = Pressfitting, screw = Gewinde" },
+          "partners":  { "type": "array", "items": { "enum": ["pipe", "fitting", "cable", "clamp", "box", "terminal", "part"] }, "description": "womit verbunden werden darf" },
+          "locations": { "type": "array", "items": { "enum": ["box", "terminal"] }, "description": "Kabel: wo Leiter verbunden werden dürfen" },
+          "directed":  { "type": "boolean", "description": "Fließrichtung beachten (Abwasser)" },
+          "note":      { "type": "string" }
+        }
+      }
+    },
+    "parameters": {
+      "type": "array",
+      "description": "Gleiche Regeln wie class.parameters",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "key":      { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "name":     { "type": "string", "minLength": 1 },
+          "type":     { "enum": ["length", "number", "choice", "bool", "text"], "description": "length in m (Formular in cm); text = freier Text" },
+          "default":  {},
+          "min":      { "type": "number" },
+          "max":      { "type": "number" },
+          "options":  { "type": "array", "description": "Pflicht bei choice" },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "material_roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name"],
+        "additionalProperties": false,
+        "properties": {
+          "key":     { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+          "name":    { "type": "string", "minLength": 1 },
+          "default": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "marley-gummimanschette-fuer-fallrohr-dn",
+  "name": "Marley Gummimanschette für Fallrohr DN 53-75-90 an KG-Rohre DN 110 mm",
+  "category": "Entwässerung",
+  "description": "Hast Du Schwierigkeiten, Fallrohre sicher und zuverlässig an die Grundleitung anzuschließen? Mit der Marley Gummimanschette für Fallrohr DN 53-75-90 an KG-Rohre DN 110 mm gelingt Dir das mühelos.\n\nProduktmerkmale der Marley Gummimanschette für Fallrohr DN 53-75-90 an KG-Rohre DN 110 mm\nDarum solltest Du zugreifen: Diese Gummimanschette ist ein vielseitiger Verbinder für Fallrohre mit den Nennweiten DN 53, DN 75 und DN 90. Sie ermöglicht einen sicheren Anschluss an KG-Rohre mit DN 110 mm. Die Manschette ist witterungsbeständig und UV-beständig, was ihre Langlebigkeit auch bei extremen Wetterbedingungen sicherstellt. Dank der hohen Belastbarkeit kannst Du Dich auf eine zuverlässige Funktion verlassen. Der Zuschnitt der erforderlichen Nennweite erfolgt einfach mit einem Cuttermesser, was eine flexible Anpassung an Deine spezifischen Anforderungen ermöglicht. Die Dachgrundfläche, die sie abdecken kann, reicht von 25 bis 51 m², was sie ideal für verschiedene Anwendungen macht.\n\nFestgezurrt: Die Marley Gummimanschette bietet eine sichere und flexible Lösung für den Anschluss von Fallrohren an Grundleitungen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-3111715_marley-gummimanschette-fuer-fallrohr-dn"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Gummimanschette für Fallrohr DN 53-75-90 an KG-Rohre DN 110 mm",
+    "article_no": "3111715",
+    "ean": "4002644088341",
+    "url": "https://www.hornbach.de/p/marley-gummimanschette-fuer-fallrohr-dn-53-75-90-an-kg-rohre-dn-110-mm/3111715/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Verbinder"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Dachentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Nennweite",
+          "value": "90 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Witterungsbeständig, UV-beständig, Hochbelastbar"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "Dachgrundfläche bis",
+          "value": "25 m² - 51 m²"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "4J4H"
+        },
+        {
+          "label": "EAN",
+          "value": "2003111715007, 4002644088341"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "90 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-3111715_1.jpg",
+    "hornbach-3111715_2.jpg"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-hohlwanddose",
+  "name": "Hohlwanddose",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "box_function",
+        "label": "Dosenart"
+      },
+      {
+        "param": "size",
+        "label": "Größe"
+      }
+    ],
+    "default": "tga-component:hohlwand-abzweigkasten-115-x-115-x-47-mm-orange-weiss-ip30"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

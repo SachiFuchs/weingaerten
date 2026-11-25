@@ -1,0 +1,53 @@
+{
+  "id": "weber-haftgrundierung-putzgrund-5-l",
+  "name": "Weber Haftgrundierung Putzgrund 5 l",
+  "category": "Farbe",
+  "description": "Der Weber Haftgrundierung Putzgrund ist ein werksmäßig hergestellter, organischer, weiß eingefärbter Grundanstrich. Er wird zur Egalisierung ungleichmäßig saugender Untergründe und zur Verbesserung der Haftung eingesetzt. Haftgrundierung Putzgrund ist ein Voranstrich für dünnschichtige Edelputze. Verarbeitung: Der Untergrund sollte tragfähig, trocken und sauber sein. Schmutz, Staub und lose Teile müssen vom Untergrund entfernt werden. Die Grundierung lässt sich mit der Rolle oder der Deckenbürste streichen. Eine zu hohe Auftragsmenge kann zu einer Filmbildung (Glanz) und damit zu Haftungsproblemen der nachfolgenden Beschichtung führen. Hinweise: Der Grundierung dürfen keine Zusätze zugemischt werden. Während der Verarbeitung und Austrocknung der Grundierung darf die Temperatur der Luft, der verwendeten Materialien und des Untergrundes nicht unter + 5 °C absinken. Durch die Art des Untergrundes und des Auftragens kann der Verbrauch variieren. Die exakten Verbrauchswerte sind durch Probeflächen am Objekt zu ermitteln.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4011361162975_weber-haftgrundierung-putzgrund-5-l"
+  ],
+  "product": {
+    "manufacturer": "company:saint-gobain-weber",
+    "model": "Weber Haftgrundierung Putzgrund 5 l",
+    "article_no": "7519895",
+    "ean": "4011361162975",
+    "url": "https://www.obi.de/p/7519895",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 18.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-10-29",
+        "source": "Kassenbon 2022-10-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "5,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "21,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "26,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "34,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

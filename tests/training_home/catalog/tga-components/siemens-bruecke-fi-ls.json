@@ -1,0 +1,26 @@
+{
+  "id": "siemens-bruecke-fi-ls",
+  "name": "Siemens Brücke für FI/LS",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:siemens",
+    "model": "Siemens Brücke für FI/LS",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 12.2,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-10-17",
+        "source": "Rechnung 10101973, Pos. 008, je Stk",
+        "document": "document:2023-10-17-speidel-10101973-verteiler-haus-garten"
+      }
+    ]
+  }
+}

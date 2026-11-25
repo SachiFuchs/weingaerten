@@ -1,0 +1,39 @@
+{
+  "id": "gewinde-gabelstueck-26-4-mm-r-3-4-x-24-1-mm-rp-3-4-x-26-4",
+  "name": "Gewinde-Gabelstück 26,4 mm(R 3/4) x 24,1 mm(Rp 3/4) x 26,4 mm(R 3/4) Messing",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873933226_gewinde-gabelstueck-26-4-mm-r-3-4-x-24-1-mm-rp-3-4-x-26-4"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Gabelstück 26,4 mm(R 3/4) x 24,1 mm(Rp 3/4) x 26,4 mm(R 3/4) Messing",
+    "article_no": "4711404",
+    "ean": "4007873933226",
+    "url": "https://www.obi.de/p/4711404",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "103 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-23",
+        "source": "Kassenbon 2023-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "gewinde-stopfen-16-7-mm-r-3-8-messing-verchromt",
+  "name": "Gewinde-Stopfen 16,7 mm (R 3/8) Messing Verchromt",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007871303090_gewinde-stopfen-16-7-mm-r-3-8-messing-verchromt"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Stopfen 16,7 mm (R 3/8) Messing Verchromt",
+    "article_no": "7404320",
+    "ean": "4007871303090",
+    "url": "https://www.obi.de/p/7404320",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "22 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-26",
+        "source": "Kassenbon 2025-03-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

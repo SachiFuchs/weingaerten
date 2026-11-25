@@ -1,0 +1,27 @@
+{
+  "id": "feinsteinzeug-braun-dekor-20x20",
+  "name": "Feinsteinzeug braun Dekor mix 20 × 20 cm",
+  "category": "Fliesen",
+  "description": "R10/B, VE 1,04 m²",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Feinsteinzeug braun Dekor mix 20 × 20 cm",
+    "offers": [
+      {
+        "supplier": "company:harsch-fliese-stein-fachhandel",
+        "price": 57.98,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-26",
+        "source": "Angebot HA-26-05464-AN, Pos. 4, je m²",
+        "document": "document:2026-01-26-harsch-ha-26-05464-an-angebot-fliesen"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B5654A",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

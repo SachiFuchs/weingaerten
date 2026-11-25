@@ -1,0 +1,51 @@
+{
+  "id": "muffe-mit-beidseitigem-ig-24-1-mm-rp-3-4",
+  "name": "Muffe mit beidseitigem IG 24,1 mm (Rp 3/4)",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873222153_muffe-mit-beidseitigem-ig-24-1-mm-rp-3-4"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Muffe mit beidseitigem IG 24,1 mm (Rp 3/4)",
+    "article_no": "8395519",
+    "ean": "4007873222153",
+    "url": "https://www.obi.de/p/8395519",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "45 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "3,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

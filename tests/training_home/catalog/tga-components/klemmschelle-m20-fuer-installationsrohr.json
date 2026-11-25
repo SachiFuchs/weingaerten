@@ -1,0 +1,116 @@
+{
+  "id": "klemmschelle-m20-fuer-installationsrohr",
+  "name": "Klemmschelle M20 für Installationsrohr grau 10 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing",
+    "unit": "pcs",
+    "size": "M20",
+    "pack_size": 10
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-5008789_klemmschelle-m20-fuer-installationsrohr"
+  ],
+  "product": {
+    "manufacturer": "company:pm-flex",
+    "model": "Klemmschelle M20 für Installationsrohr grau 10 Stück",
+    "article_no": "5008789",
+    "ean": "8027788360531",
+    "url": "https://www.hornbach.de/p/klemmschelle-m20-fuer-installationsrohr-grau-10-stueck/5008789/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Schelle"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Endstück"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 40"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Zubehör"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Befestigung"
+        },
+        {
+          "label": "Montageart",
+          "value": "Aufputz"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Installationsrohr"
+        },
+        {
+          "label": "Größe",
+          "value": "M20"
+        },
+        {
+          "label": "Anzahl",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Material: Nylon, Maximale Tragkraft pro Meter 2,0 kg"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "FGWJ"
+        },
+        {
+          "label": "EAN",
+          "value": "2005008789009, 4012092770101, 8027788360531"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "19 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "19 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "0,03 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.15,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-23",
+        "source": "Kassenbon 2025-12-23, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-5008789_1.jpg",
+    "hornbach-5008789_2.jpg"
+  ]
+}

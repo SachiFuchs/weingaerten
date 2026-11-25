@@ -1,0 +1,8 @@
+{
+  "id": "buildify",
+  "name": "Buildify",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "Buildify"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "flex-armaturen-schlauchverbinder-14-9-mm-g-3-8-x-10-mm-x",
+  "name": "Flex-Armaturen-Schlauchverbinder 14,9 mm (G 3/8) x 10 mm x 300 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873900686_flex-armaturen-schlauchverbinder-14-9-mm-g-3-8-x-10-mm-x"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Flex-Armaturen-Schlauchverbinder 14,9 mm (G 3/8) x 10 mm x 300 mm",
+    "article_no": "6752554",
+    "ean": "4007873900686",
+    "url": "https://www.obi.de/p/6752554",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "85 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-16",
+        "source": "Kassenbon 2026-06-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "window-small",
+  "name": "Fenster Klein",
+  "description": "Kleines Fenster 0,50 × 0,50, fest verglast",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 0.5,
+    "height": 0.5,
+    "depth": 0.08,
+    "frame_width": 0.06,
+    "sashes": 0
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  }
+}

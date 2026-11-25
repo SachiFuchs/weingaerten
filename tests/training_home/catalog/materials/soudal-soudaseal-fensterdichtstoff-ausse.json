@@ -1,0 +1,115 @@
+{
+  "id": "soudal-soudaseal-fensterdichtstoff-ausse",
+  "name": "Soudal Soudaseal Fensterdichtstoff aussen weiß 290 ml",
+  "category": "Baustoffe",
+  "description": "Möchtest Du sicherstellen, dass Deine Außenfugen optimal abgedichtet sind? Der Soudal Soudaseal Fensterdichtstoff außen weiß 290 ml bietet die ideale Lösung.\n\nProduktmerkmale des Soudal Soudaseal Fensterdichtstoff außen weiß 290 ml\nDarum solltest Du zugreifen: Dieser hochwertige Dichtstoff auf Hybridpolymerbasis ist speziell für den Einsatz im Außenbereich konzipiert. Er eignet sich hervorragend zum Abdichten von Fassaden, Dächern, im Bootsbau, bei Klimaanlagen und im Automobilbereich. Die dauerelastische Eigenschaft des Dichtstoffs sorgt dafür, dass er Bewegungen und Dehnungen der Fugen problemlos mitmacht, ohne zu reißen. Dank seiner UV- und Witterungsbeständigkeit bleibt der Dichtstoff auch bei widrigen Wetterbedingungen stabil und schützt zuverlässig vor Schlagregen. Die anstrichverträgliche Oberfläche ermöglicht es, den Dichtstoff nach dem Aushärten zu überstreichen, um eine nahtlose Integration in die Umgebung zu gewährleisten. Die Verarbeitungstemperatur liegt zwischen 5 und 35 °C, was eine flexible Anwendung ermöglicht. Der Dichtstoff haftet optimal auf staubfreien, sauberen, fettfreien und tragfähigen Untergründen wie Aluminium, Kunststoff, Mauerwerk und Beton.\n\nFestgezurrt: Der Soudal Soudaseal Fensterdichtstoff bietet eine zuverlässige und langlebige Abdichtungslösung für vielfältige Außenanwendungen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10131310_soudal-soudaseal-fensterdichtstoff-ausse"
+  ],
+  "product": {
+    "manufacturer": "company:soudal",
+    "model": "Soudal Soudaseal Fensterdichtstoff aussen weiß 290 ml",
+    "article_no": "10131310",
+    "ean": "5411183158719",
+    "url": "https://www.hornbach.de/p/soudal-soudaseal-fensterdichtstoff-aussen-weiss-290-ml/10131310/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dichtstoff"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Dichtmasse"
+        },
+        {
+          "label": "Inhaltsstoffe",
+          "value": "Hybrid Polymer"
+        },
+        {
+          "label": "Anwendungsgebiete",
+          "value": "Fassade, Dach, Bootsbau, Klimaanlagen, Auto"
+        },
+        {
+          "label": "Verarbeitungstemperatur",
+          "value": "5 °C - 35 °C"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Dauerelastisch, Anstrichverträglich, UV-beständig, Witterungsbeständig und schlagregendicht"
+        },
+        {
+          "label": "Ca. Hautbildungszeit",
+          "value": "10 min"
+        },
+        {
+          "label": "Inhalt",
+          "value": "290 ml"
+        },
+        {
+          "label": "Verwendbar für",
+          "value": "Aluminium, Fugen, Kunststoff, Mauerwerk, Beton"
+        },
+        {
+          "label": "Untergrundbeschaffenheit",
+          "value": "Staubfrei, Sauber, Fettfrei, Tragfähig"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Abdichten"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Emissionsklasse",
+          "value": "EC1 plus"
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH210) Sicherheitsdatenblatt auf Anfrage erhältlich."
+        },
+        {
+          "label": "Aushärtungszeit",
+          "value": "2 mm pro Tag"
+        },
+        {
+          "label": "EAN",
+          "value": "5411183158719"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 6.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-05-15",
+        "source": "Kassenbon 2025-05-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-10131310_1.jpg",
+    "hornbach-10131310_2.jpg",
+    "hornbach-10131310_3.jpg",
+    "hornbach-10131310_4.jpg"
+  ]
+}

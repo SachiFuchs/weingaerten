@@ -1,0 +1,74 @@
+{
+  "id": "ht-bend-50-45",
+  "name": "HT-Bogen DN 50 45°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 45
+  },
+  "note": "Sortiment laut Bauherr (Nov 2026)",
+  "install": {
+    "trade": "waste_water",
+    "group": "Bögen",
+    "shape": "fitting",
+    "outer_diameter": 0.05,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.03,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.0212,
+          0.0212,
+          0
+        ],
+        "dir": [
+          0.707107,
+          0.707107,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "konsta-rechteckleiste-fichte-kiefer-roh",
+  "name": "Konsta Rechteckleiste Fichte/Kiefer roh 900 x 30 x 20 mm",
+  "category": "Holz",
+  "description": "Hast Du ein Bauprojekt im Innenbereich und suchst nach einer zuverlässigen Holzleiste? Die Konsta Rechteckleiste Fichte/Kiefer roh 900 x 30 x 20 mm ist genau das Richtige für Dich.\n\nProduktmerkmale der Konsta Rechteckleiste Fichte/Kiefer roh 900 x 30 x 20 mm\nDarum solltest Du zugreifen: Diese Rechteckleiste aus Fichte oder Kiefer ist ideal für den Innenausbau geeignet. Mit einer Stärke von 20 mm, einer Breite von 30 mm und einer Länge von 900 mm bietet sie die perfekte Größe für verschiedene Konstruktionen. Die Leiste zeichnet sich durch eine saubere Beschaffenheit und astfreie Oberfläche aus, was für eine hohe Holzqualität spricht. Die typische leichte Maserung des Holzes verleiht jedem Projekt eine natürliche Optik. Die Leiste kann sowohl mit Nägeln als auch mit Holzleim sicher fixiert werden, was Dir Flexibilität bei der Verarbeitung bietet.\n\nDie Konsta Rechteckleiste überzeugt durch ihre robuste und langlebige Qualität. Sie ist vielseitig einsetzbar und bietet Dir die Möglichkeit, sofort mit Deinem Bauprojekt zu beginnen. Die exakten Dimensionen und die hohe Robustheit des Holzes sind entscheidende Faktoren für eine zuverlässige Konstruktion.\n\nFestgezurrt: Mit der Konsta Rechteckleiste aus Fichte/Kiefer kannst Du Deine Innenbauprojekte sicher und effizient umsetzen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5490989_konsta-rechteckleiste-fichte-kiefer-roh"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Rechteckleiste Fichte/Kiefer roh 900 x 30 x 20 mm",
+    "article_no": "5490989",
+    "ean": "9003719071102",
+    "url": "https://www.hornbach.de/p/konsta-rechteckleiste-fichte-kiefer-roh-900-x-30-x-20-mm/5490989/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Leiste"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Rechteckleiste"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Fichte, Kiefer"
+        },
+        {
+          "label": "Qualitätsmerkmal",
+          "value": "Astfrei"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Blank"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "GSGJ"
+        },
+        {
+          "label": "EAN",
+          "value": "9003719071102"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "20 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "30 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "900 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.4,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-09",
+        "source": "Kassenbon 2026-05-09, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-5490989_1.jpg",
+    "hornbach-5490989_2.jpg",
+    "hornbach-5490989_3.jpg"
+  ]
+}

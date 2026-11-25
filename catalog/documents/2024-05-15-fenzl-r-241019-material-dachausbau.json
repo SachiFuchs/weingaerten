@@ -1,0 +1,47 @@
+{
+  "id": "2024-05-15-fenzl-r-241019-material-dachausbau",
+  "name": "Fenzl R-241019 – Material Dachausbau",
+  "doc_type": "invoice",
+  "supplier": "company:fenzl-zimmerei-und-holzbau",
+  "date": "2024-05-15",
+  "number": "R-241019",
+  "customer_number": "1002",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "BV: Weingärten 8, 73037 Göppingen (Leistungsdatum: 14.05.2024)",
+  "description": "Rechnung der Zimmerei Felix Fenzl (Geislingen/Böhmenkirch) über die Lieferung von Dachausbau-Material (SIGA Majrex Dampfbremsfolie, Kleber, Klebebänder, KVH 4/6 und Schrauben) inklusive 2,5 Stunden Arbeitszeit für Weingärten 8. Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.1",
+      "description": "Material für Dachausbau liefern: SIGA Majrex Dampfbremse, Folienkleber, Klebebänder, KVH 4/6 und Schrauben 5,0x100",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 1620.0,
+      "total_price": 1620.0,
+      "unit_raw": "Pausch",
+      "ref": "material:siga-majrex"
+    },
+    {
+      "position": "1.2",
+      "description": "Arbeitszeit",
+      "quantity": 2.5,
+      "unit": "Std",
+      "unit_price": 62.0,
+      "total_price": 155.0,
+      "unit_raw": "Std."
+    }
+  ],
+  "subtotal_net": 1775.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1775.0,
+  "vat_rate": 19,
+  "vat_amount": 337.25,
+  "total_gross": 2112.25,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-05-15-fenzl-R-241019-material-dachausbau.json",
+  "source_sha256": "03ca1dac922adaa915c51e55f76b6b85069886b9cb3a7c96bad4e170a896d779",
+  "original_filename": "2024-05-15-Rechung-Fenzl Material.pdf"
+}

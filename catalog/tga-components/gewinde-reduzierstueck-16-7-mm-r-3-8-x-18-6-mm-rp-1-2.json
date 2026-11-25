@@ -1,0 +1,39 @@
+{
+  "id": "gewinde-reduzierstueck-16-7-mm-r-3-8-x-18-6-mm-rp-1-2",
+  "name": "Gewinde-Reduzierstück 16,7 mm (R 3/8) x 18,6 mm (Rp 1/2) Messing Verchromt",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873934186_gewinde-reduzierstueck-16-7-mm-r-3-8-x-18-6-mm-rp-1-2"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Reduzierstück 16,7 mm (R 3/8) x 18,6 mm (Rp 1/2) Messing Verchromt",
+    "article_no": "7432917",
+    "ean": "4007873934186",
+    "url": "https://www.obi.de/p/7432917",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "38 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-22",
+        "source": "Kassenbon 2025-10-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

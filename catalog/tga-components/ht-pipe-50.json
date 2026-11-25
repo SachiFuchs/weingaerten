@@ -1,0 +1,87 @@
+{
+  "id": "ht-pipe-50",
+  "name": "HT-Rohr DN 50",
+  "description": "Abwasserrohr HT DN 50",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 50,
+    "outer_diameter": 0.05,
+    "medium": "waste_water",
+    "system_line": "ht"
+  },
+  "stock": {
+    "lengths": [
+      1.0,
+      0.5,
+      0.25
+    ],
+    "cuttable": true
+  },
+  "note": "Sortiment laut Bauherr (Nov 2026)",
+  "install": {
+    "trade": "waste_water",
+    "group": "Rohre",
+    "shape": "pipe",
+    "outer_diameter": 0.05,
+    "stretch": {
+      "max_length": 2.0,
+      "default_length": 1.0
+    },
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "spigot",
+        "at_length": true,
+        "flow": "out"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

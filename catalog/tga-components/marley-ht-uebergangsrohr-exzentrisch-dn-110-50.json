@@ -1,0 +1,38 @@
+{
+  "id": "marley-ht-uebergangsrohr-exzentrisch-dn-110-50",
+  "name": "Marley HT-Übergangsrohr Exzentrisch DN 110 / 50",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "adapter",
+    "system_line": "ht",
+    "dn": 110,
+    "z_length": 0.03,
+    "line_to": "ht",
+    "dn_to": 50
+  },
+  "description": "Das Marley HT-Übergangsrohr exzentrisch ist für alle Abwasseranschlüsse innerhalb eines Gebäudes geeignet. Die saubere und sichere Steckmontage macht Ihnen das Verlegen ganz leicht. Zudem sind die Lippendichtringe bereits vormontiert. Produktmerkmale: - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "imported_from": [
+    "ean-4002644092355_marley-ht-uebergangsrohr-exzentrisch-dn-110-50"
+  ],
+  "catalog_material": "material:marley-ht-uebergangsrohr-exzentrisch-dn-110-50",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

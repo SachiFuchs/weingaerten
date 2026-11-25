@@ -1,0 +1,28 @@
+{
+  "id": "weishaupt-can-bus-rj11-5m",
+  "name": "Weishaupt CAN-Bus-Leitung RJ11 4-polig geschirmt, 5 m",
+  "category": "Heizung",
+  "description": "Verbindungsleitung Erweiterungsmodul – Hydraulikeinheit",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "CAN-Bus-Leitung RJ11 5 m",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 17.67,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.9, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

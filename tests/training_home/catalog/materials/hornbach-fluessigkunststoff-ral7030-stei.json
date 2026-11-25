@@ -1,0 +1,141 @@
+{
+  "id": "hornbach-fluessigkunststoff-ral7030-stei",
+  "name": "HORNBACH Flüssigkunststoff RAL7030 steingrau 2,5 l",
+  "category": "Farbe",
+  "description": "Du willst Betonböden und Treppenflächen strapazierfähig beschichten, ohne dass die Oberfläche schnell abläuft oder ungleichmäßig wirkt?\n\nProduktmerkmale der HORNBACH Flüssigkunststoff RAL7030 steingrau 2,5 l\n\nDarum solltest Du zugreifen: Als Bodenbeschichtung für Beton ist die Farbe hoch abriebfest und damit auf stark genutzten Flächen wie Böden und Treppen eine passende Wahl. Die hohe Deckkraft sorgt dafür, dass Du mit zwei Anstrichen zu einem gleichmäßigen Ergebnis kommst. Durch Wetter- und UV-Beständigkeit eignet sich der Anstrich auch für den überdachten Außenbereich, sodass die Fläche bei wechselnden Bedingungen stabil bleibt.\n\nDer seidenmatte Glanzgrad wirkt zurückhaltend und hilft dabei, Gebrauchsspuren optisch weniger hervorzuheben als stark glänzende Oberflächen. Schimmelschutz unterstützt den Einsatz in typischen Bereichen wie Keller sowie Flur und Diele, wo Feuchtigkeit und Temperaturschwankungen häufiger vorkommen. Für eine belastbare Haftung ist eine Grundierung sinnvoll, und durch Rollen oder Streichen lässt sich die Beschichtung auf größeren Flächen kontrolliert auftragen; plane wegen der Trockendauer von rund 72 Stunden ausreichend Zeit ein, bevor die Fläche wieder voll genutzt wird.\n\nFestgezurrt: Diese Betonfarbe in Steingrau liefert eine robuste, seidenmatte Bodenbeschichtung für innen und überdachte Außenflächen, wenn Du mit Grundierung und zwei Anstrichen auf ein gleichmäßiges, belastbares Ergebnis setzen willst.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10703356_hornbach-fluessigkunststoff-ral7030-stei"
+  ],
+  "product": {
+    "manufacturer": "company:hornbach",
+    "model": "HORNBACH Flüssigkunststoff RAL7030 steingrau 2,5 l",
+    "article_no": "10703356",
+    "ean": "4306517585761",
+    "url": "https://www.hornbach.de/p/hornbach-fluessigkunststoff-ral7030-steingrau-2-5-l/10703356/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Bodenbeschichtung"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Betonfarbe"
+        },
+        {
+          "label": "Ideal geeignet für",
+          "value": "Böden, Treppen"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Beton"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Grau"
+        },
+        {
+          "label": "Farbton",
+          "value": "Steingrau"
+        },
+        {
+          "label": "Abtönbar im HORNBACH-Farbmischcenter",
+          "value": "Nein"
+        },
+        {
+          "label": "Verarbeitung",
+          "value": "Rollen, Streichen"
+        },
+        {
+          "label": "Deckkraft",
+          "value": "2 - hohe Deckkraft"
+        },
+        {
+          "label": "Empfohlene Anzahl Anstriche",
+          "value": "2"
+        },
+        {
+          "label": "Reichweite (ca.) bei einmaligem Anstrich",
+          "value": "12 m²/l"
+        },
+        {
+          "label": "Gebindegröße",
+          "value": "2,5 l"
+        },
+        {
+          "label": "Glanzgrad",
+          "value": "Seidenmatt"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Hoch abriebfest, Schimmelschutz"
+        },
+        {
+          "label": "Basis",
+          "value": "Lösemittelhaltig"
+        },
+        {
+          "label": "Wetter- und UV-Beständigkeit",
+          "value": "Ja"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Im überdachten Außenbereich, Innen"
+        },
+        {
+          "label": "Räume",
+          "value": "Flur / Diele, Keller"
+        },
+        {
+          "label": "Trockendauer ca.",
+          "value": "72 h"
+        },
+        {
+          "label": "Grundierung empfohlen",
+          "value": "Ja"
+        },
+        {
+          "label": "Signalwort",
+          "value": "Achtung"
+        },
+        {
+          "label": "Gefahrenhinweise (H-Sätze)",
+          "value": "(H226) Flüssigkeit und Dampf entzündbar."
+        },
+        {
+          "label": "Sicherheitshinweise (P-Sätze)",
+          "value": "(P102) Darf nicht in die Hände von Kindern gelangen., (P103) Vor Gebrauch Kennzeichnungsetikett lesen."
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH066) Wiederholter Kontakt kann zu spröder oder rissiger Haut führen."
+        },
+        {
+          "label": "EAN",
+          "value": "4306517585761"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 34.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-06-18",
+        "source": "Kassenbon 2025-06-18, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10703356_1.jpg",
+    "hornbach-10703356_2.jpg"
+  ]
+}

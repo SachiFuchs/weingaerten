@@ -1,0 +1,41 @@
+{
+  "id": "door-balkon-treppenzimmer",
+  "name": "Balkontür Treppenzimmer 1,05 × 2,10",
+  "ifc": {
+    "entity": "IfcDoor",
+    "predefined_type": "DOOR"
+  },
+  "description": "Neuffer Best. 3320751 vom 16.11.2023, Pos. 4 (Tür Treppenzimmer); Aluplast IDEAL TwinSet 8000 Kunststoff-Aluminium, Alu-Schale außen RAL 9016, 1-teilig Dreh-Kipp links, Ug 0,7, VSG 8 mm außen, RC 1 N, abschließbarer Griff",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 1.05,
+    "height": 2.1,
+    "depth": 0.085,
+    "frame_width": 0.07,
+    "sashes": 1,
+    "opening_1": "tilt_turn_left",
+    "glazing_type": "triple",
+    "ug_value": 0.7,
+    "safety_glass": "VSG",
+    "burglary_class": "RC1"
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:aluplast",
+    "model": "IDEAL TwinSet 8000",
+    "offers": [
+      {
+        "supplier": "company:neuffer",
+        "price": 807.28,
+        "currency": "EUR",
+        "date": "2023-11-16",
+        "source": "Best. 3320751, Pos. 4",
+        "document": "document:2023-11-16-fensterversand-3320751-fenster-balkontueren-dg"
+      }
+    ]
+  }
+}

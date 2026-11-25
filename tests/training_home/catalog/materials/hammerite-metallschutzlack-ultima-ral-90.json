@@ -1,0 +1,105 @@
+{
+  "id": "hammerite-metallschutzlack-ultima-ral-90",
+  "name": "Hammerite Metallschutzlack Ultima Ral 9016 verkehrsweiß matt 750 ml",
+  "category": "Farbe",
+  "description": "Benötigst Du einen hochwertigen Schutz für Metalloberflächen im Außenbereich? Dann ist der Hammerite Metallschutzlack Ultima RAL 9016 verkehrsweiß matt 750 ml die richtige Wahl.\n\nProduktmerkmale des Hammerite Metallschutzlacks Ultima RAL 9016 verkehrsweiß matt 750 ml\nDarum solltest Du zugreifen: Dieser Metallschutzlack ist perfekt geeignet für den Schutz und die Verschönerung von Metalloberflächen wie Zäunen, Gittern, Geländern, Dachrinnen, Fahrrädern, Garagentoren sowie Sichtschutzelementen und Verkleidungen. Der Lack bietet eine matte Oberfläche in verkehrsweiß, die den modernen Anforderungen an Design und Funktion entspricht. Dank seiner speziellen Formulierung schützt er Metall effektiv vor Witterungseinflüssen, verhindert Rostbildung und gewährleistet eine langanhaltende Beständigkeit. Mit einer Reichweite von etwa 3,6 m² pro Liter bei einmaligem Anstrich ist er ergiebig und wirtschaftlich. Die kurze Trockendauer von etwa 2 Stunden ermöglicht eine schnelle Weiterverarbeitung und Nutzung der lackierten Objekte. Die Anwendung erfolgt bequem durch Streichen, was eine gleichmäßige und unkomplizierte Verarbeitung garantiert.\n\nFestgezurrt: Der Hammerite Metallschutzlack Ultima verkehrsweiß matt ist die perfekte Lösung für langanhaltenden Schutz und stilvolle Gestaltung von Metalloberflächen im Außenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10243083_hammerite-metallschutzlack-ultima-ral-90"
+  ],
+  "product": {
+    "manufacturer": "company:hammerite",
+    "model": "Hammerite Metallschutzlack Ultima Ral 9016 verkehrsweiß matt 750 ml",
+    "article_no": "10243083",
+    "ean": "4007591724458",
+    "url": "https://www.hornbach.de/p/hammerite-metallschutzlack-ultima-ral-9016-verkehrsweiss-matt-750-ml/10243083/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Lack"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Metallschutzlack"
+        },
+        {
+          "label": "Ideal geeignet für",
+          "value": "Zäune, Gitter, Geländer, Dachrinnen, Fahrräder, Garagentore, Sichtschutzelemente, Verkleidungen"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Metall"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Farbton",
+          "value": "Verkehrsweiß"
+        },
+        {
+          "label": "Verarbeitung",
+          "value": "Streichen"
+        },
+        {
+          "label": "Reichweite (ca.) bei einmaligem Anstrich",
+          "value": "3,6 m²/l"
+        },
+        {
+          "label": "Gebindegröße",
+          "value": "0,75 l"
+        },
+        {
+          "label": "Glanzgrad",
+          "value": "Matt"
+        },
+        {
+          "label": "Basis",
+          "value": "Wasserbasierend"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Trockendauer ca.",
+          "value": "2 h"
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH208) Enthält 1,2-Benzisothiazol-3(2H)-on. Kann allergische Reaktionen hervorrufen., (EUH208) Enthält 5-Chlor-2-methyl-2H-isothiazol-3-on und 2-Methyl-2H-isothiazol-3-on (3:1). Kann allergische Reaktionen hervorrufen., (EUH211) Achtung! Beim Sprühen können gefährliche lungengängige Tröpfchen entstehen. Aerosol oder Nebel nicht einatmen."
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "V8EV"
+        },
+        {
+          "label": "EAN",
+          "value": "4007591724458"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 24.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-30",
+        "source": "Kassenbon 2025-04-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10243083_1.jpg",
+    "hornbach-10243083_2.jpg"
+  ]
+}

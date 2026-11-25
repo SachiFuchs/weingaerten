@@ -1,0 +1,13 @@
+{
+  "id": "wb-bad-eg",
+  "name": "Waschbecken Bad EG",
+  "component": "tga-component:sanitary-washbasin",
+  "storey": "storey:ground",
+  "room": "room-bad",
+  "position": [
+    4.65,
+    1.98,
+    0.45
+  ],
+  "estimated": true
+}

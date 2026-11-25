@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-whi-mix-25-6-2-5",
+  "name": "Weishaupt Mischergruppe WHI mix 25-6-2,5 #5",
+  "category": "Heizung",
+  "description": "Mischergruppe NW 25 mit Grundfos Alpha2.2 25-60, 3-Wege-Mischer Kvs 2,5 mit Stellantrieb, Kugelhähne, Thermometer, Schwerkraftbremse (Heizkreis 2, MM2)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WHI mix 25-6-2,5 #5",
+    "article_no": "40900021582",
+    "url": "https://www.wolf-online-shop.de/Weishaupt-Mischergruppe-WHI-mix-25-6-2-5-5-mit-Alpha2-2-25-60-Kvs-2-5-40900021582::342268.html",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 990.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.11, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

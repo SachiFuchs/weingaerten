@@ -1,0 +1,115 @@
+{
+  "id": "ht-rohr-dn-50-250-mm",
+  "name": "HT Rohr DN 50 250 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du ein zuverlässiges Rohr für die Hausentwässerung? Das HT Rohr DN 50 250 mm bietet Dir genau das.\n\nProduktmerkmale des HT Rohr DN 50 250 mm\nDarum solltest Du zugreifen: Dieses Abflussrohr aus Polypropylen (PP) ist speziell für die Hausentwässerung im Innenbereich konzipiert. Es vereint wichtige Eigenschaften wie Heißwasserbeständigkeit und chemische Beständigkeit, was es ideal für den Einsatz in Haushalten macht. Mit einem Außendurchmesser von 63 mm und einer Nennweite von 50 mm passt es perfekt in bestehende Systeme. Die Materialstärke von 1,8 mm sorgt für eine hohe Stabilität und Langlebigkeit. Das graue Rohr erfüllt die Norm DIN EN 1451-1 und bietet eine Ringsteifigkeit von SN2, was bedeutet, dass es auch bei hohen Belastungen zuverlässig bleibt. Die Schwerentflammbarkeit des Materials bietet zusätzlichen Schutz im Brandfall.\n\nFestgezurrt: Das HT Rohr DN 50 250 mm ist die ideale Wahl für eine sichere und effiziente Hausentwässerung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-262862_ht-rohr-dn-50-250-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "HT Rohr DN 50 250 mm",
+    "article_no": "262862",
+    "ean": "4052836120106",
+    "url": "https://www.hornbach.de/p/ht-rohr-dn-50-250-mm/262862/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rohr"
+        },
+        {
+          "label": "Variante",
+          "value": "HT"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Abflussrohr"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polypropylen (PP)"
+        },
+        {
+          "label": "Nennweite",
+          "value": "50 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "1,8 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Heißwasserbeständig"
+        },
+        {
+          "label": "Norm",
+          "value": "DIN EN 1451-1"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN2"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "1JJZ"
+        },
+        {
+          "label": "EAN",
+          "value": "2000262862000, 4002644090139, 4002644099057, 4007360397029, 4025075101106, 4052836120106, 4052836120151, 5902650650329, 5907660719813, 8028025012954, 8586019760149, 8600198009094"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "50 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "63 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "250 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.1,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-262862_1.jpg",
+    "hornbach-262862_2.jpg"
+  ]
+}

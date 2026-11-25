@@ -1,0 +1,112 @@
+{
+  "id": "konsta-konstruktionsvollholz-3000-x-100",
+  "name": "Konsta Konstruktionsvollholz 3000 x 100 x 60 mm Fichte NSI (nicht sichtbarer Einbau)",
+  "category": "Holz",
+  "description": "Du willst tragfähige Konstruktionen im Innen- und Außenbereich sauber und planbar aufbauen? Dann lohnt sich ein Blick auf dieses Kantholz.\n\nProduktmerkmale des Konsta Konstruktionsvollholzes\n\nDarum solltest Du zugreifen: Das formstabile Konstruktionsvollholz aus Fichte ist auf maßhaltige Konstruktionen ausgelegt, sodass Wand-, Boden- und Deckenaufbauten im Neubau oder Innenausbau verlässlich ausgerichtet werden können. Die verminderte Rissbildung und das reduzierte Verwerfen helfen dabei, dass Anschlüsse und Verschraubungen länger passgenau bleiben. Durch die 4-seitig gehobelte Oberfläche mit gefasten Kanten lässt sich der Balken angenehm anfassen und sauber einbauen, was die Montage auf der Baustelle und im Messebau erleichtert.\n\nAls Balken in Kantholz-Ausführung eignet sich das Material für Konstruktionen an Wand, Boden, Decke und Fussboden sowie für Projekte am Gartenhaus. Die Qualität NSI ist für nicht sichtbaren Einbau vorgesehen und passt damit besonders gut, wenn der Balken später beplankt oder verkleidet wird und die Optik nicht im Vordergrund steht. Eine mögliche Keilzinkung kann Fehlstellen ausgleichen; da sie nur bei Bedarf eingesetzt wird, kann der Balken je nach Stück ohne Keilzinkung ausgeführt sein.\n\nFestgezurrt: Mit dem formstabilen, gehobelten Fichten-Konstruktionsvollholz bekommst Du einen montagefreundlichen Balken für tragende und aussteifende Aufbauten im Innen- und Außenbereich, besonders wenn der Einbau nicht sichtbar erfolgt.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-8099459_konsta-konstruktionsvollholz-3000-x-100"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Konstruktionsvollholz 3000 x 100 x 60 mm Fichte NSI (nicht sichtbarer Einbau)",
+    "article_no": "8099459",
+    "ean": "4007622012615",
+    "url": "https://www.hornbach.de/p/konsta-konstruktionsvollholz-3000-x-100-x-60-mm-fichte-nsi-nicht-sichtbarer-einbau/8099459/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Bestellhinweis",
+          "value": "Ist dieser Artikel in Ihrem Markt nicht auf Lager, ist nur eine hubweise Bestellung möglich. 1 Hub entspricht 1 Palette = 33"
+        },
+        {
+          "label": "Artikeltyp",
+          "value": "Balken"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kantholz"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Messebau, Neubau"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden, Garten"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Gehobelt"
+        },
+        {
+          "label": "Dimension",
+          "value": "60x100 mm"
+        },
+        {
+          "label": "Qualität",
+          "value": "NSI (nicht sichtbarer Einbau)"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "Gefast, 4-seitig gehobelt"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Artikelvorteil",
+          "value": "Formstabil, Verminderte Rissbildung und Verwerfungen, gehobelt, Kanten gefast"
+        },
+        {
+          "label": "Hinweis",
+          "value": "eine Keilzinkung dient dazu, Fehlstellen in einem Balken zu entfernen und durch ein z.B. astfreies Stück zu ersetzen. Sofern der Balken keine Fehlstelle aufweist, wird hier in aller Regel auch keine Keilzinkung erfolgen. Eine Keilzinkung ist somit nicht immer notwendig und auch nicht in jedem Balken vorhanden."
+        },
+        {
+          "label": "Anlieferhinweis",
+          "value": "Vor Bestellung muss vom Kunden sichergestellt sein, dass die Entladestelle mit einem 40 Tonnen - LKW erreichbar ist., Weitere Informationen entnehmen Sie bitte dem Datenblatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "XXGR"
+        },
+        {
+          "label": "EAN",
+          "value": "2007003147556, 4007622012615, 4049868900271, 4250821000642, 4260031143343"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Länge",
+          "value": "3.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 14.75,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-04-20",
+        "source": "Kassenbon 2024-04-20, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-8099459_1.jpg",
+    "hornbach-8099459_2.jpg",
+    "hornbach-8099459_3.jpg"
+  ]
+}

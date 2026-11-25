@@ -1,0 +1,244 @@
+{
+  "id": "2026-06-16-naturbo-13202600675-lehmplatten-wandhzg",
+  "name": "Naturbo 13202600675 – Lehmplatten Wandhzg",
+  "doc_type": "invoice",
+  "supplier": "company:naturbo",
+  "date": "2026-06-16",
+  "number": "13202600675",
+  "customer_number": "15903",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse: Nadja Suri-Bernas, Weingärten 8, Göppingen (Beleg: 73035 Göppingen); Verweis Auftrag S03806, Lieferdatum 11.06.2026",
+  "description": "Rechnung von naturbo (Lehmputz Trockenbausysteme, Görisried) zum Auftrag S03806 über Lehm-Dämmplatten und Klima-Dämmplatten mit integrierten Heizrohren für die Wandheizung in Weingärten 8, dazu Haftfix, Fugenmaterial, Lehm-Finishputz, Alu-Verbundrohr, Presskupplungen und Speditionsversand (Lieferung 11.06.2026). Gegenüber dem Auftrag vom 13.04.2026 fehlen Eckwinkel und Lehmstreichputz, daher ist der Nettobetrag 67,00 EUR niedriger. Als zu bezahlender Betrag sind nur 3.432,36 EUR (die Hälfte der Gesamtsumme) ausgewiesen, vermutlich wegen einer bereits geleisteten Anzahlung.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "[1001-14] Dämmplatte (62,5x125cm)",
+      "quantity": 38,
+      "unit": "Platte",
+      "unit_price": 27.19,
+      "total_price": 1033.22,
+      "ref": "material:naturbo-daemmplatte"
+    },
+    {
+      "position": "2",
+      "description": "[1001-19] Flankendämmplatte",
+      "quantity": 4,
+      "unit": "Platte",
+      "unit_price": 24.48,
+      "total_price": 97.92,
+      "ref": "material:naturbo-flankendaemmplatte"
+    },
+    {
+      "position": "3",
+      "description": "[1002-73] Klima-Dämmplatte Typ D",
+      "quantity": 7,
+      "unit": "Platte",
+      "unit_price": 78.62,
+      "total_price": 550.34,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "4",
+      "description": "[1002-74] Klima-Dämmplatte Typ E",
+      "quantity": 2,
+      "unit": "Platte",
+      "unit_price": 78.62,
+      "total_price": 157.24,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "5",
+      "description": "[1002-75] Klima-Dämmplatte Typ F",
+      "quantity": 1,
+      "unit": "Platte",
+      "unit_price": 78.62,
+      "total_price": 78.62,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "6",
+      "description": "[1002-76] Klima-Dämmplatte Typ G",
+      "quantity": 3,
+      "unit": "Platte",
+      "unit_price": 93.59,
+      "total_price": 280.77,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "7",
+      "description": "[1002-78] Klima-Dämmplatte Typ I",
+      "quantity": 8,
+      "unit": "Platte",
+      "unit_price": 93.59,
+      "total_price": 748.72,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "8",
+      "description": "[1002-80] Klima-Dämmplatte Typ K",
+      "quantity": 8,
+      "unit": "Platte",
+      "unit_price": 63.64,
+      "total_price": 509.12,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "9",
+      "description": "[1002-81] Klima-Dämmplatte Typ L",
+      "quantity": 3,
+      "unit": "Platte",
+      "unit_price": 63.64,
+      "total_price": 190.92,
+      "ref": "material:naturbo-klima-daemmplatte"
+    },
+    {
+      "position": "10",
+      "description": "[1002-91] Klima-Dämmplatte Dämmriegel",
+      "quantity": 14,
+      "unit": "Stk",
+      "unit_price": 5.4,
+      "total_price": 75.6,
+      "unit_raw": "Stück",
+      "ref": "material:naturbo-klima-daemmriegel"
+    },
+    {
+      "position": "11",
+      "description": "[9102-22] Haftfix",
+      "quantity": 17,
+      "unit": "Sack",
+      "unit_price": 37.5,
+      "total_price": 637.5,
+      "ref": "material:naturbo-haftfix"
+    },
+    {
+      "position": "12",
+      "description": "[9101-00] Fugenarmierungsgewebe",
+      "quantity": 3,
+      "unit": "Rolle",
+      "unit_price": 7.3,
+      "total_price": 21.9,
+      "ref": "material:naturbo-fugenarmierungsgewebe"
+    },
+    {
+      "position": "13",
+      "description": "[9102-00] Fugenfix",
+      "quantity": 9,
+      "unit": "Sack",
+      "unit_price": 17.5,
+      "total_price": 157.5,
+      "ref": "material:naturbo-fugenfix"
+    },
+    {
+      "position": "14",
+      "description": "[9101-05] Kantenkleber",
+      "quantity": 2,
+      "unit": "Kartusche",
+      "unit_price": 8.9,
+      "total_price": 17.8,
+      "ref": "material:naturbo-kantenkleber"
+    },
+    {
+      "position": "15",
+      "description": "[8103-01] Lehm-Finishputz weiß - Korn 0,5 mm",
+      "quantity": 7,
+      "unit": "Sack",
+      "unit_price": 40.0,
+      "total_price": 280.0,
+      "ref": "material:naturbo-lehm-finishputz-weiss"
+    },
+    {
+      "position": "16",
+      "description": "[9200-10] Alu-Verbundrohr Ø 11,6 mm",
+      "quantity": 14,
+      "unit": "m",
+      "unit_price": 2.1,
+      "total_price": 29.4,
+      "unit_raw": "lfm",
+      "ref": "tga-component:naturbo-alu-verbundrohr-11-6"
+    },
+    {
+      "position": "17",
+      "description": "[9201-10] Presskupplung 11,6 / 11,6 mm",
+      "quantity": 30,
+      "unit": "Stk",
+      "unit_price": 4.95,
+      "total_price": 148.5,
+      "unit_raw": "Stück",
+      "ref": "tga-component:naturbo-presskupplung-11-6"
+    },
+    {
+      "position": "18",
+      "description": "[9201-15] Presskupplung 11,6 / 11,6 mm 90°",
+      "quantity": 10,
+      "unit": "Stk",
+      "unit_price": 7.5,
+      "total_price": 75.0,
+      "unit_raw": "Stück",
+      "ref": "tga-component:naturbo-presskupplung-11-6-90"
+    },
+    {
+      "position": "19",
+      "description": "[9201-20] Presskupplung 11,6 / 16 mm",
+      "quantity": 8,
+      "unit": "Stk",
+      "unit_price": 4.95,
+      "total_price": 39.6,
+      "unit_raw": "Stück",
+      "ref": "tga-component:naturbo-presskupplung-11-6-16"
+    },
+    {
+      "position": "20",
+      "description": "[9201-25] Presskupplung 11,6 / 16 mm 90°",
+      "quantity": 8,
+      "unit": "Stk",
+      "unit_price": 7.5,
+      "total_price": 60.0,
+      "unit_raw": "Stück",
+      "ref": "tga-component:naturbo-presskupplung-11-6-16-90"
+    },
+    {
+      "position": "21",
+      "description": "[9201-01] Pressfenster-Einleger neu",
+      "quantity": 32,
+      "unit": "Stk",
+      "unit_price": 0.0,
+      "total_price": 0.0,
+      "unit_raw": "Stück"
+    },
+    {
+      "position": "22",
+      "description": "[9203-00] Innenkalibrierer",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 19.0,
+      "total_price": 19.0,
+      "unit_raw": "Stück"
+    },
+    {
+      "position": "23",
+      "description": "[0000-01] Versand mit Spedition (5 Paletten, 1 Kartonage, 2,4 t)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 560.0,
+      "total_price": 560.0,
+      "unit_raw": "Stück"
+    }
+  ],
+  "subtotal_net": 5768.67,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 5768.67,
+  "vat_rate": 19,
+  "vat_amount": 1096.05,
+  "total_gross": 6864.72,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-06-16-naturbo-13202600675-lehmplatten-wandhzg.json",
+  "source_sha256": "eeca58799f51ddf9e53b8ee74a0a02860d5e3796d171e6fb31148e4f69d1612c",
+  "original_filename": "2026-06-19 Naturbo - Lehmputz Rechnung -13202600675.pdf",
+  "related": [
+    "document:2026-03-25-naturbo-s03806-angebot-lehm-wandheizung"
+  ]
+}

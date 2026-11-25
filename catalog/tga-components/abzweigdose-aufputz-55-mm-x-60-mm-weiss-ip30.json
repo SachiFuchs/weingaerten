@@ -1,0 +1,173 @@
+{
+  "id": "abzweigdose-aufputz-55-mm-x-60-mm-weiss-ip30",
+  "name": "Abzweigdose Aufputz 55 mm x 60 mm Weiß IP30",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface",
+    "box_function": "junction",
+    "size": "55 × 60 × 40 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Abzweigkasten 80x80)",
+  "imported_from": [
+    "ean-4008297184188_abzweigdose-aufputz-55-mm-x-60-mm-weiss-ip30"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Abzweigdose Aufputz 55 mm x 60 mm Weiß IP30",
+    "article_no": "1612829",
+    "ean": "4008297184188",
+    "url": "https://www.obi.de/p/1612829",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 10×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "surface",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Verteilerdosen",
+    "shape": "box",
+    "size": [
+      0.055,
+      0.06,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.03,
+          -0.02
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.03,
+          -0.02
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0275,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0275,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "on"
+    ],
+    "estimated": true
+  }
+}

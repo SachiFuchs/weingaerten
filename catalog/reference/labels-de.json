@@ -1,0 +1,37 @@
+{
+  "type": "labels",
+  "language": "de",
+  "description": "Deutsche Anzeige englischer Schlüssel/Enum-Werte (nur Anzeige, gespeichert wird der Schlüssel). Tabellen heißen nach dem Parameter-Key; aliases verweisen auf gemeinsame Tabellen. Fehlender Eintrag = Rohwert.",
+  "aliases": {
+    "system_line": "line",
+    "line_to": "line",
+    "connection_method": "method"
+  },
+  "values": {
+    "kind": {"pipe": "Rohr", "fitting": "Formteil", "cable": "Kabel", "terminal": "Endgerät", "part": "Zubehör", "duct": "Kanal"},
+    "line": {"none": "keins", "ht": "HT", "kg": "KG", "ppr": "PP-R", "alu_composite": "Alu-Verbund", "power": "Strom", "thread": "Gewinde", "metal": "Metallrohr", "other": "Fremd"},
+    "gender": {"spigot": "Spitzende", "socket": "Muffe", "any": "beliebig"},
+    "flow": {"in": "rein", "out": "raus", "none": "–"},
+    "medium": {"power": "Strom", "water_supply": "Trinkwasser", "waste_water": "Abwasser", "heating": "Heizung",
+      "cold_water": "Kaltwasser", "hot_water": "Warmwasser", "circulation": "Zirkulation", "heating_supply": "Heizung Vorlauf",
+      "heating_return": "Heizung Rücklauf", "rain_water": "Regenwasser", "gas": "Gas"},
+    "method": {"clamp": "Klemme (WAGO)", "weld": "Muffenschweißen (PP-R)", "push": "Steckmuffe (HT/KG)", "press": "Pressen", "screw": "Gewinde"},
+    "partner": {"pipe": "Rohr", "fitting": "Formteil", "cable": "Kabel", "clamp": "Klemme", "box": "Dose", "terminal": "Endgerät", "part": "Zubehör"},
+    "location": {"box": "Dose", "terminal": "Endgerät"},
+    "mounting": {"surface": "Aufputz", "flush": "Unterputz", "hollow_wall": "Hohlwand", "free": "freistehend"},
+    "box_function": {"junction": "Abzweig-/Verbindungsdose", "device": "Gerätedose", "cooker": "Herd-Anschlussdose"},
+    "part_type": {"box": "Dose", "cable_duct": "Kabelkanal", "conduit": "Schutzrohr", "fuse": "Sicherung", "cable_fixing": "Kabelbefestigung",
+      "tap": "Armatur", "valve": "Ventil", "hose": "Schlauch", "thread_fitting": "Gewindefitting", "drain": "Ablauf", "seal": "Dichtung",
+      "pipe_clamp": "Rohrschelle", "mounting": "Befestigung", "other": "Sonstiges", "clamp": "Klemme"},
+    "fitting_type": {"bend": "Bogen", "branch": "Abzweig", "adapter": "Übergang", "plug": "Stopfen", "coupling": "Muffe"},
+    "terminal_type": {"socket": "Steckdose", "switch": "Schalter", "light": "Leuchte", "distribution_board": "Verteilerkasten",
+      "manifold": "Heizkreisverteiler", "radiator": "Heizkörper", "sanitary": "Sanitärobjekt", "air_outlet": "Luftauslass",
+      "heat_pump": "Wärmepumpe", "stub": "Leitungsende", "transfer": "Übergabepunkt", "wall_plate": "Wandscheibe"},
+    "unit": {"pcs": "Stück", "m": "Meter"},
+    "conduit_type": {"none": "kein", "flexible": "flexibel", "rigid": "starr"},
+    "profile": {"round": "rund", "rect": "eckig"},
+    "pipe_direction": {"vertical": "senkrecht", "horizontal": "waagerecht"},
+    "port_corner": {"bottom_left": "unten links", "bottom_right": "unten rechts", "bottom": "unten", "left": "links", "right": "rechts"},
+    "port_exits": {"side_bottom": "Seite + unten", "side_bottom_180": "Seite + unten (180° gedreht)"}
+  }
+}

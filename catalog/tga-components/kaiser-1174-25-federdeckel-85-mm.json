@@ -1,0 +1,92 @@
+{
+  "id": "kaiser-1174-25-federdeckel-85-mm",
+  "name": "Kaiser 1174-25 Federdeckel 85 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6060666_kaiser-1174-25-federdeckel-85-mm"
+  ],
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 1174-25 Federdeckel 85 mm",
+    "article_no": "6060666",
+    "ean": "4260484710109",
+    "url": "https://www.hornbach.de/p/kaiser-1174-25-federdeckel-85-mm/6060666/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Deckel"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Federdeckel"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "mit bruchsicherer Feder"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Feuchtraum"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "ZHFC"
+        },
+        {
+          "label": "EAN",
+          "value": "2007005763051, 4260484710109, 9008243007238"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "85 mm, 70 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.33,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-21",
+        "source": "Kassenbon 2023-07-21, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 0.33,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-28",
+        "source": "Kassenbon 2023-07-28, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6060666_1.jpg"
+  ]
+}

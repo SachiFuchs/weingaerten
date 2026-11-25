@@ -1,0 +1,53 @@
+{
+  "id": "albrecht-yacht-und-bootslack-transparent-hochglaenzend-750",
+  "name": "Albrecht Yacht- und Bootslack Transparent hochglänzend 750 ml",
+  "category": "Farbe",
+  "description": "Hochglänzender Polyurethan-Kunstharz-Klarlack für Möbel, Türen, Holzvertäfelungen auf Booten und Schiffen sowie Bootsaufbauten oberhalb der Wasserlinie Innen und Außen. Albrecht Yacht- und Bootslack ist aromatenfrei, geruchsarm, lösemittelhaltig. Gut verlaufend, schnelltrocknend, stoß- und schlagfest, extrem abriebfest, wetter- und spritzwasserbeständig. Inhalt reicht für ca. 8 m²",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002364114016_albrecht-yacht-und-bootslack-transparent-hochglaenzend-750"
+  ],
+  "product": {
+    "manufacturer": "company:flamingo-produktions-handelsgesell-mbh",
+    "model": "Albrecht Yacht- und Bootslack Transparent hochglänzend 750 ml",
+    "article_no": "2930865",
+    "ean": "4002364114016",
+    "url": "https://www.obi.de/p/2930865",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "735 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "9,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "9,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 22.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-13",
+        "source": "Kassenbon 2023-10-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

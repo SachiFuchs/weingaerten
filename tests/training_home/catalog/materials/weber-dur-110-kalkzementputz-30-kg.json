@@ -1,0 +1,53 @@
+{
+  "id": "weber-dur-110-kalkzementputz-30-kg",
+  "name": "weber.dur 110 Kalkzementputz 30 kg",
+  "category": "Baustoffe",
+  "description": "Der weber.dur 110 Kalkzementputz ist ein werksmäßig hergestellter, mineralischer Trockenmörtel nach DIN EN 998-1. Er wird innen und außen auf Mauerwerk nach DIN 1053 angewendet. Als mineralischer Unterputz können auf Weber.dur-110 alle mineralischen und organischen Oberputze sowie Fliesen aufgebracht werden. - Wasserabweisend - Diffusionsoffen - Sehr stoßfest - Widerstandsfähig - Leichte Verarbeitung Der Mörtel ist nicht für wärmedämmendes Mauerwerk geeignet.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4011361119634_weber-dur-110-kalkzementputz-30-kg"
+  ],
+  "product": {
+    "manufacturer": "company:saint-gobain-weber",
+    "model": "weber.dur 110 Kalkzementputz 30 kg",
+    "article_no": "1435221",
+    "ean": "4011361119634",
+    "url": "https://www.obi.de/p/1435221",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 10.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "55,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "38,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "11,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

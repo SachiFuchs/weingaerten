@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-aussenfuehler-ntc-2k",
+  "name": "Weishaupt Außenfühler NTC 2k",
+  "category": "Heizung",
+  "description": "Außenfühler mit Befestigungs-Set für WAB, WBB, WSB, WGB, WTC-G 15-150, WTC-GB 470/620 (B1 im Hydraulikplan)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Außenfühler NTC 2k",
+    "article_no": "50900000822",
+    "url": "https://www.loebbeshop.de/weishaupt/zubehoer/aussenfuehler-ntc-2k-fuer-wwp/wtc-wem-inklusive-befestigungsset-50900000822/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 41.18,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.2, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

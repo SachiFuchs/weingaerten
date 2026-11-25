@@ -1,0 +1,9 @@
+{
+  "id": "velux",
+  "name": "VELUX",
+  "roles": [
+    "manufacturer",
+    "supplier"
+  ],
+  "description": "Hersteller von Dachfenstern und Eindeckrahmen"
+}

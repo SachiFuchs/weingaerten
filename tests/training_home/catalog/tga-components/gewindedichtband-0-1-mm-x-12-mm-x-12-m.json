@@ -1,0 +1,43 @@
+{
+  "id": "gewindedichtband-0-1-mm-x-12-mm-x-12-m",
+  "name": "Gewindedichtband 0,1 mm x 12 mm x 12 m",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873957703_gewindedichtband-0-1-mm-x-12-mm-x-12-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewindedichtband 0,1 mm x 12 mm x 12 m",
+    "article_no": "7218282",
+    "ean": "4007873957703",
+    "url": "https://www.obi.de/p/7218282",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "17 g"
+        },
+        {
+          "label": "Breite",
+          "value": "1,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "interior-paint-white",
+  "name": "Innenfarbe weiß",
+  "category": "Farbe",
+  "description": "Dispersionsfarbe innen, weiß; OBI-Einkauf Alpina Wandfarbe DIN EN Innenfarbe Weiß matt 12 l",
+  "conductivity": null,
+  "values_source": "Beschichtung, bauphysikalisch vernachlässigbar",
+  "appearance": {
+    "color": "#FFFFFF",
+    "roughness": 0.7,
+    "hatch": "none"
+  },
+  "imported_from": [
+    "ean-4001244791934_alpina-wandfarbe-din-en-innenfarbe-weiss-matt-12-l"
+  ],
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 39.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-08-17",
+        "source": "Kassenbon 2024-08-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "19,5 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "26,7 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "36,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "25,2 cm"
+        }
+      ]
+    }
+  }
+}

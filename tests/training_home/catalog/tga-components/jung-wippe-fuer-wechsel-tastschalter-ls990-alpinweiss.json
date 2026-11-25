@@ -1,0 +1,27 @@
+{
+  "id": "jung-wippe-fuer-wechsel-tastschalter-ls990-alpinweiss",
+  "name": "Jung Wippe für Wechsel-, Tastschalter LS990 Alpinweiß",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Wippe für Aus-/Wechsel- und Tastschaltereinsatz, Serie LS990, alpinweiß. Einsatz und Rahmen separat.",
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung Wippe für Wechsel-, Tastschalter LS990 Alpinweiß",
+    "article_no": "5841457",
+    "url": "https://www.obi.de/p/5841457",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "obi.de Online-Preis 2026-11-21, 1 Stück inkl. MwSt."
+      }
+    ]
+  }
+}

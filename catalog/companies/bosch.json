@@ -1,0 +1,8 @@
+{
+  "id": "bosch",
+  "name": "Bosch Home Comfort",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "Hersteller laut Beleg: Bosch Home Comfort (Wärmepumpen)"
+}

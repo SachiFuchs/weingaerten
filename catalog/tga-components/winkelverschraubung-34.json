@@ -1,0 +1,83 @@
+{
+  "id": "winkelverschraubung-34",
+  "name": "Winkelverschraubung ¾\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-1391282_winkelverschraubung-34"
+  ],
+  "product": {
+    "model": "Winkelverschraubung ¾\"",
+    "article_no": "1391282",
+    "ean": "4007111118576",
+    "url": "https://www.hornbach.de/p/winkelverschraubung-34/1391282/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Variante",
+          "value": "Schlauchanschluss"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Schlauch, Absperrhahn"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "987388113"
+        },
+        {
+          "label": "Material",
+          "value": "Messing"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Gold"
+        },
+        {
+          "label": "Anschluss",
+          "value": "1/2 Zoll"
+        },
+        {
+          "label": "Beschreibung",
+          "value": "für 1/2\" Schlauch"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Schlauchschelle"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "X9TN"
+        },
+        {
+          "label": "EAN",
+          "value": "2001391282004, 4002071807706, 4007111026802, 4007111118576, 4007111129299, 4007111129329, 4007111738811"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser Innengewinde",
+          "value": "3/4 Zoll"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 4.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-26",
+        "source": "Kassenbon 2026-06-26, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-1391282_1.jpg"
+  ]
+}

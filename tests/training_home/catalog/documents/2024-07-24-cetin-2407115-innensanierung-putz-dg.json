@@ -1,0 +1,119 @@
+{
+  "id": "2024-07-24-cetin-2407115-innensanierung-putz-dg",
+  "name": "Cetin 2407115 – Innensanierung Putz DG",
+  "doc_type": "invoice",
+  "supplier": "company:stuckateur-cetin",
+  "date": "2024-07-24",
+  "number": "2407115",
+  "customer_number": null,
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Innensanierung mit Putz und Trockenbau, Weingärten Göppingen (Leistungszeitraum April bis Juli 2024)",
+  "description": "Rechnung der Stuckateur Cetin GmbH für die zwischen April und Juli 2024 ausgeführte Innensanierung in Weingärten 8 (Verputzarbeiten, Leibungsdämmung sowie Trockenbau-Dachausbau mit 61 m² Decke und 3 Dachfensterleibungen). Zahlbar sofort ohne Abzug bis 25.07.2024.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01",
+      "description": "Stundenlohnarbeiten: Mineralische Brücke, Altputz entfernen, Wände verputzen, Dämmung Fensterleibungen/Sturz/Simse kleben",
+      "quantity": 52.0,
+      "unit": "Std",
+      "unit_price": 52.0,
+      "total_price": 2704.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "02",
+      "description": "Materialanteil 30 % von Lohn (30 x 27,04 €)",
+      "quantity": 30.0,
+      "unit": "%",
+      "unit_price": 27.04,
+      "total_price": 811.2
+    },
+    {
+      "position": "03",
+      "description": "Dachausbau: Traglattenrost auf Holzbalken, Gipskartonplatten auf Deckenunterkonstruktion inkl. Standardverspachtelung Q2",
+      "quantity": 61.0,
+      "unit": "m²",
+      "unit_price": 46.0,
+      "total_price": 2806.0,
+      "ref": "material:gypsum-board-gkb"
+    },
+    {
+      "position": "04",
+      "description": "Abtrennungsband der gesamten Anschlüsse zwischen Decke und Wänden",
+      "quantity": 45.0,
+      "unit": "m",
+      "unit_price": 2.4,
+      "total_price": 108.0,
+      "ref": "material:trennband-trockenbau"
+    },
+    {
+      "position": "05",
+      "description": "Alu-Eckschienen und Gipskartonabschlussschienen an Ecken und Kanten setzen",
+      "quantity": 18.0,
+      "unit": "m",
+      "unit_price": 7.75,
+      "total_price": 139.5,
+      "unit_raw": "lfm",
+      "ref": "material:alu-eckschiene-trockenbau"
+    },
+    {
+      "position": "06",
+      "description": "Ausschnitte herstellen",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 300.0,
+      "total_price": 300.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "07",
+      "description": "Verkleiden der Leibungen im Dachfenster",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 185.0,
+      "total_price": 555.0
+    },
+    {
+      "position": "08",
+      "description": "Zulage für erschwertes Arbeiten im Dachausbau",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 250.0,
+      "total_price": 250.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "09",
+      "description": "Putzgrund: Haftvermittelnde Grundierung im Streichverfahren auf Wand- und Deckenflächen",
+      "quantity": 31.0,
+      "unit": "m²",
+      "unit_price": 3.8,
+      "total_price": 117.8,
+      "ref": "material:haftgrundierung-putzgrund"
+    },
+    {
+      "position": "10",
+      "description": "Gipskartonplatten auf vorhandene Innenwände kleben",
+      "quantity": 31.0,
+      "unit": "m²",
+      "unit_price": 28.5,
+      "total_price": 883.5
+    }
+  ],
+  "subtotal_net": 8675.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 8675.0,
+  "vat_rate": 19,
+  "vat_amount": 1648.25,
+  "total_gross": 10323.25,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-07-24-cetin-2407115-innensanierung-putz-dg.json",
+  "source_sha256": "5571d0cc6333578f86a07d20c5d85a647a86bb04ee9c44a52a5214f2d9cc67f6",
+  "original_filename": "Rechnung 2407115 Ihnen Sanierung mit Putz Und Trockenbau.pdf",
+  "related": [
+    "document:2024-03-02-cetin-2403102-angebot-putz-trockenbau"
+  ]
+}

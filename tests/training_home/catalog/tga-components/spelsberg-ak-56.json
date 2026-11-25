@@ -1,0 +1,38 @@
+{
+  "id": "spelsberg-ak-56",
+  "name": "Spelsberg AK 56 Verteilergehäuse",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "distribution_board",
+    "mounting": "surface"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:spelsberg",
+    "model": "AK 56",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 216.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 004, je Stk",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L1",
+      "L2",
+      "L3",
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

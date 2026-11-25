@@ -1,0 +1,32 @@
+{
+  "id": "roof-blind-velux-dkl-ck04",
+  "name": "VELUX Verdunkelungsrollo DKL CK04 4580SWL",
+  "description": "hell-taupe, weiß lackierte Aluminium-Führungsschienen, für GGU CK04",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.55,
+    "height": 0.03,
+    "depth": 0.98,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:aluminium-brown"
+  },
+  "product": {
+    "manufacturer": "company:velux",
+    "model": "DKL CK04 4580SWL",
+    "offers": [
+      {
+        "supplier": "company:velux",
+        "price": 123.76,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-11-09",
+        "source": "Auftragsbestätigung 19742051, Pos. 1, je Stk",
+        "document": "document:2025-11-09-velux-19742051-verdunkelungsrollos-dg"
+      }
+    ]
+  }
+}

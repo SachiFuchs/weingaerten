@@ -1,0 +1,49 @@
+{
+  "id": "presto-reparaturbox-fuer-durchrostungen-1-kg",
+  "name": "Presto Reparaturbox für Durchrostungen 1 Kg",
+  "category": "Baustoffe",
+  "description": "Mit der presto Reparaturbox können Sie problemlos größere Löcher, Durchrostungen und Schadensstellen in Metall, Holz, Beton usw. ausgleichen. Sie bietet sich außerdem zur Verwendung im Formen- und Modellbau, im Garten (Spritzfaserteiche) und in anderen industriellen Bereichen an. Die Reparaturbox ist ausgestattet mit ungesättigtem, elastifiziertem Polyesterharz, Härter, Glasfaservlies und -gewebe.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4052800600511_presto-reparaturbox-fuer-durchrostungen-1-kg"
+  ],
+  "product": {
+    "manufacturer": "company:european-aerosols",
+    "model": "Presto Reparaturbox für Durchrostungen 1 Kg",
+    "article_no": "8428112",
+    "ean": "4052800600511",
+    "url": "https://www.obi.de/p/8428112",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 23.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-07-02",
+        "source": "Kassenbon 2025-07-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,19 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "19,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "10,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

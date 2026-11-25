@@ -1,0 +1,31 @@
+{
+  "id": "tw-eg-hot",
+  "name": "Warmwasser EG Hauptleitung (Dusche bis Steigleitung)",
+  "component": "tga-component:ppr-rohr-dn-20-x-2-m",
+  "system": "drinking-water-eg",
+  "medium": "hot_water",
+  "installation": "surface",
+  "points": [
+    [
+      6.742,
+      1.63,
+      1.1
+    ],
+    [
+      6.742,
+      1.63,
+      0.25
+    ],
+    [
+      6.742,
+      5.03,
+      0.25
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:tw-steig-hot",
+    "kind": "branch"
+  },
+  "from": "tga-terminal:ws-dusche-hot"
+}

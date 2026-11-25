@@ -1,0 +1,8 @@
+{
+  "id": "koch-holzwerke",
+  "name": "Johs. Koch GmbH & Co. KG (Koch Holzwerke)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/company",
+  "title": "Firma (Hersteller und/oder Lieferant)",
+  "type": "object",
+  "required": ["id", "name", "roles"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "photos": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(jpg|jpeg|png|webp)$" } },
+    "name":        { "type": "string", "minLength": 1 },
+    "roles": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "enum": ["manufacturer", "supplier"] },
+      "description": "manufacturer = Hersteller, supplier = Lieferant/Verkäufer"
+    },
+    "description": { "type": "string" },
+    "address":     { "type": "string" },
+    "web":         { "type": "string" }
+  }
+}

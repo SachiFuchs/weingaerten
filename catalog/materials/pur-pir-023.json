@@ -1,0 +1,37 @@
+{
+  "id": "pur-pir-023",
+  "name": "PUR/PIR-Dämmung WLG 023, 30 mm",
+  "category": "Dämmung",
+  "description": "Wärmedämmung DEO nach DIN EN 13165, beidseitig Aluminiumverbundfolie; Riempp Angebot 25-0235 Pos. 5: 60 m² à 10,20 €",
+  "conductivity": 0.023,
+  "density": 31,
+  "fire_class": "B2",
+  "values_source": "Angebot (WLG 023); Rohdichte Richtwert",
+  "appearance": {
+    "color": "#E8D9A8",
+    "roughness": 0.6,
+    "hatch": "insulation"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 10.2,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-06-23",
+        "source": "Angebot 25-0235, Pos. 5, je m²",
+        "document": "document:2025-06-23-riempp-25-0235-angebot-heizestrich"
+      },
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 10.2,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-06",
+        "source": "Rechnung 2025397, Pos. 5, je m²",
+        "document": "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+      }
+    ]
+  }
+}

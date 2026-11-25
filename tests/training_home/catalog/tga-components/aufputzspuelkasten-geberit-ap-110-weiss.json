@@ -1,0 +1,122 @@
+{
+  "id": "aufputzspuelkasten-geberit-ap-110-weiss",
+  "name": "Aufputzspülkasten Geberit AP 110 weiß 136.610.11.1",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Sanitär",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "surface"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-7768464_aufputzspuelkasten-geberit-ap-110-weiss"
+  ],
+  "product": {
+    "manufacturer": "company:geberit",
+    "model": "Aufputzspülkasten Geberit AP 110 weiß 136.610.11.1",
+    "article_no": "7768464",
+    "ean": "4025416728719",
+    "url": "https://www.hornbach.de/p/aufputzspuelkasten-geberit-ap-110-weiss-136-610-11-1/7768464/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Spülkasten"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Aufputzspülkasten"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Wandmontage"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "WC"
+        },
+        {
+          "label": "Räume",
+          "value": "Gäste-WC"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Spülmenge",
+          "value": "6 l - 9 l"
+        },
+        {
+          "label": "Wasseranschluß",
+          "value": "Links, Rechts, Mitte hinten"
+        },
+        {
+          "label": "Funktionen",
+          "value": "Start/Stop"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Schwitzwasservollisoliert"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Spülbogen 23 x 23 cm, ø 50/ 44 mm, Spülrohrinnenverbinder ø 44/55 mm, Befestigungsmaterial"
+        },
+        {
+          "label": "Serie",
+          "value": "AP 110"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "136.610.11.1"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Glänzend"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "YH69"
+        },
+        {
+          "label": "EAN",
+          "value": "4025416587323, 4025416728719, 4025416802082, 5999547041834, 9008090900010"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "410 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "390 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "135 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 33,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-08",
+        "source": "Kassenbon 2025-03-08, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-7768464_1.jpg",
+    "hornbach-7768464_2.jpg"
+  ]
+}

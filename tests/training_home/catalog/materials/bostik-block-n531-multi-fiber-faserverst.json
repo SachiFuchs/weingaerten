@@ -1,0 +1,110 @@
+{
+  "id": "bostik-block-n531-multi-fiber-faserverst",
+  "name": "Bostik BLOCK N531 MULTI FIBER Faserverstärkte Dichtungsmasse 500 ml",
+  "category": "Baustoffe",
+  "description": "Musst Du eine undichte Stelle am Dach oder an der Dachrinne schnell abdichten, auch wenn das Wetter nicht mitspielt?\n\nProduktmerkmale des/der Bostik BLOCK N531 MULTI FIBER Faserverstärkte Dichtungsmasse 500 ml\n\nDarum solltest Du zugreifen: Die Dichtungsmasse macht sofort wasserdicht und ist frostbeständig, dadurch kannst Du auch bei Regen, Schnee oder Kälte abdichten und musst Reparaturen nicht aufschieben. Durch die Faserverstärkung und die rissüberbrückende Wirkung bis 10 mm bleibt die Abdichtung auch bei Bewegungen im Untergrund stabil, was besonders bei Sanierungen am Dach hilfreich ist. Die dauerelastische, flexible Masse gleicht Spannungen aus und reduziert das Risiko, dass die Abdichtung wieder aufreißt.\n\nSie ist UV-beständig und damit für dauerhaft bewitterte Bereiche wie Dach und Dachrinne geeignet. Die streich- und spachtelfähige Verarbeitung erleichtert das Auftragen und das saubere Ausformen der Abdichtfläche. Sie haftet auf vielen Untergründen wie Asphaltdecken, Beton, Fliesen und Zementestrich, wichtig ist dabei ein sauberer Untergrund. Die graue Farbe passt optisch zu vielen typischen Dach- und Bauflächen, und die Verarbeitung ist im Temperaturbereich von 5 bis 38 °C möglich.\n\nFestgezurrt: Mit dieser faserverstärkten, flexibel bleibenden Dichtungsmasse dichtest Du Dach und Dachrinne schnell und zuverlässig ab, auch bei wechselnden Wetterbedingungen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10715687_bostik-block-n531-multi-fiber-faserverst"
+  ],
+  "product": {
+    "manufacturer": "company:bostik",
+    "model": "Bostik BLOCK N531 MULTI FIBER Faserverstärkte Dichtungsmasse 500 ml",
+    "article_no": "10715687",
+    "ean": "4008373138296",
+    "url": "https://www.hornbach.de/p/bostik-block-n531-multi-fiber-faserverstaerkte-dichtungsmasse-500-ml/10715687/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Abdichtung"
+        },
+        {
+          "label": "Inhalt in ml",
+          "value": "500 ml"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Dachrinne abdichten, Dach sanieren"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Asphaltdecken, Beton, Fliesen, Zementestrich"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Faserverstärkt, Frostbeständig, UV-beständig, Flexibel"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Verbrauch: Ca. 2 kg/m², je nach Saugfähigkeit des Untergrundes"
+        },
+        {
+          "label": "Verarbeitungstemperatur",
+          "value": "5 °C - 38 °C"
+        },
+        {
+          "label": "Signalwort",
+          "value": "Achtung"
+        },
+        {
+          "label": "Gefahrenhinweise (H-Sätze)",
+          "value": "(H226) Flüssigkeit und Dampf entzündbar., (H336) Kann Schläfrigkeit und Benommenheit verursachen., (H373) Kann die Organe schädigen bei längerer oder wiederholter Exposition., (H412) Schädlich für Wasserorganismen, mit langfristiger Wirkung."
+        },
+        {
+          "label": "Sicherheitshinweise (P-Sätze)",
+          "value": "(P102) Darf nicht in die Hände von Kindern gelangen., (P103) Vor Gebrauch Kennzeichnungsetikett lesen."
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH066) Wiederholter Kontakt kann zu spröder oder rissiger Haut führen."
+        },
+        {
+          "label": "Untergrundbeschaffenheit",
+          "value": "Sauber"
+        },
+        {
+          "label": "Inhaltsstoffe",
+          "value": "Harzlösung und anorganischen Füllstoffen"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "F2NZ"
+        },
+        {
+          "label": "EAN",
+          "value": "4008373138296"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 15.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-28",
+        "source": "Kassenbon 2024-05-28, HORNBACH Tübingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-10715687_1.jpg",
+    "hornbach-10715687_2.jpg",
+    "hornbach-10715687_3.jpg",
+    "hornbach-10715687_4.jpg",
+    "hornbach-10715687_5.jpg",
+    "hornbach-10715687_6.jpg",
+    "hornbach-10715687_7.jpg"
+  ]
+}

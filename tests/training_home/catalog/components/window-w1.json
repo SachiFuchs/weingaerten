@@ -1,0 +1,18 @@
+{
+  "id": "window-w1",
+  "name": "Fenster 2-flüglig 1,20 × 1,35",
+  "description": "Kunststofffenster weiß, 3-fach verglast",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 1.2,
+    "height": 1.35,
+    "depth": 0.08,
+    "frame_width": 0.07,
+    "sashes": 2
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  }
+}

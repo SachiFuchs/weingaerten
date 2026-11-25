@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-em-hk",
+  "name": "Weishaupt Erweiterungsmodul EM-HK",
+  "category": "Heizung",
+  "description": "Regelung eines weiteren Pumpen- oder Mischerheizkreises inkl. Vorlauffühler, Wand- oder Hutschienenmontage (WP-EM HK im Hydraulikplan)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "EM-HK",
+    "article_no": "51150401512",
+    "url": "https://www.loebbeshop.de/weishaupt/zubehoer/erweiterungsmodul-em-hk-51150401512/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 699.07,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.8, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

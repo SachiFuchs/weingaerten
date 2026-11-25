@@ -1,0 +1,27 @@
+{
+  "id": "kermi-x-net-trockenbauplatte",
+  "name": "Kermi x-net Trockenbauplatte C13 NM25",
+  "category": "Platten",
+  "description": "Wandheizungs-Trockenbauplatte 1000 × 500 mm",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Kermi x-net Trockenbauplatte C13 NM25",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 10.16,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.1, je m²",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#E6E2D8",
+    "roughness": 0.8,
+    "hatch": "none"
+  }
+}

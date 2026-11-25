@@ -1,0 +1,49 @@
+{
+  "id": "osb-3-verlegeplatte-18-mm-mit-nut-und-feder-205-cm-x-62-5-cm",
+  "name": "OSB-3-Verlegeplatte 18 mm mit Nut und Feder 205 cm x 62,5 cm",
+  "category": "Holz",
+  "description": "Die OSB-3-Verlegeplatte 18 mm mit Nut und Feder 205 cm x 62,5 cm ist eine ungeschliffene Bauplatte, die vielseitig im Rohbau und Innenausbau als Wand- oder Deckenbeplankung und Bodenbelag eingesetzt werden kann. Dank der dekorativen und markanten Optik können Sie die Grobspanplatte auch im Möbelbau einsetzen. Hohe Biegefestigkeit und FormstabilitätDie Holzwerkstoffplatten sind aus großflächigen verleimten Furnierstreifen hergestellt und vierseitig mit einer Nut und Feder versehen. Dadurch erhalten die Platten eine hohe Formstabilität und einen hohen Festigkeitswert. Aufgrund dieser hohen Biegefestigkeit eignen sich OSB3-Platten ideal als tragende Elemente von Decken- und Dachkonstruktionen oder als Versteifungen und Verschalungen von Außen- und Innenwänden. Zudem sind die Bauplatten für den Messe- oder Ladenbau und zur zeitweisen Abdeckung von Gebäudeöffnungen bei Renovierungen geeignet. OSB-Platten sind stabiler und biegefester als herkömmliche Spanplatten und sind somit hoch belastbar. Verwendung im FeuchtbereichDie Norm EN 300 definiert verschiedene Klassen entsprechend ihren mechanischen Eigenschaften und der relativen Feuchtigkeitsbeständigkeit. Die OSB-Platte entspricht der Klasse OSB/3 und kann somit im Trocken- und Feuchtbereich eingesetzt werden. Damit eignen sich die Platten besonders für die Verbauung in Räumen mit hoher Luftfeuchtigkeit. Zudem wird die OSB3-Verlegeplatte in die Emissionsklasse E1 eingestuft und hat somit eine sehr geringe Formaldehyd-Ausgleichskonzentration von unter 0,1 ppm. Das bedeutet, dass das Bindemittel zur Verleimung einen sehr geringen Anteil an schädlichem Formaldehyd hat.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-8591000041602_osb-3-verlegeplatte-18-mm-mit-nut-und-feder-205-cm-x-62-5-cm"
+  ],
+  "product": {
+    "manufacturer": "company:kronospan-cr",
+    "model": "OSB-3-Verlegeplatte 18 mm mit Nut und Feder 205 cm x 62,5 cm",
+    "article_no": "5799754",
+    "ean": "8591000041602",
+    "url": "https://www.obi.de/p/5799754",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 12.41,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-16",
+        "source": "Kassenbon 2026-05-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "2,05 m"
+        },
+        {
+          "label": "Breite",
+          "value": "62,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,8 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

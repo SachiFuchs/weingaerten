@@ -1,0 +1,41 @@
+{
+  "id": "ht-b-bogen-30-dn-50-mm",
+  "name": "HT-B Bogen 30° DN 50 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 30
+  },
+  "description": "Sorgen Sie sich um die Langlebigkeit Ihrer Abflussrohre? Mit dem HT-B Bogen 30° DN 50 mm sind Sie bestens gerüstet.\n\nProduktmerkmale des HT-B Bogen 30° DN 50 mm\nDarum solltest Du zugreifen: Dieses Formteil ist speziell für die Hausentwässerung im Innenbereich konzipiert und erfüllt die Norm DIN EN 1451-1. Der Bogen aus Polypropylen (PP) ist heißwasserbeständig, was ihn ideal für den Einsatz in Abwassersystemen macht, die hohen Temperaturen ausgesetzt sind. Mit einem Außendurchmesser von 110 mm und einer Nennweite von 50 mm passt er perfekt in bestehende Systeme. Die Materialstärke von 1,8 mm sorgt für eine hohe Stabilität und Langlebigkeit. Der 30-Grad-Winkel ermöglicht eine flexible Installation, um den individuellen Anforderungen gerecht zu werden. Die graue Farbe fügt sich unauffällig in das Rohrsystem ein und sorgt für ein einheitliches Erscheinungsbild.\n\nFestgezurrt: Der HT-B Bogen 30° DN 50 mm vereint Beständigkeit und Flexibilität für eine zuverlässige Hausentwässerung.",
+  "photos": [
+    "hornbach-263229_1.jpg",
+    "hornbach-263229_2.jpg"
+  ],
+  "imported_from": [
+    "hornbach-263229_ht-b-bogen-30-dn-50-mm"
+  ],
+  "catalog_material": "material:ht-b-bogen-30-dn-50-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

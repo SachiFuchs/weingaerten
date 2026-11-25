@@ -1,0 +1,11 @@
+{
+  "id": "stainless-steel",
+  "name": "Edelstahlblech",
+  "category": "Metall",
+  "description": "Edelstahlblech 0,7 mm (Kaminabdeckung)",
+  "conductivity": 17,
+  "density": 7900,
+  "fire_class": "A1",
+  "values_source": "Richtwert Edelstahl (DIN EN ISO 10456)",
+  "appearance": { "color": "#B4B8BC", "roughness": 0.3, "hatch": "none" }
+}

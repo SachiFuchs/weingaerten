@@ -1,0 +1,76 @@
+{
+  "id": "cellpack-pvc-isolierband-b19mm-l25-m-sch",
+  "name": "Cellpack PVC Isolierband B19mm L25 m schwarz",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-8366444_cellpack-pvc-isolierband-b19mm-l25-m-sch"
+  ],
+  "product": {
+    "manufacturer": "company:cellpack",
+    "model": "Cellpack PVC Isolierband B19mm L25 m schwarz",
+    "article_no": "8366444",
+    "ean": "4010311013626",
+    "url": "https://www.hornbach.de/p/cellpack-pvc-isolierband-b19mm-l25-m-schwarz/8366444/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Klebeband"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Isolierband"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Schutz"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Schwarz"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "2TU2"
+        },
+        {
+          "label": "EAN",
+          "value": "4010311013626"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "19 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "25.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-30",
+        "source": "Kassenbon 2025-12-30, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-8366444_1.jpg"
+  ]
+}

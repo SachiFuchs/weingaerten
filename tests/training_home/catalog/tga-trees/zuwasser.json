@@ -1,0 +1,83 @@
+{
+  "id": "zuwasser",
+  "name": "Zuwasser",
+  "order": 3,
+  "nodes": [
+    {
+      "id": "ppr",
+      "name": "PPR",
+      "nodes": [
+        {
+          "id": "dn-20",
+          "name": "DN 20",
+          "nodes": [
+            {
+              "id": "boegen",
+              "name": "Bögen",
+              "nodes": [
+                {
+                  "id": "ppr-bend-20-90",
+                  "ref": "tga-component:ppr-bend-20-90"
+                },
+                {
+                  "id": "ppr-winkel-45deg-dn-20",
+                  "ref": "tga-component:ppr-winkel-45deg-dn-20"
+                }
+              ]
+            },
+            {
+              "id": "endstuecke",
+              "name": "Endstücke",
+              "nodes": [
+                {
+                  "id": "ppr-cap-20",
+                  "ref": "tga-component:ppr-cap-20"
+                },
+                {
+                  "id": "ppr-wall-plate-20",
+                  "ref": "tga-component:ppr-wall-plate-20"
+                }
+              ]
+            },
+            {
+              "id": "rohre",
+              "name": "Rohre",
+              "nodes": [
+                {
+                  "id": "ppr-rohr-dn-20-x-2-m",
+                  "ref": "tga-component:ppr-rohr-dn-20-x-2-m"
+                }
+              ],
+              "filter": {
+                "class": "tga-class:pipe"
+              }
+            },
+            {
+              "id": "abzweige",
+              "name": "Abzweige",
+              "nodes": [
+                {
+                  "id": "ppr-tee-20",
+                  "ref": "tga-component:ppr-tee-20"
+                }
+              ]
+            },
+            {
+              "id": "ventile",
+              "name": "Ventile",
+              "nodes": [
+                {
+                  "id": "ppr-valve-20",
+                  "ref": "tga-component:ppr-valve-20"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "filter": {
+        "query": "ppr"
+      }
+    }
+  ]
+}

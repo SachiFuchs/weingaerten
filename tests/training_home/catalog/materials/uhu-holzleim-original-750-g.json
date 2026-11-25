@@ -1,0 +1,45 @@
+{
+  "id": "uhu-holzleim-original-750-g",
+  "name": "Uhu Holzleim Original 750 g",
+  "category": "Baustoffe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "obi-8867145_uhu-holzleim-original-750-g"
+  ],
+  "product": {
+    "model": "Uhu Holzleim Original 750 g",
+    "article_no": "8867145",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-11-04",
+        "source": "Kassenbon 2022-11-04, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 9.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-21",
+        "source": "Kassenbon 2023-04-21, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 9.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-01-13",
+        "source": "Kassenbon 2024-01-13, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

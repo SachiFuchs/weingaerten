@@ -1,0 +1,50 @@
+{
+  "id": "wago-hebelklemmen-set-10-teilig",
+  "name": "Wago Hebelklemmen Set 10-teilig",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873152740_wago-hebelklemmen-set-10-teilig"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Hebelklemmen Set 10-teilig",
+    "article_no": "1144856",
+    "ean": "4007873152740",
+    "url": "https://www.obi.de/p/1144856",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "60 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 3,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "Set 2/3/5-polig, Polzahl gemischt (3 angenommen)"
+  }
+}

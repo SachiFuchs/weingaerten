@@ -1,0 +1,11 @@
+{
+  "id": "steel-grating",
+  "name": "Gitterrost Stahl verzinkt",
+  "category": "Metall",
+  "description": "Gitterrost über dem Lichtschacht (Stahl feuerverzinkt, Masche ca. 30 × 10 mm)",
+  "conductivity": 50,
+  "density": 7850,
+  "fire_class": "A1",
+  "values_source": "Richtwert Stahl (DIN EN ISO 10456)",
+  "appearance": { "color": "#8C939A", "roughness": 0.5, "hatch": "none" }
+}

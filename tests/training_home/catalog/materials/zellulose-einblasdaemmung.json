@@ -1,0 +1,17 @@
+{
+  "id": "zellulose-einblasdaemmung",
+  "name": "Zellulose-Einblasdämmung WLG 039",
+  "category": "Dämmung",
+  "description": "Einblasdämmung Dach (Fenzl, Pauschale); Hersteller im Beleg nicht genannt",
+  "conductivity": 0.039,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Zellulose-Einblasdämmung WLG 039",
+    "offers": []
+  },
+  "appearance": {
+    "color": "#C9B48A",
+    "roughness": 0.9,
+    "hatch": "insulation"
+  }
+}

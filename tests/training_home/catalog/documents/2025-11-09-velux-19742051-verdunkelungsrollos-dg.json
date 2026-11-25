@@ -1,0 +1,38 @@
+{
+  "id": "2025-11-09-velux-19742051-verdunkelungsrollos-dg",
+  "name": "VELUX 19742051 – Verdunkelungsrollos DG",
+  "doc_type": "order_confirmation",
+  "supplier": "company:velux",
+  "date": "2025-11-09",
+  "number": "19742051",
+  "customer_number": null,
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse: Monika Bernas c/o Suri, Vorderer Berg 20, 73035 Göppingen (Bestellung über weingaerten@suri.de für DG Dachfenster)",
+  "description": "Online-Bestellbestätigung des VELUX Shops über zwei manuelle Verdunkelungsrollos (DKL CK04 4580SWL in Hell-taupe) für GGU-CK04-Dachfenster im Dachgeschoss. Die Bezahlung über 247,52 € brutto (inkl. 39,52 € MwSt.) erfolgte per Klarna bei kostenfreier DPD-Lieferung an Vorderer Berg 20. Eine separate formale Rechnungs-PDF liegt im Quellordner nicht vor (die als Rechnung benannte Velux-Datei ist nur der Lieferschein).",
+  "prices_are_net": false,
+  "items": [
+    {
+      "position": "1",
+      "description": "DKL CK04 4580SWL: VELUX Verdunkelungsrollos für Dachfenster (Hell-taupe, weiß lackierte Aluminium-Führungsschienen, für Fenster GGU CK04; Bruttopreis)",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 123.76,
+      "total_price": 247.52,
+      "ref": "component:roof-blind-velux-dkl-ck04"
+    }
+  ],
+  "items_gross": true,
+  "subtotal_net": 208.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 208.0,
+  "vat_rate": 19,
+  "vat_amount": 39.52,
+  "total_gross": 247.52,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-11-09-velux-19742051-verdunkelungsrollos-dg.json",
+  "source_sha256": "d16a7d2e62106c0b32852c5e81206e39a81eaa9920d577bec84607e3fc750214",
+  "original_filename": "2025-11-09 Bestellung Velux Rollos DG Fenster.pdf"
+}

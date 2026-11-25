@@ -1,0 +1,11 @@
+{
+  "id": "copper-sheet",
+  "name": "Kupferblech",
+  "category": "Metall",
+  "description": "Dachklempnerarbeiten: Einlaufblech, Kaminverwahrung, Rinnenhalter kupferummantelt",
+  "conductivity": 380,
+  "density": 8900,
+  "fire_class": "A1",
+  "values_source": "Richtwert Kupfer (DIN EN ISO 10456)",
+  "appearance": { "color": "#B87333", "roughness": 0.4, "hatch": "none" }
+}

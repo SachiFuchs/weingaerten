@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-kabel-a-2yf-l-2y",
+  "name": "A-2YF(L)2Y",
+  "class": "tga-class:cable",
+  "din276": "450",
+  "system_type": "Fernmelde",
+  "params": {
+    "cable_type": "A-2YF(L)2Y"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:fernmelde-erdkabel-a-2yf-l-2y-4x2x0-6-sc"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

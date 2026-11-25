@@ -1,0 +1,52 @@
+{
+  "id": "kabelkanal-15-mm-x-15-mm-weiss-laenge-2-m",
+  "name": "Kabelkanal 15 mm x 15 mm Weiß Länge 2 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_duct",
+    "unit": "m"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297797302_kabelkanal-15-mm-x-15-mm-weiss-laenge-2-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Kabelkanal 15 mm x 15 mm Weiß Länge 2 m",
+    "article_no": "7514631",
+    "ean": "4008297797302",
+    "url": "https://www.obi.de/p/7514631",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "255 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "1,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-08",
+        "source": "Kassenbon 2025-12-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

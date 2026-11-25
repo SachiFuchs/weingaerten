@@ -1,0 +1,37 @@
+{
+  "id": "2023-03-27-ramo-2023-11-kg-rohre-wasserkanal",
+  "name": "Ramo 2023/11 – KG Rohre Wasserkanal",
+  "doc_type": "invoice",
+  "supplier": "company:ramo-landschaftsgaertner",
+  "date": "2023-03-27",
+  "number": "2023/11",
+  "customer_number": null,
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "BV: Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung von Ramo Garten- & Landschaftsbau (Eislingen) für das Fällen und Entsorgen von Bäumen, die Neuverlegung von KG-Rohren sowie das Öffnen und Verschließen des Grabens am Gehweg für den Trinkwasseranschluss in Weingärten 8. Abgerechnet wurde eine Pauschale von 2.200,00 € netto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Bäume fällen und entsorgen, KG-Rohre neu verlegen sowie Kanal beim Gehweg für Trinkwasserleitungen öffnen und wieder schließen (Pauschale)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 2200.0,
+      "total_price": 2200.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 2200.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2200.0,
+  "vat_rate": 19,
+  "vat_amount": 418.0,
+  "total_gross": 2618.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-03-27-ramo-2023-11-kg-rohre-wasserkanal.json",
+  "source_sha256": "e41317613af0fa43d2214a708bed61c1a8b566590329764740922138c8d4b372",
+  "original_filename": "2023-03-27-Rechnung-Ramo.pdf"
+}

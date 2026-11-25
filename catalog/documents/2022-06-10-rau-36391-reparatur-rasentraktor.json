@@ -1,0 +1,78 @@
+{
+  "id": "2022-06-10-rau-36391-reparatur-rasentraktor",
+  "name": "Rau 36391 – Reparatur Rasentraktor",
+  "doc_type": "invoice",
+  "supplier": "company:rau-gartengeraete",
+  "date": "2022-06-10",
+  "number": "36391",
+  "customer_number": "17577",
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse/Einsatzort: Weingärten 8, 73037 Göppingen (lt. Auftraggeber); Reparatur Rasentraktor EMAK EF107L/24KH NEW (Serien-Nr. AB00407/2016), Arbeitsauftrag 134677, Abholung und Auslieferung beim Kunden",
+  "description": "Werkstattrechnung von Erich Rau (Rechberghausen) für die Reparatur des Rasentraktors EMAK EF107L/24KH: Maschine lief nicht, Benzin lief aus und Vorderreifen verlor Luft. Benzinschlauch, Keilriemen und Reifenschläuche erneuert, Messer geschliffen, inkl. Abhol-/Lieferpauschale. Zahlbar bis 18.06.2022.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Arbeitslohn: Maschine abgeholt, Batterie geladen, Getriebeschalter eingestellt, Benzinschlauch erneuert, Mähwerk/Keilriemen kontrolliert, Messer geschliffen und gewuchtet, Keilriemen Messerantrieb erneuert, Vorderreifen mit Schläuchen, Probelauf, ausgeliefert",
+      "quantity": 3.0,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 192.0
+    },
+    {
+      "position": "2",
+      "description": "Klein- und Reinigungsmaterial (Schmierstoffe, Hilfsmittel usw.)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 5.0,
+      "total_price": 5.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "3",
+      "description": "Abhol- und Auslieferung Pauschale",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 15.0,
+      "total_price": 15.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "4",
+      "description": "Kraftstoffleitung",
+      "quantity": 0.6,
+      "unit": "m",
+      "unit_price": 87.29,
+      "total_price": 52.37
+    },
+    {
+      "position": "5",
+      "description": "Keilriemen",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 31.88,
+      "total_price": 31.88
+    },
+    {
+      "position": "6",
+      "description": "Schlauch 15/6.00-6 TR 13",
+      "quantity": 2.0,
+      "unit": "Stk",
+      "unit_price": 18.07,
+      "total_price": 36.14
+    }
+  ],
+  "subtotal_net": 332.39,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 332.39,
+  "vat_rate": 19,
+  "vat_amount": 63.15,
+  "total_gross": 395.54,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-06-10-rau-36391-reparatur-rasentraktor.json",
+  "source_sha256": "2ccd59f53358867f09ec8e6253bee5f3b0b30cdd99e8d37253d3684fcaf1bead",
+  "original_filename": "2022-06-10-Reperatur Traktor-Rau.pdf"
+}

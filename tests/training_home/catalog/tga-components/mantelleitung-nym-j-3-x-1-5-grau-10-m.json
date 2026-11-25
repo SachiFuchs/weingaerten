@@ -1,0 +1,53 @@
+{
+  "id": "mantelleitung-nym-j-3-x-1-5-grau-10-m",
+  "name": "Mantelleitung NYM-J 3 x 1,5 Grau 10 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 3,
+    "cross_section_mm2": 1.5
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297717065_mantelleitung-nym-j-3-x-1-5-grau-10-m"
+  ],
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Mantelleitung NYM-J 3 x 1,5 Grau 10 m",
+    "article_no": "7619075",
+    "ean": "4008297717065",
+    "url": "https://www.obi.de/p/7619075",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-10-23",
+        "source": "Kassenbon 2024-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 10.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

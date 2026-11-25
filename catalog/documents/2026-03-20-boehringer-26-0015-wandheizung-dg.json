@@ -1,0 +1,154 @@
+{
+  "id": "2026-03-20-boehringer-26-0015-wandheizung-dg",
+  "name": "Böhringer 26-0015 – Wandheizung DG",
+  "doc_type": "quote",
+  "supplier": "company:boehringer-heizungsbau",
+  "date": "2026-03-20",
+  "number": "26-0015",
+  "customer_number": "12600",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Wohnhaus-Sanierung, Weingärten 8, Göppingen; Wandheizung",
+  "description": "Angebot der Böhringer Bauplanung und Heizungsbau GmbH für eine Kermi-x-net-Wandheizung im Dachgeschoss von Weingärten 8 als Alternative zu Heizkörpern. Enthalten sind Trockenbauplatten, Verteiler mit Schrank, Verbundrohr, Wärmeleitbleche, Stellantriebe und Regler, ein elektrischer Zehnder-Handtuchheizkörper sowie 16 Montagestunden für das Verlegen der Rohre; die Trockenbauplatten sollen in Eigenleistung montiert werden. Preisbindung 60 Tage.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.1",
+      "description": "Kermi x-net Trockenbauplatte C13 NM25 1000x500mm",
+      "quantity": 30,
+      "unit": "m²",
+      "unit_price": 10.16,
+      "total_price": 304.8,
+      "ref": "material:kermi-x-net-trockenbauplatte"
+    },
+    {
+      "position": "1.2",
+      "description": "Kermi Verteilerschrank U-XL-L2 Up Komfort XL, lackiert, Breite 535 mm",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 196.8,
+      "total_price": 196.8,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-verteilerschrank-u-xl-l2"
+    },
+    {
+      "position": "1.3",
+      "description": "Kermi X-Net Verteiler 1\" Komfort 5 für 5 Heizkreise",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 232.0,
+      "total_price": 232.0,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-x-net-verteiler-5"
+    },
+    {
+      "position": "1.4",
+      "description": "Kermi Eck-Kugelhahnset 1\" x 3/4\"",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 61.6,
+      "total_price": 61.6,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-eck-kugelhahnset"
+    },
+    {
+      "position": "1.5",
+      "description": "Kermi Einzel-Klemmringverschraubungen 14x2 mm",
+      "quantity": 10,
+      "unit": "Stk",
+      "unit_price": 3.84,
+      "total_price": 38.4,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-klemmring-14x2"
+    },
+    {
+      "position": "1.6",
+      "description": "Kermi X-Net Verbundrohr 14 x 2 mm, 200 m Rolle",
+      "quantity": 200,
+      "unit": "m",
+      "unit_price": 1.76,
+      "total_price": 352.0,
+      "ref": "tga-component:kermi-x-net-verbundrohr-14x2"
+    },
+    {
+      "position": "1.7",
+      "description": "Wärmeleitblech X-Net Stahl 990 x 120 mm",
+      "quantity": 192,
+      "unit": "Stk",
+      "unit_price": 5.04,
+      "total_price": 967.68,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-x-net-waermeleitblech"
+    },
+    {
+      "position": "1.8",
+      "description": "Kermi X-Net Stellantrieb, 230 V",
+      "quantity": 5,
+      "unit": "Stk",
+      "unit_price": 20.8,
+      "total_price": 104.0,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-x-net-stellantrieb"
+    },
+    {
+      "position": "1.9",
+      "description": "Kermi X-Net Wandanbauregler 230 V",
+      "quantity": 3,
+      "unit": "Stk",
+      "unit_price": 34.64,
+      "total_price": 103.92,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-x-net-wandregler"
+    },
+    {
+      "position": "1.10",
+      "description": "Kermi X-Net Klemmleiste 6R, 230 V",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 114.4,
+      "total_price": 114.4,
+      "unit_raw": "St",
+      "ref": "tga-component:kermi-x-net-klemmleiste-6r"
+    },
+    {
+      "position": "1.11",
+      "description": "Zehnder Handtuchheizkörper ZENO, rein elektrisch, 1700 x 600 mm, weiss",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 470.4,
+      "total_price": 470.4,
+      "unit_raw": "St",
+      "ref": "tga-component:zehnder-zeno-elektrisch-1700x600"
+    },
+    {
+      "position": "2.1",
+      "description": "Obermonteurstunden für die Montagearbeiten (Verlegen der Wandheizungsrohre)",
+      "quantity": 8,
+      "unit": "Std",
+      "unit_price": 70.5,
+      "total_price": 564.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "2.2",
+      "description": "Monteurstunden für die Montagearbeiten (Verlegen der Wandheizungsrohre)",
+      "quantity": 8,
+      "unit": "Std",
+      "unit_price": 70.5,
+      "total_price": 564.0,
+      "unit_raw": "Std."
+    }
+  ],
+  "subtotal_net": 4074.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 4074.0,
+  "vat_rate": 19,
+  "vat_amount": 774.06,
+  "total_gross": 4848.06,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-03-20-boehringer-26-0015-wandheizung-dg.json",
+  "source_sha256": "132f4522d39c4d5262fad60390f445b1904133e8c40b1ccaf45369c26315d318",
+  "original_filename": "2026-03-20 Angebot_26-0015 Wandheizung DG.pdf"
+}

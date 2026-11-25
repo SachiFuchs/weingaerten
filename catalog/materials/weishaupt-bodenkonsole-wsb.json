@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-bodenkonsole-wsb",
+  "name": "Weishaupt Bodenkonsole für WSB-Außengerät",
+  "category": "Heizung",
+  "description": "zum Einbetonieren in Punktfundamente, B × T × H 755 × 500 × 800 mm",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Bodenkonsole WSB",
+    "article_no": "51150511300",
+    "url": "https://www.wolf-online-shop.de/Weishaupt-Bodenkonsole-fuer-WSB-Aussengeraet-51150511300::523368.html",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 567.07,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.5, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

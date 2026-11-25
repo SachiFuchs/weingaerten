@@ -1,0 +1,40 @@
+{
+  "id": "2022-09-13-ramo-2022-22-angebot-pkw-weg",
+  "name": "Ramo 2022/22 – Angebot PKW Weg",
+  "doc_type": "quote",
+  "supplier": "company:ramo-landschaftsgaertner",
+  "date": "2022-09-13",
+  "number": "2022/22",
+  "customer_number": null,
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Pkw-Weg einschottern, BV Weingärten 8, 73037 Göppingen (Objekt abgeleitet aus Folgerechnung 2022/33)",
+  "description": "Angebot von Landschaftsgärtner Ramo für das Einschottern des Pkw-Wegs (rund 35 lfm Auskoffern, Recycling-Tragschicht und Mineralbeton-Deckschicht). Das Angebot wurde handschriftlich am 19.09.2022 in München angenommen (Auftrag). Abgerechnet wurde später mit Rechnung 2022/33 über 2.975,00 € brutto inkl. Hauseingangsweg und Terrasse.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Pkw-Weg einschottern: ca. 35 lfm Erde 2,50 m breit und 20-25 cm tief mit Bagger auskoffern und seitlich planieren; 15 cm Recycling liefern, auffüllen und verdichten; feinen Mineralbeton liefern und verdichten",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 6000.0,
+      "total_price": 6000.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 6000.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 6000.0,
+  "vat_rate": 19,
+  "vat_amount": 1140.0,
+  "total_gross": 7140.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-09-13-ramo-2022-22-angebot-pkw-weg.json",
+  "source_sha256": "ce8043ca84df2448af7bd372c381228a96a8fda712e7cb2c4c6dc7d3bfc384ab",
+  "original_filename": "2022-09-13-Angebot-Ramo Weg.pdf",
+  "related": [
+    "document:2022-10-05-ramo-2022-33-kiesweg-terrasse"
+  ]
+}

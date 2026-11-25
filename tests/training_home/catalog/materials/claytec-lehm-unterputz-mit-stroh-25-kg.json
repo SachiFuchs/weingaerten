@@ -1,0 +1,53 @@
+{
+  "id": "claytec-lehm-unterputz-mit-stroh-25-kg",
+  "name": "Claytec Lehm Unterputz mit Stroh 25 kg",
+  "category": "Baustoffe",
+  "description": "Ein- und mehrlagiger Unterputz im Innenbereich. Als Hand- oder Maschinenputz verwendbar. Für die Denkmalsanierung, auf Mauerwerk und Massivbaustoffen, für Wandflächenheizungen oder auf Schilfrohr. Natur-Baulehm bis 5 mm, gemischtkörniger gewaschener Sand 0 - 2 mm, Gerstenstroh 30 mm. Die Mörtel bestehen aus Baulehm, Sand und armierenden Strohfasern.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4042356101105_claytec-lehm-unterputz-mit-stroh-25-kg"
+  ],
+  "product": {
+    "manufacturer": "company:rudolf-laier",
+    "model": "Claytec Lehm Unterputz mit Stroh 25 kg",
+    "article_no": "3554789",
+    "ean": "4042356101105",
+    "url": "https://www.obi.de/p/3554789",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 22.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-13",
+        "source": "Kassenbon 2026-02-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "13,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "56,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "31,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

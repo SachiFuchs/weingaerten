@@ -1,0 +1,161 @@
+{
+  "id": "baufan-kalkfarbe-streichkalk-mineralfarb",
+  "name": "Baufan Kalkfarbe Streichkalk Mineralfarbe weiß 10 l",
+  "category": "Farbe",
+  "description": "Du möchtest Wände und Decken gleichmäßig weiß gestalten und dabei auch in stärker beanspruchten Bereichen eine passende Beschichtung einsetzen.\n\nProduktmerkmale der Baufan Kalkfarbe Streichkalk Mineralfarbe weiß 10 l\n\nDarum solltest Du zugreifen: Die wasserbasierende Kalkfarbe ist für innen und außen geeignet, sodass Du mit einem System sowohl Wohnräume als auch Keller, Garage oder Fassadenflächen beschichten kannst. Mit hoher Deckkraft erreichst Du bei zwei Anstrichen ein gleichmäßiges, mattes Weiß, das Unebenheiten optisch zurücknimmt und Flächen ruhiger wirken lässt. Der integrierte Schimmelschutz unterstützt Dich dabei, kritische Bereiche wie Küche, Flur oder Keller widerstandsfähiger zu beschichten.\n\nAuf Putz und Beton lässt sich die Farbe rollen oder streichen, wodurch Du je nach Fläche zügig arbeiten oder Kanten sauber ausführen kannst. Eine Grundierung wird empfohlen, damit der Untergrund gleichmäßig saugt und der Anstrich ruhiger verläuft. Mit rund 6,5 m² pro Liter bei einmaligem Anstrich kannst Du den Materialbedarf gut planen, und nach etwa 4 Stunden Trocknung ist die Fläche für den nächsten Arbeitsgang bereit.\n\nFestgezurrt: Diese matte, weiße Kalkfarbe für Putz und Beton ist eine passende Wahl für innen und außen, wenn Du mit zwei Anstrichen eine deckende Oberfläche mit Schimmelschutz erzielen möchtest.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-5210785_baufan-kalkfarbe-streichkalk-mineralfarb"
+  ],
+  "product": {
+    "manufacturer": "company:baufan",
+    "model": "Baufan Kalkfarbe Streichkalk Mineralfarbe weiß 10 l",
+    "article_no": "5210785",
+    "ean": "4016215100035",
+    "url": "https://www.hornbach.de/p/baufan-kalkfarbe-streichkalk-mineralfarbe-weiss-10-l/5210785/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Signalwort",
+          "value": "Gefahr"
+        },
+        {
+          "label": "Gefahrenhinweise (H-Sätze)",
+          "value": "(H315) Verursacht Hautreizungen., (H318) Verursacht schwere Augenschäden., (H335) Kann die Atemwege reizen."
+        },
+        {
+          "label": "Sicherheitshinweise (P-Sätze)",
+          "value": "(P102) Darf nicht in die Hände von Kindern gelangen., (P103) Vor Gebrauch Kennzeichnungsetikett lesen."
+        },
+        {
+          "label": "Artikeltyp",
+          "value": "Wandfarbe"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kalkfarbe"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Außen"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Schimmelschutz"
+        },
+        {
+          "label": "Ideal geeignet für",
+          "value": "Wände, Decken"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Putz, Beton"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "Räume",
+          "value": "Kinderzimmer, Schlafzimmer, Wohnzimmer, Arbeitszimmer, Küche, Flur / Diele, Keller, Garage"
+        },
+        {
+          "label": "Empfohlene Anzahl Anstriche",
+          "value": "2"
+        },
+        {
+          "label": "Grundierung empfohlen",
+          "value": "Ja"
+        },
+        {
+          "label": "Verarbeitung",
+          "value": "Rollen, Streichen"
+        },
+        {
+          "label": "Deckkraft",
+          "value": "2 - hohe Deckkraft"
+        },
+        {
+          "label": "Gebindegröße",
+          "value": "10 l"
+        },
+        {
+          "label": "Reichweite (ca.) bei einmaligem Anstrich",
+          "value": "6,5 m²/l"
+        },
+        {
+          "label": "Trockendauer ca.",
+          "value": "4 h"
+        },
+        {
+          "label": "Glanzgrad",
+          "value": "Matt"
+        },
+        {
+          "label": "Nassabriebbeständigkeit nach DIN EN 13300 Klasse",
+          "value": "5"
+        },
+        {
+          "label": "Abtönbar im HORNBACH-Farbmischcenter",
+          "value": "Nein"
+        },
+        {
+          "label": "Basis",
+          "value": "Wasserbasierend"
+        },
+        {
+          "label": "Ohne Zusatz von Konservierungsmitteln",
+          "value": "Nein"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "E2RG"
+        },
+        {
+          "label": "EAN",
+          "value": "2005210785004, 4016215100035"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 19.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-26",
+        "source": "Kassenbon 2026-02-26, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 19.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-28",
+        "source": "Kassenbon 2026-02-28, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 20.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-20",
+        "source": "Kassenbon 2026-07-20, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-5210785_1.jpg",
+    "hornbach-5210785_2.jpg"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "2023-11-16-fensterversand-3320751-fenster-balkontueren-dg",
+  "name": "Fensterversand 3320751 – Fenster Balkontüren DG",
+  "doc_type": "order_confirmation",
+  "supplier": "company:neuffer",
+  "date": "2023-11-16",
+  "number": "3320751",
+  "customer_number": "239043",
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen (Rechnungsanschrift: Monika Bernas, Vorderer Berg 20; Lieferanschrift im PDF mit PLZ 73073)",
+  "description": "Bezahlte Bestellbestätigung von fensterversand.com über zwei Kunststofffenster (Balkonkammer und Schlafzimmer) sowie zwei Kunststoff-Aluminium-Balkontüren (Balkon und Treppenzimmer) für das Dachgeschoss in Weingärten 8. Nach Abzug von 2 % Mengenrabatt beträgt die Gesamtsumme 3.019,34 € brutto; der Betrag wurde per Vorkasse bereits beglichen. Eine separate formale Rechnungs-PDF liegt im Quellordner nicht vor.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Fenster (NF/68/0) Kunststoff – Balkonkammer (Kömmerling Trocal 70 AD, Weiß, 2-teilig dreh/drehkipp, 900x1060 mm, 2-fach Ug 1,1, Helima Sprossen 18 mm, vorgebohrt)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 343.58,
+      "total_price": 343.58,
+      "ref": "component:window-balkonkammer"
+    },
+    {
+      "position": "2",
+      "description": "Balkontür (NT/53/0) Kunststoff-Aluminium – Balkontür (IDEAL TwinSet 8000, Weiß/RAL 9016, 1-teilig drehkipp rechts, 1050x2100 mm, 3-fach Ug 0,7, VSG 8 mm außen, RC 1 N, abschließbarer Griff)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 807.28,
+      "total_price": 807.28,
+      "ref": "component:door-balkon-schlafzimmer"
+    },
+    {
+      "position": "3",
+      "description": "Fenster (NF/3/0) Kunststoff – Schlafzimmer (Aluplast IDEAL 8000, Weiß, 1-teilig drehkipp links, 960x1360 mm, 3-fach Ug 0,7, Schallschutz Kl. 3 36 dB, ESG 4 mm innen & außen, Helima Sprossen 18 mm, RC 1 N, Fensterbank-Anschlussprofil)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 630.91,
+      "total_price": 630.91,
+      "ref": "component:window-schlafzimmer"
+    },
+    {
+      "position": "4",
+      "description": "Balkontür (NT/53/0) Kunststoff-Aluminium – Tür Treppenzimmer (IDEAL TwinSet 8000, Weiß/RAL 9016, 1-teilig drehkipp links, 1050x2100 mm, 3-fach Ug 0,7, VSG 8 mm außen, RC 1 N, abschließbarer Griff)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 807.28,
+      "total_price": 807.28,
+      "ref": "component:door-balkon-treppenzimmer"
+    }
+  ],
+  "subtotal_net": 2589.04,
+  "discount_net": -51.78,
+  "shipping_net": 0.0,
+  "deductions_net": 103.56,
+  "total_net": 2537.26,
+  "vat_rate": 19,
+  "vat_amount": 482.08,
+  "total_gross": 3019.34,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-11-16-fensterversand-3320751-fenster-balkontueren-dg.json",
+  "source_sha256": "1106a5b02ee7b257366a1599fa10d1780c4498744d210f63227f50c5d7babeef",
+  "original_filename": "2023-11-29 Bestellung-3320751-11-29-2023_0250pm (Fesnter DG).pdf",
+  "related": [
+    "document:2024-02-21-fensterversand-r3320751-1-gutschrift-reklamation"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "cable",
+  "name": "Elektrische Leitung",
+  "ifc": {
+    "entity": "IfcCableSegment",
+    "predefined_type": "CABLESEGMENT"
+  },
+  "description": "Kabel oder Leitung, optional im Schutzrohr",
+  "kind": "cable",
+  "parameters": [
+    {
+      "key": "cable_type",
+      "name": "Kabeltyp",
+      "type": "text",
+      "default": "NYM-J",
+      "required": true
+    },
+    {
+      "key": "cores",
+      "name": "Adernanzahl",
+      "type": "number",
+      "default": 3,
+      "min": 1,
+      "max": 61,
+      "required": true
+    },
+    {
+      "key": "cross_section_mm2",
+      "name": "Querschnitt mm²",
+      "type": "number",
+      "default": 1.5,
+      "min": 0.14,
+      "max": 240,
+      "required": true
+    },
+    {
+      "key": "conduit_type",
+      "name": "Schutzrohr",
+      "type": "choice",
+      "default": "none",
+      "options": [
+        "none",
+        "flexible",
+        "rigid"
+      ],
+      "required": false
+    },
+    {
+      "key": "outer_diameter",
+      "name": "Außendurchmesser",
+      "type": "length",
+      "default": 0.009,
+      "min": 0.003,
+      "max": 0.1,
+      "required": false
+    }
+  ],
+  "connection_rules": [
+    {
+      "line": "power",
+      "medium": "power",
+      "method": "clamp",
+      "partners": [
+        "clamp",
+        "terminal"
+      ],
+      "locations": [
+        "box",
+        "terminal"
+      ],
+      "note": "Litzen nur mit Klemmen (WAGO) gleicher Leiterart (L, N, PE) verbinden; Verbindungen nur in Dosen (Aufputz/Unterputz) oder an Steckdosen, Lampenfassungen, Schaltern"
+    }
+  ]
+}

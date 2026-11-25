@@ -1,0 +1,37 @@
+{
+  "id": "2023-02-06-stadt-goeppingen-5-2378-234333-8-gebuehr-verkehrsrecht",
+  "name": "Stadt Göppingen 5.2378.234333.8 – Gebühr Verkehrsrecht",
+  "doc_type": "invoice",
+  "supplier": "company:stadtverwaltung-goeppingen",
+  "date": "2023-02-06",
+  "number": "5.2378.234333.8",
+  "customer_number": null,
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Vorhaben: Anschluss an Wasserleitung, Ort: Göppingen, Weingärten 8 (Aktenzeichen 33-Di/Ja)",
+  "description": "Gebührenbescheid und verkehrsrechtliche Anordnung der Stadtverwaltung Göppingen über 28,00 € Verwaltungsgebühr (umsatzsteuerfrei) für die Aufgrabung und Teilsperrung beim Anschluss von Weingärten 8 an die Wasserleitung. Ein inhaltsgleicher Auszug der ersten beiden Seiten (Suri_Weingärten_06-02_S-1.pdf) im selben Ordner wurde als Duplikat übersprungen.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Verwaltungsgebühr für verkehrsrechtliche Anordnung/Ausnahmegenehmigung zur Fahrbahnteilsperrung beim Wasserleitungsanschluss Weingärten 8",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 28.0,
+      "total_price": 28.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 28.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 28.0,
+  "vat_rate": 0,
+  "vat_amount": 0.0,
+  "total_gross": 28.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-02-06-stadt-goeppingen-5-2378-234333-8-gebuehr-verkehrsrecht.json",
+  "source_sha256": "a9496fb6fdf08415dc95387c7f3f2a29646456bc3039f9f1354175888422b8f7",
+  "original_filename": "2023-03-01-Stadt Goeppingen-Rechnung Baustelle.pdf"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "facade-paint-taubenblau",
+  "name": "Holzfarbe taubenblau",
+  "category": "Farbe",
+  "description": "Deckende Holzfarbe außen, taubenblau, für die Stülpschalung im DG (Farbton geschätzt)",
+  "conductivity": null,
+  "values_source": "Beschichtung, bauphysikalisch vernachlässigbar",
+  "appearance": {
+    "color": "#7D8FA6",
+    "roughness": 0.8,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:sorwat-stuckateur",
+        "price": 28.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-08-14",
+        "source": "Rechnung 061, Pos. 1, je m²",
+        "document": "document:2023-08-14-sorwat-061-fassadenanstrich"
+      }
+    ]
+  }
+}

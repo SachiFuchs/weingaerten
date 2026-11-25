@@ -1,0 +1,85 @@
+{
+  "id": "jung-506-u-wippschalter-universal-aus-we",
+  "name": "Jung 506 U Wippschalter Universal Aus-Wechselschalter",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "switch",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-3810664_jung-506-u-wippschalter-universal-aus-we"
+  ],
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung 506 U Wippschalter Universal Aus-Wechselschalter",
+    "article_no": "3810664",
+    "ean": "4011377262706",
+    "url": "https://www.hornbach.de/p/jung-506-u-wippschalter-universal-aus-wechselschalter/3810664/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Schalter"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Aus/Wechselschalter"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "506U"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 20"
+        },
+        {
+          "label": "Nennspannung",
+          "value": "250 V"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Universal Aus-Wechsel"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "M3E1"
+        },
+        {
+          "label": "EAN",
+          "value": "2003810664002, 4001794073382, 4008153468407, 4011377262706"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 5.38,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-08-17",
+        "source": "Kassenbon 2026-08-17, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-3810664_1.jpg"
+  ],
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L"
+    ]
+  }
+}

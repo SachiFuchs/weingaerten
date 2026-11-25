@@ -1,0 +1,37 @@
+{
+  "id": "2024-08-15-koch-401482-nord-fichte-nut-feder",
+  "name": "Koch 401482 – Nord Fichte Nut Feder",
+  "doc_type": "invoice",
+  "supplier": "company:koch-holzwerke",
+  "date": "2024-08-15",
+  "number": "401482",
+  "customer_number": null,
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Objekt nicht im Beleg; Zuordnung Weingärten 8 lt. Auftraggeber (Barverkauf/Abholung Eislingen aus Auftragsbestätigung BVNUS/1911 vom 05.08.2024)",
+  "description": "Barverkaufsrechnung der Koch Holzwerke (Eislingen) über 11 Stück (7,23 m²) Profilholz Nordische Fichte 21x146 mm mit Nut und Feder zur Abholung am 15.08.2024. Die im selben PDF und in einer separaten Datei enthaltene Auftragsbestätigung BVNUS/1911 vom 05.08.2024 wird durch diese Rechnung abgelöst.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Nordische Fichte A-Sortierung 21 x 146 mm Nut-Feder, KD 10-12 % HF, Mini-Fase, Deckbreite 132 mm (11 Stück à 4,50 m x 14,6 cm)",
+      "quantity": 7.23,
+      "unit": "m²",
+      "unit_price": 21.17,
+      "total_price": 153.06,
+      "ref": "material:nord-fichte-nut-feder-21x146"
+    }
+  ],
+  "subtotal_net": 153.06,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 153.06,
+  "vat_rate": 19,
+  "vat_amount": 29.08,
+  "total_gross": 182.14,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-08-15-koch-401482-nord-fichte-nut-feder.json",
+  "source_sha256": "c452d93b55fb10a361d5a68a92c2feb2add91d12af4d9b53927fd15368750b9f",
+  "original_filename": "2024-08-15-Koch Holzwerke-Rechnung.pdf"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "flat-roof-fd1",
+  "name": "Flachdach EG: Folie auf Betondecke 15 cm",
+  "ifc": { "entity": "IfcSlab", "predefined_type": "ROOF" },
+  "category": "slab",
+  "din276": "350",
+  "description": "Betondecke 15 cm mit Folie als Flachdach über dem nördlichen Teil des EG (Korrektur EG, rot: „Betondecke 15 cm, Folie, Flachdach“).",
+  "layer_order": "top_down",
+  "layers": [
+    { "material": "material:pe-foil", "thickness": 0.002 },
+    { "material": "material:concrete-c25", "thickness": 0.15 }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

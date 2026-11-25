@@ -1,0 +1,69 @@
+{
+  "id": "emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m",
+  "name": "Emskabel Feuchtraumleitung NYM-J 5 x 2,5 mm² 50 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 5,
+    "cross_section_mm2": 2.5,
+    "outer_diameter": 0.0125,
+    "conduit_type": "rigid"
+  },
+  "note": "Installationsleitung auf, in und unter Putz; trockene, feuchte und nasse Räume, Mauerwerk und Beton. Grau, Ring 50 m.",
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Emskabel Feuchtraumleitung NYM-J 5 x 2,5 mm² 50 m",
+    "article_no": "8042046",
+    "url": "https://www.obi.de/p/8042046",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 109.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "obi.de Online-Preis 2026-11-21, 50 m (2,20 €/m) inkl. MwSt."
+      },
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 2.15,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 013, je m",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      },
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 2.15,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-20",
+        "source": "Rechnung 10100108, Pos. 004, je m",
+        "document": "document:2023-04-20-speidel-10100108-uv-nachruestung"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

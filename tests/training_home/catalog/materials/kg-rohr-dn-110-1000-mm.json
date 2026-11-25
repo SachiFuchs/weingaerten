@@ -1,0 +1,110 @@
+{
+  "id": "kg-rohr-dn-110-1000-mm",
+  "name": "KG Rohr DN 110 1000 mm",
+  "category": "Entwässerung",
+  "description": "Brauchst Du ein robustes Rohr für die Haus- oder Hofentwässerung? Das KG Rohr DN 110 1000 mm bietet die ideale Lösung.\n\nProduktmerkmale des KG Rohr DN 110 1000 mm\nDarum solltest Du zugreifen: Dieses Abflussrohr aus Polyvinylchlorid (PVC) ist speziell für den Außeneinsatz konzipiert und überzeugt durch seine Wasserfestigkeit und lange Lebensdauer. Mit einem Außendurchmesser von 110 mm und einer Länge von 1000 mm eignet es sich hervorragend für die effiziente Ableitung von Abwasser. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 garantieren eine hohe Stabilität und Belastbarkeit, was besonders in Bereichen mit hoher Beanspruchung wichtig ist. Die orange Farbe sorgt für eine gute Sichtbarkeit bei der Installation und Wartung. Das Rohr erfüllt alle Anforderungen an eine sichere Entwässerung, indem es das Risiko von Verunreinigungen durch Abwasser minimiert.\n\nFestgezurrt: Das KG Rohr DN 110 1000 mm ist die optimale Wahl für eine zuverlässige und langlebige Entwässerungslösung im Außenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-267298_kg-rohr-dn-110-1000-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "KG Rohr DN 110 1000 mm",
+    "article_no": "267298",
+    "ean": "4052836200105",
+    "url": "https://www.hornbach.de/p/kg-rohr-dn-110-1000-mm/267298/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rohr"
+        },
+        {
+          "label": "Variante",
+          "value": "KG"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Abflussrohr"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung, Hofentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Nennweite",
+          "value": "110 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "3,2 mm"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN4"
+        },
+        {
+          "label": "Farbton",
+          "value": "Orange"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "4RVW"
+        },
+        {
+          "label": "EAN",
+          "value": "2000267298002, 4002644095226, 4002644806549, 4005046825101, 4022804010050, 4025075203404, 4036494164528, 4052836200105, 5907565630213, 8028025007097, 8028025007974, 8586019764017, 8590830258266, 8594169670027, 8600198007366, 8600198383675, 8600198397498, 9003844006017, 9003844045382"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "110 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "127 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "1.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-267298_1.jpg",
+    "hornbach-267298_2.jpg",
+    "hornbach-267298_3.jpg",
+    "hornbach-267298_4.jpg",
+    "hornbach-267298_5.jpg"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sanitary-sink",
+  "name": "Spülbecken (Siphon DN 50)",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  }
+}

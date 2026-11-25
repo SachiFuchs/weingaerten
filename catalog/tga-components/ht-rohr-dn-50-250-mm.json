@@ -1,0 +1,46 @@
+{
+  "id": "ht-rohr-dn-50-250-mm",
+  "name": "HT Rohr DN 50 250 mm",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 50,
+    "outer_diameter": 0.05,
+    "medium": "waste_water",
+    "system_line": "ht"
+  },
+  "description": "Möchtest Du ein zuverlässiges Rohr für die Hausentwässerung? Das HT Rohr DN 50 250 mm bietet Dir genau das.\n\nProduktmerkmale des HT Rohr DN 50 250 mm\nDarum solltest Du zugreifen: Dieses Abflussrohr aus Polypropylen (PP) ist speziell für die Hausentwässerung im Innenbereich konzipiert. Es vereint wichtige Eigenschaften wie Heißwasserbeständigkeit und chemische Beständigkeit, was es ideal für den Einsatz in Haushalten macht. Mit einem Außendurchmesser von 63 mm und einer Nennweite von 50 mm passt es perfekt in bestehende Systeme. Die Materialstärke von 1,8 mm sorgt für eine hohe Stabilität und Langlebigkeit. Das graue Rohr erfüllt die Norm DIN EN 1451-1 und bietet eine Ringsteifigkeit von SN2, was bedeutet, dass es auch bei hohen Belastungen zuverlässig bleibt. Die Schwerentflammbarkeit des Materials bietet zusätzlichen Schutz im Brandfall.\n\nFestgezurrt: Das HT Rohr DN 50 250 mm ist die ideale Wahl für eine sichere und effiziente Hausentwässerung.",
+  "stock": {
+    "lengths": [
+      0.25
+    ],
+    "cuttable": true
+  },
+  "photos": [
+    "hornbach-262862_1.jpg",
+    "hornbach-262862_2.jpg"
+  ],
+  "imported_from": [
+    "hornbach-262862_ht-rohr-dn-50-250-mm"
+  ],
+  "catalog_material": "material:ht-rohr-dn-50-250-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

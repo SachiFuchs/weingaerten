@@ -1,0 +1,28 @@
+{
+  "id": "naturbo-flankendaemmplatte",
+  "name": "Naturbo Flankendämmplatte",
+  "category": "Dämmung",
+  "description": "Flankendämmung an Anschlüssen",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Flankendämmplatte",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 24.48,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 2, je Platte",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C9B48A",
+    "roughness": 0.9,
+    "hatch": "insulation"
+  }
+}

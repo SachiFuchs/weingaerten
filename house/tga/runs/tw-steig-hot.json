@@ -1,0 +1,24 @@
+{
+  "id": "tw-steig-hot",
+  "name": "Warmwasser Steigleitung Keller bis DG",
+  "component": "tga-component:ppr-rohr-dn-20-x-2-m",
+  "system": "drinking-water",
+  "medium": "hot_water",
+  "installation": "surface",
+  "points": [
+    [
+      6.742,
+      5.03,
+      -0.3
+    ],
+    [
+      6.742,
+      5.03,
+      3.25
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:tw-uebergabe-kg-hot",
+  "to": "tga-terminal:tw-stutzen-dg-hot",
+  "note": "im Versorgungsschacht neben dem Fallrohr; DG-Ende verschlossen für das spätere Bad"
+}

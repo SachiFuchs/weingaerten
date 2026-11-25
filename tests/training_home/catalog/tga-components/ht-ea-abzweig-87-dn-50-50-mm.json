@@ -1,0 +1,49 @@
+{
+  "id": "ht-ea-abzweig-87-dn-50-50-mm",
+  "name": "HT-EA Abzweig 87° DN 50/50 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 87,
+    "dn_branch": 50
+  },
+  "description": "Möchtest Du ein zuverlässiges Abflussrohrsystem für Dein Zuhause installieren? Der HT-EA Abzweig 87° DN 50/50 mm bietet Dir die ideale Lösung.\n\nProduktmerkmale des HT-EA Abzweigs 87° DN 50/50 mm\nDarum solltest Du zugreifen: Dieser Einfachabzweig ist speziell für die Hausentwässerung konzipiert und erfüllt die Anforderungen an Schall- und Brandschutz. Hergestellt aus Polypropylen (PP), ist er chemisch beständig und heißwasserbeständig, was ihn für den Einsatz im Innenbereich besonders geeignet macht. Mit einem Außendurchmesser von 63 mm und einem Abzweigdurchmesser von 50 mm lässt sich der Abzweig problemlos in bestehende Systeme integrieren. Die Materialstärke von 1,8 mm sorgt für Stabilität und Langlebigkeit. Der Abzweig entspricht der Norm DIN EN 1451-1 und bietet mit seiner Ringsteifigkeit SN2 eine hohe Belastbarkeit. Der Winkel von 87° ermöglicht eine effiziente Wasserführung, was die Entwässerung optimiert.\n\nFestgezurrt: Der HT-EA Abzweig 87° DN 50/50 mm vereint Schall- und Brandschutz mit chemischer Beständigkeit und ist die ideale Wahl für eine zuverlässige Hausentwässerung.",
+  "photos": [
+    "hornbach-266342_1.jpg",
+    "hornbach-266342_2.jpg",
+    "hornbach-266342_3.jpg"
+  ],
+  "imported_from": [
+    "hornbach-266342_ht-ea-abzweig-87-dn-50-50-mm"
+  ],
+  "catalog_material": "material:ht-ea-abzweig-87-dn-50-50-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

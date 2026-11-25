@@ -1,0 +1,32 @@
+{
+  "id": "roof-vent-pipe-jacobi-w6v",
+  "name": "Dunstrohrdurchgang Ton Jacobi Walther W6V",
+  "description": "Schuck Angebot 2191 Pos. 05.04",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.3,
+    "height": 0.3,
+    "depth": 0.4,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:clay-tile-rubin"
+  },
+  "product": {
+    "manufacturer": "company:jacobi-walther",
+    "model": "W6V",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 220.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 05.04, je Stk",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      }
+    ]
+  }
+}

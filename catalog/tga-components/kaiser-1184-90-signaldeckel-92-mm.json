@@ -1,0 +1,74 @@
+{
+  "id": "kaiser-1184-90-signaldeckel-92-mm",
+  "name": "Kaiser 1184-90 Signaldeckel 92 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6060672_kaiser-1184-90-signaldeckel-92-mm"
+  ],
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 1184-90 Signaldeckel 92 mm",
+    "article_no": "6060672",
+    "ean": "4260484710130",
+    "url": "https://www.hornbach.de/p/kaiser-1184-90-signaldeckel-92-mm/6060672/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Deckel"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Federdeckel"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Feuchtraum"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "7F14"
+        },
+        {
+          "label": "EAN",
+          "value": "2007005763075, 4260484710130, 9008243007191"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-30",
+        "source": "Kassenbon 2025-12-30, HORNBACH München-Freiham, 5×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6060672_1.jpg"
+  ]
+}

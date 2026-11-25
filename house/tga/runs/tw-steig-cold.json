@@ -1,0 +1,24 @@
+{
+  "id": "tw-steig-cold",
+  "name": "Kaltwasser Steigleitung Keller bis DG",
+  "component": "tga-component:ppr-rohr-dn-20-x-2-m",
+  "system": "drinking-water",
+  "medium": "cold_water",
+  "installation": "surface",
+  "points": [
+    [
+      6.742,
+      4.93,
+      -0.3
+    ],
+    [
+      6.742,
+      4.93,
+      3.25
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:tw-uebergabe-kg-cold",
+  "to": "tga-terminal:tw-stutzen-dg-cold",
+  "note": "im Versorgungsschacht neben dem Fallrohr; DG-Ende verschlossen für das spätere Bad"
+}

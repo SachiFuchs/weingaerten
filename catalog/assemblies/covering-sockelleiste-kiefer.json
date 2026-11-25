@@ -1,0 +1,13 @@
+{
+  "id": "covering-sockelleiste-kiefer",
+  "name": "Sockelleiste Kiefer",
+  "ifc": { "entity": "IfcCovering", "predefined_type": "SKIRTINGBOARD" },
+  "category": "covering",
+  "din276": "345",
+  "description": "Holz-Sockelleiste (Höhe über den Höhenbereich des Belags); Dicke geschätzt",
+  "layer_order": "wall_out",
+  "layers": [
+    { "material": "material:profilleiste-kiefer-19-mm-x-10-mm-laenge-900-mm", "thickness": 0.012 }
+  ],
+  "visualization": { "view": "all_layers", "section": "all_layers" }
+}

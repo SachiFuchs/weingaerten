@@ -1,0 +1,37 @@
+{
+  "id": "2026-08-08-krause-2026-019-energieberatung-bafa-tpn",
+  "name": "Krause 2026-019 – Energieberatung BAFA TPN",
+  "doc_type": "invoice",
+  "supplier": "company:energieberatung-krause",
+  "date": "2026-08-08",
+  "number": "2026-019",
+  "customer_number": null,
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen (Auftragsnr. 011-25)",
+  "description": "Rechnung der Energieberatung Kai Krause (Auftragsnummer 011-25) für die energetische Fachplanung, Baubegleitung und Erstellung des Technischen Projektnachweises (TPN) im Rahmen der BEG-Förderung für das Objekt Weingärten 8. Aufgrund der Kleinunternehmerregelung gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen. Der Rechnungsbetrag beläuft sich auf 200,00 €.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.0",
+      "description": "Energetische Fachplanung und Baubegleitung gemäß den Förderbedingungen der Bundesförderung für effiziente Gebäude (BEG), einschließlich Erstellung des Technischen Projektnachweises (TPN)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 200.0,
+      "total_price": 200.0,
+      "unit_raw": "Stk."
+    }
+  ],
+  "subtotal_net": 200.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 200.0,
+  "vat_rate": 0,
+  "vat_amount": 0.0,
+  "total_gross": 200.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-08-08-krause-2026-019-energieberatung-bafa-tpn.json",
+  "source_sha256": "4d22df67f5824a7d7183d0bd3bf0c5a7ce5f1569f0a9ca61a300d1c528d57819",
+  "original_filename": "2026-08-08 Kai Kause - Rechnung Energieberatung.pdf"
+}

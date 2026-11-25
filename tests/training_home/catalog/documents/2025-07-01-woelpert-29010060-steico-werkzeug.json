@@ -1,0 +1,53 @@
+{
+  "id": "2025-07-01-woelpert-29010060-steico-werkzeug",
+  "name": "Wölpert 29010060 – Steico Werkzeug",
+  "doc_type": "invoice",
+  "supplier": "company:theodor-woelpert",
+  "date": "2025-07-01",
+  "number": "29010060",
+  "customer_number": "513005",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "E-Mail weingaerten@suri.de; Zuordnung Weingärten 8 (Sammel-PDF: Auftragsbestätigung 29010060 vom 01.07.2025 sowie Barverkaufsbelege 57701827 und 57701825 vom 25.07.2025, Abholung Göppingen)",
+  "description": "Sammelscan von Wölpert Göppingen bestehend aus drei Belegen für die Steico-Innendämmung: Auftragsbestätigung 29010060 vom 01.07.2025 über 30 Stück (13,68 m²) Steico internal Platten (253,79 € brutto) sowie zwei Barverkaufsrechnungen vom 25.07.2025 über eine Mini-Stichsäge (8,69 € brutto, Beleg 57701827) und eine Zahn-Glättekelle (10,12 € brutto, Beleg 57701825). Alle drei Teilbelege sind hier gemeinsam mit Gesamtsumme 272,60 € brutto erfasst.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "36100121 Steico internal Innendämmung mit N+F WLG038, 1200x380x60 mm (30 Stück = 13,68 m², Auftragsbestätigung 29010060 vom 01.07.2025)",
+      "quantity": 13.68,
+      "unit": "m²",
+      "unit_price": 15.59,
+      "total_price": 213.27,
+      "ref": "material:steico-internal-60"
+    },
+    {
+      "position": "2",
+      "description": "30233012 HaWe Mini-Stichsäge 170 mm mit geschliffenen Zähnen (Barverkauf 57701827 / Auftrag 29069807 vom 25.07.2025)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 7.3,
+      "total_price": 7.3
+    },
+    {
+      "position": "3",
+      "description": "30234190 HaWe Glättekelle 280x130x0,7 mm Viereckzahnung 10x10x10 mm (Barverkauf 57701825 / Auftrag 29069805 vom 25.07.2025)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 8.5,
+      "total_price": 8.5
+    }
+  ],
+  "subtotal_net": 229.07,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 229.07,
+  "vat_rate": 19,
+  "vat_amount": 43.53,
+  "total_gross": 272.6,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-07-01-woelpert-29010060-steico-werkzeug.json",
+  "source_sha256": "38e57d7cfa21d8f161e28783e9bb8a3f8c76d972d06a6baf8cdaf98307e780c9",
+  "original_filename": "2025-07-29 Woelpert - Auftrage Steico Innendaemmung.pdf"
+}

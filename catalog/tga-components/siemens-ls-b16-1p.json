@@ -1,0 +1,27 @@
+{
+  "id": "siemens-ls-b16-1p",
+  "name": "Siemens LS-Schalter B16 1-polig",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "fuse",
+    "size": "B16"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:siemens",
+    "model": "Siemens LS-Schalter B16 1-polig",
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 4.55,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-10-17",
+        "source": "Rechnung 10101973, Pos. 006, je Stk",
+        "document": "document:2023-10-17-speidel-10101973-verteiler-haus-garten"
+      }
+    ]
+  }
+}

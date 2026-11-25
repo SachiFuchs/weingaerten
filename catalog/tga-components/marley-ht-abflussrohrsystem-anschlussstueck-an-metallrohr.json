@@ -1,0 +1,40 @@
+{
+  "id": "marley-ht-abflussrohrsystem-anschlussstueck-an-metallrohr",
+  "name": "Marley HT-Abflussrohrsystem Anschlussstück an Metallrohr DN 40/40",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "adapter",
+    "system_line": "ht",
+    "dn": 40,
+    "z_length": 0.03,
+    "line_to": "metal",
+    "dn_to": 40
+  },
+  "description": "Das HT-Anschlussstück von Marley sorgt mit dem passenden Einsteckende für einen sauberen Anschluss von HT- an Metallrohr. Es eignet sich zum Anschluss an ein DN 40/40 Rohr.",
+  "imported_from": [
+    "ean-4006395643712_marley-ht-abflussrohrsystem-anschlussstueck-an-metallrohr"
+  ],
+  "catalog_material": "material:marley-ht-abflussrohrsystem-anschlussstueck-an-metallrohr",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "line": "metal",
+        "dn": 40,
+        "gender": "any",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 40,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ],
+    "note": "Fremdanschluss (Metallrohr / Gummimanschette), Richtung angenommen"
+  }
+}

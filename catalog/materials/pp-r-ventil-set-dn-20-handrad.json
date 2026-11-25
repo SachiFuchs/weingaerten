@@ -1,0 +1,28 @@
+{
+  "id": "pp-r-ventil-set-dn-20-handrad",
+  "name": "Ventil-Set PP-R DN 20, 2-tlg., mit Handradgriff",
+  "category": "Trinkwasser",
+  "description": "Durchgangsventil zum Absperren und Regeln des Durchflusses, mit Handradgriff, 2-teilig (Messing, Kunststoff, Gummi). Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "product": {
+    "model": "Ventil-Set 2-tlg., DN 20, mit Handradgriff",
+    "article_no": "26311966",
+    "url": "https://www.bauhaus.info/schweissfittings/ventil-set/p/26311966",
+    "offers": [
+      {
+        "supplier": "company:bauhaus",
+        "price": 13.5,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "bauhaus.info Produktseite 2026-11-21, pro Stück inkl. MwSt."
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#3E8E41",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

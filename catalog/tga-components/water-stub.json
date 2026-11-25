@@ -1,0 +1,11 @@
+{
+  "id": "water-stub",
+  "name": "Anschluss Trinkwasser verschlossen",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "terminal_type": "stub",
+    "mounting": "free"
+  }
+}

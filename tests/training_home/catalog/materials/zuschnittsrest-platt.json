@@ -1,0 +1,30 @@
+{
+  "id": "zuschnittsrest-platt",
+  "name": "Zuschnittsrest Platt",
+  "category": "Holz",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-7773629_zuschnittsrest-platt"
+  ],
+  "product": {
+    "model": "Zuschnittsrest Platt",
+    "article_no": "7773629",
+    "ean": "2007002606344",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 5,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-09",
+        "source": "Kassenbon 2026-05-09, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

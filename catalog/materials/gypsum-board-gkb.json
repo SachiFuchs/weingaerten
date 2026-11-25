@@ -1,0 +1,29 @@
+{
+  "id": "gypsum-board-gkb",
+  "name": "Gipskartonplatte GKB 12,5 mm",
+  "category": "Platten",
+  "description": "Gipskarton-Bauplatte Typ A (GKB) nach DIN EN 520, Standardplatte, auf Lattung geschraubt, gespachtelt",
+  "conductivity": 0.25,
+  "density": 680,
+  "vapour_resistance": 8,
+  "fire_class": "A2",
+  "values_source": "Richtwert Gipskarton (DIN EN ISO 10456, DIN 18180)",
+  "appearance": {
+    "color": "#EDEDE8",
+    "roughness": 0.8,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:stuckateur-cetin",
+        "price": 46.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2024-07-24",
+        "source": "Rechnung 2407115, Pos. 03, je m²",
+        "document": "document:2024-07-24-cetin-2407115-innensanierung-putz-dg"
+      }
+    ]
+  }
+}

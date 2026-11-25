@@ -1,0 +1,27 @@
+{
+  "id": "kfe-kugelhahn-1-2",
+  "name": "KFE-Kugelhahn Simplex 1/2\" vernickelt",
+  "category": "Heizung",
+  "description": "selbstdichtend, PN 16, mit Schlauchverschraubung",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "KFE-Kugelhahn Simplex 1/2\"",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 16.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 2.1, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

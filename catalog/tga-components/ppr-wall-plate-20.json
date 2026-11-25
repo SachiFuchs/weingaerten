@@ -1,0 +1,68 @@
+{
+  "id": "ppr-wall-plate-20",
+  "name": "PP-R Schweiß-Wandscheibe DN 20, IG ½″",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "terminal_type": "wall_plate",
+    "mounting": "surface"
+  },
+  "note": "Artikel = Material pp-r-schweiss-wandscheibe-dn-20-ig-1-2",
+  "install": {
+    "trade": "water_supply",
+    "group": "Endstücke",
+    "shape": "fitting",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          -0.03,
+          0
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "out",
+        "pos": [
+          0,
+          0,
+          0.02
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 15,
+        "gender": "any"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "out",
+        "line": "thread",
+        "dn": 15,
+        "gender": "socket"
+      }
+    ]
+  }
+}

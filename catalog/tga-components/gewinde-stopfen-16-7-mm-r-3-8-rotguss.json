@@ -1,0 +1,51 @@
+{
+  "id": "gewinde-stopfen-16-7-mm-r-3-8-rotguss",
+  "name": "Gewinde-Stopfen 16,7 mm (R 3/8) Rotguss",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874113184_gewinde-stopfen-16-7-mm-r-3-8-rotguss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Stopfen 16,7 mm (R 3/8) Rotguss",
+    "article_no": "7218159",
+    "ean": "4007874113184",
+    "url": "https://www.obi.de/p/7218159",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "26 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "9,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "naturbo-klima-daemmplatte",
+  "name": "Naturbo Klima-Dämmplatte (Wandheizung)",
+  "category": "Dämmung",
+  "description": "Dämmplatte mit Rohrführung für Lehm-Wandheizung, Typen D–L",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Klima-Dämmplatte (Wandheizung)",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 78.62,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 3, je Platte",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      },
+      {
+        "supplier": "company:naturbo",
+        "price": 93.59,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 6, je Platte",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      },
+      {
+        "supplier": "company:naturbo",
+        "price": 63.64,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 8, je Platte",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C9B48A",
+    "roughness": 0.9,
+    "hatch": "insulation"
+  }
+}

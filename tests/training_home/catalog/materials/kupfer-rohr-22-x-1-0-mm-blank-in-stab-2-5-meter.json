@@ -1,0 +1,53 @@
+{
+  "id": "kupfer-rohr-22-x-1-0-mm-blank-in-stab-2-5-meter",
+  "name": "Kupfer-Rohr 22 x 1,0 mm blank in Stab 2,5 Meter",
+  "category": "Entwässerung",
+  "description": "Kupfer-Rohr 22 x 1,0 mm blank in Stab 2,5 Meter.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4007111133241_kupfer-rohr-22-x-1-0-mm-blank-in-stab-2-5-meter"
+  ],
+  "product": {
+    "manufacturer": "company:w-kirchhoff",
+    "model": "Kupfer-Rohr 22 x 1,0 mm blank in Stab 2,5 Meter",
+    "article_no": "6661813",
+    "ean": "4007111133241",
+    "url": "https://www.obi.de/p/6661813",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,47 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,50 m"
+        },
+        {
+          "label": "Breite",
+          "value": "2,4 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 28.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-11-22",
+        "source": "Kassenbon 2024-11-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "ppr-winkel-45deg-dn-20",
+  "name": "PPR-Winkel 45° DN 20",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ppr",
+    "dn": 20,
+    "angle": 45,
+    "z_length": 0.005
+  },
+  "note": "Baulänge z geschätzt (Muffenschweiß-Formteil DN 20) - bitte prüfen",
+  "imported_from": [
+    "ean-4007874149091_ppr-winkel-45deg-dn-20"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "PPR-Winkel 45° DN 20",
+    "article_no": "4135448",
+    "ean": "4007874149091",
+    "url": "https://www.obi.de/p/4135448",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "16 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-27",
+        "source": "Kassenbon 2026-04-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "estimated": true,
+  "install": {
+    "trade": "water_supply",
+    "group": "Bögen",
+    "shape": "fitting",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.005,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.0035,
+          0.0035,
+          0
+        ],
+        "dir": [
+          0.707107,
+          0.707107,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

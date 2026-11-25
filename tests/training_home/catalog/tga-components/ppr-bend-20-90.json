@@ -1,0 +1,71 @@
+{
+  "id": "ppr-bend-20-90",
+  "name": "PP-R Schweißwinkel DN 20 90°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "estimated": true,
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ppr",
+    "dn": 20,
+    "angle": 90,
+    "z_length": 0.011
+  },
+  "note": "Baulänge z geschätzt (Muffenschweiß-Formteil DN 20) - bitte prüfen; Artikel = Material pp-r-schweisswinkel-dn-20-90",
+  "install": {
+    "trade": "water_supply",
+    "group": "Bögen",
+    "shape": "fitting",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.011,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.0,
+          0.011,
+          0
+        ],
+        "dir": [
+          0.0,
+          1.0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

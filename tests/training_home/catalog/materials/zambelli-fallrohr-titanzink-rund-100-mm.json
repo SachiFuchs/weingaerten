@@ -1,0 +1,114 @@
+{
+  "id": "zambelli-fallrohr-titanzink-rund-100-mm",
+  "name": "Zambelli Fallrohr Titanzink rund Ø 100 mm L = 2000 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du eine langlebige und stabile Lösung für die Dachentwässerung? Dann ist das Zambelli Fallrohr Titanzink rund Ø 100 mm L = 2000 mm genau das Richtige für Dich.\n\nProduktmerkmale des Zambelli Fallrohrs Titanzink rund Ø 100 mm L = 2000 mm\nDarum solltest Du zugreifen: Dieses Fallrohr aus Zink bietet eine hervorragende Stabilität und ist ideal für die Dachentwässerung von Einfamilienhäusern, Garagen, Hausanbauten und mehr. Mit einem Durchmesser von 100 mm und einer Länge von 2 Metern eignet es sich für Dachgrundflächen von 51 bis 100 m². Das Material ist witterungsbeständig und schützt zuverlässig vor UV-Strahlung, was eine Nutzung über mehrere Jahrzehnte ermöglicht. Die kratzbeständige Oberfläche sorgt dafür, dass das Fallrohr auch bei kleinen Beschädigungen seine Funktionalität behält. Die silberne Optik verleiht Deinem Dach eine hochwertige und ansprechende Erscheinung.\n\nFestgezurrt: Das Zambelli Fallrohr Titanzink ist die ideale Wahl für eine langlebige und zuverlässige Dachentwässerungslösung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-205027_zambelli-fallrohr-titanzink-rund-100-mm"
+  ],
+  "product": {
+    "manufacturer": "company:zambelli",
+    "model": "Zambelli Fallrohr Titanzink rund Ø 100 mm L = 2000 mm",
+    "article_no": "205027",
+    "ean": "4250035979659",
+    "url": "https://www.hornbach.de/p/zambelli-fallrohr-titanzink-rund-o-100-mm-l-2000-mm/205027/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rohr"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Fallrohr"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Dachentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Metall"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Zink"
+        },
+        {
+          "label": "Nennweite",
+          "value": "100 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Farbbeständig, Hochbelastbar, Kratzbeständig, UV-beständig, Witterungsbeständig"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Silber"
+        },
+        {
+          "label": "Farbton",
+          "value": "Zinkgrau"
+        },
+        {
+          "label": "Dachgrundfläche bis",
+          "value": "51 m² - 100 m²"
+        },
+        {
+          "label": "Norm",
+          "value": "EN 612"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Einfamilienhäuser, Garagen, Hausanbauten, Kleine Dächer, Mehrfamilienhäuser, Wochenendhäuser, Zweifamilienhäuser"
+        },
+        {
+          "label": "Rinnenform",
+          "value": "Rund"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "78F5"
+        },
+        {
+          "label": "EAN",
+          "value": "2000205027008, 4020646100229, 4029971100546, 4250035979659"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Länge",
+          "value": "2.000 mm"
+        },
+        {
+          "label": "Durchmesser",
+          "value": "100 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 29.3,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-02",
+        "source": "Kassenbon 2023-01-02, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-205027_1.jpg"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "2023-04-20-speidel-10100108-uv-nachruestung",
+  "name": "Speidel 10100108 – UV Nachrüstung",
+  "doc_type": "invoice",
+  "supplier": "company:dussmann-speidel-elektro",
+  "date": "2023-04-20",
+  "number": "10100108",
+  "customer_number": "400817",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben: Weingärten 8, 73037 Göppingen (Projektnummer 442023)",
+  "description": "Rechnung von Dussmann Speidel Elektro für die Nachrüstung der Unterverteilung in Weingärten 8 am 13.04.2023 inklusive Anschluss der Leitungen. Abgerechnet werden 4 Arbeitsstunden, vier FI/LS-Schalter B16 30mA, ein 3-poliges Siemens-Gerät und Kabel NYM-J 5x2,5mm2. Zahlbar bis 30.04.2023.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "001",
+      "description": "Stunden vom 13.04.2023, Herr Scalzo",
+      "quantity": 4.0,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 256.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "002",
+      "description": "Siemens LS FI B16 30mA",
+      "quantity": 4.0,
+      "unit": "Stk",
+      "unit_price": 43.0,
+      "total_price": 172.0,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-fi-ls-b16-30ma"
+    },
+    {
+      "position": "003",
+      "description": "Siemens 3pol.",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 48.2,
+      "total_price": 48.2,
+      "unit_raw": "St."
+    },
+    {
+      "position": "004",
+      "description": "NYM-J 5x2,5mm2",
+      "quantity": 5.0,
+      "unit": "m",
+      "unit_price": 2.15,
+      "total_price": 10.75,
+      "ref": "tga-component:emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m"
+    }
+  ],
+  "subtotal_net": 486.95,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 486.95,
+  "vat_rate": 19,
+  "vat_amount": 92.52,
+  "total_gross": 579.47,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-04-20-speidel-10100108-uv-nachruestung.json",
+  "source_sha256": "db6dab7f79f8870b53d356b59cf6a87e17125ed0121af75ef265afcd102d8986",
+  "original_filename": "2023-04-30-Rechnung-Speidel.pdf"
+}

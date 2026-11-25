@@ -1,0 +1,39 @@
+{
+  "id": "2023-01-19-ecowatersolution-23-01-0025-planung-wasserrecht",
+  "name": "ECO Water 23-01-0025 – Planung Wasserrecht",
+  "doc_type": "invoice",
+  "supplier": "company:eco-water-solution",
+  "date": "2023-01-19",
+  "number": "23-01-0025",
+  "customer_number": "30024P01",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Wasserrechtsverfahren Kleinkläranlage BioTopp OK4-VE, Weingärten 8, 73037 Göppingen (Auftrags-Nr. 30024P01A0123-01-0025, Angebot 221108S)",
+  "description": "Rechnung der ECO Water Solution GmbH über die Planungsleistungen, Berechnungen und Zeichnungen für den wasserrechtlichen Genehmigungsantrag der Kleinkläranlage BioTopp OK4-VE in Weingärten 8. Zahlbar innerhalb von 14 Tagen rein netto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Betreuung und notwendige Dokumentation: Erstellen anlagenspezifischer Berechnungen und Zeichnungen für das Wasserrechtsverfahren",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 896.0,
+      "total_price": 896.0
+    }
+  ],
+  "subtotal_net": 896.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 896.0,
+  "vat_rate": 19,
+  "vat_amount": 170.24,
+  "total_gross": 1066.24,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-01-19-ecowatersolution-23-01-0025-planung-wasserrecht.json",
+  "source_sha256": "15f2392f437a877281cffc81d2329f15864abfd1fa25875b1851d1e06674f956",
+  "original_filename": "2023-01-ecoWatersolutions 2030024P01A0123-01-0025_Rechnung.pdf",
+  "related": [
+    "document:2022-12-20-ecowatersolution-221108s-b-angebot-klaeranlage"
+  ]
+}

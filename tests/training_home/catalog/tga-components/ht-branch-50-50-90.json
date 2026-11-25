@@ -1,0 +1,98 @@
+{
+  "id": "ht-branch-50-50-90",
+  "name": "HT-Abzweig DN 50/50 87°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 90,
+    "dn_branch": 50
+  },
+  "note": "Sortiment laut Bauherr (Nov 2026)",
+  "install": {
+    "trade": "waste_water",
+    "group": "Abzweige",
+    "shape": "fitting",
+    "outer_diameter": 0.05,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.03,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.03,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "pos": [
+          0.0,
+          0.03,
+          0
+        ],
+        "dir": [
+          0.0,
+          1.0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

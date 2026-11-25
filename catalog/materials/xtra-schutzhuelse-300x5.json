@@ -1,0 +1,27 @@
+{
+  "id": "xtra-schutzhuelse-300x5",
+  "name": "Xtra Schutzhülse 300 × 5 mm",
+  "category": "Heizung",
+  "description": "Schutzhülse für Rohre bis 20 mm (Bewegungsfugen)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Schutzhülse 300x5",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 1.11,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 3.3, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

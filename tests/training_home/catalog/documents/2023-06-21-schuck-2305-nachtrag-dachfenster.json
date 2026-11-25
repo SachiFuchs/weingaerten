@@ -1,0 +1,102 @@
+{
+  "id": "2023-06-21-schuck-2305-nachtrag-dachfenster",
+  "name": "Schuck 2305 – Nachtrag Dachfenster",
+  "doc_type": "quote",
+  "supplier": "company:schuck-dach",
+  "date": "2023-06-21",
+  "number": "2305",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben Dachumdeckung Weingärten 8 (Beleg: \"Weingärten 8 in Eislingen\")",
+  "description": "Nachtragsangebot der Schuck Dachdeckungen GmbH zur Dachumdeckung Weingärten 8 über Lieferung und Einbau von drei VELUX-Dachfenstern mit Eindeckrahmen, zwei Solar-Außenrollläden und einem Balkenwechsler. Die Ausführung wurde am 23.06.2023 vom Auftraggeber unterschrieben genehmigt (importiert ist der unterschriebene Scan). Der Beleg nennt irrtümlich Eislingen als Ort des Bauvorhabens. Fenster, Eindeckrahmen, Balkenwechsler und Einbaustunden wurden in der Schlussrechnung 1783 abgerechnet, die Rollläden dort nicht.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01.01",
+      "description": "VELUX-Eindeckrahmen EDZ für Fenster 55 x 98 cm",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 140.0,
+      "total_price": 280.0,
+      "ref": "component:roof-flashing-velux-ck04"
+    },
+    {
+      "position": "01.02",
+      "description": "VELUX GGU Energy Plus CK 04 Wohnraumdachfenster 55 x 98 cm",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 680.0,
+      "total_price": 1360.0,
+      "ref": "component:roof-window-velux-ck04"
+    },
+    {
+      "position": "01.03",
+      "description": "Außenrollladen mit Solar liefern",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 610.0,
+      "total_price": 610.0,
+      "ref": "component:roof-shutter-solar"
+    },
+    {
+      "position": "01.04",
+      "description": "VELUX-Eindeckrahmen EDZ für Fenster 66 x 118 cm, liefern und einbauen",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 150.0,
+      "total_price": 150.0,
+      "ref": "component:roof-flashing-velux-fk06"
+    },
+    {
+      "position": "01.05",
+      "description": "VELUX GGU Energy Plus FK 06 Wohnraumdachfenster 66 x 118 cm",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 864.0,
+      "total_price": 864.0,
+      "ref": "component:roof-window-velux-fk06"
+    },
+    {
+      "position": "01.06",
+      "description": "Balkenwechsler liefern",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 150.0,
+      "total_price": 150.0,
+      "ref": "component:roof-trimmer"
+    },
+    {
+      "position": "01.07",
+      "description": "Außenrollladen Solar liefern",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 670.0,
+      "total_price": 670.0,
+      "ref": "component:roof-shutter-solar"
+    },
+    {
+      "position": "01.08",
+      "description": "Dachdeckerstunden Einbau Dachfenster, Balkenwechsler, Solar-Rollladen",
+      "quantity": 16.0,
+      "unit": "Std",
+      "unit_price": 60.0,
+      "total_price": 960.0
+    }
+  ],
+  "subtotal_net": 5044.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 5044.0,
+  "vat_rate": 19,
+  "vat_amount": 958.36,
+  "total_gross": 6002.36,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-06-21-schuck-2305-nachtrag-dachfenster.json",
+  "source_sha256": "9291461c526f97b9fb561ed26dbb56c8eef57e9b66f366a78482bbc02272be9d",
+  "original_filename": "2023-06-21 Angebot -Dachducker Schuck Dachfenster - Suri Do-Nr_ 2305-signed.pdf",
+  "related": [
+    "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+  ]
+}

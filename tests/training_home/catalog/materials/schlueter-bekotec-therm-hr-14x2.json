@@ -1,0 +1,29 @@
+{
+  "id": "schlueter-bekotec-therm-hr-14x2",
+  "name": "Schlüter-BEKOTEC-THERM-HR Heizrohr 14 × 2 mm",
+  "category": "Heizung",
+  "description": "5-Schicht-Verbundrohr PE-RT mit Sauerstoffdiffusionssperre, DIN 16833, Rollen 120/600 m (BTHR14RT120 / BTHR14RT600), für die Noppenplatte BEKOTEC EN 23 F",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:schlueter",
+    "model": "BEKOTEC-THERM-HR 14x2",
+    "url": "https://eu.schluter.com/de-DE/wassergefuehrte-heizung-269/e/21804/bekotec-therm-hr",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 2.55,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 3.1, je m",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

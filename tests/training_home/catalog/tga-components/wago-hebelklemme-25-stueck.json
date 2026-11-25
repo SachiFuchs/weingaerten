@@ -1,0 +1,62 @@
+{
+  "id": "wago-hebelklemme-25-stueck",
+  "name": "Wago Hebelklemme 25 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873152986_wago-hebelklemme-25-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Hebelklemme 25 Stück",
+    "article_no": "8492993",
+    "ean": "4007873152986",
+    "url": "https://www.obi.de/p/8492993",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "130 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "11,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 14.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-02",
+        "source": "Kassenbon 2026-09-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 3,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "Sortiment 2/3/5-polig, Polzahl gemischt (3 angenommen)"
+  }
+}

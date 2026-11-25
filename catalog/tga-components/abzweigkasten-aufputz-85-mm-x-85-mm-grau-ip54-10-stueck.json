@@ -1,0 +1,181 @@
+{
+  "id": "abzweigkasten-aufputz-85-mm-x-85-mm-grau-ip54-10-stueck",
+  "name": "Abzweigkasten Aufputz 85 mm x 85 mm Grau IP54 10 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface",
+    "box_function": "junction",
+    "size": "85 × 85 × 40 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Abzweigkasten 80x80)",
+  "imported_from": [
+    "ean-4008297184287_abzweigkasten-aufputz-85-mm-x-85-mm-grau-ip54-10-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Abzweigkasten Aufputz 85 mm x 85 mm Grau IP54 10 Stück",
+    "article_no": "5371174",
+    "ean": "4008297184287",
+    "url": "https://www.obi.de/p/5371174",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "484 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 10.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-23",
+        "source": "Kassenbon 2023-08-23, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 9.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-19",
+        "source": "Kassenbon 2024-06-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "surface",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Verteilerdosen",
+    "shape": "box",
+    "size": [
+      0.085,
+      0.085,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0425,
+          -0.02
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0425,
+          -0.02
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0425,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0425,
+          0.0,
+          -0.02
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "on"
+    ],
+    "estimated": true
+  }
+}

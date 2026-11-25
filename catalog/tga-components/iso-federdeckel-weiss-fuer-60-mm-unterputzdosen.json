@@ -1,0 +1,51 @@
+{
+  "id": "iso-federdeckel-weiss-fuer-60-mm-unterputzdosen",
+  "name": "ISO Federdeckel Weiß für Ø 60 mm Unterputzdosen",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873915246_iso-federdeckel-weiss-fuer-60-mm-unterputzdosen"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "ISO Federdeckel Weiß für Ø 60 mm Unterputzdosen",
+    "article_no": "7510977",
+    "ean": "4007873915246",
+    "url": "https://www.obi.de/p/7510977",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "58 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "7,1 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,1 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.03,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-26",
+        "source": "Kassenbon 2023-09-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 6×"
+      }
+    ]
+  }
+}

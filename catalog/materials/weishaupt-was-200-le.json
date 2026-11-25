@@ -1,0 +1,29 @@
+{
+  "id": "weishaupt-was-200-le",
+  "name": "Weishaupt Trinkwasserspeicher WAS 200 LE / Eco",
+  "category": "Heizung",
+  "description": "Wärmepumpenspeicher 200 l mit vergrößertem Rohrwendel-Wärmetauscher, emaillierter Stahlbehälter mit Schutzanode, 10 bar, Effizienzklasse A (Art.-Nr. bei Händlern 47520001 bzw. 47720001, nicht eindeutig)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WAS 200 LE / Eco",
+    "url": "https://www.haustechnik-handrich.de/weishaupt-systemtechnik/weishaupt-trinkwasserspeicher-was-200-le-eco",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 2264.06,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.16, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

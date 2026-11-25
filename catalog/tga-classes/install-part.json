@@ -1,0 +1,150 @@
+{
+  "id": "install-part",
+  "name": "Installationszubehör",
+  "ifc": {
+    "entity": "IfcDiscreteAccessory"
+  },
+  "description": "Kleinteil der Elektro- oder Sanitärinstallation ohne eigene Leitungsgeometrie (Geräte-/Abzweigdose, Abdeckrahmen, Kabelkanal, Schutzrohr, Klemme, Sicherung; Armatur, Ventil, Schlauch, Gewindefitting, Ablauf, Dichtung, Rohrschelle). Nicht in der automatischen Formteilauswahl (HT/KG = pipe-fitting)",
+  "kind": "part",
+  "parameters": [
+    {
+      "key": "part_type",
+      "name": "Art",
+      "type": "choice",
+      "default": "other",
+      "options": [
+        "box",
+        "cable_duct",
+        "conduit",
+        "fuse",
+        "cable_fixing",
+        "tap",
+        "valve",
+        "hose",
+        "thread_fitting",
+        "drain",
+        "seal",
+        "pipe_clamp",
+        "mounting",
+        "other",
+        "clamp"
+      ],
+      "required": true
+    },
+    {
+      "key": "unit",
+      "name": "Einheit",
+      "type": "choice",
+      "default": "pcs",
+      "options": [
+        "pcs",
+        "m"
+      ],
+      "required": false
+    },
+    {
+      "key": "size",
+      "name": "Größe / Gewinde",
+      "type": "text",
+      "required": false
+    },
+    {
+      "key": "outer_diameter",
+      "name": "Außendurchmesser (Rohr)",
+      "type": "length",
+      "min": 0.005,
+      "max": 0.2,
+      "required": false
+    },
+    {
+      "key": "inner_diameter",
+      "name": "Innendurchmesser (Rohr)",
+      "type": "length",
+      "min": 0.003,
+      "max": 0.2,
+      "required": false
+    },
+    {
+      "key": "stock_length",
+      "name": "Stangenlänge",
+      "type": "length",
+      "min": 0.1,
+      "max": 12,
+      "required": false
+    },
+    {
+      "key": "pack_size",
+      "name": "Stück je Packung",
+      "type": "number",
+      "min": 1,
+      "max": 1000,
+      "required": false
+    },
+    {
+      "key": "mounting",
+      "name": "Montage",
+      "type": "choice",
+      "options": [
+        "surface",
+        "flush",
+        "hollow_wall"
+      ],
+      "required": false
+    },
+    {
+      "key": "box_function",
+      "name": "Dosenart",
+      "type": "choice",
+      "options": [
+        "junction",
+        "device",
+        "cooker"
+      ],
+      "required": false
+    }
+  ],
+  "connection_rules": [
+    {
+      "types": [
+        "clamp"
+      ],
+      "medium": "power",
+      "method": "clamp",
+      "partners": [
+        "cable"
+      ],
+      "locations": [
+        "box",
+        "terminal"
+      ],
+      "note": "nur Adern gleicher Farbe/Leiterart; darf Endstück sein; nicht alle Eingänge müssen belegt sein"
+    },
+    {
+      "types": [
+        "box"
+      ],
+      "medium": "power",
+      "method": "clamp",
+      "partners": [
+        "cable",
+        "clamp",
+        "terminal"
+      ],
+      "note": "Verbindungsort für Kabel (Klemmen in der Dose)"
+    },
+    {
+      "types": [
+        "valve",
+        "thread_fitting"
+      ],
+      "line": "ppr",
+      "medium": "water_supply",
+      "method": "weld",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "note": "PP-R-Schweißmuffe an Rohr"
+    }
+  ]
+}

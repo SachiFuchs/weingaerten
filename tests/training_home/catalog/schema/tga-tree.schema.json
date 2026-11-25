@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-tree",
+  "title": "TGA-Baum (catalog/tga-trees/<id>.json) – konfigurierbare Navigation zu TGA-Objekten",
+  "type": "object",
+  "required": ["id", "name", "nodes"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":        { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "order":       { "type": "integer", "description": "Reihenfolge der Bäume (klein zuerst)" },
+    "nodes":       { "$ref": "#/$defs/nodes" }
+  },
+  "$defs": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "additionalProperties": false,
+        "properties": {
+          "id":    { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "name":  { "type": "string", "description": "Anzeige; bei Objekten optional (sonst Name des TGA-Objekts)" },
+          "ref":   { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "TGA-Objekt (konkret oder abstrakt)" },
+          "filter": {
+            "type": "object", "additionalProperties": false,
+            "description": "Ordner: Vorgabefilter der Objektauswahl im Editor (Unterordner erben ihn)",
+            "properties": {
+              "class": { "type": "string", "pattern": "^tga-class:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "query": { "type": "string", "description": "Suchtext in Name / id / Parametern, z. B. NYM" },
+              "abstract": { "type": "boolean", "description": "nur abstrakte Objekte" }
+            }
+          },
+          "nodes": { "$ref": "#/$defs/nodes" }
+        }
+      }
+    }
+  }
+}

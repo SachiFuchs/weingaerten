@@ -1,0 +1,40 @@
+{
+  "id": "2023-08-14-sorwat-061-fassadenanstrich",
+  "name": "Sorwat 061 – Fassadenanstrich",
+  "doc_type": "invoice",
+  "supplier": "company:sorwat-stuckateur",
+  "date": "2023-08-14",
+  "number": "061",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "BV Weingärten, 73037 Göppingen (Rechnungsadresse Weingärten 8)",
+  "description": "Rechnung von Sorwat Stuckateur Fachbetrieb (Eislingen) über den Anstrich von Holzfassade und Dachgesims in Weingärten 8, 120 m² zu 28,00 EUR netto. Importiert ist die Fassung mit Aufteilung in Materialanteil 840,00 EUR und Arbeitszeit 2.520,00 EUR; eine inhaltsgleiche Fassung ohne diese Aufteilung liegt ebenfalls vor. Das Ortgangbrett wurde separat mit Rechnung 062 nachberechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Holzfassade und Dachgesims streichen, 120 m² gesamt (Materialanteil 840,00 EUR, Arbeitszeit 2.520,00 EUR)",
+      "quantity": 120.0,
+      "unit": "m²",
+      "unit_price": 28.0,
+      "total_price": 3360.0,
+      "ref": "material:facade-paint-taubenblau"
+    }
+  ],
+  "subtotal_net": 3360.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 3360.0,
+  "vat_rate": 19,
+  "vat_amount": 638.4,
+  "total_gross": 3998.4,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-08-14-sorwat-061-fassadenanstrich.json",
+  "source_sha256": "f728afb0e82c9ac31ff5d123249187c381e4003a8869a5e29cd71ed82135ed46",
+  "original_filename": "2023-08-14-Rechung Fassadenanstriech-Sorwat.pdf",
+  "related": [
+    "document:2023-09-09-sorwat-062-ortgang-lackieren"
+  ]
+}

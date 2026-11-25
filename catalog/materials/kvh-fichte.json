@@ -1,0 +1,27 @@
+{
+  "id": "kvh-fichte",
+  "name": "KVH Fichte gehobelt, technisch getrocknet",
+  "category": "Holz",
+  "description": "Konstruktionsvollholz Fichte; Querschnitt im Beleg nicht genannt (Fenzl: KVH 4/6)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "KVH Fichte gehobelt, technisch getrocknet",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 7.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.15, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

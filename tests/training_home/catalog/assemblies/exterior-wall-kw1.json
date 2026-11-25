@@ -1,0 +1,19 @@
+{
+  "id": "exterior-wall-kw1",
+  "name": "Kelleraußenwand Beton 30 cm",
+  "ifc": { "entity": "IfcWall", "predefined_type": "STANDARD" },
+  "category": "exterior_wall",
+  "din276": "330",
+  "description": "Kellerwand Beton 30 cm, ohne Dämmung und Putz (Bestand, Dicke aus Skizze geschätzt)",
+  "layer_order": "outside_in",
+  "layers": [
+    {
+      "material": "material:concrete-c25",
+      "thickness": 0.3
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

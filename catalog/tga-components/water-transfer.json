@@ -1,0 +1,11 @@
+{
+  "id": "water-transfer",
+  "name": "Übergabe Trinkwasser (offenes Ende)",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "terminal_type": "transfer",
+    "mounting": "free"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "2023-04-26-evf-068875-stromanschluss-zas",
+  "name": "EVF 068875 – Stromanschluss ZAS",
+  "doc_type": "invoice",
+  "supplier": "company:evf",
+  "date": "2023-04-26",
+  "number": "068875",
+  "customer_number": "616625",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Stromanschluss für Göppingen, Weingärten 8 (Zeit der Leistung: März 2023)",
+  "description": "Rechnung der EVF über den Stromanschluss ohne Tiefbau und die Zähleranschlusssäule mit 1 Zählerplatz für Weingärten 8, Leistung im März 2023. Die Positionspreise sind im Beleg als Bruttobeträge ausgewiesen (Summe 2.258,90 € netto zuzüglich 19 % USt). Baukostenzuschüsse und Netzanschlusskostenbeiträge werden für Rechnung der Stadtwerke Göppingen erhoben; Grundlage ist das angenommene Angebot EVF-622 vom 15.11.2022.",
+  "prices_are_net": false,
+  "items": [
+    {
+      "position": "1",
+      "description": "Stromanschluss ohne Tiefbau (Bruttopreis)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 807.43,
+      "total_price": 807.43,
+      "unit_raw": "ST"
+    },
+    {
+      "position": "2",
+      "description": "Zähleranschlusssäule 1 ZP (Bruttopreis)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 1880.66,
+      "total_price": 1880.66,
+      "unit_raw": "ST",
+      "ref": "tga-component:evf-zaehleranschlusssaeule"
+    }
+  ],
+  "items_gross": true,
+  "subtotal_net": 2258.9,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2258.9,
+  "vat_rate": 19,
+  "vat_amount": 429.19,
+  "total_gross": 2688.09,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-04-26-evf-068875-stromanschluss-zas.json",
+  "source_sha256": "f1072d615709e7a461772d2c237446d42eb1481c1d69bf9c3deeaa9af60b3274",
+  "original_filename": "2023-04-26-Rechnung-EVF Stromanschluss.pdf",
+  "related": [
+    "document:2022-11-15-evf-evf-622-angebot-zaehlersaeule"
+  ]
+}

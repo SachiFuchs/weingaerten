@@ -1,0 +1,40 @@
+{
+  "id": "marley-ht-anschlussstueck-an-metallrohr-dn-50-40",
+  "name": "Marley HT-Anschlussstück an Metallrohr DN 50 / 40",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "adapter",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "line_to": "metal",
+    "dn_to": 40
+  },
+  "description": "Das HT-Anschlussstück von Marley sorgt mit dem passenden Einsteckende für einen sauberen Anschluss von HT- an Metallrohr.br> Produktmerkmale: - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "imported_from": [
+    "ean-4006395643729_marley-ht-anschlussstueck-an-metallrohr-dn-50-40"
+  ],
+  "catalog_material": "material:marley-ht-anschlussstueck-an-metallrohr-dn-50-40",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "line": "metal",
+        "dn": 40,
+        "gender": "any",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ],
+    "note": "Fremdanschluss (Metallrohr / Gummimanschette), Richtung angenommen"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "facade-board-spruce",
+  "name": "Fassadenbrett Fichte (Stülpschalung)",
+  "category": "Holz",
+  "description": "Fichtenbrett 500 x 20 x 2,5 cm, waagerecht als Stülpschalung, Überlappung 3 cm (Maße vom Eigentümer); Anstrich separat",
+  "conductivity": 0.13,
+  "density": 450,
+  "vapour_resistance": 50,
+  "fire_class": "B2",
+  "values_source": "Richtwert Nadelholz (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

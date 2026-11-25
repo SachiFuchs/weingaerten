@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/assembly",
+  "title": "Bauteilaufbau (Schichten → Material)",
+  "type": "object",
+  "required": ["id", "name", "category", "layer_order", "layers"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "photos": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(jpg|jpeg|png|webp)$" } },
+    "name":        { "type": "string", "minLength": 1 },
+    "category":    { "enum": ["exterior_wall", "interior_wall", "base_slab", "slab", "roof", "plinth", "interior_lining", "covering"] },
+    "description": { "type": "string" },
+    "din276":      { "type": "string", "pattern": "^3[0-9]{2}$", "description": "Kostengruppe KG 300 (catalog/reference/din276.json); gilt für alle Bauteile mit diesem Aufbau" },
+    "ifc": {
+      "type": "object",
+      "description": "IFC-Zuordnung (IFC4) der Bauteile mit diesem Aufbau (Instanzklasse, z. B. IfcWall); der Aufbau selbst wird …Type + IfcMaterialLayerSet. Vom Core nicht ausgewertet",
+      "required": ["entity"],
+      "additionalProperties": false,
+      "properties": {
+        "entity":          { "type": "string", "pattern": "^Ifc[A-Z][A-Za-z]+$", "description": "z. B. IfcWall, IfcSlab, IfcCovering" },
+        "predefined_type": { "type": "string", "pattern": "^[A-Z][A-Z0-9_]*$", "description": "PredefinedType, z. B. STANDARD; USERDEFINED zusammen mit object_type" },
+        "object_type":     { "type": "string", "minLength": 1, "description": "ObjectType bei predefined_type USERDEFINED" }
+      }
+    },
+    "fire_rating": { "type": "string", "pattern": "^(R|RE|REI|EI)[0-9]{2,3}$", "description": "Feuerwiderstand des Bauteils (z. B. REI90) – Override, solange nicht berechnet" },
+    "impact_sound_lnw_db": { "type": "number", "description": "Bewerteter Norm-Trittschallpegel L'n,w in dB (Decken) – Override" },
+    "airborne_sound_rw_db": { "type": "number", "description": "Bewertetes Schalldämm-Maß Rw in dB – Override" },
+    "waterproofing": { "type": "string", "description": "Nur base_slab: Abdichtungstyp, z. B. \"Bitumenbahn\", \"FPO\"" },
+    "white_tank":  { "type": "boolean", "description": "Nur base_slab: wasserundurchlässiger Beton (Weiße Wanne)" },
+    "layer_order": {
+      "enum": ["outside_in", "left_right", "top_down", "wall_out"],
+      "description": "exterior_wall → outside_in, interior_wall → left_right, base_slab/slab/roof → top_down, interior_lining → wall_out (Wandoberfläche → Raum), covering → wall_out (Untergrund → Raum; Boden- und Wandbeläge, Sockelleisten)"
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["material", "thickness"],
+        "additionalProperties": false,
+        "properties": {
+          "material":  { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "thickness": { "type": "number", "exclusiveMinimum": 0, "description": "Meter" },
+          "direction": { "enum": ["south_north", "west_east"], "description": "Verlegerichtung stabförmiger Schichten (Lattung), Draufsicht" },
+          "heated":    { "type": "boolean", "description": "Rohrebene der Fußbodenheizung (Rohre liegen in dieser Schicht)" },
+          "cladding": {
+            "type": "object",
+            "description": "Nur äußerste Schicht einer Außenwand: Holzfassade aus Brettern (Stülpschalung); die Schichtdicke ist die Brettdicke",
+            "required": ["board_length", "board_width", "overlap"],
+            "additionalProperties": false,
+            "properties": {
+              "kind":         { "enum": ["lap_siding"] },
+              "board_length": { "type": "number", "exclusiveMinimum": 0, "description": "Brettlänge; Meter" },
+              "board_width":  { "type": "number", "exclusiveMinimum": 0, "description": "Brettbreite; Meter" },
+              "overlap":      { "type": "number", "minimum": 0, "description": "Überlappung der Reihen; Meter" },
+              "bottom":       { "type": "number", "description": "Unterkante der ersten Reihe, geschosslokal; Meter" },
+              "paint":        { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "estimated":    { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "visualization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "view":    { "enum": ["outer_layers", "all_layers", "solid"] },
+        "section": { "enum": ["outer_layers", "all_layers", "solid"] }
+      }
+    }
+  }
+}

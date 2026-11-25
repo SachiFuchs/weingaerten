@@ -1,0 +1,43 @@
+{
+  "id": "roof-trimmer",
+  "name": "Balkenwechsel für Dachfenster",
+  "ifc": {
+    "entity": "IfcBeam",
+    "predefined_type": "BEAM"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Balkenwechsler liefern und einbauen 150,00 €; dazu 3 Stk Dachbalken à 45,50 € = 136,50 € und Fichte KVH 172,50 €. Querschnitt nicht angegeben (angenommen 8 × 16 cm)",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 1.0,
+    "height": 0.16,
+    "depth": 0.08,
+    "quantity": 3,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:spruce-wood"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 150.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.06, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 150.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.13, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

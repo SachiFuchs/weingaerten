@@ -1,0 +1,60 @@
+# Non-code application: only prompts (.md), config and the people folder are versioned.
+# All generated code lives in the cache (%LOCALAPPDATA%\non-code-cache\<prompt-name>\) and must never be committed.
+
+# Cache folders (in case they ever land inside the repo)
+non-code-cache/
+cache/
+.cache/
+__pycache__/
+node_modules/
+.venv/
+venv/
+.env/
+
+# Generated code
+*.py
+*.pyc
+*.js
+*.mjs
+*.ts
+*.html
+*.css
+*.ps1
+*.bat
+*.cmd
+*.sh
+*.exe
+*.dll
+
+# Runtime artifacts
+people/state/
+*.pid
+*.tmp
+server*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+
+# Cortex access token (never commit)
+.token/
+
+# Ad-hoc scripts and test outputs
+scripts/*
+
+# Private source documents
+data/
+catalog/imported_material/
+catalog/imported_purchases/
+
+# Exception: versioned package sources
+!code/weingaerten_web/**/*.py
+!code/weingaerten_core/**/*.py
+!code/weingaerten_web/lib/*.js
+!code/weingaerten_web/static/*
+!start.cmd
+!scripts/*.py
+/catalog/imported_purchases
+/catalog/imported_documents
+/catalog/imported_material

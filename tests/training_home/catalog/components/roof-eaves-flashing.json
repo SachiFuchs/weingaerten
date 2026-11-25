@@ -1,0 +1,35 @@
+{
+  "id": "roof-eaves-flashing",
+  "name": "Einlaufblech Kupfer, Zuschnitt bis 0,40 m",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "USERDEFINED",
+    "object_type": "Einlaufblech"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Pos. 06.03: 24 m à 38,90 € = 933,60 €",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 24.0,
+    "height": 0.0007,
+    "depth": 0.4,
+    "quantity": 24,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:copper-sheet"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 38.9,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.03, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

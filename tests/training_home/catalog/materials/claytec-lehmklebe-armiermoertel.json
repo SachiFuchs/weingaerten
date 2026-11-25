@@ -1,0 +1,28 @@
+{
+  "id": "claytec-lehmklebe-armiermoertel",
+  "name": "Claytec Lehmklebe- und Armiermörtel 25 kg",
+  "category": "Putz",
+  "description": "Lehmmörtel zum Kleben und Armieren, 25-kg-Sack",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:rudolf-laier",
+    "model": "Claytec Lehmklebe- und Armiermörtel 25 kg",
+    "offers": [
+      {
+        "supplier": "company:gottfried-wiedmann",
+        "price": 30.05,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-20",
+        "source": "Rechnung KBV 1024499, Pos. 1, je Sack",
+        "document": "document:2025-11-20-wiedmann-kbv-1024499-lehmkleber-gewebe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8B79E",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "spruce-wood",
+  "name": "Fichte (KVH, Bretter, Profilholz)",
+  "category": "Holz",
+  "description": "Nord-Fichte Glattkantbretter, Fichte KVH gehobelt getrocknet, Faseprofil Scandia; Schuck Dach RE 17.07.2023, Titel 06. Zusätzlich OBI-Einkauf Kantholz Fichte/Tanne",
+  "conductivity": 0.13,
+  "density": 450,
+  "vapour_resistance": 50,
+  "fire_class": "B2",
+  "values_source": "Richtwert Nadelholz (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "imported_from": [
+    "ean-4005014000288_kantholz-fichte-tanne-saegerau-58-mm-x-38-mm-x-2000-mm",
+    "ean-4005014000394_kantholz-fichte-tanne-saegerau-58-mm-x-78-mm-x-3000-mm"
+  ],
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.78,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-11-06",
+        "source": "Kassenbon 2023-11-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 11.97,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-13",
+        "source": "Kassenbon 2026-02-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 45.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.15, je Stk",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,98 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "5,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "3,8 cm"
+        }
+      ]
+    }
+  }
+}

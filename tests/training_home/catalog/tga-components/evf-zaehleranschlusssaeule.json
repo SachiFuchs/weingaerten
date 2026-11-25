@@ -1,0 +1,45 @@
+{
+  "id": "evf-zaehleranschlusssaeule",
+  "name": "Zähleranschlusssäule 1 Zählerplatz",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Hausanschluss",
+  "params": {
+    "terminal_type": "distribution_board",
+    "mounting": "free"
+  },
+  "note": "EVF; Hersteller im Beleg nicht genannt",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:evf",
+        "price": 1580.39,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-11-15",
+        "source": "Angebot EVF-622, Pos. 1.1, je Stk",
+        "document": "document:2022-11-15-evf-evf-622-angebot-zaehlersaeule"
+      },
+      {
+        "supplier": "company:evf",
+        "price": 1880.66,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-26",
+        "source": "Rechnung 068875, Pos. 2, je Stk",
+        "document": "document:2023-04-26-evf-068875-stromanschluss-zas"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L1",
+      "L2",
+      "L3",
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

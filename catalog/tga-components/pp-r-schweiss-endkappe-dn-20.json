@@ -1,0 +1,26 @@
+{
+  "id": "pp-r-schweiss-endkappe-dn-20",
+  "name": "Schweiß-Endkappe PP-R DN 20",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "ppr",
+    "dn": 20,
+    "z_length": 0.03
+  },
+  "description": "Endkappe zum Verschließen eines PP-R-Schweißrohres DN 20. Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "catalog_material": "material:pp-r-schweiss-endkappe-dn-20",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "konsta-latte-fichte-3000-x-48-x-24-mm",
+  "name": "Konsta Latte Fichte 3000 x 48 x 24 mm",
+  "category": "Holz",
+  "description": "Brauchst Du eine vielseitige und stabile Lösung für Deine Bauprojekte? Die Konsta Latte Fichte 3000 x 48 x 24 mm bietet Dir genau das.\n\nProduktmerkmale der Konsta Latte Fichte 3000 x 48 x 24 mm\nDarum solltest Du zugreifen: Diese Holzlatte aus Fichte ist ideal für den Innenausbau, Messebau und Neubau geeignet. Mit einer Länge von 3000 mm bietet sie ausreichend Spielraum für verschiedene Anwendungen. Die sägeraue Oberfläche ermöglicht eine gute Haftung für Farben und Imprägnierungen, sodass Du sie nach Deinen Wünschen gestalten kannst. Die robuste Konstruktion mit einer Breite von 48 mm und einer Stärke von 24 mm sorgt für Stabilität und Langlebigkeit, was sie zu einem zuverlässigen Element für Wand-, Boden- und Deckenprojekte macht. Da sie aus Fichte besteht, ist sie sowohl für den Innen- als auch für den Außenbereich geeignet, was ihre Einsatzmöglichkeiten erweitert.\n\nFestgezurrt: Die Konsta Latte Fichte ist die ideale Wahl für stabile und vielseitige Bauprojekte im Innen- und Außenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-1000686_konsta-latte-fichte-3000-x-48-x-24-mm"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Latte Fichte 3000 x 48 x 24 mm",
+    "article_no": "1000686",
+    "ean": "4007622012493",
+    "url": "https://www.hornbach.de/p/konsta-latte-fichte-3000-x-48-x-24-mm/1000686/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Latte"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Holzlatte"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Messebau, Neubau"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Unbehandelt"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "Sägerau"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Ist dieser Artikel in Ihrem Markt nicht am Lager, ist nur eine Palettenweise (= 330 Stück) Abnahme möglich"
+        },
+        {
+          "label": "Anlieferhinweis",
+          "value": "Vor Bestellung muss vom Kunden sichergestellt sein, dass die Entladestelle mit einem 40 Tonnen - LKW erreichbar ist., Weitere Informationen entnehmen Sie bitte dem Datenblatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "6WED"
+        },
+        {
+          "label": "EAN",
+          "value": "2001000686001, 4005014000851, 4007622012493, 4049868000148, 4250821000031, 4260031140045, 4260162495175, 5945880050873"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "24 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "48 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "3.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.52,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-09",
+        "source": "Kassenbon 2026-07-09, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-1000686_1.jpg"
+  ]
+}

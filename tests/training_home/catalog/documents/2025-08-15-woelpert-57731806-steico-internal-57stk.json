@@ -1,0 +1,37 @@
+{
+  "id": "2025-08-15-woelpert-57731806-steico-internal-57stk",
+  "name": "Wölpert 57731806 – Steico Internal 57stk",
+  "doc_type": "invoice",
+  "supplier": "company:theodor-woelpert",
+  "date": "2025-08-15",
+  "number": "57731806",
+  "customer_number": "310245",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "E-Mail weingaerten@suri.de; Zuordnung Weingärten 8 (Barverkauf 57731806 zu Auftrag 29080067 vom 31.07.2025, Abholung Wölpert Göppingen)",
+  "description": "Barverkaufsrechnung (Kundenbeleg 57731806) von Wölpert Göppingen vom 15.08.2025 über 1 Palette (57 Stück / 25,992 m²) Steico internal Holzfaser-Innendämmplatten 60 mm. Die beiden im Ordner vorhandenen Auftragsbestätigungen zum selben Auftrag 29080067 vom 31.07.2025 sind durch diesen Kaufbeleg abgelöst.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "36100121 Steico internal Innendämmung mit N+F WLG038, 1200x380x60 mm (57 Stück = 1 Palette)",
+      "quantity": 25.992,
+      "unit": "m²",
+      "unit_price": 15.59,
+      "total_price": 405.22,
+      "ref": "material:steico-internal-60"
+    }
+  ],
+  "subtotal_net": 405.22,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 405.22,
+  "vat_rate": 19,
+  "vat_amount": 76.99,
+  "total_gross": 482.21,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-08-15-woelpert-57731806-steico-internal-57stk.json",
+  "source_sha256": "c49e30fbd7e0c9da6d7c239135808ea85c617d5d9616e8cd3fe6a43c89dd8885",
+  "original_filename": "2025-08-15-Woelpert-Steico Innendaemmung.pdf"
+}

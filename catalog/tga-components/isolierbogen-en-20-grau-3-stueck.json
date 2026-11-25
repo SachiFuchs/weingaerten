@@ -1,0 +1,115 @@
+{
+  "id": "isolierbogen-en-20-grau-3-stueck",
+  "name": "Isolierbogen EN 20 Grau 3 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873916854_isolierbogen-en-20-grau-3-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Isolierbogen EN 20 Grau 3 Stück",
+    "article_no": "5372081",
+    "ean": "4007873916854",
+    "url": "https://www.obi.de/p/5372081",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "50 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,4 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "7,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-01",
+        "source": "Kassenbon 2023-04-01, OBI München-Westend, Westendstr. 221, 80686 München, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-08",
+        "source": "Kassenbon 2023-04-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-28",
+        "source": "Kassenbon 2023-04-28, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-04-22",
+        "source": "Kassenbon 2024-04-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-25",
+        "source": "Kassenbon 2024-05-25, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-19",
+        "source": "Kassenbon 2024-06-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-22",
+        "source": "Kassenbon 2024-06-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-22",
+        "source": "Kassenbon 2026-09-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ]
+  }
+}

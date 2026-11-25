@@ -1,0 +1,191 @@
+{
+  "id": "geraetedose-mit-membran-68-mm-tiefe",
+  "name": "Gerätedose mit Membran 68 mm Tiefe",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "flush",
+    "box_function": "device",
+    "size": "68 × 68 × 68 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "ean-4007873155703_geraetedose-mit-membran-68-mm-tiefe"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gerätedose mit Membran 68 mm Tiefe",
+    "article_no": "4649208",
+    "ean": "4007873155703",
+    "url": "https://www.obi.de/p/4649208",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "50 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "6,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-14",
+        "source": "Kassenbon 2024-05-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 1.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-19",
+        "source": "Kassenbon 2024-06-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "flush",
+    "box_function": "device"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.068
+    ],
+    "ports": [
+      {
+        "id": "rechts2",
+        "pos": [
+          0.034,
+          -0.02,
+          -0.034
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "insert",
+        "dn": 20,
+        "gender": "any"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0,
+          0.034,
+          -0.034
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "power",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0,
+          -0.034,
+          -0.034
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "power",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0,
+          -0.034
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "power",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          0.02,
+          -0.034
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "power",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ],
+    "layout": {
+      "symbol": "box",
+      "points": {
+        "top": 1,
+        "bottom": 1,
+        "left": 1,
+        "right": 2
+      },
+      "max_connections": 5
+    }
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "window-eg-bad",
+  "name": "Fenster EG Bad 0,65 × 0,85",
+  "description": "Neuffer RE 3417279 vom 03.11.2025, Pos. 2; Aluplast IDEAL 8000, 1-teilig Dreh-Kipp links, Ug 0,6, VSG 8 mm innen/außen, RC 1 N, abschließbarer Griff",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 0.65,
+    "height": 0.85,
+    "depth": 0.085,
+    "frame_width": 0.07,
+    "sashes": 1,
+    "opening_1": "tilt_turn_left",
+    "glazing_type": "triple",
+    "ug_value": 0.6,
+    "safety_glass": "VSG",
+    "burglary_class": "RC1"
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:aluplast",
+    "model": "IDEAL 8000",
+    "offers": [
+      {
+        "supplier": "company:neuffer",
+        "price": 311.42,
+        "currency": "EUR",
+        "date": "2025-11-03",
+        "source": "RE 3417279, Pos. 2",
+        "document": "document:2025-11-03-fensterversand-3417279-fenster-eg-5-stueck"
+      }
+    ]
+  }
+}

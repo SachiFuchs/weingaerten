@@ -1,0 +1,37 @@
+{
+  "id": "heating-screed",
+  "name": "Heizestrich F4-F5 (System Schlüter)",
+  "category": "Estrich",
+  "description": "Systemkonformer Heizestrich S38 auf Bekotec EN 23F; Riempp Angebot 25-0235 Pos. 2: 60 m² à 33,60 €. Annahme: 38 mm = Gesamthöhe ab Oberseite Dämmung, davon 23 mm zwischen den Noppen",
+  "conductivity": 1.4,
+  "density": 2000,
+  "fire_class": "A1",
+  "values_source": "Richtwert Zementestrich (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#B8B5AE",
+    "roughness": 0.9,
+    "hatch": "concrete"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 33.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-06-23",
+        "source": "Angebot 25-0235, Pos. 2, je m²",
+        "document": "document:2025-06-23-riempp-25-0235-angebot-heizestrich"
+      },
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 36.4,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-06",
+        "source": "Rechnung 2025397, Pos. 2, je m²",
+        "document": "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+      }
+    ]
+  }
+}

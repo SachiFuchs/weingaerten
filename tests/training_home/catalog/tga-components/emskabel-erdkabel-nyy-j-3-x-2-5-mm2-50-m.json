@@ -1,0 +1,69 @@
+{
+  "id": "emskabel-erdkabel-nyy-j-3-x-2-5-mm2-50-m",
+  "name": "Emskabel Erdkabel NYY-J 3 x 2,5 mm² 50 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYY-J",
+    "cores": 3,
+    "cross_section_mm2": 2.5
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4010480050682_emskabel-erdkabel-nyy-j-3-x-2-5-mm2-50-m"
+  ],
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Emskabel Erdkabel NYY-J 3 x 2,5 mm² 50 m",
+    "article_no": "8042137",
+    "ean": "4010480050682",
+    "url": "https://www.obi.de/p/8042137",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "10,8 kg"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 73.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-03",
+        "source": "Kassenbon 2023-05-03, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 71.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-22",
+        "source": "Kassenbon 2026-09-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

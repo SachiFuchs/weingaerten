@@ -1,0 +1,38 @@
+{
+  "id": "osb-3ungeschl",
+  "name": "OSB 3ungeschl.",
+  "category": "Holz",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "obi-5039300_osb-3ungeschl"
+  ],
+  "product": {
+    "model": "OSB 3ungeschl.",
+    "article_no": "5039300",
+    "url": "https://www.obi.de/p/5039300",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 9.75,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-11-06",
+        "source": "Kassenbon 2023-11-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 7.17,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-18",
+        "source": "Kassenbon 2026-05-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

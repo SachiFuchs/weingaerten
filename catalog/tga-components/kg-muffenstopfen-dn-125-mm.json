@@ -1,0 +1,34 @@
+{
+  "id": "kg-muffenstopfen-dn-125-mm",
+  "name": "KG Muffenstopfen DN 125 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "kg",
+    "dn": 125,
+    "z_length": 0.03
+  },
+  "description": "Möchtest Du Dein Entwässerungssystem sicher und zuverlässig verschließen? Der KG Muffenstopfen DN 125 mm bietet die ideale Lösung.\n\nProduktmerkmale des KG Muffenstopfens DN 125 mm\nDarum solltest Du zugreifen: Der Muffenstopfen ist speziell für die Haus- und Hofentwässerung konzipiert und eignet sich hervorragend für den Außeneinsatz. Hergestellt aus Polyvinylchlorid (PVC), bietet er eine hohe Beständigkeit gegen äußere Einflüsse und eine lange Lebensdauer. Mit einer Materialstärke von 3,2 mm und einer Ringsteifigkeit von SN4 ist der Muffenstopfen robust und widerstandsfähig. Die Nennweite von 125 mm ermöglicht eine einfache Integration in bestehende Kanalrohrsysteme. Die orange Farbe sorgt für eine gute Sichtbarkeit im Einsatzbereich.\n\nFestgezurrt: Der KG Muffenstopfen DN 125 mm ist die zuverlässige Wahl für eine sichere und dauerhafte Abdichtung in Deinem Entwässerungssystem.",
+  "photos": [
+    "hornbach-267583_1.jpg",
+    "hornbach-267583_2.jpg"
+  ],
+  "imported_from": [
+    "hornbach-267583_kg-muffenstopfen-dn-125-mm"
+  ],
+  "catalog_material": "material:kg-muffenstopfen-dn-125-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 125,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

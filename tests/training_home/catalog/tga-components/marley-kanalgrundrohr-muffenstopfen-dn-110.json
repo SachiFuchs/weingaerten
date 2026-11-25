@@ -1,0 +1,30 @@
+{
+  "id": "marley-kanalgrundrohr-muffenstopfen-dn-110",
+  "name": "Marley Kanalgrundrohr-Muffenstopfen DN 110",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.03
+  },
+  "description": "Der Kanalgrundrohr-Muffenstopfen verschließt sicher und fest freiliegende Rohrenden.",
+  "imported_from": [
+    "ean-4002644096629_marley-kanalgrundrohr-muffenstopfen-dn-110"
+  ],
+  "catalog_material": "material:marley-kanalgrundrohr-muffenstopfen-dn-110",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

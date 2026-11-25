@@ -1,0 +1,56 @@
+{
+  "id": "kopp-steckdose-mit-beruehrungsschutz-1-fach-europa",
+  "name": "Kopp Steckdose mit Berührungsschutz 1-fach Europa Arktisweiß",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008224175937_kopp-steckdose-mit-beruehrungsschutz-1-fach-europa"
+  ],
+  "product": {
+    "manufacturer": "company:heinrich-kopp",
+    "model": "Kopp Steckdose mit Berührungsschutz 1-fach Europa Arktisweiß",
+    "article_no": "4169595",
+    "ean": "4008224175937",
+    "url": "https://www.obi.de/p/4169595",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "90 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-26",
+        "source": "Kassenbon 2023-09-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "glattkantbrett-nord-fichte",
+  "name": "Glattkantbrett Nordische Fichte",
+  "category": "Holz",
+  "description": "Schuck RE 1783 Pos. 06.15, je m; Querschnitt im Beleg nicht genannt",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Glattkantbrett Nordische Fichte",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 8.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.15, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

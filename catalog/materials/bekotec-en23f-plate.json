@@ -1,0 +1,36 @@
+{
+  "id": "bekotec-en23f-plate",
+  "name": "Schlüter Bekotec EN 23F Noppenplatte",
+  "category": "Kunststoff",
+  "description": "Estrichnoppenplatte für Systemrohr 14 mm, Noppenhöhe 23 mm (Rohrebene); Riempp Angebot 25-0235 Pos. 3: 60 m² à 26,80 €",
+  "density": 30,
+  "fire_class": "B2",
+  "values_source": "Systembezeichnung EN 23F (Noppenhöhe 23 mm); Rohdichte Richtwert (Platte + Estrich zwischen den Noppen)",
+  "appearance": {
+    "color": "#D98C2B",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 26.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-06-23",
+        "source": "Angebot 25-0235, Pos. 3, je m²",
+        "document": "document:2025-06-23-riempp-25-0235-angebot-heizestrich"
+      },
+      {
+        "supplier": "company:riempp-estriche",
+        "price": 26.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-06",
+        "source": "Rechnung 2025397, Pos. 3, je m²",
+        "document": "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+      }
+    ]
+  }
+}

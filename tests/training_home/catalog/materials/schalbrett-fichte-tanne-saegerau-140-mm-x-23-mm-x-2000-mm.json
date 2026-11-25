@@ -1,0 +1,53 @@
+{
+  "id": "schalbrett-fichte-tanne-saegerau-140-mm-x-23-mm-x-2000-mm",
+  "name": "Schalbrett Fichte/Tanne sägerau 140 mm x 23 mm x 2000 mm",
+  "category": "Holz",
+  "description": "Das sägeraue Schalbrett ist vielseitig verwendbar und kommt beim Rohbau und Schalarbeiten zum Einsatz.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4005014011345_schalbrett-fichte-tanne-saegerau-140-mm-x-23-mm-x-2000-mm"
+  ],
+  "product": {
+    "manufacturer": "company:binderholz-oberrot-baruth",
+    "model": "Schalbrett Fichte/Tanne sägerau 140 mm x 23 mm x 2000 mm",
+    "article_no": "8003055",
+    "ean": "4005014011345",
+    "url": "https://www.obi.de/p/8003055",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.98,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-16",
+        "source": "Kassenbon 2025-04-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 9×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "3,13 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "14,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,3 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

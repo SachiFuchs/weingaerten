@@ -1,0 +1,37 @@
+{
+  "id": "pir-divodaemm-top",
+  "name": "PIR-Dämmung Braas DivoDämm Top 140 mm",
+  "category": "Dämmung",
+  "description": "Aufsparrendämmung PIR, WLS 023, beidseitig alukaschiert, sd ≥ 1500 m, oberseitig diffusionsoffene Bahnenkaschierung, Platte 2400 × 1240 mm; Schuck Dach RE 17.07.2023, Pos. 04.01: 130 m² à 55,00 €",
+  "conductivity": 0.023,
+  "density": 31,
+  "fire_class": "B2",
+  "values_source": "Datenblatt laut Rechnung (λ Bemessungswert 0,023, Baustoffklasse B2); Rohdichte Richtwert",
+  "appearance": {
+    "color": "#E8D9A8",
+    "roughness": 0.6,
+    "hatch": "insulation"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 55.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-09-15",
+        "source": "Angebot 2191, Pos. 04.01, je m²",
+        "document": "document:2022-09-15-schuck-2191-angebot-dachsanierung"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 55.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 04.01, je m²",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

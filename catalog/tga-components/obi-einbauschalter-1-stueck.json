@@ -1,0 +1,58 @@
+{
+  "id": "obi-einbauschalter-1-stueck",
+  "name": "OBI Einbauschalter 1 Stück",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "switch",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874002761_obi-einbauschalter-1-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "OBI Einbauschalter 1 Stück",
+    "article_no": "2572881",
+    "ean": "4007874002761",
+    "url": "https://www.obi.de/p/2572881",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "154 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "16,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "12,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "5,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-06",
+        "source": "Kassenbon 2022-08-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L"
+    ]
+  }
+}

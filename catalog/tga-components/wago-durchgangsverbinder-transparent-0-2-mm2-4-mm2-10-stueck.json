@@ -1,0 +1,69 @@
+{
+  "id": "wago-durchgangsverbinder-transparent-0-2-mm2-4-mm2-10-stueck",
+  "name": "Wago Durchgangsverbinder Transparent Ø 0,2 mm² - 4 mm² 10 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873161827_wago-durchgangsverbinder-transparent-0-2-mm2-4-mm2-10-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Durchgangsverbinder Transparent Ø 0,2 mm² - 4 mm² 10 Stück",
+    "article_no": "8036840",
+    "ean": "4007873161827",
+    "url": "https://www.obi.de/p/8036840",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "52 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "9,7 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "5,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-06-19",
+        "source": "Kassenbon 2024-06-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 2,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true
+  }
+}

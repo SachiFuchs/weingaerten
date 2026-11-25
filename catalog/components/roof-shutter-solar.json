@@ -1,0 +1,39 @@
+{
+  "id": "roof-shutter-solar",
+  "name": "Außenrollladen Solar für Dachfenster",
+  "description": "Schuck Nachtrag 2305 Pos. 01.03/01.07; Hersteller im Beleg nicht genannt",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.66,
+    "height": 0.05,
+    "depth": 1.18,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:aluminium-brown"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 610.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.03, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 670.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.07, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      }
+    ]
+  }
+}

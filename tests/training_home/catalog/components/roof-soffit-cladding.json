@@ -1,0 +1,34 @@
+{
+  "id": "roof-soffit-cladding",
+  "name": "Dachuntersicht Profilholz Fichte Scandia",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "CLADDING"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Nord-Fichte US-Faseprofil Scandia 117 m à 3,50 € = 409,50 € und Glattkantbretter 748,00 €; Verwendung (Dachüberstand/Untersicht) angenommen",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 117.0,
+    "height": 0.019,
+    "depth": 0.12,
+    "quantity": 117,
+    "unit": "m"
+  },
+  "materials": {
+    "main": "material:spruce-wood"
+  },
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 3.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-17",
+        "source": "Rechnung 1783, Pos. 06.15, je m",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      }
+    ]
+  }
+}

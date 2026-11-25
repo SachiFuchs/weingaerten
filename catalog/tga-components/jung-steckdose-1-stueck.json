@@ -1,0 +1,88 @@
+{
+  "id": "jung-steckdose-1-stueck",
+  "name": "Jung Steckdose 1 Stück",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4017280034713_jung-steckdose-1-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:albrecht-jung",
+    "model": "Jung Steckdose 1 Stück",
+    "article_no": "2788198",
+    "ean": "4017280034713",
+    "url": "https://www.obi.de/p/2788198",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "285 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "5,8 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 18.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-08",
+        "source": "Kassenbon 2023-04-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Steckdosen",
+    "shape": "insert",
+    "size": [
+      0.071,
+      0.071,
+      0.012
+    ],
+    "ports": [
+      {
+        "id": "back",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          -1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "spigot"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

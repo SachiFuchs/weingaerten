@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-run",
+  "title": "TGA-Leitung (house/tga/runs/<id>.json) – Verlauf eines Leitungsträgers (pipe, cable, duct)",
+  "description": "Länge wird aus points[] berechnet, nicht gespeichert. Gewerk aus component.din276.",
+  "type": "object",
+  "required": ["id", "component", "points"],
+  "additionalProperties": false,
+  "properties": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":      { "type": "string" },
+    "component": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Komponente einer Klasse mit kind pipe|cable|duct" },
+    "system":    { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Kennung des Anlagensystems/Kreises, z. B. heating-circuit-1" },
+    "installation": { "enum": ["concealed", "surface", "screed", "shaft", "void", "buried", "outside"], "description": "Verlegeart: unter Putz, auf Putz, im Estrich, im Schacht, im Hohlraum, im Erdreich, außen an der Fassade" },
+    "points": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Achse der Leitung, absolute Koordinaten in m (z ab foundation.top)",
+      "items": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 }
+    },
+    "from": { "type": "string", "pattern": "^tga-terminal:[a-z0-9]+(-[a-z0-9]+)*$" },
+    "to":   { "type": "string", "pattern": "^tga-terminal:[a-z0-9]+(-[a-z0-9]+)*$" },
+    "into": {
+      "type": "object",
+      "description": "Das Ende der Leitung mündet in eine andere Leitung: continue = geht in deren Anfang über (Übergang, wenn Rohr verschieden), branch = Abzweig, der letzte Punkt liegt auf deren Achse",
+      "required": ["run", "kind"],
+      "additionalProperties": false,
+      "properties": {
+        "run":  { "type": "string", "pattern": "^tga-run:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "kind": { "enum": ["continue", "branch"] }
+      }
+    },
+    "medium": { "enum": ["cold_water", "hot_water", "circulation"], "description": "Medium dieser Leitung, wenn dasselbe Rohr für kalt und warm verwendet wird (überschreibt component.params.medium)" },
+    "min_slope": { "type": "number", "minimum": 0, "maximum": 0.5, "description": "Mindestgefälle (Abwasser), Vorgabe aus der Rohrlinie: HT 0.02, KG 0.01" },
+    "conduit": {
+      "type": "object",
+      "description": "Elektrik: Leitung im Schutzrohr – Rohr, Steckbogen an jeder Ecke, Steckmuffe je Stangenstoß, Klemmschellen im Abstand clamp_spacing",
+      "required": ["pipe"],
+      "additionalProperties": false,
+      "properties": {
+        "pipe":   { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Installationsrohr (part_type conduit, params stock_length, inner_diameter, outer_diameter)" },
+        "bend":   { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "sleeve": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "clamp":  { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "clamp_spacing": { "type": "number", "minimum": 0.1, "maximum": 2, "description": "Abstand der Schellen in m, Vorgabe 0.5" }
+      }
+    },
+    "open_end": {
+      "type": "object",
+      "description": "Elektrik: Anfang der Leitung bleibt offen (z. B. Anschluss Sicherungskasten später)",
+      "additionalProperties": false,
+      "properties": {
+        "reserve": { "type": "number", "minimum": 0, "maximum": 10, "description": "Kabelvorrat am offenen Ende in m" },
+        "note":    { "type": "string" }
+      }
+    },
+    "joints": {
+      "type": "array",
+      "description": "Elektrik: Klemmen (WAGO) an einem Ende in der Dose – je Leiterart eine Klemme; wires = Anzahl Adern in der Klemme (1 = Klemme als Endstück)",
+      "items": {
+        "type": "object",
+        "required": ["at", "role", "clamp"],
+        "additionalProperties": false,
+        "properties": {
+          "at":    { "enum": ["from", "to"] },
+          "role":  { "enum": ["L", "L1", "L2", "L3", "N", "PE"] },
+          "clamp": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+          "wires": { "type": "integer", "minimum": 1, "maximum": 12, "description": "Adern in der Klemme (diese Leitung + weitere), Vorgabe 1" },
+          "note":  { "type": "string" }
+        }
+      }
+    },
+    "reserve": { "type": "number", "minimum": 0, "maximum": 5, "description": "Elektrik: Kabelvorrat an der Endstelle (Dose) in m, Vorgabe 0.5" },
+    "estimated": { "type": "boolean" },
+    "note":      { "type": "string" }
+  }
+}

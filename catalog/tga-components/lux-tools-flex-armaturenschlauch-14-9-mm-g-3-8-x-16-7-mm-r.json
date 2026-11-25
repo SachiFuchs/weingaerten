@@ -1,0 +1,39 @@
+{
+  "id": "lux-tools-flex-armaturenschlauch-14-9-mm-g-3-8-x-16-7-mm-r",
+  "name": "LUX-TOOLS Flex-Armaturenschlauch 14,9 mm (G 3/8) x 16,7 mm (R 3/8) x 1000 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874169860_lux-tools-flex-armaturenschlauch-14-9-mm-g-3-8-x-16-7-mm-r"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "LUX-TOOLS Flex-Armaturenschlauch 14,9 mm (G 3/8) x 16,7 mm (R 3/8) x 1000 mm",
+    "article_no": "1736420",
+    "ean": "4007874169860",
+    "url": "https://www.obi.de/p/1736420",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "130 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 10.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-05-30",
+        "source": "Kassenbon 2026-05-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

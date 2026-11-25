@@ -1,0 +1,11 @@
+{
+  "id": "waste-stub",
+  "name": "Anschlussstutzen verschlossen",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "stub",
+    "mounting": "free"
+  }
+}

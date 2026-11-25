@@ -1,0 +1,61 @@
+{
+  "id": "marley-ht-gummimanschette-dn-40-30",
+  "name": "Marley HT-Gummimanschette DN 40 / 30",
+  "category": "Entwässerung",
+  "description": "Die Gummimanschette dient als Dichtung zwischen dem 90° Siphonbogen (z. B. unter dem Wasch- oder Spülbecken) und dem HT-Abwasserrohr in der Wand.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644094649_marley-ht-gummimanschette-dn-40-30"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Gummimanschette DN 40 / 30",
+    "article_no": "2207082",
+    "ean": "4002644094649",
+    "url": "https://www.obi.de/p/2207082",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "9 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,1 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,6 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,6 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-17",
+        "source": "Kassenbon 2023-02-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 1.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-23",
+        "source": "Kassenbon 2023-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

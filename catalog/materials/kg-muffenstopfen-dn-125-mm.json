@@ -1,0 +1,93 @@
+{
+  "id": "kg-muffenstopfen-dn-125-mm",
+  "name": "KG Muffenstopfen DN 125 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du Dein Entwässerungssystem sicher und zuverlässig verschließen? Der KG Muffenstopfen DN 125 mm bietet die ideale Lösung.\n\nProduktmerkmale des KG Muffenstopfens DN 125 mm\nDarum solltest Du zugreifen: Der Muffenstopfen ist speziell für die Haus- und Hofentwässerung konzipiert und eignet sich hervorragend für den Außeneinsatz. Hergestellt aus Polyvinylchlorid (PVC), bietet er eine hohe Beständigkeit gegen äußere Einflüsse und eine lange Lebensdauer. Mit einer Materialstärke von 3,2 mm und einer Ringsteifigkeit von SN4 ist der Muffenstopfen robust und widerstandsfähig. Die Nennweite von 125 mm ermöglicht eine einfache Integration in bestehende Kanalrohrsysteme. Die orange Farbe sorgt für eine gute Sichtbarkeit im Einsatzbereich.\n\nFestgezurrt: Der KG Muffenstopfen DN 125 mm ist die zuverlässige Wahl für eine sichere und dauerhafte Abdichtung in Deinem Entwässerungssystem.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-267583_kg-muffenstopfen-dn-125-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "KG Muffenstopfen DN 125 mm",
+    "article_no": "267583",
+    "ean": "4052836216205",
+    "url": "https://www.hornbach.de/p/kg-muffenstopfen-dn-125-mm/267583/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "KG"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Muffenstopfen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung, Hofentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Nennweite",
+          "value": "125 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "3,2 mm"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN4"
+        },
+        {
+          "label": "Farbton",
+          "value": "Orange"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "FZVP"
+        },
+        {
+          "label": "EAN",
+          "value": "2000267583009, 4002644096636, 4002644806822, 4022804050902, 4025075274206, 4036494106955, 4052836017451, 4052836216205, 8586019765915, 8594157260742, 8594169671512, 9003844007113"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-267583_1.jpg",
+    "hornbach-267583_2.jpg"
+  ]
+}

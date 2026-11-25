@@ -1,0 +1,19 @@
+{
+  "id": "floor-kg-beton",
+  "name": "Kellerboden Beton 20 cm",
+  "ifc": { "entity": "IfcSlab", "predefined_type": "FLOOR" },
+  "category": "slab",
+  "din276": "320",
+  "description": "Betonboden des Kellers 20 cm (Bestand)",
+  "layer_order": "top_down",
+  "layers": [
+    {
+      "material": "material:concrete-c25",
+      "thickness": 0.2
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "gewinde-kappe-14-9-mm-rp-3-8-messing-verchromt",
+  "name": "Gewinde-Kappe 14,9 mm (Rp 3/8) Messing Verchromt",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007871303083_gewinde-kappe-14-9-mm-rp-3-8-messing-verchromt"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Kappe 14,9 mm (Rp 3/8) Messing Verchromt",
+    "article_no": "7404189",
+    "ean": "4007871303083",
+    "url": "https://www.obi.de/p/7404189",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "16 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-11",
+        "source": "Kassenbon 2025-10-11, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

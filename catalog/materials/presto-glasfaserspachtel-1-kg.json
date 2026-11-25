@@ -1,0 +1,49 @@
+{
+  "id": "presto-glasfaserspachtel-1-kg",
+  "name": "Presto Glasfaserspachtel 1 kg",
+  "category": "Baustoffe",
+  "description": "Mit dem zweikomponentigem Glasfaserspachtel von presto, der den neuen Haftvermittler NT enthält, bessern Sie größere Schadstellen problemlos aus. Der Spachtel besteht aus reinem, ungesättigtem Polyesterhatz und Glasfasermaterialien und ist geeignet für die Bearbeitung von Metall, Holz, Beton, sowie vielen Kunststoffen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4052800601112_presto-glasfaserspachtel-1-kg"
+  ],
+  "product": {
+    "manufacturer": "company:european-aerosols",
+    "model": "Presto Glasfaserspachtel 1 kg",
+    "article_no": "8428070",
+    "ean": "4052800601112",
+    "url": "https://www.obi.de/p/8428070",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 16.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-07-01",
+        "source": "Kassenbon 2025-07-01, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,13 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "11,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

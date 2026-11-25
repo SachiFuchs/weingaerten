@@ -1,0 +1,53 @@
+{
+  "id": "cable-1x10",
+  "name": "Leitung 1 × 10 mm²",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "Einzelader",
+    "cores": 1,
+    "cross_section_mm2": 10
+  },
+  "note": "Leitungstyp im Beleg nicht genannt (vermutlich H07V-K)",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 0.98,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-10-17",
+        "source": "Rechnung 10101973, Pos. 009, je m",
+        "document": "document:2023-10-17-speidel-10101973-verteiler-haus-garten"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "conductors": [
+      {
+        "role": "PE",
+        "color": "#9ACD32"
+      }
+    ],
+    "note": "Einzelader 10 mm² als Potentialausgleich (PE) angenommen"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

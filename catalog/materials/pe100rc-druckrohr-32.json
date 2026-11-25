@@ -1,0 +1,27 @@
+{
+  "id": "pe100rc-druckrohr-32",
+  "name": "Druckrohr PE100RC 32 × 3,0 SDR11",
+  "category": "Trinkwasser",
+  "description": "Aduxa Trinkwasser-Druckrohr schwarz mit blauer Außenschicht (Hausanschluss)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Druckrohr PE100RC 32 × 3,0 SDR11",
+    "offers": [
+      {
+        "supplier": "company:huber-sanitaer",
+        "price": 3.93,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-03-27",
+        "source": "Rechnung RE23/201, Pos. 1, je m",
+        "document": "document:2023-03-27-huber-re23-201-wasserleitung-anschluss"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#1F1F1F",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

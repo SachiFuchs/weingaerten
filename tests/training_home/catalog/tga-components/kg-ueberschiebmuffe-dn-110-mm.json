@@ -1,0 +1,42 @@
+{
+  "id": "kg-ueberschiebmuffe-dn-110-mm",
+  "name": "KG Überschiebmuffe DN 110 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "coupling",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.03
+  },
+  "description": "Möchtest Du ein zuverlässiges Entwässerungssystem installieren? Die KGU Überschiebmuffe DN 110 bietet Dir eine robuste Lösung.\n\nProduktmerkmale der KGU Überschiebmuffe DN 110 mm\nDarum solltest Du zugreifen: Diese Muffe ist ein essenzielles Formteil für die Haus- und Hofentwässerung. Hergestellt aus Polyvinylchlorid (PVC), bietet sie eine hohe Festigkeit und ist sowohl säure- als auch laugenbeständig. Diese Eigenschaften gewährleisten eine lange Lebensdauer und machen die Muffe ideal für den Einsatz im Außenbereich. Mit einem Außendurchmesser von 127 mm und einer Nennweite von 110 mm passt sie perfekt in Dein Entwässerungssystem. Die Wurzelfestigkeit der Muffe verhindert das Eindringen von Wurzeln, was die Funktionalität des Systems langfristig sichert. Die Ringsteifigkeit SN4 sorgt für Stabilität auch unter Belastung.\n\nFestgezurrt: Die KGU Überschiebmuffe DN 110 ist eine zuverlässige Komponente für Dein Entwässerungssystem, die durch ihre Beständigkeit und Langlebigkeit überzeugt.",
+  "photos": [
+    "hornbach-267323_1.jpg",
+    "hornbach-267323_2.jpg",
+    "hornbach-267323_3.jpg",
+    "hornbach-267323_4.jpg"
+  ],
+  "imported_from": [
+    "hornbach-267323_kg-ueberschiebmuffe-dn-110-mm"
+  ],
+  "catalog_material": "material:kg-ueberschiebmuffe-dn-110-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "out"
+      }
+    ]
+  }
+}

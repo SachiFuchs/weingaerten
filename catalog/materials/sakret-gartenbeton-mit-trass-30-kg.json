@@ -1,0 +1,53 @@
+{
+  "id": "sakret-gartenbeton-mit-trass-30-kg",
+  "name": "Sakret Gartenbeton mit Trass 30 kg",
+  "category": "Baustoffe",
+  "description": "Trass-zementgebundener Universalbeton zum Herstellen von kleineren Punkt-, Streifen- und Flächenfundamenten und Betonsockeln mit mittlerer Druckbelastung sowie Befestigungen im Garten. Zum Setzen von Rand- und Natursteinen, Gehwegplatten, Pflastersteinen. - Einfache Verarbeitung - Verringerte Ausblühneigung durch Trasszusatz - Körnung 0-8 mm - Begehbar nach ca. 24 Std. - Mechanisch hoch belastbar - Frostbeständig",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4005813804032_sakret-gartenbeton-mit-trass-30-kg"
+  ],
+  "product": {
+    "manufacturer": "company:sakret-trockenbaustoffe",
+    "model": "Sakret Gartenbeton mit Trass 30 kg",
+    "article_no": "1781814",
+    "ean": "4005813804032",
+    "url": "https://www.obi.de/p/1781814",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-09-26",
+        "source": "Kassenbon 2026-09-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "50,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "24,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "10,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

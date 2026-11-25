@@ -1,0 +1,19 @@
+{
+  "id": "door-dg-durchgang",
+  "name": "Innentür DG 0,80 × 2,00, Holz",
+  "description": "Innentür Durchgangszimmer – Schlafzimmer (Grundriss DG 25.11.2022); Maße geschätzt, Anschlag links",
+  "class": "class:door",
+  "opening_capable": true,
+  "params": {
+    "width": 0.8,
+    "height": 2.0,
+    "depth": 0.06,
+    "frame_width": 0.06,
+    "swing": "left",
+    "leaf_type": "tubular"
+  },
+  "materials": {
+    "frame": "material:wood-door",
+    "leaf": "material:wood-door"
+  }
+}

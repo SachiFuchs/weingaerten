@@ -1,0 +1,90 @@
+{
+  "id": "montagerahmen-mepa-sf-bis-120x120-cm-150",
+  "name": "Montagerahmen MEPA SF bis 120x120 cm 150182",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Sanitär",
+  "params": {
+    "part_type": "mounting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6161999_montagerahmen-mepa-sf-bis-120x120-cm-150"
+  ],
+  "product": {
+    "model": "Montagerahmen MEPA SF bis 120x120 cm 150182",
+    "article_no": "6161999",
+    "url": "https://www.hornbach.de/p/montagerahmen-mepa-sf-bis-120x120-cm-150182/6161999/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Befestigung"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Montagerahmen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Montage"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Duschwanne"
+        },
+        {
+          "label": "Material",
+          "value": "Metall, Kunststoff"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "150182"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Für Duschwannen von 70 - 120 cm, Höhe Variabel von 65-190 mm, Duschwannen aus Stahl und Mineralguss von 700 x 700 mm bis 1200 x 1200 mm, Duschwannen aus Acryl mit glattem Wannenranduntergrund von 700 x 700 mm bis 1000 x 1000"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "2N82"
+        },
+        {
+          "label": "EAN",
+          "value": "4027952022733"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "1.200 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "190 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "1.200 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 109,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "source": "Import Montagerahmen SF Rechteck 120/120 Stahl"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6161999_1.jpg",
+    "hornbach-6161999_2.jpg"
+  ]
+}

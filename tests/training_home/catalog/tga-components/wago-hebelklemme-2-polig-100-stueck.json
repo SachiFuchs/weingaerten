@@ -1,0 +1,38 @@
+{
+  "id": "wago-hebelklemme-2-polig-100-stueck",
+  "name": "Wago Hebelklemme 2-polig 100 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Wago 221, 2-polig, Leiter 0,2–4 mm², innen und außen. Packung 100 Stück.",
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Wago Hebelklemme 2-polig 100 Stck",
+    "article_no": "5360516",
+    "url": "https://www.obi.de/p/5360516",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "obi.de Online-Preis 2026-11-21, Packung 100 Stück inkl. MwSt."
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 2,
+    "cross_section": [
+      0.2,
+      4.0
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "Querschnitt nach WAGO 221 angenommen"
+  }
+}

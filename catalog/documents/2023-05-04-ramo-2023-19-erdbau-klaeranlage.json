@@ -1,0 +1,37 @@
+{
+  "id": "2023-05-04-ramo-2023-19-erdbau-klaeranlage",
+  "name": "Ramo 2023/19 – Erdbau Kläranlage",
+  "doc_type": "invoice",
+  "supplier": "company:ramo-landschaftsgaertner",
+  "date": "2023-05-04",
+  "number": "2023/19",
+  "customer_number": null,
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "BV: Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung von Ramo Garten- & Landschaftsbau über die Erd- und Tiefbauarbeiten für die neue Kleinkläranlage in Weingärten 8 (Aushub, Kiesbettung 8/16, Verfüllung, Verdichtung und Planum). Abgerechnet wurde eine Pauschale von 2.730,00 € netto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Loch und Kanal für Kläranlage ausgraben, Kies 8/16 liefern und auffüllen, Baugrube und Kanal schließen und verdichten, Erde planieren (Pauschale)",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 2730.0,
+      "total_price": 2730.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 2730.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2730.0,
+  "vat_rate": 19,
+  "vat_amount": 518.7,
+  "total_gross": 3248.7,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-05-04-ramo-2023-19-erdbau-klaeranlage.json",
+  "source_sha256": "93aaabadeeb584f059f90481b2fd6a6cb86b352b7d10e13c6875f51789a6a824",
+  "original_filename": "2023-05-04-Rechnung-Ramo - Klaerwerk.pdf"
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "ground",
+  "name": "Erdgeschoss",
+  "elevation": 0.0,
+  "height": 2.75,
+  "ceilings": [
+    {
+      "id": "c-eg",
+      "name": "Decke EG",
+      "assembly": "assembly:ceiling-lining-cl1",
+      "outline": [
+        [
+          1.338,
+          2.244
+        ],
+        [
+          6.792,
+          2.244
+        ],
+        [
+          6.792,
+          12.802
+        ],
+        [
+          4.168,
+          12.802
+        ],
+        [
+          4.168,
+          9.612
+        ],
+        [
+          0.328,
+          9.612
+        ],
+        [
+          0.328,
+          2.408
+        ],
+        [
+          1.338,
+          2.408
+        ]
+      ],
+      "joists": {
+        "material": "material:spruce-wood",
+        "width": 0.12,
+        "height": 0.18,
+        "spacing": 0.8,
+        "direction": "west_east",
+        "estimated": true,
+        "note": "Bestands-Deckenbalken, Maße geschätzt (Fotos Nov 2026); Lattung unten angeschraubt"
+      }
+    },
+    {
+      "id": "c-flachdach",
+      "name": "Flachdach Flur/Bad (Betondecke 15 cm, Folie)",
+      "assembly": "assembly:flat-roof-fd1",
+      "outline": [
+        [
+          1.338,
+          0.328
+        ],
+        [
+          6.792,
+          0.328
+        ],
+        [
+          6.792,
+          2.244
+        ],
+        [
+          1.338,
+          2.244
+        ]
+      ]
+    },
+    {
+      "id": "c-terrasse",
+      "name": "Terrassendach (Holz)",
+      "assembly": "assembly:terrace-roof-tr1",
+      "outline": [
+        [
+          0,
+          9.94
+        ],
+        [
+          3.84,
+          9.94
+        ],
+        [
+          3.84,
+          13.13
+        ],
+        [
+          0,
+          13.13
+        ]
+      ],
+      "joists": {
+        "material": "material:spruce-wood",
+        "width": 0.08,
+        "height": 0.16,
+        "spacing": 0.6,
+        "direction": "south_north",
+        "estimated": true,
+        "note": "Sparren des Terrassendachs, Maße angenommen"
+      }
+    }
+  ],
+  "floors": [
+    {
+      "id": "f-eg",
+      "name": "Fußboden EG",
+      "assembly": "assembly:floor-eg-fbh",
+      "rooms": [
+        "Flur",
+        "Bad",
+        "Treppe",
+        "Küche",
+        "Kammer",
+        "Wohnzimmer",
+        "Zimmer 2 (Winterraum)"
+      ],
+      "note": "Altbelag Dielen 3 cm / Kork 0,5 cm / Laminat grau 0,2 cm bleibt liegen; darauf Schlüter Bekotec EN 23F (Riempp). Oberbelag noch offen.",
+      "offer": {
+        "company": "company:riempp-estriche",
+        "document": "document:2025-06-23-riempp-25-0235-angebot-heizestrich",
+        "date": "2025-06-23",
+        "items": [
+          {
+            "pos": "2",
+            "name": "Heizestrich d=38 mm System Schlüter",
+            "material": "material:heating-screed",
+            "measure": "area",
+            "quantity": 60,
+            "unit": "m²",
+            "unit_price": 33.6
+          },
+          {
+            "pos": "3",
+            "name": "Trägerplatte Fußbodenheizung Bekotec EN 23F",
+            "material": "material:bekotec-en23f-plate",
+            "measure": "area",
+            "quantity": 60,
+            "unit": "m²",
+            "unit_price": 26.8
+          },
+          {
+            "pos": "4",
+            "name": "Randdämmstreifen Schlüter",
+            "material": "material:pe-edge-strip",
+            "measure": "area",
+            "quantity": 60,
+            "unit": "m²",
+            "unit_price": 1.95
+          },
+          {
+            "pos": "5",
+            "name": "Wärmedämmung PUR WLG 023, 30 mm",
+            "material": "material:pur-pir-023",
+            "measure": "area",
+            "quantity": 60,
+            "unit": "m²",
+            "unit_price": 10.2
+          },
+          {
+            "pos": "6",
+            "name": "Ausbildung von Abstellungen",
+            "measure": "offer",
+            "quantity": 5,
+            "unit": "m",
+            "unit_price": 4.9
+          }
+        ]
+      }
+    }
+  ],
+  "heating": {
+    "name": "Fußbodenheizung EG (Schlüter Bekotec EN 23F)",
+    "pipe": "tga-component:pipe-bekotec-14",
+    "pipe_diameter": 0.014,
+    "floor": "f-eg",
+    "estimated": true,
+    "note": "7 Heizkreise laut Bauherr; Verteilerlage, Verlegeabstand und Rohrverlauf aus Fotos/Verlegeplan geschätzt",
+    "manifold": {
+      "name": "Heizkreisverteiler",
+      "position": [
+        3.66,
+        2.25
+      ],
+      "width": 0.8
+    },
+    "circuits": [
+      {
+        "id": "hk1",
+        "name": "HK1 Wohnzimmer Nord",
+        "room": "Wohnzimmer",
+        "rect": [
+          0.328,
+          3.96,
+          2.792,
+          2.44
+        ],
+        "pattern": "spiral",
+        "spacing": 0.15,
+        "entry": "se",
+        "feed": [
+          [
+            3.38,
+            2.25
+          ],
+          [
+            3.38,
+            6.3
+          ]
+        ]
+      },
+      {
+        "id": "hk2",
+        "name": "HK2 Wohnzimmer Südwest",
+        "room": "Wohnzimmer",
+        "rect": [
+          0.328,
+          6.75,
+          1.939,
+          2.862
+        ],
+        "pattern": "meander",
+        "spacing": 0.15,
+        "entry": "ne",
+        "feed": [
+          [
+            3.5,
+            2.25
+          ],
+          [
+            3.5,
+            6.47
+          ],
+          [
+            2.17,
+            6.47
+          ]
+        ]
+      },
+      {
+        "id": "hk3",
+        "name": "HK3 Wohnzimmer Süd",
+        "room": "Wohnzimmer",
+        "rect": [
+          2.914,
+          6.75,
+          1.939,
+          2.862
+        ],
+        "pattern": "meander",
+        "spacing": 0.15,
+        "entry": "nw",
+        "feed": [
+          [
+            3.62,
+            2.25
+          ],
+          [
+            3.62,
+            6.55
+          ],
+          [
+            3.01,
+            6.55
+          ]
+        ]
+      },
+      {
+        "id": "hk4",
+        "name": "HK4 Wohnzimmer Ost",
+        "room": "Wohnzimmer",
+        "rect": [
+          4.853,
+          6.75,
+          1.939,
+          2.862
+        ],
+        "pattern": "spiral",
+        "spacing": 0.15,
+        "entry": "nw",
+        "feed": [
+          [
+            3.74,
+            2.25
+          ],
+          [
+            3.74,
+            6.68
+          ],
+          [
+            4.95,
+            6.68
+          ]
+        ]
+      },
+      {
+        "id": "hk5",
+        "name": "HK5 Küche",
+        "room": "Küche",
+        "rect": [
+          4.215,
+          2.38,
+          2.077,
+          3.01
+        ],
+        "pattern": "spiral",
+        "spacing": 0.15,
+        "entry": "nw",
+        "feed": [
+          [
+            3.86,
+            2.25
+          ],
+          [
+            3.86,
+            2.48
+          ]
+        ]
+      },
+      {
+        "id": "hk6",
+        "name": "HK6 Bad",
+        "room": "Bad",
+        "rect": [
+          4.215,
+          0.328,
+          2.077,
+          1.752
+        ],
+        "cutout": [
+          6.0,
+          1.28,
+          0.292,
+          0.8
+        ],
+        "pattern": "spiral",
+        "spacing": 0.1,
+        "entry": "sw",
+        "feed": [
+          [
+            3.98,
+            2.25
+          ],
+          [
+            3.98,
+            1.98
+          ]
+        ]
+      },
+      {
+        "id": "hk7",
+        "name": "HK7 Flur",
+        "room": "Flur",
+        "rect": [
+          1.338,
+          0.328,
+          1.902,
+          1.78
+        ],
+        "pattern": "spiral",
+        "spacing": 0.15,
+        "entry": "se",
+        "feed": [
+          [
+            3.26,
+            2.25
+          ],
+          [
+            3.26,
+            2.008
+          ]
+        ]
+      }
+    ]
+  },
+  "structure": [
+    {
+      "id": "b-wohnzimmer",
+      "name": "Unterzug Wohnzimmer",
+      "kind": "beam",
+      "material": "material:spruce-wood",
+      "width": 0.1,
+      "height": 0.2,
+      "start": [
+        4.155,
+        6.62
+      ],
+      "end": [
+        4.155,
+        9.76
+      ],
+      "z_top": 2.75
+    },
+    {
+      "id": "p-terrasse",
+      "name": "Stütze Terrasse",
+      "kind": "post",
+      "material": "material:spruce-wood",
+      "width": 0.12,
+      "depth": 0.12,
+      "position": [
+        0.18,
+        12.92
+      ],
+      "z0": 0,
+      "z1": 2.75
+    }
+  ],
+  "outdoor_areas": [
+    {
+      "id": "t-terrasse",
+      "name": "Terrasse (überdacht)",
+      "rect": [
+        0,
+        9.94,
+        3.84,
+        3.19
+      ]
+    }
+  ],
+  "stairs": [
+    {
+      "id": "treppe-eg-dg",
+      "name": "Treppe EG–DG",
+      "material": "material:spruce-wood",
+      "estimated": true,
+      "note": "Foto Nov 2026: Wangentreppe, Trittstufen Holz, Setzstufen weiß; oben Viertelwendel links, Maße aus Treppenraum und Geschosshöhe abgeleitet",
+      "to_storey": "storey:upper",
+      "risers": 16,
+      "run": {
+        "rect": [
+          0.328,
+          2.408,
+          2.792,
+          0.967
+        ],
+        "direction": "west",
+        "straight_steps": 11
+      },
+      "turn": {
+        "side": "left",
+        "steps": 4
+      },
+      "tread_thickness": 0.04,
+      "riser_thickness": 0.02,
+      "stringer": {
+        "width": 0.05,
+        "height": 0.28
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "w-north",
+      "name": "Außenwand Nord",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        1.01,
+        0
+      ],
+      "end": [
+        7.12,
+        0
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-flur",
+          "component": "component:window-eg-flur",
+          "offset": 1.0,
+          "sill": 1.4,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-east",
+      "name": "Außenwand Ost",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        7.12,
+        0
+      ],
+      "end": [
+        7.12,
+        13.13
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-bad",
+          "component": "component:window-eg-bad",
+          "offset": 0.6,
+          "sill": 1.2,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-kueche",
+          "component": "component:window-eg-kueche",
+          "offset": 3.4,
+          "sill": 1.0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-kammer",
+          "component": "component:window-eg-kammer",
+          "offset": 5.75,
+          "sill": 1.4,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-wz-ost",
+          "component": "component:window-wz-klein",
+          "offset": 7.0,
+          "sill": 1.0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ],
+      "linings": [
+        {
+          "id": "id-wz-east",
+          "assembly": "assembly:interior-insulation-ii1",
+          "face": "inside",
+          "u0": 6.62,
+          "u1": 9.612,
+          "note": "Innendämmung Wohnzimmer"
+        }
+      ]
+    },
+    {
+      "id": "w-south-z2",
+      "name": "Außenwand Süd Zimmer 2",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        7.12,
+        13.13
+      ],
+      "end": [
+        3.84,
+        13.13
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-winterraum-fenster",
+          "component": "component:window-winterraum",
+          "offset": 0.52,
+          "sill": 0.8,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-west-z2",
+      "name": "Außenwand West Zimmer 2",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        3.84,
+        13.13
+      ],
+      "end": [
+        3.84,
+        9.612
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-winterraum-tuer",
+          "component": "component:door-winterraum",
+          "offset": 0.5,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-south-wz",
+      "name": "Außenwand Süd Wohnzimmer (Terrasse)",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        3.84,
+        9.94
+      ],
+      "end": [
+        0,
+        9.94
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-terrassentuer",
+          "component": "component:door-terrasse",
+          "offset": 0.4,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-terrassenfenster",
+          "component": "component:window-wz-terrasse",
+          "offset": 2.2,
+          "sill": 0.9,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ],
+      "linings": [
+        {
+          "id": "id-wz-south-wz",
+          "assembly": "assembly:interior-insulation-ii1",
+          "face": "inside",
+          "u0": -0.0,
+          "u1": 3.512,
+          "note": "Innendämmung Wohnzimmer"
+        }
+      ]
+    },
+    {
+      "id": "w-west-wz",
+      "name": "Außenwand West Wohnzimmer",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        0,
+        9.94
+      ],
+      "end": [
+        0,
+        2.08
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-wz-west",
+          "component": "component:window-wz-gross",
+          "offset": 0.84,
+          "sill": 0.95,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-1",
+          "component": "component:door-winterraum",
+          "offset": 6.49,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ],
+      "linings": [
+        {
+          "id": "id-wz-west-wz",
+          "assembly": "assembly:interior-insulation-ii1",
+          "face": "inside",
+          "u0": 0.328,
+          "u1": 6.47,
+          "note": "Innendämmung Wohnzimmer"
+        }
+      ]
+    },
+    {
+      "id": "w-north-treppe",
+      "name": "Außenwand Nord Treppe",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        0,
+        2.08
+      ],
+      "end": [
+        1.01,
+        2.08
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "w-west-eingang",
+      "name": "Außenwand West Eingang",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        1.01,
+        2.08
+      ],
+      "end": [
+        1.01,
+        0
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "rect"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-haustuer",
+          "component": "component:door-d1",
+          "offset": 0.5,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-alt-nord-west",
+      "name": "Innenwand Flur/Treppe (ehem. Außenwand)",
+      "assembly": "assembly:interior-wall-iw2",
+      "start": [
+        1.01,
+        2.238
+      ],
+      "end": [
+        3.24,
+        2.238
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": []
+    },
+    {
+      "id": "iw-alt-nord-ost",
+      "name": "Innenwand Bad/Küche (ehem. Außenwand)",
+      "assembly": "assembly:interior-wall-iw2",
+      "start": [
+        4.095,
+        2.23
+      ],
+      "end": [
+        6.792,
+        2.23
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": []
+    },
+    {
+      "id": "iw-flur-bad",
+      "name": "Innenwand Flur/Bad",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        4.155,
+        0.328
+      ],
+      "end": [
+        4.155,
+        2.23
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": [
+        {
+          "id": "o-tuer-bad",
+          "component": "component:door-bad",
+          "offset": 0.28,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.03,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-gang-kueche",
+      "name": "Innenwand Gang/Küche/Kammer",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        4.155,
+        2.23
+      ],
+      "end": [
+        4.155,
+        6.62
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": [
+        {
+          "id": "o-durchgang-kueche",
+          "component": "component:passage-80x200",
+          "offset": 1.3,
+          "sill": 0,
+          "joint": 0.01,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-treppe-ost",
+      "name": "Innenwand Treppe Ost",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        3.18,
+        2.23
+      ],
+      "end": [
+        3.18,
+        4.99
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "free_ends": [
+        "end"
+      ],
+      "openings": [
+        {
+          "id": "o-2",
+          "component": "component:passage-80x200",
+          "offset": 0.38,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-treppe-sued",
+      "name": "Innenwand Treppe Süd",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        0.328,
+        3.4
+      ],
+      "end": [
+        3.24,
+        3.4
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": []
+    },
+    {
+      "id": "iw-kueche-kammer",
+      "name": "Innenwand Küche/Kammer",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        4.215,
+        5.45
+      ],
+      "end": [
+        6.792,
+        5.45
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": [
+        {
+          "id": "o-durchgang-kammer",
+          "component": "component:passage-60x180",
+          "offset": 0.75,
+          "sill": 0,
+          "joint": 0.01,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-kammer-wz",
+      "name": "Innenwand Kammer/Wohnzimmer",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        4.155,
+        6.56
+      ],
+      "end": [
+        6.792,
+        6.56
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": []
+    },
+    {
+      "id": "iw-wz-z2",
+      "name": "Innenwand Wohnzimmer/Zimmer 2",
+      "assembly": "assembly:interior-wall-iw2",
+      "start": [
+        3.84,
+        9.762
+      ],
+      "end": [
+        6.792,
+        9.762
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "rect"
+      },
+      "openings": []
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-flur",
+      "number": "0.01",
+      "name": "Flur",
+      "usage": "VF9",
+      "polygon": [
+        [
+          1.338,
+          0.328
+        ],
+        [
+          4.095,
+          0.328
+        ],
+        [
+          4.095,
+          4.99
+        ],
+        [
+          3.24,
+          4.99
+        ],
+        [
+          3.24,
+          2.108
+        ],
+        [
+          1.338,
+          2.108
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)",
+      "coverings": [
+        {
+          "id": "bel-1",
+          "surface": "floor",
+          "assembly": "assembly:covering-fliese-boden",
+          "area": "room",
+          "name": "Fliessen blau 2"
+        }
+      ]
+    },
+    {
+      "id": "room-bad",
+      "number": "0.02",
+      "name": "Bad",
+      "usage": "NUF7",
+      "polygon": [
+        [
+          4.215,
+          0.328
+        ],
+        [
+          6.792,
+          0.328
+        ],
+        [
+          6.792,
+          2.08
+        ],
+        [
+          4.215,
+          2.08
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-treppe",
+      "number": "0.03",
+      "name": "Treppe",
+      "usage": "VF9",
+      "polygon": [
+        [
+          0.328,
+          2.408
+        ],
+        [
+          3.12,
+          2.408
+        ],
+        [
+          3.12,
+          3.33
+        ],
+        [
+          0.328,
+          3.33
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-kueche",
+      "number": "0.04",
+      "name": "Küche",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          4.215,
+          2.38
+        ],
+        [
+          6.792,
+          2.38
+        ],
+        [
+          6.792,
+          5.39
+        ],
+        [
+          4.215,
+          5.39
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-kammer",
+      "number": "0.05",
+      "name": "Kammer",
+      "usage": "NUF4",
+      "polygon": [
+        [
+          4.215,
+          5.51
+        ],
+        [
+          6.792,
+          5.51
+        ],
+        [
+          6.792,
+          6.5
+        ],
+        [
+          4.215,
+          6.5
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-wohnzimmer",
+      "number": "0.06",
+      "name": "Wohnzimmer",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          0.328,
+          3.47
+        ],
+        [
+          3.12,
+          3.47
+        ],
+        [
+          3.12,
+          4.99
+        ],
+        [
+          4.095,
+          4.99
+        ],
+        [
+          4.095,
+          6.62
+        ],
+        [
+          6.792,
+          6.62
+        ],
+        [
+          6.792,
+          9.612
+        ],
+        [
+          0.328,
+          9.612
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-zimmer2",
+      "number": "0.07",
+      "name": "Zimmer 2 (Winterraum)",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          4.168,
+          9.912
+        ],
+        [
+          6.792,
+          9.912
+        ],
+        [
+          6.792,
+          12.802
+        ],
+        [
+          4.168,
+          12.802
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    }
+  ]
+}

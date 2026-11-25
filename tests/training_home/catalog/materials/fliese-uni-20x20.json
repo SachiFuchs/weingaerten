@@ -1,0 +1,27 @@
+{
+  "id": "fliese-uni-20x20",
+  "name": "Fliese Uni 20 × 20 cm inkl. Sockel",
+  "category": "Fliesen",
+  "description": "Wandfliese uni (zwei Farben im Angebot)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Fliese Uni 20 × 20 cm inkl. Sockel",
+    "offers": [
+      {
+        "supplier": "company:harsch-fliese-stein-fachhandel",
+        "price": 44.93,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-01-26",
+        "source": "Angebot HA-26-05464-AN, Pos. 1, je m²",
+        "document": "document:2026-01-26-harsch-ha-26-05464-an-angebot-fliesen"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B5654A",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

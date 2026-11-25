@@ -1,0 +1,25 @@
+{
+  "id": "door",
+  "name": "Tür",
+  "ifc": { "entity": "IfcDoor", "predefined_type": "DOOR" },
+  "description": "Tür mit Zarge/Rahmen und Türblatt",
+  "geometry": "door",
+  "opening_capable": true,
+  "parameters": [
+    { "key": "width",       "name": "Breite",       "type": "length", "default": 1.01, "min": 0.6,  "max": 2.5, "required": true },
+    { "key": "height",      "name": "Höhe",         "type": "length", "default": 2.13, "min": 1.8,  "max": 2.8, "required": true },
+    { "key": "depth",       "name": "Tiefe",        "type": "length", "default": 0.08, "min": 0.04, "max": 0.3, "required": true },
+    { "key": "frame_width", "name": "Rahmenbreite", "type": "length", "default": 0.08, "min": 0.03, "max": 0.2, "required": true },
+    { "key": "swing",       "name": "Anschlag",     "type": "choice", "default": "left", "options": ["left", "right"], "required": true },
+    { "key": "leaf_type",        "name": "Türblatt-Typ",  "type": "choice", "default": "solid", "options": ["solid", "tubular", "glazed"], "required": false },
+    { "key": "frame_type",       "name": "Zargentyp",     "type": "choice", "default": "block", "options": ["block", "wrap", "steel"], "required": false },
+    { "key": "smoke_protection", "name": "Rauchschutz",   "type": "bool",   "default": false, "required": false },
+    { "key": "fire_rating",      "name": "Brandschutz",   "type": "choice", "default": "none", "options": ["none", "T30", "T60", "T90"], "required": false },
+    { "key": "uw_value",         "name": "Ud-Wert W/(m²K)", "type": "number", "min": 0.3, "max": 6, "required": false },
+    { "key": "burglary_class",   "name": "Einbruchschutz", "type": "choice", "default": "RC0", "options": ["RC0", "RC1", "RC2", "RC3"], "required": false }
+  ],
+  "material_roles": [
+    { "key": "frame", "name": "Rahmen",   "default": "material:pvc-white" },
+    { "key": "leaf",  "name": "Türblatt", "default": "material:wood-door" }
+  ]
+}

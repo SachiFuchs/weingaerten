@@ -1,0 +1,53 @@
+{
+  "id": "aco-rinne-hexaline-2-0-aus-schwarzem-kunststoff-mit",
+  "name": "ACO Rinne Hexaline 2.0 aus schwarzem Kunststoff mit stahlverzinktem Stegrost 1 m",
+  "category": "Entwässerung",
+  "description": "Die ACO Rinne Hexaline 2.0 mit stahlverzinktem Stegrost besitzt eine Länge von 1 m. Die Rinne aus Kunststoff mit Stegrost aus verzinktem Stahl ist vielseitig in verschiedenen Einbausituationen anwendbar. Hohe Stabilität Das Oberflächen-Entwässerungssystem leitet Regen und Schmutzwasser sicher ab. Durch die Wabenstruktur der Seitenwand erhält die Entwässerungsrinne eine hohe Stabilität und besitzt dadurch selbst auf Sand eine hohe Standsicherheit. Die Rinne Hexaline 2.0 lässt sich in der Länge individuell an Ihre Bedürfnisse anpassen. Die vorgestanzte Stirnwand ist auch bei einer gekürzten Rinne anwendbar. Das Eckelement ist für 90°-, 180°-, 270°-Verbindungen geeignet. Einfache Montage Der recycelte Kunststoff ist nicht nur leicht, sondern auch robust und fest, sowie PKW-befahrbar. Das flexible System ermöglicht einen einfachen Einbau. Die Abbildung für die Montage finden Sie am Produkt. Die ACO Rinne Hexaline 2.0 sorgt nicht nur für eine zuverlässige Entwässerung, sondern eignet sich auch als optische Akzentuierung von Terrassen, Hofeinfahrten und anderen versiegelten Flächen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002626503220_aco-rinne-hexaline-2-0-aus-schwarzem-kunststoff-mit"
+  ],
+  "product": {
+    "manufacturer": "company:aco-selbstbau-vertrieb",
+    "model": "ACO Rinne Hexaline 2.0 aus schwarzem Kunststoff mit stahlverzinktem Stegrost 1 m",
+    "article_no": "3336682",
+    "ean": "4002626503220",
+    "url": "https://www.obi.de/p/3336682",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 16.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-14",
+        "source": "Kassenbon 2024-05-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,50 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "100,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "12,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

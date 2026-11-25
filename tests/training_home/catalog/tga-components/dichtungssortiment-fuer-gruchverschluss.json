@@ -1,0 +1,106 @@
+{
+  "id": "dichtungssortiment-fuer-gruchverschluss",
+  "name": "Dichtungssortiment für Gruchverschluss 17 teilig für 1 1/2\" + 1 1/4\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "seal"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-10257144_dichtungssortiment-fuer-gruchverschluss"
+  ],
+  "product": {
+    "manufacturer": "company:koero",
+    "model": "Dichtungssortiment für Gruchverschluss 17 teilig für 1 1/2\" + 1 1/4\"",
+    "article_no": "10257144",
+    "ean": "8711962031217",
+    "url": "https://www.hornbach.de/p/dichtungssortiment-fuer-gruchverschluss-17-teilig-fuer-1-1-2-1-1-4/10257144/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dichtung"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Dichtungssatz, Keildichtung, Flachdichtung"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Abdichten"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Siphon, Abläufe"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer, Küche, Gäste-WC, Hauswirtschaftsraum, Keller"
+        },
+        {
+          "label": "Material",
+          "value": "Gummi"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Schwarz, Weiß"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Abwasser"
+        },
+        {
+          "label": "Inhalt",
+          "value": "17 Stück"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Flachdichtung 2x 30 x 39 x 2 mm, 2x 35 x 45 x 2 mm, 1 x 45 x 55 x 2 mm, Kunststoffdichtung 2x 32 x 37 x 3 mm, 2x 40,5 x 44,5 x 1,6 mm, Keildichtung 2x 1 1/4\" - 32 mm, 2x 1 1/2\" - 40 mm, Klemmdichtung 2x 31 x 38 x 4 mm, 2x 39 x 30 x 3 mm"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "176404977"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "VCWN"
+        },
+        {
+          "label": "EAN",
+          "value": "8711962031217"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen",
+          "value": "44,5 mm"
+        },
+        {
+          "label": "Durchmesser innen",
+          "value": "30 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 5.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-10257144_1.jpg",
+    "hornbach-10257144_2.jpg",
+    "hornbach-10257144_3.jpg"
+  ]
+}

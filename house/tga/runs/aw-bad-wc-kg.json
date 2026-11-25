@@ -1,0 +1,29 @@
+{
+  "id": "aw-bad-wc-kg",
+  "name": "WC Bad EG – Anschluss KG",
+  "component": "tga-component:kg-pipe-110",
+  "system": "waste-water-eg",
+  "installation": "buried",
+  "points": [
+    [
+      7.3,
+      0.65,
+      -0.3
+    ],
+    [
+      7.3,
+      0.65,
+      -0.7001
+    ],
+    [
+      7.92,
+      1.32,
+      -0.7092
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:aw-grund-ost",
+    "kind": "branch"
+  }
+}

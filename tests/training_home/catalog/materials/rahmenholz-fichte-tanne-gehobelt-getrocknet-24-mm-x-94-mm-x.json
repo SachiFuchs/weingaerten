@@ -1,0 +1,53 @@
+{
+  "id": "rahmenholz-fichte-tanne-gehobelt-getrocknet-24-mm-x-94-mm-x",
+  "name": "Rahmenholz Fichte/Tanne gehobelt/getrocknet 24 mm x 94 mm x 2000 mm",
+  "category": "Holz",
+  "description": "Der gehobelte Rahmen ist vielseitig verwendbar und kommt z.B. bei Ausbauten und Renovierungsarbeiten im Innenbereich zum Einsatz. Er eignet sich zudem für die Konstruktion von Regalen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4005014018276_rahmenholz-fichte-tanne-gehobelt-getrocknet-24-mm-x-94-mm-x"
+  ],
+  "product": {
+    "manufacturer": "company:binderholz-oberrot-baruth",
+    "model": "Rahmenholz Fichte/Tanne gehobelt/getrocknet 24 mm x 94 mm x 2000 mm",
+    "article_no": "2795318",
+    "ean": "4005014018276",
+    "url": "https://www.obi.de/p/2795318",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.58,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-09-11",
+        "source": "Kassenbon 2024-09-11, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "2,03 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "9,4 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,4 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

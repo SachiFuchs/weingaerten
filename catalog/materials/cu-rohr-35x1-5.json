@@ -1,0 +1,27 @@
+{
+  "id": "cu-rohr-35x1-5",
+  "name": "Kupferrohr 35 × 1,5 mm",
+  "category": "Heizung",
+  "description": "Heizungsleitung Vor-/Rücklauf, Kupfer nach DIN EN 1057, Stangen 6 m, je m (Beleg 5.3/5.4 nennt widersprüchlich \"aus unlegiertem Stahl\")",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Cu 35x1,5",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 34.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 5.1, je m",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-kabel-h03vv-f",
+  "name": "H03VV-F",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "H03VV-F"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:schlauchleitung-h03vv-f-3-x-0-75-weiss-10-m"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

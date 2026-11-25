@@ -1,0 +1,30 @@
+{
+  "id": "reparaturspachtel-fi",
+  "name": "REPARATURSPACHTEL FI",
+  "category": "Baustoffe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-7196545_reparaturspachtel-fi"
+  ],
+  "product": {
+    "model": "REPARATURSPACHTEL FI",
+    "article_no": "7196545",
+    "ean": "4005893017285",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 18.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-28",
+        "source": "Kassenbon 2023-07-28, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

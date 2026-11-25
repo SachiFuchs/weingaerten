@@ -1,0 +1,38 @@
+{
+  "id": "flexschlauch-3-8-x3",
+  "name": "Flexschlauch 3/8\"x3/",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "hose"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6648256_flexschlauch-3-8-x3",
+    "hornbach-6648257_flexschlauch-3-8-x3"
+  ],
+  "product": {
+    "model": "Flexschlauch 3/8\"x3/",
+    "article_no": "6648256",
+    "ean": "4251270700954",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 7.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-25",
+        "source": "Kassenbon 2026-04-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 6.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-25",
+        "source": "Kassenbon 2026-04-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

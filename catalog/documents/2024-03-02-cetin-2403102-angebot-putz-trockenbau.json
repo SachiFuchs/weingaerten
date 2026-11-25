@@ -1,0 +1,67 @@
+{
+  "id": "2024-03-02-cetin-2403102-angebot-putz-trockenbau",
+  "name": "Cetin 2403102 – Angebot Putz Trockenbau",
+  "doc_type": "quote",
+  "supplier": "company:stuckateur-cetin",
+  "date": "2024-03-02",
+  "number": "2403102",
+  "customer_number": null,
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "Innensanierung mit Putz und Trockenbau, BV Weingärten 8, 73037 Göppingen (Objekt aus Folgerechnung 2407115)",
+  "description": "Angebot der Stuckateur Cetin GmbH (Eislingen) über die Innensanierung mit Putz, Innendämmung, Trockenbau im Dachgeschoss und Malerarbeiten für Weingärten 8. Ausgeführt und abgerechnet wurden später die Verputz- und Trockenbauarbeiten (ohne Titel 2 und 4) mit Rechnung 2407115 vom 24.07.2024 über 10.323,25 € brutto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Titel 1: Untergrund Vorbereitung und Verputzen (65 Std. Stundenlohnarbeiten à 52,00 € zzgl. 30 % Materialanteil)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 4394.0,
+      "total_price": 4394.0,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "2",
+      "description": "Titel 2: Innendämmung (EPS-Sockeldämmung, 56 m² Mineralwolle-Dämmplatten 10 cm, Armierung, XPS-Leibungsdämmung, 88 m² Reinkalk-Filzputz)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 7071.3,
+      "total_price": 7071.3,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "3",
+      "description": "Titel 3: Trockenbau Dachausbau (61 m² GK-Decke mit Traglattenrost Q2, Anschlüsse, 3 Dachfensterleibungen, 88 m² Putzgrund, 31 m² GK-Wandbekleidung)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 5442.4,
+      "total_price": 5442.4,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "4",
+      "description": "Titel 4: Malerarbeiten (56 m² Wand-/Deckenflächen schleifen und Glattvlies inkl. Anstrich aufbringen)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 1293.6,
+      "total_price": 1293.6,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 18201.3,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 18201.3,
+  "vat_rate": 19,
+  "vat_amount": 3458.25,
+  "total_gross": 21659.55,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-03-02-cetin-2403102-angebot-putz-trockenbau.json",
+  "source_sha256": "2de9763845777f0871a6a501df4788cc525949517410828b8f6450395971d129",
+  "original_filename": "Angebot 2403102 Ihnen Sanierung mit Putz Und Trockenbau.pdf",
+  "related": [
+    "document:2024-07-24-cetin-2407115-innensanierung-putz-dg"
+  ]
+}

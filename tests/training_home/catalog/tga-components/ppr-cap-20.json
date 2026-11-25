@@ -1,0 +1,49 @@
+{
+  "id": "ppr-cap-20",
+  "name": "PP-R Schweiß-Endkappe DN 20",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "estimated": true,
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "ppr",
+    "dn": 20,
+    "z_length": 0.0
+  },
+  "note": "offenes Ende im Keller bis zum Anschluss; Artikel = Material pp-r-schweiss-endkappe-dn-20",
+  "install": {
+    "trade": "water_supply",
+    "group": "Endstücke",
+    "shape": "cap",
+    "outer_diameter": 0.02,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

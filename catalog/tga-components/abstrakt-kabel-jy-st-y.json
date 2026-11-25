@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-kabel-jy-st-y",
+  "name": "JY(ST)Y",
+  "class": "tga-class:cable",
+  "din276": "450",
+  "system_type": "Fernmelde",
+  "params": {
+    "cable_type": "JY(ST)Y"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:telefonkabel-jy-st-y-2-x-2-x-0-6-grau-10-m"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

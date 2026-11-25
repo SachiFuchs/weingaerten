@@ -1,0 +1,53 @@
+{
+  "id": "schlauchleitung-h03vvh2-f-2-x-0-75-weiss-25-m",
+  "name": "Schlauchleitung H03VVH2-F 2 x 0,75 Weiß 25 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "H03VVH2-F",
+    "cores": 2,
+    "cross_section_mm2": 0.75
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4010480903445_schlauchleitung-h03vvh2-f-2-x-0-75-weiss-25-m"
+  ],
+  "product": {
+    "manufacturer": "company:s-c-cableteam-s-r-l",
+    "model": "Schlauchleitung H03VVH2-F 2 x 0,75 Weiß 25 m",
+    "article_no": "8525305",
+    "ean": "4010480903445",
+    "url": "https://www.obi.de/p/8525305",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 11.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-14",
+        "source": "Kassenbon 2024-05-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 25.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

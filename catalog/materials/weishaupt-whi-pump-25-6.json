@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-whi-pump-25-6",
+  "name": "Weishaupt Pumpengruppe WHI pump 25-6 #5",
+  "category": "Heizung",
+  "description": "Pumpengruppe NW 25 mit Grundfos Alpha2.2 25-60, Kugelhähne, Thermometer, Schwerkraftbremse, EPP-Dämmung; max. 1,7 m³/h bei 200 mbar (Heizkreis 1, M1)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WHI pump 25-6 #5",
+    "article_no": "40900021522",
+    "url": "https://www.loebbeshop.de/weishaupt/zubehoer/pumpengruppe-whi-pump-25-6-5-artikel-40900021522/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 731.61,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.10, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

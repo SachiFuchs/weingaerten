@@ -1,0 +1,8 @@
+{
+  "id": "siemens",
+  "name": "Siemens",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "Hersteller laut Beleg: Siemens (Schutzschalter, Reiheneinbaugeräte)"
+}

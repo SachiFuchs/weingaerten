@@ -1,0 +1,59 @@
+{
+  "id": "panzer-isolierrohr-flexibel-en25-grau-50-m",
+  "name": "Panzer-Isolierrohr Flexibel EN25 Grau 50 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "conduit"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874003225_panzer-isolierrohr-flexibel-en25-grau-50-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Panzer-Isolierrohr Flexibel EN25 Grau 50 m",
+    "article_no": "5586607",
+    "ean": "4007874003225",
+    "url": "https://www.obi.de/p/5586607",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "5,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "22,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "51,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "51,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 34.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-17",
+        "source": "Kassenbon 2023-02-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 34.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-18",
+        "source": "Kassenbon 2023-02-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

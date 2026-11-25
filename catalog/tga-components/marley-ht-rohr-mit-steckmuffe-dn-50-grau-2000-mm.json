@@ -1,0 +1,42 @@
+{
+  "id": "marley-ht-rohr-mit-steckmuffe-dn-50-grau-2000-mm",
+  "name": "Marley HT-Rohr mit Steckmuffe DN 50 Grau 2000 mm",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 50,
+    "outer_diameter": 0.05,
+    "medium": "waste_water",
+    "system_line": "ht"
+  },
+  "description": "Das Marley HT-Rohr mit Steckmuffe ist für alle Abwasseranschlüsse innerhalb eines Gebäudes geeignet. Die saubere und sichere Steckmontage macht Ihnen das Verlegen ganz leicht. Zudem sind die Lippendichtringe bereits vormontiert. Robuster, langlebiger SpezialkunststoffDer Stopfen und das Rohr bestehen aus schwer entflammbarem Polypropylen. Durch das robuste Material eignet sich der Rohrverschließer und das Rohr für heiße, kalte und aggressive Abwässer. Produktmerkmale auf einen Blick - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "stock": {
+    "lengths": [
+      2.0
+    ],
+    "cuttable": true
+  },
+  "imported_from": [
+    "ean-4002644090832_marley-ht-rohr-mit-steckmuffe-dn-50-grau-2000-mm"
+  ],
+  "catalog_material": "material:marley-ht-rohr-mit-steckmuffe-dn-50-grau-2000-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

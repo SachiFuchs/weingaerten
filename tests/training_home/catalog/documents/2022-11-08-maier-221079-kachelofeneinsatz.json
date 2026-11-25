@@ -1,0 +1,79 @@
+{
+  "id": "2022-11-08-maier-221079-kachelofeneinsatz",
+  "name": "Maier 221079 – Kachelofeneinsatz",
+  "doc_type": "invoice",
+  "supplier": "company:maier-sanitaer",
+  "date": "2022-11-08",
+  "number": "221079",
+  "customer_number": "22198",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Objekt: Weingärten 8, 73037 Göppingen (ehemals Jürgen Meitinger); Aufträge 22-19716 und 22-19716.1, Projektnr. KD19",
+  "description": "Rechnung von Maier Sanitärtechnik (Wäschenbeuren) für Arbeiten am Kachelofeneinsatz in Weingärten 8. Am 13.09.2022 wurde der Kachelofeneinsatz ausgebaut und der Ölstand geprüft, im Oktober 2022 wurde der Einsatz in der Werkstatt zerlegt und gereinigt, wieder eingebaut und in Betrieb genommen. Abgerechnet werden Fahrzeugpauschalen, Material- und Geräteeinsatz sowie 7,5 Arbeitsstunden; handschriftlicher Vermerk \"bez 3.11.\" auf dem Beleg.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Auftrag 22-19716 (13.09.2022): Pauschale für Fahrzeugkosten und Montagewageneinsatz inkl. Ausstattung und Materialvorhaltung",
+      "quantity": 1,
+      "unit": "x",
+      "unit_price": 23.0,
+      "total_price": 23.0
+    },
+    {
+      "position": "2",
+      "description": "Kundendienstmonteur Michael Fleischer am 13.09.22 (Kachelofeneinsatz ausgebaut, Ölstand überprüft)",
+      "quantity": 2.25,
+      "unit": "Std",
+      "unit_price": 62.9,
+      "total_price": 141.53,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "3",
+      "description": "Auftrag 22-19716.1: Einsatz Pressluftgerät, Industriesauger, Bedarf an Klein- und Dichtmaterialien und Hilfsmitteln",
+      "quantity": 1,
+      "unit": "x",
+      "unit_price": 12.0,
+      "total_price": 12.0
+    },
+    {
+      "position": "4",
+      "description": "Pauschale für Fahrzeugkosten und Montagewageneinsatz inkl. Ausstattung und Materialvorhaltung",
+      "quantity": 1,
+      "unit": "x",
+      "unit_price": 23.0,
+      "total_price": 23.0
+    },
+    {
+      "position": "5",
+      "description": "Kundendienstmonteur Michael Fleischer am 21. und 25.10.22 (Kachelofeneinsatz zerlegt, gereinigt, eingebaut, Inbetriebnahme)",
+      "quantity": 4.25,
+      "unit": "Std",
+      "unit_price": 62.9,
+      "total_price": 267.33,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "6",
+      "description": "Meister Andreas Hiller am 25.10.22",
+      "quantity": 1,
+      "unit": "Std",
+      "unit_price": 62.9,
+      "total_price": 62.9,
+      "unit_raw": "Std."
+    }
+  ],
+  "subtotal_net": 529.76,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 529.76,
+  "vat_rate": 19,
+  "vat_amount": 100.65,
+  "total_gross": 630.41,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-11-08-maier-221079-kachelofeneinsatz.json",
+  "source_sha256": "7e5f39c35f06df6130941a7692266f9700630bb0492c7496003b42e7f1a04b8f",
+  "original_filename": "2022-11-08-Rechnung Heizung-Maier.pdf"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "klemmschelle-en-20-grau-10-stueck",
+  "name": "Klemmschelle EN 20 Grau 10 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297197348_klemmschelle-en-20-grau-10-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Klemmschelle EN 20 Grau 10 Stück",
+    "article_no": "5372123",
+    "ean": "4008297197348",
+    "url": "https://www.obi.de/p/5372123",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,2 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "10 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.19,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-01",
+        "source": "Kassenbon 2023-04-01, OBI München-Westend, Westendstr. 221, 80686 München, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-27",
+        "source": "Kassenbon 2026-04-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

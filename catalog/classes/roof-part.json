@@ -1,0 +1,19 @@
+{
+  "id": "roof-part",
+  "name": "Dachbauteil",
+  "ifc": { "entity": "IfcBuildingElementProxy", "predefined_type": "ELEMENT" },
+  "description": "Bauteil am Dach (Klempner-, Holz- und Formteile) als Quader mit Menge und Einheit; nicht für Wandöffnungen",
+  "geometry": "box",
+  "opening_capable": false,
+  "din276": "360",
+  "parameters": [
+    { "key": "width",    "name": "Länge/Breite", "type": "length", "default": 1.0,  "min": 0.01, "max": 200, "required": true },
+    { "key": "height",   "name": "Höhe",         "type": "length", "default": 0.1,  "min": 0.0005, "max": 5, "required": true },
+    { "key": "depth",    "name": "Tiefe",        "type": "length", "default": 0.1,  "min": 0.001, "max": 5, "required": true },
+    { "key": "quantity", "name": "Menge",        "type": "number", "default": 1,    "min": 0, "max": 10000, "required": false },
+    { "key": "unit",     "name": "Einheit",      "type": "choice", "default": "pcs", "options": ["pcs", "m", "m2"], "required": false }
+  ],
+  "material_roles": [
+    { "key": "main", "name": "Material", "default": "material:copper-sheet" }
+  ]
+}

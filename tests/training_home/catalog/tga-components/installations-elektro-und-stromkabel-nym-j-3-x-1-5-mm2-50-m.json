@@ -1,0 +1,69 @@
+{
+  "id": "installations-elektro-und-stromkabel-nym-j-3-x-1-5-mm2-50-m",
+  "name": "Installations-, Elektro- und Stromkabel NYM-J 3 x 1,5 mm² 50 m Grau",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 3,
+    "cross_section_mm2": 1.5
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4010480000038_installations-elektro-und-stromkabel-nym-j-3-x-1-5-mm2-50-m"
+  ],
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Installations-, Elektro- und Stromkabel NYM-J 3 x 1,5 mm² 50 m Grau",
+    "article_no": "7629827",
+    "ean": "4010480000038",
+    "url": "https://www.obi.de/p/7629827",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-01",
+        "source": "Kassenbon 2023-04-01, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-12",
+        "source": "Kassenbon 2023-08-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 29.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

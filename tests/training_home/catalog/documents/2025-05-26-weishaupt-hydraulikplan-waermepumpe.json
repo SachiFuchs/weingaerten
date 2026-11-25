@@ -1,0 +1,30 @@
+{
+  "id": "2025-05-26-weishaupt-hydraulikplan-waermepumpe",
+  "name": "Böhringer – Weishaupt Hydraulikplan Wärmepumpe",
+  "doc_type": "plan",
+  "supplier": "company:boehringer-heizungsbau",
+  "date": "2025-05-26",
+  "number": null,
+  "customer_number": null,
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Wohnhaus-Sanierung Weingärten 8, Göppingen; Heizungsanlage",
+  "description": "Weishaupt Muster-Anlagenschema (Hydraulikplan) Plan 15 00 0 4 01 03 0 0 0 für die Split-Luft-Wasser-Wärmepumpe zum Angebot 25-0023, Scan vom 26.05.2025 (Plan VW 01.10.17, H und EL geprüft 19.02.18). Komponenten: 1 Außengerät Split WWP, 2 Hydraulikeinheit Split WWP-HE, 3 Trinkwasserspeicher WAS (Glattrohr-Wärmetauscher, Flanschheizung E9), 4 Verteilerbalken mit integrierter Weiche, 5 Mischermodul WHM (Heizkreis 2, Mischer MM2, Pumpe M2.2, Vorlauffühler B6.2, Temperaturwächter F52), 6 Pumpengruppe WHP (Heizkreis 1, Pumpe M1, Temperaturwächter F51). Heizkreis 1 und 2 sind Fußbodenheizkreise. Fühler und Elektrik: B1 Außenfühler, B2 Weichenfühler, B3 Trinkwasserfühler, B6.2 Vorlauffühler HK 2, EV Elektroverteiler, E9 Flanschheizung Trinkwasser, F51/F52 Temperaturwächter Fußbodenheizung HK 1/HK 2, M1/M2.2 Heizungsumwälzpumpen HK 1/HK 2, MM2 Mischer HK 2, WP-EM HK Wärmepumpen-Erweiterungsmodul. Außengerät und Hydraulikeinheit sind über die Kältemittelleitungen verbunden; die Hydraulikeinheit speist den Verteilerbalken (Vor-/Rücklauf) und die Speicherladung des Trinkwasserspeichers (Kaltwasser unten, Warmwasser oben). Laut Plan unverbindliches Anlagenbeispiel ohne Anspruch auf Vollständigkeit; keine Preise. Übergeben vermutlich von Böhringer (Lieferant angenommen).",
+  "prices_are_net": true,
+  "items": [],
+  "subtotal_net": null,
+  "discount_net": null,
+  "shipping_net": null,
+  "total_net": null,
+  "vat_rate": null,
+  "vat_amount": null,
+  "total_gross": null,
+  "currency": "EUR",
+  "pdf": "imported_documents/HZ_Tausch/2025-05-26 Hydraulikplan CCE26052025_0003.pdf",
+  "imported_from": "imported_documents/2025-05-26-weishaupt-hydraulikplan-waermepumpe.json",
+  "source_sha256": "d377498755d38d01c8659d2d8914a047988dd9e8c2e41a8acfcf5beb19b5289b",
+  "original_filename": "2025-05-26 Hydraulikplan CCE26052025_0003.pdf",
+  "related": [
+    "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+  ]
+}

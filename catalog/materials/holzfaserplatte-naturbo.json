@@ -1,0 +1,10 @@
+{
+  "id": "holzfaserplatte-naturbo",
+  "name": "Holzfaserplatte 6 cm",
+  "category": "Dämmstoff",
+  "description": "Holzfaser-Dämmplatte für die Innendämmung, 60 mm, verklebt mit Lehmkleber, Oberfläche putzbar",
+  "conductivity": 0.042,
+  "values_source": "geschätzt (typischer Wert Holzfaser-Innendämmplatte), Herstellerangabe fehlt",
+  "appearance": { "color": "#C8A26B", "roughness": 0.95, "hatch": "insulation" },
+  "product": { "manufacturer": "company:naturbo", "model": "Holzfaserplatte 60 mm" }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "roth-lange-102502150-steckdose-2-fach-au",
+  "name": "ROTH LANGE 102502150 Steckdose 2-fach Aufputz Standard arktisweiß",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "socket",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6245231_roth-lange-102502150-steckdose-2-fach-au"
+  ],
+  "product": {
+    "manufacturer": "company:roth-lange",
+    "model": "ROTH LANGE 102502150 Steckdose 2-fach Aufputz Standard arktisweiß",
+    "article_no": "6245231",
+    "ean": "4306517309497",
+    "url": "https://www.hornbach.de/p/roth-lange-102502150-steckdose-2-fach-aufputz-standard-arktisweiss/6245231/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Steckdose"
+        },
+        {
+          "label": "Variante",
+          "value": "Doppelsteckdose"
+        },
+        {
+          "label": "Serie",
+          "value": "ROTH LANGE Standard"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "102502150"
+        },
+        {
+          "label": "Montageart",
+          "value": "Aufputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 20"
+        },
+        {
+          "label": "Farbton",
+          "value": "Arktisweiß"
+        },
+        {
+          "label": "Nennspannung",
+          "value": "250 V"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Komplettgerät"
+        },
+        {
+          "label": "Hinweis zur Entsorgung",
+          "value": "Bitte beachte die Hinweise zur Entsorgung"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "ZMN8"
+        },
+        {
+          "label": "EAN",
+          "value": "4306517309497"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "70 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "110 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "45 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 4.35,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-09-07",
+        "source": "Kassenbon 2024-09-07, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6245231_1.jpg",
+    "hornbach-6245231_2.jpg"
+  ],
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ]
+  }
+}

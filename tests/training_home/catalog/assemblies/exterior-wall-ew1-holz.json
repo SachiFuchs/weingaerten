@@ -1,0 +1,43 @@
+{
+  "id": "exterior-wall-ew1-holz",
+  "name": "Außenwand DG Hohlziegel 30 cm, Holzfassade Stülpschalung",
+  "ifc": { "entity": "IfcWall", "predefined_type": "STANDARD" },
+  "category": "exterior_wall",
+  "din276": "330",
+  "description": "Hohlraumziegel 30 cm (wie EG angenommen), außen Stülpschalung Fichte 500 x 20 x 2,5 cm, 3 cm überlappt, ohne Unterkonstruktion, Anstrich taubenblau; innen verputzt und weiß gestrichen",
+  "layer_order": "outside_in",
+  "layers": [
+    {
+      "material": "material:facade-paint-taubenblau",
+      "thickness": 0.001
+    },
+    {
+      "material": "material:facade-board-spruce",
+      "thickness": 0.025,
+      "cladding": {
+        "kind": "lap_siding",
+        "board_length": 5.0,
+        "board_width": 0.20,
+        "overlap": 0.03,
+        "bottom": 0.0,
+        "estimated": true
+      }
+    },
+    {
+      "material": "material:hollow-brick",
+      "thickness": 0.3
+    },
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    },
+    {
+      "material": "material:interior-paint-white",
+      "thickness": 0.003
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "obi-silikat-innenweiss-matt-5-l",
+  "name": "OBI Silikat Innenweiss matt 5 l",
+  "category": "Farbe",
+  "description": "Äußerst strapazierfähige Dispersions-Silikatfarbe für professionelle Ansprüche. OBI Silikat Innenweiss ist diffusionsfähig und bildet eine mineralische Oberfläche durch Verkieselung mit dem Untergrund. Inhalt reicht für ca. 30 m²",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002183418593_obi-silikat-innenweiss-matt-5-l"
+  ],
+  "product": {
+    "manufacturer": "company:meffert-farbwerke",
+    "model": "OBI Silikat Innenweiss matt 5 l",
+    "article_no": "6011449",
+    "ean": "4002183418593",
+    "url": "https://www.obi.de/p/6011449",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 28.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-08",
+        "source": "Kassenbon 2023-04-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "7,8 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "18,6 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "27,7 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "19,8 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

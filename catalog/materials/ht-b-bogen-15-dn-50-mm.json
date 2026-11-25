@@ -1,0 +1,116 @@
+{
+  "id": "ht-b-bogen-15-dn-50-mm",
+  "name": "HT-B Bogen 15° DN 50 mm",
+  "category": "Entwässerung",
+  "description": "Benötigst Du ein zuverlässiges Formteil für die Hausentwässerung? Der HT-B Bogen 15° DN 50 mm erfüllt alle Anforderungen.\n\nProduktmerkmale des HT-B Bogen 15° DN 50 mm\nDarum solltest Du zugreifen: Dieses Formteil aus Polypropylen (PP) ist speziell für den Einsatz im Innenbereich konzipiert. Der Bogen mit einem Winkel von 15 Grad und einem Außendurchmesser von 63 mm bietet eine optimale Lösung für die Hausentwässerung. Die Heißwasserbeständigkeit des Materials gewährleistet, dass der Bogen auch bei hohen Temperaturen seine Form und Funktion behält. Die chemische Beständigkeit sorgt dafür, dass er gegen viele haushaltsübliche Chemikalien resistent ist. Mit einer Materialstärke von 1,8 mm und einer Ringsteifigkeit von SN2 bietet der Bogen eine hohe Stabilität und Langlebigkeit. Die graue Farbe passt sich unauffällig in bestehende Rohrsysteme ein. Der Bogen entspricht der Norm DIN EN 1451-1, was eine hohe Qualität und Sicherheit garantiert.\n\nFestgezurrt: Der HT-B Bogen 15° DN 50 mm ist die ideale Wahl für eine zuverlässige und langlebige Hausentwässerungslösung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-262986_ht-b-bogen-15-dn-50-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "HT-B Bogen 15° DN 50 mm",
+    "article_no": "262986",
+    "ean": "4052836121004",
+    "url": "https://www.hornbach.de/p/ht-b-bogen-15-dn-50-mm/262986/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "HT"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bogen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polypropylen (PP)"
+        },
+        {
+          "label": "Winkel",
+          "value": "15 °"
+        },
+        {
+          "label": "Nennweite",
+          "value": "50 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "1,8 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Heißwasserbeständig"
+        },
+        {
+          "label": "Norm",
+          "value": "DIN EN 1451-1"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN2"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "ZFW1"
+        },
+        {
+          "label": "EAN",
+          "value": "2000262986003, 4002644091136, 4025075111006, 4052836121004, 4052836594006, 5902650651814, 5907660713248, 8023857032910, 8028025013760, 8586019760606, 8594169670355, 8595156223974, 8600198009650, 9003844001104"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "50 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "63 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.6,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-262986_1.jpg",
+    "hornbach-262986_2.jpg",
+    "hornbach-262986_3.jpg"
+  ]
+}

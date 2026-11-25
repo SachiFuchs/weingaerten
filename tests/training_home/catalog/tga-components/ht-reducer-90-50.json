@@ -1,0 +1,76 @@
+{
+  "id": "ht-reducer-90-50",
+  "name": "HT-Reduzierstück DN 90/50",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "adapter",
+    "system_line": "ht",
+    "dn": 90,
+    "z_length": 0.04,
+    "line_to": "ht",
+    "dn_to": 50
+  },
+  "estimated": true,
+  "note": "Platzhalter für den Einbau in Wänden (Übergang DN 90 > DN 50), Baulänge geschätzt - bitte bestätigen",
+  "install": {
+    "trade": "waste_water",
+    "group": "Übergänge",
+    "shape": "fitting",
+    "outer_diameter": 0.09,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.04,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.04,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

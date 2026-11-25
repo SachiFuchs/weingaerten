@@ -1,0 +1,51 @@
+{
+  "id": "isolierrohr-starr-en-25-laenge-2-m",
+  "name": "Isolierrohr starr EN 25 Länge 2 m",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "conduit"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873916601_isolierrohr-starr-en-25-laenge-2-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Isolierrohr starr EN 25 Länge 2 m",
+    "article_no": "7562515",
+    "ean": "4007873916601",
+    "url": "https://www.obi.de/p/7562515",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "291 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,00 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 10×"
+      }
+    ]
+  }
+}

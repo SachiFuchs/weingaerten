@@ -1,0 +1,28 @@
+{
+  "id": "knauf-armiergewebe-4x4",
+  "name": "Knauf Armiergewebe 4×4 mm, 165 g/m²",
+  "category": "Baustoffe",
+  "description": "Armiergewebe, Rolle 1,1 × 50 m = 55 m²",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:knauf",
+    "model": "Knauf Armiergewebe 4×4 mm, 165 g/m²",
+    "offers": [
+      {
+        "supplier": "company:gottfried-wiedmann",
+        "price": 1.68,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-11-20",
+        "source": "Rechnung KBV 1024499, Pos. 2, je m²",
+        "document": "document:2025-11-20-wiedmann-kbv-1024499-lehmkleber-gewebe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ws-wc-cold",
+  "name": "Wandscheibe Kaltwasser WC (Spülkasten)",
+  "component": "tga-component:ppr-wall-plate-20",
+  "storey": "storey:ground",
+  "room": "room-bad",
+  "wall": "w-east",
+  "position": [
+    6.742,
+    0.65,
+    0.5
+  ],
+  "estimated": true
+}

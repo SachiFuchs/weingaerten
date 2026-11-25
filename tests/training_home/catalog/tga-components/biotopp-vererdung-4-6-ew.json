@@ -1,0 +1,25 @@
+{
+  "id": "biotopp-vererdung-4-6-ew",
+  "name": "Vererdung 4–6 EW",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  },
+  "note": "Vererdungsbecken mit Trennwand, Beschickung, Drainage, Edelstahltauchpumpe",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:eco-water-solution",
+        "price": 862.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-05-15",
+        "source": "Rechnung 30024A01, Pos. 3, je Stk",
+        "document": "document:2023-05-15-ecowatersolution-30024a01-schlussrechnung-biotopp"
+      }
+    ]
+  }
+}

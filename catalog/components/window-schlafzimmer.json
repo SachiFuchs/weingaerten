@@ -1,0 +1,39 @@
+{
+  "id": "window-schlafzimmer",
+  "name": "Fenster Schlafzimmer 0,96 × 1,36",
+  "description": "Neuffer Best. 3320751 vom 16.11.2023, Pos. 3; Aluplast IDEAL 8000, 1-teilig Dreh-Kipp links, Ug 0,7, Schallschutzklasse 3 (36 dB), ESG 4 mm innen/außen, Helima-Sprossen 18 mm, RC 1 N, Druckknopf-Griff, Anschlussprofil Steinbank 25 mm",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 0.96,
+    "height": 1.36,
+    "depth": 0.085,
+    "frame_width": 0.07,
+    "sashes": 1,
+    "opening_1": "tilt_turn_left",
+    "glazing_type": "triple",
+    "ug_value": 0.7,
+    "sound_class": "SSK3",
+    "safety_glass": "ESG",
+    "glazing_bars": true,
+    "burglary_class": "RC1"
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:aluplast",
+    "model": "IDEAL 8000",
+    "offers": [
+      {
+        "supplier": "company:neuffer",
+        "price": 630.91,
+        "currency": "EUR",
+        "date": "2023-11-16",
+        "source": "Best. 3320751, Pos. 3",
+        "document": "document:2023-11-16-fensterversand-3320751-fenster-balkontueren-dg"
+      }
+    ]
+  }
+}

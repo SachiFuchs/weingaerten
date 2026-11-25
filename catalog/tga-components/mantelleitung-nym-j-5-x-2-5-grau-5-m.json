@@ -1,0 +1,53 @@
+{
+  "id": "mantelleitung-nym-j-5-x-2-5-grau-5-m",
+  "name": "Mantelleitung NYM-J 5 x 2,5 Grau 5 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 5,
+    "cross_section_mm2": 2.5
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4010480018514_mantelleitung-nym-j-5-x-2-5-grau-5-m"
+  ],
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Mantelleitung NYM-J 5 x 2,5 Grau 5 m",
+    "article_no": "7618945",
+    "ean": "4010480018514",
+    "url": "https://www.obi.de/p/7618945",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 11.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-19",
+        "source": "Kassenbon 2023-09-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 5.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

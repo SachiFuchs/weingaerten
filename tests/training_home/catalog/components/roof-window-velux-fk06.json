@@ -1,0 +1,47 @@
+{
+  "id": "roof-window-velux-fk06",
+  "name": "Dachfenster VELUX GGU FK06 Energy Plus 0,66 × 1,18",
+  "ifc": {
+    "entity": "IfcWindow",
+    "predefined_type": "SKYLIGHT"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: VELUX GGU FK06 Energy Plus „Favorit Everfinish“, Schwingfenster, Griffleiste oben, Holzkern mit PU-Ummantelung. Eindeckrahmen EDZ separat (roof-flashing-velux-fk06).",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 0.66,
+    "height": 1.18,
+    "depth": 0.14,
+    "frame_width": 0.07,
+    "sashes": 1,
+    "opening_1": "pivot",
+    "glazing_type": "triple"
+  },
+  "materials": {
+    "frame": "material:pu-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:velux",
+    "model": "GGU FK06 Energy Plus Favorit Everfinish",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 864.0,
+        "currency": "EUR",
+        "date": "2023-07-17",
+        "source": "RE 17.07.2023, Titel 06",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 864.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.05, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-kaeltemittelleitung-wsb-10m",
+  "name": "Weishaupt Kältemittelleitungs-Set WSB 8/10, 10 m",
+  "category": "Heizung",
+  "description": "isolierte Verbindungsleitung Außen-/Innengerät, 1/4\" Flüssigkeits- und 5/8\" Heißgasleitung, Kupfer nach EN 12735-1, für R32/R410A/R407C",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Kältemittelleitungs-Set WSB 8/10 10 m",
+    "article_no": "51150511440",
+    "url": "https://www.heizbude.de/waermepumpen/kaeltemittelleitungs-set-wsb-8-10-laenge-10-m-51150511440-von-weishaupt-hb-191408",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 523.78,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.3, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

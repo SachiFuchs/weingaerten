@@ -1,0 +1,98 @@
+{
+  "id": "konsta-schalbrett-fichte-3000-x-150-x-20",
+  "name": "Konsta Schalbrett Fichte 3000 x 150 x 20 mm",
+  "category": "Holz",
+  "description": "Planst Du ein Bauprojekt und benötigst vielseitige Holzelemente? Das Konsta Schalbrett Fichte 20x150x3000 mm bietet Dir zahlreiche Einsatzmöglichkeiten.\n\nProduktmerkmale des Konsta Schalbretts Fichte 20x150x3000 mm\nDarum solltest Du zugreifen: Dieses Schalbrett aus Fichte ist ideal für den Innenausbau, Messebau, Neubau und Schalungsarbeiten geeignet. Mit einer Breite von 150 mm und einer Länge von 3000 mm bietet es ausreichend Fläche für verschiedene Anwendungen. Die 20 mm Stärke sorgt für Stabilität und Belastbarkeit. Die dreiseitig gehobelte Oberfläche gewährleistet eine glatte und ansprechende Optik, die sich sowohl für Wand-, Boden- als auch Deckenanwendungen eignet. Das Holz ist für den Einsatz im Innen- und Außenbereich konzipiert, was es zu einer flexiblen Wahl für unterschiedliche Bauprojekte macht.\n\nFestgezurrt: Das Konsta Schalbrett Fichte überzeugt durch seine Vielseitigkeit und Stabilität, ideal für zahlreiche Bauvorhaben.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-1009978_konsta-schalbrett-fichte-3000-x-150-x-20"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Schalbrett Fichte 3000 x 150 x 20 mm",
+    "article_no": "1009978",
+    "ean": "4007622013087",
+    "url": "https://www.hornbach.de/p/konsta-schalbrett-fichte-3000-x-150-x-20-mm/1009978/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Brett"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Schalbrett"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Messebau, Neubau, Schalung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Gehobelt"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "3-seitig gehobelt"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Anlieferhinweis",
+          "value": "Vor Bestellung muss vom Kunden sichergestellt sein, dass die Entladestelle mit einem 40 Tonnen - LKW erreichbar ist., Weitere Informationen entnehmen Sie bitte dem Datenblatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "TVXX"
+        },
+        {
+          "label": "EAN",
+          "value": "2001009978008, 4005014009823, 4007622013087, 4049868001275, 4250821000598, 4260031143022, 4260162490729"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "20 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "150 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "3.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 10.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-15",
+        "source": "Kassenbon 2026-06-15, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-1009978_1.jpg"
+  ]
+}

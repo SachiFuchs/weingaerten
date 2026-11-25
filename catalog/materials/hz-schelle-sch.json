@@ -1,0 +1,28 @@
+{
+  "id": "hz-schelle-sch",
+  "name": "HZ Schelle SCH",
+  "category": "Heizung",
+  "description": "Rohr- und Sockelleistenhalter für SLF, Rohre bis 22 mm",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:hz-weitzel",
+    "model": "SCH",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 1.93,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.6, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

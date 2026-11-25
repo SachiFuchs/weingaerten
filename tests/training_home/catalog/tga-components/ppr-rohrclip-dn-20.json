@@ -1,0 +1,59 @@
+{
+  "id": "ppr-rohrclip-dn-20",
+  "name": "PPR-Rohrclip DN 20",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874149435_ppr-rohrclip-dn-20"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "PPR-Rohrclip DN 20",
+    "article_no": "4356002",
+    "ean": "4007874149435",
+    "url": "https://www.obi.de/p/4356002",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "5 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-01",
+        "source": "Kassenbon 2025-03-01, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 7×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.09,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-27",
+        "source": "Kassenbon 2026-04-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

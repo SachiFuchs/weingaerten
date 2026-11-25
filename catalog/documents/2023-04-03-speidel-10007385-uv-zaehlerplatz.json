@@ -1,0 +1,158 @@
+{
+  "id": "2023-04-03-speidel-10007385-uv-zaehlerplatz",
+  "name": "Speidel 10007385 – UV Zählerplatz",
+  "doc_type": "invoice",
+  "supplier": "company:dussmann-speidel-elektro",
+  "date": "2023-04-03",
+  "number": "10007385",
+  "customer_number": "400817",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben: Weingärten 8, Göppingen (Projektnummer 442023)",
+  "description": "Rechnung von Dussmann Speidel Elektro für Elektroarbeiten in Weingärten 8 am 21.02.2023 und 16.03.2023: Spelsberg-Unterverteilung im Keller montiert, Zuleitung im neuen Zählerplatz und neuer UV angeschlossen, FI/LS eingebaut, Badzuleitung und Kellersteckdose angeschlossen, Zähler umgesetzt und NH00-Sicherungen eingesetzt. Enthalten sind 45 m Zuleitung NYM-J 5x16mm2 und Trassenwarnband. Handschriftlich als bezahlt vermerkt; eine inhaltsgleiche Neuausstellung (Rechnung 10100008 vom 20.04.2023) wurde als Duplikat nicht importiert.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "002",
+      "description": "Taglohn 1: Stunden vom 16.03.2023, Herr Deininger",
+      "quantity": 4.0,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 256.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "003",
+      "description": "Fahrtkosten",
+      "quantity": 1.0,
+      "unit": "km",
+      "unit_price": 12.1,
+      "total_price": 12.1
+    },
+    {
+      "position": "004",
+      "description": "Spelsberg AK 56",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 216.0,
+      "total_price": 216.0,
+      "unit_raw": "St.",
+      "ref": "tga-component:spelsberg-ak-56"
+    },
+    {
+      "position": "005",
+      "description": "Hager Hauptschalter 63A",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 53.0,
+      "total_price": 53.0,
+      "unit_raw": "St.",
+      "ref": "tga-component:hager-hauptschalter-63a"
+    },
+    {
+      "position": "006",
+      "description": "Siemens FI/LS B16 30mA",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 43.0,
+      "total_price": 43.0,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-fi-ls-b16-30ma"
+    },
+    {
+      "position": "007",
+      "description": "Sicherung NH00 50A",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 4.06,
+      "total_price": 12.18,
+      "unit_raw": "St.",
+      "ref": "tga-component:sicherung-nh00-50a"
+    },
+    {
+      "position": "008",
+      "description": "PVC-Rohr M32",
+      "quantity": 1.0,
+      "unit": "m",
+      "unit_price": 3.34,
+      "total_price": 3.34,
+      "ref": "tga-component:pvc-rohr-m32"
+    },
+    {
+      "position": "009",
+      "description": "PVC-Schelle M32",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 0.5,
+      "total_price": 1.5,
+      "unit_raw": "St.",
+      "ref": "tga-component:pvc-schelle-m32"
+    },
+    {
+      "position": "009",
+      "description": "Taglohn 2: Stunden vom 21.02.2023, Herr Deininger",
+      "quantity": 1.5,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 96.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "010",
+      "description": "Taglohn 2: Stunden vom 21.02.2023, Herr Pap",
+      "quantity": 1.5,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 96.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "011",
+      "description": "NYM-J 5x16mm2",
+      "quantity": 45.0,
+      "unit": "m",
+      "unit_price": 11.65,
+      "total_price": 524.25,
+      "ref": "tga-component:cable-nym-j-5x16"
+    },
+    {
+      "position": "012",
+      "description": "NYM-J 3x2,5mm2",
+      "quantity": 50.0,
+      "unit": "m",
+      "unit_price": 1.37,
+      "total_price": 68.5,
+      "ref": "tga-component:emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m"
+    },
+    {
+      "position": "013",
+      "description": "NYM-J 5x2,5mm2",
+      "quantity": 8.0,
+      "unit": "m",
+      "unit_price": 2.15,
+      "total_price": 17.2,
+      "ref": "tga-component:emskabel-feuchtraumleitung-nym-j-5-x-2-5-mm2-50-m"
+    },
+    {
+      "position": "014",
+      "description": "Cellpack Trassenwarnband 145862",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 22.64,
+      "total_price": 22.64,
+      "unit_raw": "St."
+    }
+  ],
+  "subtotal_net": 1421.71,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1421.71,
+  "vat_rate": 19,
+  "vat_amount": 270.12,
+  "total_gross": 1691.83,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-04-03-speidel-10007385-uv-zaehlerplatz.json",
+  "source_sha256": "92b08db581b3abcdd0bb79cab1aadf692072a2ff708b870fd18f10bdbe936157",
+  "original_filename": "2023-03-16-Speidel-Rechnung.pdf"
+}

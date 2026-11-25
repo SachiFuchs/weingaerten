@@ -1,0 +1,53 @@
+{
+  "id": "doellken-home-quadratleiste-kiefer-13-mm-x-13-mm-laenge-900",
+  "name": "Döllken Home Quadratleiste Kiefer 13 mm x 13 mm Länge 900 mm",
+  "category": "Holz",
+  "description": "Die Quadratleiste in der Farbe Kiefer ist universell einsetzbar und verhilft Ihnen zu einer erfolgreichen Umsetzung Ihrer Pläne. Sie ist in verschiedenen Größen und Materialausführungen erhältlich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4004616443134_doellken-home-quadratleiste-kiefer-13-mm-x-13-mm-laenge-900"
+  ],
+  "product": {
+    "manufacturer": "company:doellken-profiles",
+    "model": "Döllken Home Quadratleiste Kiefer 13 mm x 13 mm Länge 900 mm",
+    "article_no": "1041516",
+    "ean": "4004616443134",
+    "url": "https://www.obi.de/p/1041516",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "68 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "1,3 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "1,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "90,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-21",
+        "source": "Kassenbon 2025-10-21, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

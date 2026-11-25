@@ -1,0 +1,10 @@
+{
+  "id": "lehmputz-naturbo",
+  "name": "Lehmputz 3 mm",
+  "category": "Putz",
+  "description": "Lehmputz auf den Holzfaserplatten, ca. 3 mm",
+  "conductivity": null,
+  "values_source": "geschätzt; dünne Putzschicht",
+  "appearance": { "color": "#B89A74", "roughness": 0.9, "hatch": "plaster" },
+  "product": { "manufacturer": "company:naturbo", "model": "Lehmputz" }
+}

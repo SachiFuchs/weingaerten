@@ -1,0 +1,74 @@
+{
+  "id": "2023-05-05-speidel-10100184-fi-ls-verteiler",
+  "name": "Speidel 10100184 – FI LS Verteiler",
+  "doc_type": "invoice",
+  "supplier": "company:dussmann-speidel-elektro",
+  "date": "2023-05-05",
+  "number": "10100184",
+  "customer_number": "400817",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben: Weingärten 8, 73037 Göppingen (Projektnummer 442023)",
+  "description": "Rechnung von Dussmann Speidel Elektro über Einbau und Anschluss eines FI/LS-Schalters im Verteiler in Weingärten 8 am 03.05.2023. Abgerechnet werden 1,5 Arbeitsstunden, der Siemens FI/LS 5SU1354-6KK16, Kleinmaterial und Fahrtauslagen. Der Originaldateiname nennt den Anschluss des Klärwerks, der Beleg selbst nur den Verteiler.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "001",
+      "description": "Stunden vom 03.05.2023, Herr Lindenschmid",
+      "quantity": 1.5,
+      "unit": "Std",
+      "unit_price": 64.0,
+      "total_price": 96.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "002",
+      "description": "Siemens FI LS 5SU1354-6KK16",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 59.69,
+      "total_price": 59.69,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-fi-ls-5su1354-6kk16"
+    },
+    {
+      "position": "003",
+      "description": "KUPA M25",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 1.19,
+      "total_price": 1.19,
+      "unit_raw": "St."
+    },
+    {
+      "position": "004",
+      "description": "Kleinmaterial",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 9.9,
+      "total_price": 9.9,
+      "unit_raw": "psch."
+    },
+    {
+      "position": "005",
+      "description": "Fahrtauslagen PKW",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 13.0,
+      "total_price": 13.0,
+      "unit_raw": "psch."
+    }
+  ],
+  "subtotal_net": 179.78,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 179.78,
+  "vat_rate": 19,
+  "vat_amount": 34.16,
+  "total_gross": 213.94,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-05-05-speidel-10100184-fi-ls-verteiler.json",
+  "source_sha256": "032ff205d82fa51e9a1d8f6d40f7597bca10ddd8d111c6f8f65a4b80b3b3e5ae",
+  "original_filename": "2023-05-08-Rechung-Speidel Anschluss Klaerwerk.pdf"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "jung-abdeckrahmen-1-fach-ls990-alpinweiss",
+  "name": "Jung Abdeckrahmen 1-fach LS990 Alpinweiß",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4011377114609_jung-abdeckrahmen-1-fach-ls990-alpinweiss"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Jung Abdeckrahmen 1-fach LS990 Alpinweiß",
+    "article_no": "5841499",
+    "ean": "4011377114609",
+    "url": "https://www.obi.de/p/5841499",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "8,1 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-10-23",
+        "source": "Kassenbon 2024-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-02-02",
+        "source": "Kassenbon 2026-02-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-14",
+        "source": "Kassenbon 2026-11-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

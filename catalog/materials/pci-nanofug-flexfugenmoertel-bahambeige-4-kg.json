@@ -1,0 +1,45 @@
+{
+  "id": "pci-nanofug-flexfugenmoertel-bahambeige-4-kg",
+  "name": "PCI Nanofug Flexfugenmörtel Bahambeige 4 kg",
+  "category": "Fliesen",
+  "description": "PCI Nanofug ist ein Flexfugenmörtel, der sich im Besonderen zum Verfugen von Steingutfliesen, Spaltplatten, Porzellanmosaik, Glasmosaik, Ziegelfliesen, Cotto und sogar Feinsteinzeug eignet. Sie können den Mörtel für die Erstellung aller Fugenbreiten nutzen. Die feine, geschmeidige Konsistenz und die komfortable Verarbeitung sorgen für Fugen mit hohem optischen Anspruch. Zudem ist die hergestellte Oberfläche wasserabweisend. Der Mörtel ist in verschiedenen Farben erhältlich. Entspricht CG2 WA nach DIN EN 13888:2009 Sehr emissionsarm, GEV EMICODE EC 1 PLUS R",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4083200031209_pci-nanofug-flexfugenmoertel-bahambeige-4-kg"
+  ],
+  "product": {
+    "manufacturer": "company:pci-augsburg",
+    "model": "PCI Nanofug Flexfugenmörtel Bahambeige 4 kg",
+    "article_no": "8569352",
+    "ean": "4083200031209",
+    "url": "https://www.obi.de/p/8569352",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 13.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-14",
+        "source": "Kassenbon 2026-11-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "product_data": [
+        {
+          "label": "Anwendungsbereich",
+          "value": "Innen & Außen"
+        },
+        {
+          "label": "Art",
+          "value": "Fugenmörtel"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  }
+}

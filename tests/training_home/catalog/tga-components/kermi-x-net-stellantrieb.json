@@ -1,0 +1,27 @@
+{
+  "id": "kermi-x-net-stellantrieb",
+  "name": "Kermi x-net Stellantrieb 230 V",
+  "class": "tga-class:install-part",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "part_type": "other",
+    "size": "230 V"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:kermi",
+    "model": "Kermi x-net Stellantrieb 230 V",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 20.8,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.8, je Stk",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

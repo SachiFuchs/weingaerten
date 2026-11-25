@@ -1,0 +1,53 @@
+{
+  "id": "alpina-weisslack-fuer-fenster-tueren-seidenmatt-750-ml",
+  "name": "Alpina Weißlack für Fenster & Türen seidenmatt 750 ml",
+  "category": "Farbe",
+  "description": "Acryl-Lack mit integrierter Grundierung für hochwertige, wetterbeständige Anstriche im Innen- und Außenbereich. Für Neu- und Renovierungsanstriche, z. B. von Fenstern, Fensterläden, maßhaltigen Holzbauteilen sowie Türen. Hoch vergilbungsbeständig, sehr guter Verlauf, hohe Glanz- und Wetterbeständigkeit. Für extrem widerstandsfähige Oberflächen. Inhalt reicht für ca. 10 m²",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4001244752508_alpina-weisslack-fuer-fenster-tueren-seidenmatt-750-ml"
+  ],
+  "product": {
+    "manufacturer": "company:alpina-farben",
+    "model": "Alpina Weißlack für Fenster & Türen seidenmatt 750 ml",
+    "article_no": "5484936",
+    "ean": "4001244752508",
+    "url": "https://www.obi.de/p/5484936",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,01 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "9,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "9,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 21.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-07",
+        "source": "Kassenbon 2023-10-07, OBI München-Westend, Westendstr. 221, 80686 München, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

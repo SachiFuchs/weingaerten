@@ -1,0 +1,28 @@
+{
+  "id": "pp-baustopfen-1-2",
+  "name": "Baustopfen ½″ (Blindstopfen)",
+  "category": "Trinkwasser",
+  "description": "Baustopfen mit ½″ Außengewinde zum Verschließen fertiger Leitungen (z. B. Wandscheiben DN 20), die noch keine Entnahmearmatur haben. DVGW-zertifiziert. Werkstoff Polypropylen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "product": {
+    "model": "Baustopfen ½″, Polypropylen",
+    "article_no": "13563290",
+    "url": "https://www.bauhaus.info/schweissfittings/baustopfen/p/13563290",
+    "offers": [
+      {
+        "supplier": "company:bauhaus",
+        "price": 1.3,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "bauhaus.info Produktseite 2026-11-21, pro Stück inkl. MwSt."
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#3E8E41",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

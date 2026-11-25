@@ -1,0 +1,180 @@
+{
+  "id": "door-pertura-fengur-86",
+  "name": "Zimmertür Pertura Fengur Kiefer 86 × 198,5 mit Komplettzarge",
+  "description": "Landhaustür Fengur Kiefer 86,0 × 198,5 cm DIN links mit Pertura Komplettzarge Kiefer 198,5 × 86,0 × 20,5 cm (Wandstärke 20,5 cm); Angebote = Türblatt + Zarge einzeln. Rahmenbreite und Material Kiefer geschätzt (KVH Kiefer als Ersatz)",
+  "class": "class:door",
+  "opening_capable": true,
+  "params": {
+    "width": 0.86,
+    "height": 1.985,
+    "depth": 0.205,
+    "frame_width": 0.06,
+    "swing": "left",
+    "leaf_type": "solid",
+    "frame_type": "wrap"
+  },
+  "materials": {
+    "frame": "material:kvh-nsi-kiefer-geh",
+    "leaf": "material:kvh-nsi-kiefer-geh"
+  },
+  "imported_from": [
+    "hornbach-1418742_pertura-landhaustuer-fengur-kiefer-86-0x",
+    "hornbach-1420822_pertura-komplettzarge-kiefer-198-5x86-0x"
+  ],
+  "product": {
+    "manufacturer": "company:pertura",
+    "model": "Pertura Landhaustür Fengur Kiefer 86,0x198,5 cm Links 02/03 + Pertura Komplettzarge Kiefer 198,5x86,0x20,5 cm Links",
+    "article_no": "1418742",
+    "url": "https://www.hornbach.de/p/pertura-landhaustuer-fengur-kiefer-86-0x198-5-cm-links-02-03/1418742/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Tür"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Zimmertür"
+        },
+        {
+          "label": "Variante",
+          "value": "Massive Tür"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Räume",
+          "value": "Arbeitszimmer, Badezimmer, Flur / Diele, Kinderzimmer, Küche, Schlafzimmer, Wohnzimmer"
+        },
+        {
+          "label": "Profil",
+          "value": "Glattkante"
+        },
+        {
+          "label": "Lichtausschnitt",
+          "value": "Nein"
+        },
+        {
+          "label": "Glas",
+          "value": "Kein"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Braun"
+        },
+        {
+          "label": "Farbton",
+          "value": "Kiefer"
+        },
+        {
+          "label": "Mittellage",
+          "value": "Massivholz"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Unbehandelt"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Kiefer"
+        },
+        {
+          "label": "Material",
+          "value": "Holz"
+        },
+        {
+          "label": "Schloß",
+          "value": "Buntbartschloss"
+        },
+        {
+          "label": "Anschlagrichtung",
+          "value": "Links"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Alle Türen mit Schloß und Bänder, ohne Drückergarnitur und Zarge"
+        },
+        {
+          "label": "Max. Kürzbar",
+          "value": "2,5 cm"
+        },
+        {
+          "label": "Türblatt Höhe",
+          "value": "1.985 mm"
+        },
+        {
+          "label": "Türblatt Breite",
+          "value": "860 mm"
+        },
+        {
+          "label": "Rohbaumaß Höhe",
+          "value": "2.005 mm"
+        },
+        {
+          "label": "Rohbaumaß Breite",
+          "value": "885 mm"
+        },
+        {
+          "label": "Vierkant/Dornmaß Schloß",
+          "value": "8/72 mm"
+        },
+        {
+          "label": "Serie",
+          "value": "Fengur"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Buntbartschloss inkl. 1 Schlüssel, Zimmertür"
+        },
+        {
+          "label": "Hinweis zur Montage",
+          "value": "Nutzen Sie für die Montage unseren Montageservice durch einen Fachmann. Informieren Sie sich unverbindlich bei unseren Fachverkäufern im Markt."
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "YYM3"
+        },
+        {
+          "label": "EAN",
+          "value": "2001418742009, 5700362000131, 5709046060027"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "198,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "86 cm"
+        },
+        {
+          "label": "Stärke",
+          "value": "39 mm"
+        },
+        {
+          "label": "Gewicht",
+          "value": "21,8 kg"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 89.9,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "source": "Import KIEF-LANDHAUSTÜR 86,0X198,5 L 02/03"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 169.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "source": "Import ZARGE KIEFER 86X198,5X20,5 L"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ws-spuele-cold",
+  "name": "Wandscheibe Kaltwasser Spüle",
+  "component": "tga-component:ppr-wall-plate-20",
+  "storey": "storey:ground",
+  "room": "room-kueche",
+  "wall": "w-east",
+  "position": [
+    6.742,
+    3.95,
+    0.5
+  ],
+  "estimated": true
+}

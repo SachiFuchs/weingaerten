@@ -1,0 +1,198 @@
+{
+  "id": "window",
+  "name": "Fenster",
+  "ifc": { "entity": "IfcWindow", "predefined_type": "WINDOW" },
+  "description": "Fenster mit Rahmen, Verglasung und 0–2 Flügeln",
+  "geometry": "window",
+  "opening_capable": true,
+  "parameters": [
+    {
+      "key": "width",
+      "name": "Breite",
+      "type": "length",
+      "default": 1.2,
+      "min": 0.3,
+      "max": 4.0,
+      "required": true
+    },
+    {
+      "key": "height",
+      "name": "Höhe",
+      "type": "length",
+      "default": 1.35,
+      "min": 0.3,
+      "max": 3.0,
+      "required": true
+    },
+    {
+      "key": "depth",
+      "name": "Tiefe",
+      "type": "length",
+      "default": 0.08,
+      "min": 0.04,
+      "max": 0.3,
+      "required": true
+    },
+    {
+      "key": "frame_width",
+      "name": "Rahmenbreite",
+      "type": "length",
+      "default": 0.07,
+      "min": 0.03,
+      "max": 0.2,
+      "required": true
+    },
+    {
+      "key": "sashes",
+      "name": "Anzahl Flügel",
+      "type": "choice",
+      "default": 1,
+      "options": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "required": true
+    },
+    {
+      "key": "opening_1",
+      "name": "Öffnung Feld 1",
+      "type": "choice",
+      "options": [
+        "fixed",
+        "turn_left",
+        "turn_right",
+        "tilt",
+        "tilt_turn_left",
+        "tilt_turn_right",
+        "pivot"
+      ],
+      "required": false
+    },
+    {
+      "key": "opening_2",
+      "name": "Öffnung Feld 2",
+      "type": "choice",
+      "options": [
+        "fixed",
+        "turn_left",
+        "turn_right",
+        "tilt",
+        "tilt_turn_left",
+        "tilt_turn_right",
+        "pivot"
+      ],
+      "required": false
+    },
+    {
+      "key": "opening_3",
+      "name": "Öffnung Feld 3",
+      "type": "choice",
+      "options": [
+        "fixed",
+        "turn_left",
+        "turn_right",
+        "tilt",
+        "tilt_turn_left",
+        "tilt_turn_right",
+        "pivot"
+      ],
+      "required": false
+    },
+    {
+      "key": "glazing_type",
+      "name": "Verglasungsart",
+      "type": "choice",
+      "default": "triple",
+      "options": [
+        "single",
+        "double",
+        "triple"
+      ],
+      "required": false
+    },
+    {
+      "key": "g_value",
+      "name": "g-Wert",
+      "type": "number",
+      "min": 0,
+      "max": 1,
+      "required": false
+    },
+    {
+      "key": "uw_value",
+      "name": "Uw-Wert W/(m²K)",
+      "type": "number",
+      "min": 0.3,
+      "max": 6,
+      "required": false
+    },
+    {
+      "key": "ug_value",
+      "name": "Ug-Wert W/(m²K)",
+      "type": "number",
+      "min": 0.3,
+      "max": 6,
+      "required": false
+    },
+    {
+      "key": "sound_class",
+      "name": "Schallschutzklasse",
+      "type": "choice",
+      "default": "none",
+      "options": [
+        "none",
+        "SSK1",
+        "SSK2",
+        "SSK3",
+        "SSK4"
+      ],
+      "required": false
+    },
+    {
+      "key": "safety_glass",
+      "name": "Sicherheitsglas",
+      "type": "choice",
+      "default": "none",
+      "options": [
+        "none",
+        "ESG",
+        "VSG"
+      ],
+      "required": false
+    },
+    {
+      "key": "glazing_bars",
+      "name": "Sprossen",
+      "type": "bool",
+      "default": false,
+      "required": false
+    },
+    {
+      "key": "burglary_class",
+      "name": "Einbruchschutz",
+      "type": "choice",
+      "default": "RC0",
+      "options": [
+        "RC0",
+        "RC1",
+        "RC2",
+        "RC3"
+      ],
+      "required": false
+    }
+  ],
+  "material_roles": [
+    {
+      "key": "frame",
+      "name": "Rahmen",
+      "default": "material:pvc-white"
+    },
+    {
+      "key": "glazing",
+      "name": "Verglasung",
+      "default": "material:glass"
+    }
+  ]
+}

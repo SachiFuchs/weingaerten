@@ -1,0 +1,62 @@
+{
+  "id": "luesterklemme-2-5-mm-weiss-2-stueck",
+  "name": "Lüsterklemme Ø 2,5 mm Weiß 2 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007872908775_luesterklemme-2-5-mm-weiss-2-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Lüsterklemme Ø 2,5 mm Weiß 2 Stück",
+    "article_no": "3192903",
+    "ean": "4007872908775",
+    "url": "https://www.obi.de/p/3192903",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "25 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "13,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-15",
+        "source": "Kassenbon 2023-02-15, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "poles": 2,
+    "cross_section": [
+      0.5,
+      2.5
+    ],
+    "may_be_end": true,
+    "partial_use": true,
+    "note": "Lüsterklemme: je Klemmstelle 2 Adern"
+  }
+}

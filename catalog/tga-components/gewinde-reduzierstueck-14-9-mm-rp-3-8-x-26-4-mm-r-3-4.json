@@ -1,0 +1,51 @@
+{
+  "id": "gewinde-reduzierstueck-14-9-mm-rp-3-8-x-26-4-mm-r-3-4",
+  "name": "Gewinde-Reduzierstück 14,9 mm (Rp 3/8) x 26,4 mm (R 3/4) Messing",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873933493_gewinde-reduzierstueck-14-9-mm-rp-3-8-x-26-4-mm-r-3-4"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Gewinde-Reduzierstück 14,9 mm (Rp 3/8) x 26,4 mm (R 3/4) Messing",
+    "article_no": "5920244",
+    "ean": "4007873933493",
+    "url": "https://www.obi.de/p/5920244",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "48 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "4,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,9 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-18",
+        "source": "Kassenbon 2023-09-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

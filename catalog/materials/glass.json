@@ -1,0 +1,15 @@
+{
+  "id": "glass",
+  "name": "Glas",
+  "category": "Glas",
+  "description": "Floatglas (Kalk-Natron-Silikatglas); Scheibenanzahl und Ug-Wert sind Eigenschaften des Fensters",
+  "conductivity": 1.0,
+  "density": 2500,
+  "fire_class": "A1",
+  "values_source": "Richtwert Floatglas (DIN EN ISO 10456)",
+  "appearance": {
+    "color": "#A9D6EE",
+    "roughness": 0.05,
+    "hatch": "none"
+  }
+}

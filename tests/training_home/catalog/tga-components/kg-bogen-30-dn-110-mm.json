@@ -1,0 +1,43 @@
+{
+  "id": "kg-bogen-30-dn-110-mm",
+  "name": "KG Bogen 30° DN 110 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.03,
+    "angle": 30
+  },
+  "description": "Möchtest Du Dein Entwässerungssystem effizient gestalten? Der KG Bogen 30° DN 110 mm ist die ideale Lösung für eine zuverlässige Haus- und Hofentwässerung.\n\nProduktmerkmale des KG Bogen 30° DN 110 mm\nDarum solltest Du zugreifen: Dieses Formteil aus Polyvinylchlorid (PVC) bietet eine hervorragende Wasserfestigkeit und schützt effektiv vor Verunreinigungen durch Abwasser. Mit einem Außendurchmesser von 127 mm und einer Nennweite von 110 mm ist der Bogen optimal für den Einsatz im Außenbereich geeignet. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 gewährleisten eine hohe Stabilität und Belastbarkeit. Der 30-Grad-Winkel ermöglicht eine präzise Anpassung an bestehende Rohrsysteme, was eine einfache Installation und Anpassung sicherstellt. Die orange Farbe sorgt für eine gute Sichtbarkeit bei der Installation und Wartung.\n\nFestgezurrt: Der KG Bogen 30° DN 110 mm bietet eine zuverlässige und stabile Lösung für Dein Entwässerungssystem.",
+  "photos": [
+    "hornbach-267345_1.jpg",
+    "hornbach-267345_2.jpg",
+    "hornbach-267345_3.jpg",
+    "hornbach-267345_4.jpg"
+  ],
+  "imported_from": [
+    "hornbach-267345_kg-bogen-30-dn-110-mm"
+  ],
+  "catalog_material": "material:kg-bogen-30-dn-110-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

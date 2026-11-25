@@ -1,0 +1,27 @@
+{
+  "id": "zweirohr-hahnblock-3-4",
+  "name": "Zweirohr-Hahnblock 3/4\" AG Eurokonus, Eckform",
+  "category": "Heizung",
+  "description": "Rohrabstand 50 mm, Anschluss DN 20 AG, 10 bar",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "model": "Hahnblock 3/4\" Eck",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 25.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.3, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

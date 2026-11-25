@@ -1,0 +1,53 @@
+{
+  "id": "schlauchleitung-h05vv-f-3-g1-0-weiss-25-m",
+  "name": "Schlauchleitung H05VV-F 3 G1,0 Weiß 25 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "H05VV-F",
+    "cores": 3,
+    "cross_section_mm2": 1.0
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297706175_schlauchleitung-h05vv-f-3-g1-0-weiss-25-m"
+  ],
+  "product": {
+    "manufacturer": "company:s-c-cableteam-s-r-l",
+    "model": "Schlauchleitung H05VV-F 3 G1,0 Weiß 25 m",
+    "article_no": "7619174",
+    "ean": "4008297706175",
+    "url": "https://www.obi.de/p/7619174",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 18.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-04-22",
+        "source": "Kassenbon 2024-04-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 25.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

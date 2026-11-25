@@ -1,0 +1,27 @@
+{
+  "id": "naturbo-pressfenster-einleger",
+  "name": "Naturbo Pressfenster-Einleger",
+  "class": "tga-class:install-part",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "part_type": "other",
+    "unit": "pcs"
+  },
+  "note": "Einleger für das Sichtfenster der Presskupplung (je Pressstelle)",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Pressfenster-Einleger",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 0.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 21, je Stk",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  }
+}

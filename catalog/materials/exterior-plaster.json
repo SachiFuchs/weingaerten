@@ -1,0 +1,12 @@
+{
+  "id": "exterior-plaster",
+  "name": "Außenputz",
+  "category": "Putz",
+  "description": "Mineralischer Außenputz",
+  "conductivity": 1.0,
+  "density": 1800,
+  "vapour_resistance": 20,
+  "fire_class": "A1",
+  "values_source": "Richtwert Kalkzementputz (DIN 4108-4)",
+  "appearance": { "color": "#E8E2D4", "roughness": 0.9, "hatch": "plaster" }
+}

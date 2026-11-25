@@ -1,0 +1,32 @@
+{
+  "id": "pp-r-schweisswinkel-dn-20-90",
+  "name": "Schweißwinkel PP-R DN 20, 90°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ppr",
+    "dn": 20,
+    "z_length": 0.03,
+    "angle": 90
+  },
+  "description": "90°-Winkel zum Verlegen von PP-R-Leitungen DN 20 um Ecken. Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "catalog_material": "material:pp-r-schweisswinkel-dn-20-90",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

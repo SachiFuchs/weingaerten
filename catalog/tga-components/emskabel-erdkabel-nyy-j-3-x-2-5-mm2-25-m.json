@@ -1,0 +1,49 @@
+{
+  "id": "emskabel-erdkabel-nyy-j-3-x-2-5-mm2-25-m",
+  "name": "Emskabel Erdkabel NYY-J 3 x 2,5 mm² 25 m",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYY-J",
+    "cores": 3,
+    "cross_section_mm2": 2.5
+  },
+  "note": "Erdkabel 0,6/1 kV, schwarz, Ring 25 m.",
+  "product": {
+    "manufacturer": "company:emskabel",
+    "model": "Emskabel Erdkabel NYY-J 3 x 2,5 mm² 25 m Schwarz",
+    "article_no": "3049186",
+    "url": "https://www.obi.de/p/3049186",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 48.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "obi.de Online-Preis 2026-11-21, 25 m (1,96 €/m) inkl. MwSt."
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 25.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

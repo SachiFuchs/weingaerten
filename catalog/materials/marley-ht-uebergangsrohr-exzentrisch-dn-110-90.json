@@ -1,0 +1,61 @@
+{
+  "id": "marley-ht-uebergangsrohr-exzentrisch-dn-110-90",
+  "name": "Marley HT-Übergangsrohr exzentrisch DN 110/90",
+  "category": "Entwässerung",
+  "description": "Das Marley HT-Übergangsrohr exzentrisch ist für alle Abwasseranschlüsse innerhalb eines Gebäudes geeignet. Die saubere und sichere Steckmontage macht Ihnen das Verlegen ganz leicht. Zudem sind die Lippendichtringe bereits vormontiert. Produktmerkmale: - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Steckmuffen-Verbindung - Zur Verbindung von Rohren oder Formstücken ein Gleitmittel verwenden - Schnell und rationell zu verlegen mit geringem Gefälle - Vormontierte Lippendichtung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644092294_marley-ht-uebergangsrohr-exzentrisch-dn-110-90"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Übergangsrohr exzentrisch DN 110/90",
+    "article_no": "2839124",
+    "ean": "4002644092294",
+    "url": "https://www.obi.de/p/2839124",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "122 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "11,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "13,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

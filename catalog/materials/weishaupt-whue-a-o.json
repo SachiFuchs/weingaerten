@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-whue-a-o",
+  "name": "Weishaupt Hydraulik-Übergangs-Set WHÜ-A-O",
+  "category": "Heizung",
+  "description": "Wandkonsole für distri-comp 25-2/3-3,5",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WHÜ-A-O",
+    "article_no": "40900012262",
+    "url": "https://www.haustechnik-handrich.de/weishaupt-systemtechnik/weishaupt-hydraulik-uebergangs-set-whue-a-o-wandkonsole-fuer-distri-comp-25-2-3-3-5",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 69.79,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.14, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

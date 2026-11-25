@@ -1,0 +1,75 @@
+{
+  "id": "iso-federdeckel-weiss-fuer-88-mm-unterputzdosen",
+  "name": "ISO Federdeckel Weiß für Ø 88 mm Unterputzdosen",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4008297186205_iso-federdeckel-weiss-fuer-88-mm-unterputzdosen"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "ISO Federdeckel Weiß für Ø 88 mm Unterputzdosen",
+    "article_no": "7501273",
+    "ean": "4008297186205",
+    "url": "https://www.obi.de/p/7501273",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "8 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "8,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "8,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.2,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-18",
+        "source": "Kassenbon 2023-09-18, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.03,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-26",
+        "source": "Kassenbon 2023-09-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 6×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-03",
+        "source": "Kassenbon 2026-01-03, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-29",
+        "source": "Kassenbon 2026-01-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 6×"
+      }
+    ]
+  }
+}

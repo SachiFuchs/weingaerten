@@ -1,0 +1,11 @@
+{
+  "id": "sanitary-wc",
+  "name": "WC (Abgang DN 90)",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  }
+}

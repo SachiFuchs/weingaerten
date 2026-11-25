@@ -1,0 +1,9 @@
+{
+  "id": "duct-round-125",
+  "name": "Wickelfalzrohr DN 125",
+  "description": "Beispiel (Muster, kein reales System): Lüftungskanal rund",
+  "class": "tga-class:duct",
+  "din276": "430",
+  "system_type": "Wohnraumlüftung",
+  "params": { "profile": "round", "width": 0.125, "insulated": false }
+}

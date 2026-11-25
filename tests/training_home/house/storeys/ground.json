@@ -1,0 +1,169 @@
+{
+  "id": "ground",
+  "name": "Erdgeschoss",
+  "elevation": 0.0,
+  "height": 2.75,
+  "ceilings": [
+    {
+      "id": "c-eg",
+      "name": "Decke EG",
+      "assembly": "assembly:ceiling-lining-cl1",
+      "outline": [ [0.328, 0.328], [5.672, 0.328], [5.672, 7.672], [0.328, 7.672] ],
+      "joists": {
+        "material": "material:spruce-wood",
+        "width": 0.12,
+        "height": 0.18,
+        "spacing": 0.8,
+        "direction": "west_east"
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "w-north",
+      "name": "Außenwand Nord",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [0, 0],
+      "end": [6, 0],
+      "reference": "outside_face",
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-fenster",
+          "component": "component:window-eg-kueche",
+          "offset": 2.0,
+          "sill": 0.9,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-east",
+      "name": "Außenwand Ost",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [6, 0],
+      "end": [6, 8],
+      "reference": "outside_face",
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-fenster-ost",
+          "component": "component:window-wz-gross",
+          "offset": 0.5,
+          "sill": 0.9,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-south",
+      "name": "Außenwand Süd",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [6, 8],
+      "end": [0, 8],
+      "reference": "outside_face",
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-haustuer",
+          "component": "component:door-d1",
+          "offset": 2.5,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-west",
+      "name": "Außenwand West",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [0, 8],
+      "end": [0, 0],
+      "reference": "outside_face",
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-balkontuer",
+          "component": "component:door-balkon-rehau-synego",
+          "offset": 1.5,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-mitte",
+      "name": "Innenwand Mitte",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [0.328, 4.0],
+      "end": [5.672, 4.0],
+      "reference": "center",
+      "openings": [
+        {
+          "id": "o-tuer",
+          "component": "component:door-dg-durchgang",
+          "offset": 1.0,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.03,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-kammer",
+      "name": "Innenwand Kammer West",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [4.5, 4.0],
+      "end": [4.5, 6.0],
+      "reference": "center",
+      "openings": []
+    },
+    {
+      "id": "iw-kammer-sued",
+      "name": "Innenwand Kammer Süd",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [4.5, 6.0],
+      "end": [5.672, 6.0],
+      "reference": "center",
+      "openings": []
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-nord",
+      "number": "0.01",
+      "name": "Raum Nord",
+      "usage": "NUF1",
+      "polygon": [ [0.328, 0.328], [5.672, 0.328], [5.672, 3.94], [0.328, 3.94] ],
+      "coverings": [
+        { "id": "bel-nord", "surface": "floor", "assembly": "assembly:covering-parkett-eiche", "area": "room", "name": "Parkett Nord" }
+      ]
+    },
+    {
+      "id": "room-sued",
+      "number": "0.02",
+      "name": "Raum Süd (L)",
+      "usage": "NUF1",
+      "polygon": [ [0.328, 4.06], [4.44, 4.06], [4.44, 6.06], [5.672, 6.06], [5.672, 7.672], [0.328, 7.672] ]
+    },
+    {
+      "id": "room-kammer",
+      "number": "0.03",
+      "name": "Kammer",
+      "usage": "NUF4",
+      "polygon": [ [4.56, 4.06], [5.672, 4.06], [5.672, 5.94], [4.56, 5.94] ],
+      "coverings": [
+        { "id": "bel-kammer", "surface": "floor", "assembly": "assembly:covering-fliese-boden", "area": "room", "name": "Fliese Kammer" }
+      ]
+    }
+  ]
+}

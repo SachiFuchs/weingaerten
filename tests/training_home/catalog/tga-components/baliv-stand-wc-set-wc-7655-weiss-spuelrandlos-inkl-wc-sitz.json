@@ -1,0 +1,52 @@
+{
+  "id": "baliv-stand-wc-set-wc-7655-weiss-spuelrandlos-inkl-wc-sitz",
+  "name": "baliv Stand-WC-Set WC-7655 Weiß Spülrandlos Inkl. WC-Sitz mit Absenkautomatik",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Sanitär",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-5901771137740_baliv-stand-wc-set-wc-7655-weiss-spuelrandlos-inkl-wc-sitz"
+  ],
+  "product": {
+    "manufacturer": "company:cersanit-s-a",
+    "model": "baliv Stand-WC-Set WC-7655 Weiß Spülrandlos Inkl. WC-Sitz mit Absenkautomatik",
+    "article_no": "8936932",
+    "ean": "5901771137740",
+    "url": "https://www.obi.de/p/8936932",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "36,7 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "83,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "36,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "64,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 199.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-04-04",
+        "source": "Kassenbon 2026-04-04, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

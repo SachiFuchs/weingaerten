@@ -1,0 +1,71 @@
+{
+  "id": "verteilerdose-up-3x-wago-3-polig",
+  "name": "Verteilerdose UP mit 3 × WAGO 3-polig",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "unit": "m"
+  },
+  "assembly": {
+    "main": "tga-component:abzweigkasten-unterputz-95-mm-x-95-mm-schwarz-weiss-ip20",
+    "parts": [
+      {
+        "ref": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange",
+        "role": "L"
+      },
+      {
+        "ref": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange",
+        "role": "N"
+      },
+      {
+        "ref": "tga-component:wago-verbindungsdosenklemme-3-polig-0-5-mm-2-5-mm-orange",
+        "role": "PE"
+      }
+    ],
+    "max_connections": 3
+  },
+  "note": "TGA-Baugruppe (Beispiel): Unterputz-Abzweigkasten mit je einer 3-poligen WAGO-Klemme für L, N und PE -> max. 3 Leitungen",
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ]
+  },
+  "install": {
+    "trade": "electrical",
+    "shape": "box",
+    "size": [
+      0.07,
+      0.07,
+      0.04
+    ],
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0.068,
+          0.066,
+          -0.02
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "power",
+        "dn": 3,
+        "gender": "any"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "flush",
+    "box_function": "junction"
+  }
+}

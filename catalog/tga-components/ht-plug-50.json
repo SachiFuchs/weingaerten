@@ -1,0 +1,51 @@
+{
+  "id": "ht-plug-50",
+  "name": "HT-Muffenstopfen DN 50",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.0
+  },
+  "note": "Platzhalter: nicht im gemeldeten Sortiment, wird für den Leitungsverlauf gebraucht - bitte bestätigen",
+  "estimated": true,
+  "install": {
+    "trade": "waste_water",
+    "group": "Stopfen",
+    "shape": "cap",
+    "outer_diameter": 0.05,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

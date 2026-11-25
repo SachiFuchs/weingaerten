@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-unterputzdose",
+  "name": "Unterputzdose",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "flush"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "box_function",
+        "label": "Dosenart"
+      },
+      {
+        "param": "size",
+        "label": "Größe"
+      }
+    ],
+    "default": "tga-component:kaiser-up-geraetedose"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

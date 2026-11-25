@@ -1,0 +1,121 @@
+{
+  "id": "ppr-rohr-dn-20-x-2-m",
+  "name": "PPR-Rohr DN 20 x 2 m",
+  "class": "tga-class:pipe",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "nominal_size_dn": 20,
+    "outer_diameter": 0.02,
+    "pressure_bar": 10,
+    "medium": "cold_water",
+    "system_line": "ppr"
+  },
+  "note": "Baumarkt-Artikel (Import); Medium je Leitung (kalt/warm) in tga-run.medium",
+  "imported_from": [
+    "ean-4007874149336_ppr-rohr-dn-20-x-2-m"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "PPR-Rohr DN 20 x 2 m",
+    "article_no": "4135802",
+    "ean": "4007874149336",
+    "url": "https://www.obi.de/p/4135802",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "352 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "20,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "20,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-02-27",
+        "source": "Kassenbon 2025-02-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "stock": {
+    "lengths": [
+      2.0
+    ],
+    "cuttable": true
+  },
+  "install": {
+    "trade": "water_supply",
+    "group": "Rohre",
+    "shape": "pipe",
+    "outer_diameter": 0.02,
+    "stretch": {
+      "max_length": 2.0,
+      "default_length": 1.0
+    },
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "spigot"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ppr",
+        "dn": 20,
+        "gender": "spigot",
+        "at_length": true
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "spigot"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "spigot"
+      }
+    ]
+  }
+}

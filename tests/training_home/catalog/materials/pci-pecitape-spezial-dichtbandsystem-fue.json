@@ -1,0 +1,94 @@
+{
+  "id": "pci-pecitape-spezial-dichtbandsystem-fue",
+  "name": "PCI Pecitape® Spezial Dichtbandsystem für wasserdichte Eck-und Anschlussfugen Rolle = 50 m",
+  "category": "Fliesen",
+  "description": "Sorgen Dich undichte Stellen an Eck- und Anschlussfugen im Bad, bevor die Fliesen überhaupt liegen? Dann setze von Anfang an auf eine sichere Abdichtung.\n\nProduktmerkmale des PCI Pecitape® Spezial Dichtbandsystem für wasserdichte Eck-und Anschlussfugen Rolle = 50 m\n\nDarum solltest Du zugreifen: Das Dichtband ist wasserfest und feuchtigkeitsbeständig, dadurch schützt es Anschlussbereiche in Innenräumen und Nassbereichen zuverlässig vor eindringender Feuchtigkeit. Als gebrauchsfertige Ausführung lässt es sich ohne Vorbereitung direkt beim Abdichten einsetzen, sodass Du zügig weiterarbeiten kannst. Mit 50 m Rollenlänge kannst Du auch mehrere Übergänge in Duschelement, Duschwanne oder an der Badewanne in einem Arbeitsgang abdichten und reduzierst Unterbrechungen auf der Baustelle.\n\nDas Material aus Gummi mit Vlies sorgt dafür, dass das Band sich in gängige Abdichtaufbauten gut einbinden lässt und in Ecken sowie an Anschlüssen sauber anliegt. Der blaue Farbton erleichtert die Kontrolle beim Verlegen, damit Du überlappte Bereiche und den Verlauf der Abdichtung schnell erkennst.\n\nFestgezurrt: Mit dem PCI Pecitape® Dichtband dichtest Du Eck- und Anschlussfugen in Dusche und Badewannenbereich wasserfest ab und schaffst eine belastbare Basis für den weiteren Fliesenaufbau.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10398901_pci-pecitape-spezial-dichtbandsystem-fue"
+  ],
+  "product": {
+    "manufacturer": "company:pci",
+    "model": "PCI Pecitape® Spezial Dichtbandsystem für wasserdichte Eck-und Anschlussfugen Rolle = 50 m",
+    "article_no": "10398901",
+    "ean": "2007008023206",
+    "url": "https://www.hornbach.de/p/pci-pecitape-spezial-dichtbandsystem-fuer-wasserdichte-eck-und-anschlussfugen-rolle-50-m/10398901/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dichtungsband"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Dichtband"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Feuchtraum, Innen, Nassbereich"
+        },
+        {
+          "label": "Farbton",
+          "value": "Blau"
+        },
+        {
+          "label": "Material",
+          "value": "Gummi, Vlies"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Abdichten"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Badewanne, Duschelement, Duschwanne"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Beton, Gipskarton, Holz, Mauerwerk, Putz, Zement"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Feuchtigkeitsbeständig, Gebrauchsfertig, Wasserfest"
+        },
+        {
+          "label": "EAN",
+          "value": "2007007995627, 4083200010136, 4083200021484, 4083200081488"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "120 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "50 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 8.26,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-22",
+        "source": "Kassenbon 2026-07-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1 M, Preis je m"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D9D4CC",
+    "roughness": 0.3,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10398901_1.jpg",
+    "hornbach-10398901_2.jpg",
+    "hornbach-10398901_3.jpg",
+    "hornbach-10398901_4.jpg",
+    "hornbach-10398901_5.jpg"
+  ]
+}

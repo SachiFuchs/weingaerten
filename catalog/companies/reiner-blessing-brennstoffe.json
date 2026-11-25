@@ -1,0 +1,8 @@
+{
+  "id": "reiner-blessing-brennstoffe",
+  "name": "Reiner Blessing Brennstoffe",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

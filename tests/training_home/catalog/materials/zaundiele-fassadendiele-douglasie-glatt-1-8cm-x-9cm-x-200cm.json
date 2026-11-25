@@ -1,0 +1,53 @@
+{
+  "id": "zaundiele-fassadendiele-douglasie-glatt-1-8cm-x-9cm-x-200cm",
+  "name": "Zaundiele / Fassadendiele Douglasie glatt 1,8cm x 9cm x 200cm",
+  "category": "Holz",
+  "description": "Mit der Douglasie-Terrassendielen glatt bauen Sie sich eine Terrasse, die durch ihr individuelles Farbspiel überzeugt. Diese Dielen können Sie aber auch als Zaun- oder Fassadendielen verwenden. Lassen Sie Ihrer Kreativität freien Lauf. Bitte beachten Sie unbedingt unsere Verlegeanleitung für Holz-Terrassen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4000868800329_zaundiele-fassadendiele-douglasie-glatt-1-8cm-x-9cm-x-200cm"
+  ],
+  "product": {
+    "manufacturer": "company:rettenmeier-holzindustrie-wilburgstetten",
+    "model": "Zaundiele / Fassadendiele Douglasie glatt 1,8cm x 9cm x 200cm",
+    "article_no": "8401390",
+    "ean": "4000868800329",
+    "url": "https://www.obi.de/p/8401390",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,60 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "9,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,8 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-01-22",
+        "source": "Kassenbon 2024-01-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 10×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

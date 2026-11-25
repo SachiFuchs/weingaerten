@@ -1,0 +1,108 @@
+{
+  "id": "ponal-parkett-laminat-fugenfueller-eiche",
+  "name": "Ponal Parkett & Laminat Fugenfüller eiche 280 ml",
+  "category": "Baustoffe",
+  "description": "Stören Dich sichtbare Fugen im Boden und Du willst sie sauber schließen, ohne gleich ganze Elemente zu tauschen?\n\nProduktmerkmale des Ponal Parkett & Laminat Fugenfüller eiche 280 ml\n\nDarum solltest Du zugreifen: Als Fugendichtstoff ist der Füllstoff dafür gemacht, Fugen in Parkett und Laminat gezielt zu schließen, sodass der Boden im Wohnraum wieder gleichmäßig wirkt. Die Eiche-Farbgebung hilft dabei, die ausgebesserte Stelle optisch an holztypische Töne anzupassen, wodurch Reparaturen weniger auffallen. Da der Einsatz für innen und für Holz sowie Holzwerkstoffe vorgesehen ist, passt das Material zu gängigen Bodenaufbauten im Wohnbereich.\n\nFür die Anwendung beim Kleben unterstützt der Fugenfüller das Schließen und Stabilisieren von Fugen, damit sich Schmutz nicht so leicht in offenen Spalten festsetzt. Nach dem Aushärten ist die Ablösbarkeit nur mechanisch möglich, was Dir zeigt, dass die Füllung auf dauerhaften Halt ausgelegt ist und nicht bei der ersten Beanspruchung nachgibt. Plane für die Endfestigkeit rund 72 Stunden ein, damit die Fuge in dieser Zeit ungestört aushärten kann.\n\nFestgezurrt: Wenn Du Fugen in Parkett oder Laminat im Innenbereich optisch passend schließen willst und Wert auf eine dauerhaft feste Füllung legst, ist Ponal Parkett & Laminat Fugenfüller eiche 280 ml die passende Wahl.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-7567636_ponal-parkett-laminat-fugenfueller-eiche"
+  ],
+  "product": {
+    "manufacturer": "company:ponal",
+    "model": "Ponal Parkett & Laminat Fugenfüller eiche 280 ml",
+    "article_no": "7567636",
+    "ean": "4015000073448",
+    "url": "https://www.hornbach.de/p/ponal-parkett-laminat-fugenfueller-eiche-280-ml/7567636/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Füllstoff"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Fugendichtstoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Kleben"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Holz, Holzwerkstoffe"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Wohnraumgeeignet"
+        },
+        {
+          "label": "Inhalt",
+          "value": "280 ml"
+        },
+        {
+          "label": "Ablösbarkeit",
+          "value": "Mechanische Entfernung"
+        },
+        {
+          "label": "Ideal geeignet für",
+          "value": "Laminat, Parkett"
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH208) Enthält Trimethoxyvinylsilan (CAS: 2768-02-7). Kann allergische Reaktionen hervorrufen."
+        },
+        {
+          "label": "Endfestigkeit nach ca.",
+          "value": "72 h"
+        },
+        {
+          "label": "EAN",
+          "value": "4015000073448"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 12.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-12",
+        "source": "Kassenbon 2026-06-12, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 12.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-27",
+        "source": "Kassenbon 2026-06-27, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 12.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-20",
+        "source": "Kassenbon 2026-07-20, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-7567636_1.jpg",
+    "hornbach-7567636_2.jpg",
+    "hornbach-7567636_3.jpg",
+    "hornbach-7567636_4.jpg",
+    "hornbach-7567636_5.jpg"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "naturbo-lehm-finishputz-weiss",
+  "name": "Naturbo Lehm-Finishputz weiß, Korn 0,5 mm",
+  "category": "Putz",
+  "description": "Lehm-Oberputz, Sack",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Lehm-Finishputz weiß, Korn 0,5 mm",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 40.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 15, je Sack",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8B79E",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

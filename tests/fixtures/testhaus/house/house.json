@@ -1,0 +1,22 @@
+{
+  "id": "testhaus",
+  "name": "Testhaus",
+  "description": "Kleines Testhaus 6 × 8 m (EG + DG mit Satteldach) für die Szenario-Tests; nutzt den echten Katalog. Werte von Hand nachrechenbar – NICHT für echte Daten verwenden.",
+  "foundation": {
+    "assembly": "assembly:base-slab-bs1",
+    "follow": "outline",
+    "overhang": 0,
+    "top": 0.0
+  },
+  "storeys": [ "storey:ground", "storey:upper" ],
+  "shafts": [
+    {
+      "id": "schacht-test",
+      "name": "Testschacht",
+      "purpose": "supply",
+      "polygon": [ [5.3, 0.328], [5.672, 0.328], [5.672, 0.7], [5.3, 0.7] ],
+      "from_storey": "storey:upper",
+      "to_storey": "storey:ground"
+    }
+  ]
+}

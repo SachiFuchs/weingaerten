@@ -1,0 +1,31 @@
+{
+  "id": "tw-eg-cold",
+  "name": "Kaltwasser EG Hauptleitung (WC bis Steigleitung)",
+  "component": "tga-component:ppr-rohr-dn-20-x-2-m",
+  "system": "drinking-water-eg",
+  "medium": "cold_water",
+  "installation": "surface",
+  "points": [
+    [
+      6.742,
+      0.65,
+      0.5
+    ],
+    [
+      6.742,
+      0.65,
+      0.2
+    ],
+    [
+      6.742,
+      4.93,
+      0.2
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:tw-steig-cold",
+    "kind": "branch"
+  },
+  "from": "tga-terminal:ws-wc-cold"
+}

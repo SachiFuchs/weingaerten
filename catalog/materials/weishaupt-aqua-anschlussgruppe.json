@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-aqua-anschlussgruppe",
+  "name": "Weishaupt Aqua-Anschlussgruppe (Trinkwasser)",
+  "category": "Heizung",
+  "description": "Kugelhähne Vor- und Rücklauf mit Verschraubungen für den Speicheranschluss",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "Aqua-Anschlussgruppe (Trinkwasser)",
+    "article_no": "51150501022",
+    "url": "https://www.haustechnik-handrich.de/weishaupt-systemtechnik/weishaupt-aqua-anschlussgruppe-trinkwasser",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 104.54,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.18, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

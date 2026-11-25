@@ -1,0 +1,37 @@
+{
+  "id": "door-balkon-rehau-synego",
+  "name": "Balkontür Rehau Synego AD 80, Dreh-Kipp links",
+  "description": "Marquardt RE 2026-072 Pos. 03: Hauber Kunststofffenster-System, weiß, Roto NX RC 2, abschließbarer Griff, Ug 0,5 / Uw 0,78",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 1.04,
+    "height": 2.22,
+    "depth": 0.08,
+    "frame_width": 0.07,
+    "sashes": 1,
+    "opening_1": "tilt_turn_left",
+    "glazing_type": "triple",
+    "ug_value": 0.5,
+    "burglary_class": "RC2"
+  },
+  "materials": {
+    "frame": "material:pvc-white",
+    "glazing": "material:glass"
+  },
+  "product": {
+    "manufacturer": "company:rehau",
+    "model": "Synego AD 80",
+    "offers": [
+      {
+        "supplier": "company:marquardt",
+        "price": 630.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-02",
+        "source": "Rechnung 2026-072, Pos. 03, je Stk",
+        "document": "document:2026-03-02-marquardt-2026-072-haustuer-balkontuer"
+      }
+    ]
+  }
+}

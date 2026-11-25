@@ -1,0 +1,76 @@
+{
+  "id": "2025-02-05-evf-000012402967-stromrechnung-2024",
+  "name": "EVF 000012402967 – Stromrechnung 2024",
+  "doc_type": "invoice",
+  "supplier": "company:evf",
+  "date": "2025-02-05",
+  "number": "000012402967",
+  "customer_number": "364336",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Lieferanschrift: Weingärten 8, 73037 Göppingen (Zähler 103033, Stromlieferung 01.01.2024 bis 31.12.2024)",
+  "description": "Jahres-Stromrechnung der EVF (Grundversorgung) für Weingärten 8 über den Lieferzeitraum 01.01.2024 bis 31.12.2024 mit 834 kWh Verbrauch (Vorjahr 502 kWh). Von 447,48 € brutto wurden bezahlte Abschläge von 341,00 € abgezogen, die Restforderung von 106,48 € war am 19.02.2025 fällig. Der neue Abschlag ab 2025 beträgt 40,00 € monatlich.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Grundpreis EVF-Grundversorgung 01.01.2024-01.02.2024 (32 Tage, 130,00 €/Jahr)",
+      "quantity": 1,
+      "unit": "Zeitraum",
+      "unit_price": 11.37,
+      "total_price": 11.37
+    },
+    {
+      "position": "2",
+      "description": "Grundpreis EVF-Grundversorgung 02.02.2024-31.12.2024 (334 Tage, 130,00 €/Jahr)",
+      "quantity": 1,
+      "unit": "Zeitraum",
+      "unit_price": 118.63,
+      "total_price": 118.63
+    },
+    {
+      "position": "3",
+      "description": "Arbeitspreis HT 01.01.2024-01.02.2024",
+      "quantity": 375.6,
+      "unit": "kWh",
+      "unit_price": 0.2877,
+      "total_price": 108.06
+    },
+    {
+      "position": "4",
+      "description": "Arbeitspreis HT 02.02.2024-29.02.2024",
+      "quantity": 37.15,
+      "unit": "kWh",
+      "unit_price": 0.2877,
+      "total_price": 10.69
+    },
+    {
+      "position": "5",
+      "description": "Arbeitspreis HT 01.03.2024-31.08.2024",
+      "quantity": 252.99,
+      "unit": "kWh",
+      "unit_price": 0.3148,
+      "total_price": 79.64
+    },
+    {
+      "position": "6",
+      "description": "Arbeitspreis HT 01.09.2024-31.12.2024",
+      "quantity": 167.76,
+      "unit": "kWh",
+      "unit_price": 0.284,
+      "total_price": 47.64
+    }
+  ],
+  "subtotal_net": 376.03,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 376.03,
+  "vat_rate": 19,
+  "vat_amount": 71.45,
+  "total_gross": 447.48,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-02-05-evf-000012402967-stromrechnung-2024.json",
+  "source_sha256": "804047d7d795649d944af01f520d11f894930591df0145afcbf64df30b0c5458",
+  "original_filename": "2025-02-05 EVF Jahresrechnung Weingaerten.pdf"
+}

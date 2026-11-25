@@ -1,0 +1,27 @@
+{
+  "id": "interior-wall-iw1",
+  "name": "Innenwand Ziegel 10 cm, beidseitig verputzt",
+  "ifc": { "entity": "IfcWall", "predefined_type": "PARTITIONING" },
+  "category": "interior_wall",
+  "din276": "340",
+  "description": "Annahme: Innenwand Ziegel 10 cm, beidseitig 1 cm Innenputz (Aufbau nicht dokumentiert)",
+  "layer_order": "left_right",
+  "layers": [
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    },
+    {
+      "material": "material:hollow-brick",
+      "thickness": 0.1
+    },
+    {
+      "material": "material:interior-plaster",
+      "thickness": 0.01
+    }
+  ],
+  "visualization": {
+    "view": "outer_layers",
+    "section": "all_layers"
+  }
+}

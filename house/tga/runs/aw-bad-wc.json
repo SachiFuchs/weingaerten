@@ -1,0 +1,30 @@
+{
+  "id": "aw-bad-wc",
+  "name": "WC Bad EG",
+  "component": "tga-component:ht-pipe-90",
+  "system": "waste-water-eg",
+  "installation": "outside",
+  "points": [
+    [
+      6.45,
+      0.65,
+      0.2
+    ],
+    [
+      7.3,
+      0.65,
+      0.183
+    ],
+    [
+      7.3,
+      0.65,
+      -0.3
+    ]
+  ],
+  "estimated": true,
+  "from": "tga-terminal:wc-bad-eg",
+  "into": {
+    "run": "tga-run:aw-bad-wc-kg",
+    "kind": "continue"
+  }
+}

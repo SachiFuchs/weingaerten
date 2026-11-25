@@ -1,0 +1,119 @@
+{
+  "id": "jungborn-duschwanne-cinque-75-x-90-x-2-5",
+  "name": "Jungborn Duschwanne CINQUE 75 x 90 x 2.5 cm weiß glänzend 6037000",
+  "class": "tga-class:terminal",
+  "din276": "412",
+  "system_type": "Sanitär",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-12000531_jungborn-duschwanne-cinque-75-x-90-x-2-5"
+  ],
+  "product": {
+    "manufacturer": "company:jungborn",
+    "model": "Jungborn Duschwanne CINQUE 75 x 90 x 2.5 cm weiß glänzend 6037000",
+    "article_no": "12000531",
+    "ean": "4306516023776",
+    "url": "https://www.hornbach.de/p/jungborn-duschwanne-cinque-75-x-90-x-2-5-cm-weiss-glaenzend-6037000/12000531/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Duschwanne"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Einbauduschwanne, Bodenebenesduschelement"
+        },
+        {
+          "label": "Variante",
+          "value": "Rechteckduschwanne"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "Material",
+          "value": "Acryl"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Sanitäracryl"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Ablaufposition seitlich Mittig, Pflegeleicht, Eingearbeitetes Gefälle, Geeignet für Untermauer"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer"
+        },
+        {
+          "label": "Serie",
+          "value": "Cinque"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "6037000"
+        },
+        {
+          "label": "Nennmaß (LxB)",
+          "value": "90 x 75 cm"
+        },
+        {
+          "label": "Maße (LxBxH)",
+          "value": "90 x 75 x 4 cm"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Montageanleitung"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Füße sind nicht im Lieferumfang enthalten"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Glänzend"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "MVJM"
+        },
+        {
+          "label": "EAN",
+          "value": "4306516023776"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "12 kg"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 199,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-13",
+        "source": "Kassenbon 2026-07-13, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-12000531_1.jpg",
+    "hornbach-12000531_2.jpg",
+    "hornbach-12000531_3.jpg"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "mapei-bodenausgleichmasse-die-duenne-1-mm-3-10-mm",
+  "name": "Mapei Bodenausgleichmasse Die Dünne 1 mm - 3 10 mm",
+  "category": "Baustoffe",
+  "description": "Die Bodenausgleichsmasse von Mapei eignet sich zum Glätten, Spachteln, Ausgleichen und Nivellieren von Unebenheiten. Durch seine Zusammensetzung ist die Masse auch passend für die Installation für Fußbodenheizung geeignet. Passend für Fußbodenheizungen Dank der guten Verlaufseigenschaft der Nivelliermasse ermöglicht sie eine hohlraumfreie Verlegung sowie eine Festigkeit, was besonders wichtige Aspekte einer Nivelliermasse sind. Das sorgt dafür, dass die Masse über den Heizrohren bei der Wärmeentwicklung nicht reißt und fest bleibt. Ausgleichmasse für den Innenbereich Der Mörtel eignet sich für Projekte im Bereich Bauen, Baustoffe, Putz, Mörtel und Zement im Innenbereich. Die leichte Handhabung ermöglicht Ihnen ein effizientes und sauberes Arbeiten ganz ohne Fachkenntnisse.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-8022452365775_mapei-bodenausgleichmasse-die-duenne-1-mm-3-10-mm"
+  ],
+  "product": {
+    "manufacturer": "company:mapei",
+    "model": "Mapei Bodenausgleichmasse Die Dünne 1 mm - 3 10 mm",
+    "article_no": "8613838",
+    "ean": "8022452365775",
+    "url": "https://www.obi.de/p/8613838",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 20.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-07-24",
+        "source": "Kassenbon 2026-07-24, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "20,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "44,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "30,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "8,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

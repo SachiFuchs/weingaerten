@@ -1,0 +1,38 @@
+{
+  "id": "p-3",
+  "component": "tga-component:installations-elektro-und-stromkabel-nym-j-3-x-1-5-mm2-50-m",
+  "storey": "ground",
+  "host": {
+    "wall": "w-west-z2",
+    "face": "inside"
+  },
+  "u": 1.76,
+  "z": 0.48,
+  "depth": -0.0235,
+  "rot": {
+    "plane": 255,
+    "tilt": 0,
+    "turn": 0,
+    "flip": false
+  },
+  "path": [
+    [
+      -0.6593,
+      0.258,
+      0
+    ],
+    [
+      -1.0588,
+      0.3582,
+      0
+    ],
+    [
+      -1.2596,
+      0.1178,
+      0
+    ]
+  ],
+  "connections": {
+    "b": "p-1.bottom"
+  }
+}

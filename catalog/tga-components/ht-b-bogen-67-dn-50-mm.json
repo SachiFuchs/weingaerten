@@ -1,0 +1,42 @@
+{
+  "id": "ht-b-bogen-67-dn-50-mm",
+  "name": "HT-B Bogen 67° DN 50 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 67
+  },
+  "description": "Brauchst Du ein zuverlässiges Formteil für die Hausentwässerung? Der HT-B Bogen 67° DN 50 mm erfüllt alle Anforderungen.\n\nProduktmerkmale des HT-B Bogen 67° DN 50 mm\nDarum solltest Du zugreifen: Dieser Bogen ist speziell für die Hausentwässerung konzipiert und besteht aus Polypropylen (PP), was ihn besonders langlebig und widerstandsfähig macht. Mit einem Außendurchmesser von 63 mm und einer Nennweite von 50 mm passt er perfekt in Dein Abflussrohrsystem. Die Heißwasserbeständigkeit ermöglicht den Einsatz in Bereichen, in denen hohe Temperaturen auftreten können. Der Bogen erfüllt die Norm DIN EN 1451-1, was seine Qualität und Zuverlässigkeit unterstreicht. Die Ringsteifigkeit von SN2 sorgt für Stabilität und Langlebigkeit, selbst unter Druckbelastung. Der 67-Grad-Winkel ermöglicht eine effiziente und platzsparende Installation in Innenbereichen.\n\nFestgezurrt: Der HT-B Bogen 67° DN 50 mm ist die ideale Wahl für eine zuverlässige und langlebige Hausentwässerungslösung.",
+  "photos": [
+    "hornbach-263843_1.jpg",
+    "hornbach-263843_2.jpg",
+    "hornbach-263843_3.jpg"
+  ],
+  "imported_from": [
+    "hornbach-263843_ht-b-bogen-67-dn-50-mm"
+  ],
+  "catalog_material": "material:ht-b-bogen-67-dn-50-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "arcansas-winkelprofil-gleichschenklig-aluminium-23-mm-x-23",
+  "name": "Arcansas Winkelprofil gleichschenklig Aluminium 23 mm x 23 mm x 1.000 mm",
+  "category": "Baustoffe",
+  "description": "Das L-förmige Aluminiumprofil ist ein widerstandsfähiges, leichtes und robustes Bauteil, das in vielen verschiedenen Anwendungsbereichen eingesetzt werden kann. Besonders gut eignet es sich als Befestigungs- und Verbindungselement, z.B. für Rahmenkonstruktionen und Regale. Multifunktionales, gleichschenkliges Winkelprofil aus Aluminium Das Profil besteht aus hochwertigem Aluminium, das sich durch sein geringes Gewicht und seine hohe Stabilität auszeichnet und ein gängiges Material für Bau- und Konstruktionsanwendungen ist, bei denen Wartungskosten und Gewicht ein Faktor sind. Die Abmessungen des L-förmigen Aluminiumprofils betragen 23 mm x 23 mm x 1.000 mm, bei Bedarf können Sie es aber auch entsprechend für Ihren Anwendungsfall zuschneiden.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-8013237148102_arcansas-winkelprofil-gleichschenklig-aluminium-23-mm-x-23"
+  ],
+  "product": {
+    "manufacturer": "company:arcansas-profili",
+    "model": "Arcansas Winkelprofil gleichschenklig Aluminium 23 mm x 23 mm x 1.000 mm",
+    "article_no": "4493680",
+    "ean": "8013237148102",
+    "url": "https://www.obi.de/p/4493680",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "184 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,3 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "100,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-06-16",
+        "source": "Kassenbon 2025-06-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "bondex-dauerschutz-farbe-schneeweiss-seidenglaenzend-4-l",
+  "name": "Bondex Dauerschutz-Farbe Schneeweiß seidenglänzend 4 l",
+  "category": "Farbe",
+  "description": "Die qualitativ hochwertige Bondex Dauerschutz-Farbe auf Wasserbasis schützt dauerhaft Holz und viele andere Untergründe wie Aluminium, Stahl und Kunststoff. Sie bietet bis zu 12 Jahren Intensivschutz vor Witterungseinflüssen, ist atmungsaktiv, wasserdampfdurchlässig und geruchsarm. Die Bondex Dauerschutz-Holzfarbe ist hochdeckend und somit ideal für extreme Farbtonwechsel. Sie bildet einen deckenden, strapazierfähigen und elastischen Film. Ein neu entwickeltes Bindemittel sorgt für eine optimale Verankerung und noch höhere Elastizität für noch längere Haltbarkeit auf fast allen Untergründen. Bei Nadelhölzern im Außenbereich ist eine Vorbehandlung mit Bondex Nadelholz Imprägnierung Ultra erforderlich. Je nach Untergrund oder Farbton empfehlen wir einen Voranstrich mit Bondex Isolier- und Allgrund. Anwendung Innen und Außen: Besonders für begrenzt und nicht maßhaltige Hölzer, z.B. Holzfassaden und Wand- und Deckenholzverkleidungen. Nicht auf Terrassen-, Balkon- und Wohnraumböden anwenden. Inhalt reicht für ca. 36 m²",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-5702160051599_bondex-dauerschutz-farbe-schneeweiss-seidenglaenzend-4-l"
+  ],
+  "product": {
+    "manufacturer": "company:ppg-coatings",
+    "model": "Bondex Dauerschutz-Farbe Schneeweiß seidenglänzend 4 l",
+    "article_no": "5016159",
+    "ean": "5702160051599",
+    "url": "https://www.obi.de/p/5016159",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 59.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-13",
+        "source": "Kassenbon 2024-05-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 59.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-19",
+        "source": "Kassenbon 2025-04-19, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "5,3 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "20,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "19,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "20,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "diazed-sicherung-dii-e27-6-a-5-stueck",
+  "name": "Diazed-Sicherung DII E27 6 A 5 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "fuse"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873975738_diazed-sicherung-dii-e27-6-a-5-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:rev-ritter",
+    "model": "Diazed-Sicherung DII E27 6 A 5 Stück",
+    "article_no": "5371729",
+    "ean": "4007873975738",
+    "url": "https://www.obi.de/p/5371729",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "26 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "2,2 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-09-09",
+        "source": "Kassenbon 2022-09-09, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

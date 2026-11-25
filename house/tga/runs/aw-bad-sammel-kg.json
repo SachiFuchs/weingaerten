@@ -1,0 +1,29 @@
+{
+  "id": "aw-bad-sammel-kg",
+  "name": "Sammelleitung Bad EG – Anschluss KG",
+  "component": "tga-component:kg-pipe-110",
+  "system": "waste-water-eg",
+  "installation": "buried",
+  "points": [
+    [
+      7.3,
+      1.9,
+      -0.3
+    ],
+    [
+      7.3,
+      1.9,
+      -0.7126
+    ],
+    [
+      7.92,
+      2.57,
+      -0.7217
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:aw-grund-ost",
+    "kind": "branch"
+  }
+}

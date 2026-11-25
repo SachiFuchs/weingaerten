@@ -1,0 +1,104 @@
+{
+  "id": "avital-brauseschlauch-metall-edelstahl-2",
+  "name": "AVITAL Brauseschlauch Metall edelstahl 2 m x 1/2\"",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6703579_avital-brauseschlauch-metall-edelstahl-2"
+  ],
+  "product": {
+    "manufacturer": "company:avital",
+    "model": "AVITAL Brauseschlauch Metall edelstahl 2 m x 1/2\"",
+    "article_no": "6703579",
+    "ean": "4306517360856",
+    "url": "https://www.hornbach.de/p/avital-brauseschlauch-metall-edelstahl-2-m-x-1-2/6703579/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Schlauch"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Brauseschlauch"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Baden, Duschen"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Badewanne, Dusche"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer"
+        },
+        {
+          "label": "Material",
+          "value": "Metall, Edelstahl"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Chrom"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Drehkonus (verhindert das Verdrehen des Schlauches)"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Drehkonus"
+        },
+        {
+          "label": "Verdrehschutz",
+          "value": "Ja"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Auch für Niederdruck geeignet"
+        },
+        {
+          "label": "Brauseanschluss",
+          "value": "1/2 Zoll"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "R78D"
+        },
+        {
+          "label": "EAN",
+          "value": "4306517360856"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Länge",
+          "value": "200 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 16.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-03-23",
+        "source": "Kassenbon 2024-03-23, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6703579_1.jpg"
+  ]
+}

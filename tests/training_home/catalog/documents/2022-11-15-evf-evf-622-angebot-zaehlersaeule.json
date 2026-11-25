@@ -1,0 +1,57 @@
+{
+  "id": "2022-11-15-evf-evf-622-angebot-zaehlersaeule",
+  "name": "EVF EVF-622 – Angebot Zählersäule",
+  "doc_type": "quote",
+  "supplier": "company:evf",
+  "date": "2022-11-15",
+  "number": "EVF-622",
+  "customer_number": null,
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse/Anschlussadresse: Weingärten 8, 73037 Göppingen (Interessenten-Nummer EVF-622)",
+  "description": "Festpreis-Angebot der EVF für den Stromanschluss von Weingärten 8 mit Zähleranschluss-Säule (1 Zählerplatz), Montage/Lieferung und Anfahrt; Tiefbau bauseits. Das Angebot wurde von Nadja Suri-Bernas per unterschriebenem Auftrag (Auftrag durch den Anschlussnehmer vom 15.11.2022) angenommen. Abgerechnet wurde die Leistung mit EVF-Rechnung 068875 vom 26.04.2023 über denselben Betrag von 2.688,09 € brutto.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.1",
+      "description": "Individuelles Paket: Zähleranschluss-Säule - 1 Zählerplatz (exkl. Montage/Lieferung), Unterhalt obliegt dem Anschlussnehmer, separate Rechnungsstellung",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 1580.39,
+      "total_price": 1580.39,
+      "ref": "tga-component:evf-zaehleranschlusssaeule"
+    },
+    {
+      "position": "1.2",
+      "description": "Montage/Lieferung Zähleranschlusssäule",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 428.51,
+      "total_price": 428.51
+    },
+    {
+      "position": "2",
+      "description": "Anfahrt",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 250.0,
+      "total_price": 250.0,
+      "unit_raw": "pauschal"
+    }
+  ],
+  "subtotal_net": 2258.9,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2258.9,
+  "vat_rate": 19,
+  "vat_amount": 429.19,
+  "total_gross": 2688.09,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-11-15-evf-EVF-622-angebot-zaehlersaeule.json",
+  "source_sha256": "33a2e95047f7a25d8d6c882f069d3f9737b290d4c40806dd4c413f5d88490ec1",
+  "original_filename": "2022-11-15 EVF - Angebot.pdf",
+  "related": [
+    "document:2023-04-26-evf-068875-stromanschluss-zas"
+  ]
+}

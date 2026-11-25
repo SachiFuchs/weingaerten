@@ -1,0 +1,78 @@
+{
+  "id": "jung-ls-961-z5-ww-zwischenrahmen-alpinwe",
+  "name": "Jung LS 961 Z5 WW Zwischenrahmen alpinweiß LS990 LS-Design",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-7790524_jung-ls-961-z5-ww-zwischenrahmen-alpinwe"
+  ],
+  "product": {
+    "manufacturer": "company:jung",
+    "model": "Jung LS 961 Z5 WW Zwischenrahmen alpinweiß LS990 LS-Design",
+    "article_no": "7790524",
+    "ean": "4011377985018",
+    "url": "https://www.hornbach.de/p/jung-ls-961-z5-ww-zwischenrahmen-alpinweiss-ls990-ls-design/7790524/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Rahmen"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Zwischenrahmen"
+        },
+        {
+          "label": "Serie",
+          "value": "LS990"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "LS961Z5WW"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Schutzart",
+          "value": "IP 20"
+        },
+        {
+          "label": "Farbton",
+          "value": "Alpinweiß"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "4Y63"
+        },
+        {
+          "label": "EAN",
+          "value": "4011377985018"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 4.05,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-01-05",
+        "source": "Kassenbon 2026-01-05, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-7790524_1.jpg"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "dreikantleiste-kiefer-14-mm-x-14-mm-laenge-900-mm",
+  "name": "Dreikantleiste Kiefer 14 mm x 14 mm Länge 900 mm",
+  "category": "Holz",
+  "description": "Die Dreikantleiste in der Farbe Kiefer ist universell einsetzbar und verhilft Ihnen zu einer erfolgreichen Umsetzung Ihrer Pläne. Sie ist in verschiedenen Größen und Materialausführungen erhältlich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4006850467990_dreikantleiste-kiefer-14-mm-x-14-mm-laenge-900-mm"
+  ],
+  "product": {
+    "manufacturer": "company:doellken-profiles",
+    "model": "Dreikantleiste Kiefer 14 mm x 14 mm Länge 900 mm",
+    "article_no": "1041920",
+    "ean": "4006850467990",
+    "url": "https://www.obi.de/p/1041920",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "79 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "1,4 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "90,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,4 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-17",
+        "source": "Kassenbon 2023-07-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "schallschutzrohrschelle-20-mm-25-mm-2-stueck",
+  "name": "Schallschutzrohrschelle Ø 20 mm - Ø 25 mm 2 Stück",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "pipe_clamp"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873937965_schallschutzrohrschelle-20-mm-25-mm-2-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Schallschutzrohrschelle Ø 20 mm - Ø 25 mm 2 Stück",
+    "article_no": "7405673",
+    "ean": "4007873937965",
+    "url": "https://www.obi.de/p/7405673",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "50 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-01",
+        "source": "Kassenbon 2025-03-01, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 5.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-29",
+        "source": "Kassenbon 2025-03-29, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

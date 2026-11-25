@@ -1,0 +1,89 @@
+{
+  "id": "kappe-3-8-messing-verchromt",
+  "name": "Kappe 3/8\" messing verchromt",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-1395535_kappe-3-8-messing-verchromt"
+  ],
+  "product": {
+    "model": "Kappe 3/8\" messing verchromt",
+    "article_no": "1395535",
+    "ean": "52035",
+    "url": "https://www.hornbach.de/p/kappe-3-8-messing-verchromt/1395535/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Fitting"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kappe"
+        },
+        {
+          "label": "Größe",
+          "value": "3/8 \""
+        },
+        {
+          "label": "Variante",
+          "value": "Schraubfitting"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Verbinden, Schrauben"
+        },
+        {
+          "label": "Gewinde-Typ",
+          "value": "Innengewinde"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Trinkwasser, Heizung"
+        },
+        {
+          "label": "Material",
+          "value": "Messing"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Edelstahlrohr"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Verchromt"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "WJ4K"
+        },
+        {
+          "label": "EAN",
+          "value": "2001395535007, 4002071812076, 4007111124300, 4007111943116, 4023199940533, 4029719030098, 4035300478606"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.75,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-18",
+        "source": "Kassenbon 2025-10-18, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-1395535_1.jpg"
+  ]
+}

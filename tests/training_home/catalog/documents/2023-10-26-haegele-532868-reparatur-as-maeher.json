@@ -1,0 +1,87 @@
+{
+  "id": "2023-10-26-haegele-532868-reparatur-as-maeher",
+  "name": "Hägele 532868 – Reparatur AS Mäher",
+  "doc_type": "invoice",
+  "supplier": "company:haegele-technik",
+  "date": "2023-10-26",
+  "number": "532868",
+  "customer_number": "372625",
+  "category": "garten-baustoffe",
+  "object": "weingaerten-8",
+  "project": "Lieferadresse/Einsatzort: Weingärten 8, 73037 Göppingen (lt. Auftraggeber); Reparatur AS-Mäher AS 21 4-T, Auftrags-Nr. 5304400-00, Leistungsdatum 23.10.2023 (Rechnungsempfänger: Nadja Suri-Bernas, München)",
+  "description": "Werkstattrechnung der Hägele Technik GmbH (Uhingen) für die Reparatur eines AS-Mähers AS 21 4-T: Vergaser gereinigt, Kundendienst mit Luftfilter, Zündkerze und Ölwechsel sowie Ultraschallreinigung. Zahlbar sofort ohne Abzug.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Arbeitsleistung: Vergaser demontiert und gereinigt, Kundendienst durchgeführt, Probelauf (0,98 Std.)",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 73.5,
+      "total_price": 73.5,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "2",
+      "description": "Dichtung Luftfilter",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 4.85,
+      "total_price": 4.85
+    },
+    {
+      "position": "3",
+      "description": "Motorenölfüllung",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 5.4,
+      "total_price": 5.4,
+      "unit_raw": "Pausch"
+    },
+    {
+      "position": "4",
+      "description": "Zündkerze BS-OHV-HT",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 4.62,
+      "total_price": 4.62
+    },
+    {
+      "position": "5",
+      "description": "Luftfilter",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 9.81,
+      "total_price": 9.81
+    },
+    {
+      "position": "6",
+      "description": "Luftfilter Form",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 7.44,
+      "total_price": 7.44
+    },
+    {
+      "position": "7",
+      "description": "Ultraschallreinigung",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 15.0,
+      "total_price": 15.0,
+      "unit_raw": "Pausch"
+    }
+  ],
+  "subtotal_net": 120.62,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 120.62,
+  "vat_rate": 19,
+  "vat_amount": 22.92,
+  "total_gross": 143.54,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-10-26-haegele-532868-reparatur-as-maeher.json",
+  "source_sha256": "0c41c20ffc11d655e4bd8db2865cf247fe6f16ff69f19e10f7afcb82f097c842",
+  "original_filename": "2023-10-23 Rechnung Haegele - AS Maeher RE_266422.pdf"
+}

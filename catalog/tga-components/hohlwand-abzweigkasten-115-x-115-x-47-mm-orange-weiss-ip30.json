@@ -1,0 +1,173 @@
+{
+  "id": "hohlwand-abzweigkasten-115-x-115-x-47-mm-orange-weiss-ip30",
+  "name": "Hohlwand-Abzweigkasten 115 x 115 x 47 mm Orange - Weiß IP30",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "junction",
+    "size": "115 × 115 × 47 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "ean-4008297183921_hohlwand-abzweigkasten-115-x-115-x-47-mm-orange-weiss-ip30"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Hohlwand-Abzweigkasten 115 x 115 x 47 mm Orange - Weiß IP30",
+    "article_no": "4333613",
+    "ean": "4008297183921",
+    "url": "https://www.obi.de/p/4333613",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "70 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "11,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 4.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-14",
+        "source": "Kassenbon 2026-11-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.115,
+      0.115,
+      0.047
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.0575,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.0575,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.0575,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.0575,
+          0.0,
+          -0.0235
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

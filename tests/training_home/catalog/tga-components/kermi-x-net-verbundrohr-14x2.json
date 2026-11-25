@@ -1,0 +1,28 @@
+{
+  "id": "kermi-x-net-verbundrohr-14x2",
+  "name": "Kermi x-net Verbundrohr 14 × 2 mm",
+  "class": "tga-class:pipe",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "nominal_size_dn": 10,
+    "outer_diameter": 0.014,
+    "medium": "heating_supply"
+  },
+  "note": "Rolle 200 m",
+  "product": {
+    "manufacturer": "company:kermi",
+    "model": "Kermi x-net Verbundrohr 14 × 2 mm",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 1.76,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.6, je m",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

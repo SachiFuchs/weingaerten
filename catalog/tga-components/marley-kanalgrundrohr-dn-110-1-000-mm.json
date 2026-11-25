@@ -1,0 +1,42 @@
+{
+  "id": "marley-kanalgrundrohr-dn-110-1-000-mm",
+  "name": "Marley Kanalgrundrohr DN 110 1.000 mm",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 110,
+    "outer_diameter": 0.11,
+    "medium": "waste_water",
+    "system_line": "kg"
+  },
+  "description": "Das Marley Kanalgrundrohr DN 110 besteht aus robusten PVC. Kanalrohre und Formstücke aus PVC werden zur Fortleitung von Abwasser eingesetzt. Deutlich erkennbar dank orange-brauner Farbe Mit dem Abwasserrohr gelingt die Ableitung von chemisch aggressiven Abwässern im pH-Bereich 2 (sauer) und pH 12 (basisch). Bei der Ableitung industrieller Abwässer ist die DIN 16929 sowie der Entwurf Beiblatt 1 zu DIN 8061 Teil 1 zu beachten. Die Temperaturen dürfen +60°C nicht überschreiten. Dank der orange-braunen Farbe heben sich die Kanalgrundrohre deutlich und erkennbar von den grauen Hochtemperaturrohren ab. Das Rohr kann ohne viel Mühe auch angeschrägt oder entgratet werden. Beachten Sie besonders, dass Regenleitungen unter keinen Umständen an Schmutzwasserleitungen angeschlossen werden dürfen.",
+  "stock": {
+    "lengths": [
+      1.0
+    ],
+    "cuttable": true
+  },
+  "imported_from": [
+    "ean-4250244300015_marley-kanalgrundrohr-dn-110-1-000-mm"
+  ],
+  "catalog_material": "material:marley-kanalgrundrohr-dn-110-1-000-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

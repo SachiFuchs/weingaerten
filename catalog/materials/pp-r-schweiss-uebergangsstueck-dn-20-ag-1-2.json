@@ -1,0 +1,28 @@
+{
+  "id": "pp-r-schweiss-uebergangsstueck-dn-20-ag-1-2",
+  "name": "Schweiß-Übergangsstück PP-R DN 20, Außengewinde ½″",
+  "category": "Trinkwasser",
+  "description": "Übergang von PP-R-Schweißrohr DN 20 auf Außengewinde ½″ (Messing-Gewindeeinsatz). Unlösbare Muffenschweißverbindung, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "product": {
+    "model": "Schweiß-Übergangsstück DN 20, Außengewinde ½″, Polypropylen",
+    "article_no": "13563049",
+    "url": "https://www.bauhaus.info/schweissfittings/schweiss-uebergangsstueck/p/13563049",
+    "offers": [
+      {
+        "supplier": "company:bauhaus",
+        "price": 4.2,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "bauhaus.info Produktseite 2026-11-21, pro Stück inkl. MwSt."
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#3E8E41",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

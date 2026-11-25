@@ -1,0 +1,101 @@
+{
+  "id": "veporit-trinkwasser-kugelhahn-3-4-ig-x-a",
+  "name": "veporit. Trinkwasser-Kugelhahn 3/4\" IG x AG, DVGW geprüft",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-10328064_veporit-trinkwasser-kugelhahn-3-4-ig-x-a"
+  ],
+  "product": {
+    "manufacturer": "company:veporit",
+    "model": "veporit. Trinkwasser-Kugelhahn 3/4\" IG x AG, DVGW geprüft",
+    "article_no": "10328064",
+    "ean": "4306517554866",
+    "url": "https://www.hornbach.de/p/veporit-trinkwasser-kugelhahn-3-4-ig-x-ag-dvgw-geprueft/10328064/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Ventil"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kugelhahn"
+        },
+        {
+          "label": "Variante",
+          "value": "Durchgangsventil"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Absperrung vom Rohr"
+        },
+        {
+          "label": "Räume",
+          "value": "Hauswirtschaftsraum, Keller, Garten"
+        },
+        {
+          "label": "Material",
+          "value": "Messing"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Matt"
+        },
+        {
+          "label": "Anschluss",
+          "value": "3/4\" I/A"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Wasser"
+        },
+        {
+          "label": "Beschreibung",
+          "value": "Einsatztemperaturen -10°C -  +65°C"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Chrom"
+        },
+        {
+          "label": "DVGW Zertifikat",
+          "value": "DW-6102CU0310"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "WHHN"
+        },
+        {
+          "label": "EAN",
+          "value": "4306517554866"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 10.05,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-26",
+        "source": "Kassenbon 2026-06-26, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-10328064_1.jpg",
+    "hornbach-10328064_2.jpg",
+    "hornbach-10328064_3.jpg",
+    "hornbach-10328064_4.jpg"
+  ]
+}

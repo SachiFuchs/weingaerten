@@ -1,0 +1,53 @@
+{
+  "id": "marley-ht-abflussrohrsystem-anschlussstueck-an-metallrohr",
+  "name": "Marley HT-Abflussrohrsystem Anschlussstück an Metallrohr DN 40/40",
+  "category": "Entwässerung",
+  "description": "Das HT-Anschlussstück von Marley sorgt mit dem passenden Einsteckende für einen sauberen Anschluss von HT- an Metallrohr. Es eignet sich zum Anschluss an ein DN 40/40 Rohr.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4006395643712_marley-ht-abflussrohrsystem-anschlussstueck-an-metallrohr"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Abflussrohrsystem Anschlussstück an Metallrohr DN 40/40",
+    "article_no": "7455173",
+    "ean": "4006395643712",
+    "url": "https://www.obi.de/p/7455173",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "30 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,6 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "5,6 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "8,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-02-17",
+        "source": "Kassenbon 2023-02-17, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

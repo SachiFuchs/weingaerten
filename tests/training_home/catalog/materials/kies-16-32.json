@@ -1,0 +1,27 @@
+{
+  "id": "kies-16-32",
+  "name": "Kies 16–32 mm, gewaschen",
+  "category": "Schüttgut",
+  "description": "lose, je Tonne",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Kies 16–32 mm, gewaschen",
+    "offers": [
+      {
+        "supplier": "company:helmut-kaelberer",
+        "price": 34.5,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-31",
+        "source": "Rechnung S9-4427907, Pos. 7, je t",
+        "document": "document:2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#A8A39A",
+    "roughness": 1.0,
+    "hatch": "concrete"
+  }
+}

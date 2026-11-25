@@ -1,0 +1,29 @@
+{
+  "id": "aw-bad-sammel",
+  "name": "Sammelleitung Dusche/Waschbecken Bad EG",
+  "component": "tga-component:ht-pipe-90",
+  "system": "waste-water-eg",
+  "installation": "outside",
+  "points": [
+    [
+      7.3,
+      1.5,
+      0.03
+    ],
+    [
+      7.3,
+      1.9,
+      0.022
+    ],
+    [
+      7.3,
+      1.9,
+      -0.3
+    ]
+  ],
+  "estimated": true,
+  "into": {
+    "run": "tga-run:aw-bad-sammel-kg",
+    "kind": "continue"
+  }
+}

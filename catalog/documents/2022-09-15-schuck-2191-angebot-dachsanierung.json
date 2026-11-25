@@ -1,0 +1,287 @@
+{
+  "id": "2022-09-15-schuck-2191-angebot-dachsanierung",
+  "name": "Schuck 2191 – Angebot Dachsanierung",
+  "doc_type": "quote",
+  "supplier": "company:schuck-dach",
+  "date": "2022-09-15",
+  "number": "2191",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben Dachsanierung, Weingärten 8, Göppingen",
+  "description": "Angebot der Schuck Dachdeckungen GmbH (Eislingen) über die Dachsanierung Weingärten 8 mit Gerüst, Abriss, Aufsparrendämmung Braas DivoDämm, Neueindeckung mit Braas Rubin 13 V und Klempnerarbeiten. Die importierte Fassung ist die vom Auftraggeber am 19.09.2022 in München unterschriebene Auftragserteilung (Scan); die digitale Fassung desselben Angebots sowie eine überarbeitete, nicht unterschriebene Fassung vom 27.10.2022 über 40.749,53 EUR brutto liegen ebenfalls vor. Abgerechnet wurde der Auftrag mit der Schlussrechnung 1783 vom 17.07.2023.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01.01",
+      "description": "Standgerüst (Sicherheitsgerüst aufbauen, vorhalten, abbauen)",
+      "quantity": 186.0,
+      "unit": "m²",
+      "unit_price": 15.7,
+      "total_price": 2920.2
+    },
+    {
+      "position": "01.02",
+      "description": "Dachdeckerfangschutzgerüst",
+      "quantity": 30.0,
+      "unit": "m",
+      "unit_price": 10.8,
+      "total_price": 324.0
+    },
+    {
+      "position": "01.03",
+      "description": "Gerüstturm 3,00 m breit, 6,00 m hoch (Transport-/Treppenturm)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 530.0,
+      "total_price": 530.0
+    },
+    {
+      "position": "02.01",
+      "description": "Baustelleneinrichtung",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 250.0,
+      "total_price": 250.0
+    },
+    {
+      "position": "02.02",
+      "description": "Container für Bauschutt inkl. Miete und Transport",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 120.0,
+      "total_price": 240.0
+    },
+    {
+      "position": "02.03",
+      "description": "Abriss Dacheindeckung inkl. Lattung",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 12.5,
+      "total_price": 1750.0
+    },
+    {
+      "position": "02.04",
+      "description": "Abriss Kaminverwahrung",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 50.0,
+      "total_price": 50.0
+    },
+    {
+      "position": "02.05",
+      "description": "Abriss Kaminverkleidung (Asbest)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 200.0,
+      "total_price": 200.0
+    },
+    {
+      "position": "02.06",
+      "description": "Ausbau Wohnraumdachfenster",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 250.0,
+      "total_price": 250.0
+    },
+    {
+      "position": "02.07",
+      "description": "Abriss Anschlussbleche",
+      "quantity": 30.0,
+      "unit": "m",
+      "unit_price": 5.5,
+      "total_price": 165.0
+    },
+    {
+      "position": "02.08",
+      "description": "Entsorgung Bauschutt",
+      "quantity": 5.0,
+      "unit": "t",
+      "unit_price": 286.0,
+      "total_price": 1430.0
+    },
+    {
+      "position": "03.01",
+      "description": "Braas DivoDämm Membran Kompakt",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 11.4,
+      "total_price": 1596.0,
+      "ref": "material:vapour-membrane-divodaemm"
+    },
+    {
+      "position": "03.02",
+      "description": "Konterlattung mit Rahmenschenkel 40x60 mm",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 17.0,
+      "total_price": 2380.0,
+      "ref": "material:counter-batten-40x60"
+    },
+    {
+      "position": "03.03",
+      "description": "Traglattung 30x50 mm",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 12.8,
+      "total_price": 1792.0,
+      "ref": "material:roof-batten-30x50"
+    },
+    {
+      "position": "03.04",
+      "description": "Stützbohle Traufe, Höhe 140 mm",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 20.3,
+      "total_price": 487.2,
+      "ref": "component:roof-eaves-support-board"
+    },
+    {
+      "position": "03.05",
+      "description": "Windbrett zur seitlichen Abdeckung der Aufsparrendämmung",
+      "quantity": 25.0,
+      "unit": "m",
+      "unit_price": 10.5,
+      "total_price": 262.5,
+      "ref": "component:roof-wind-board"
+    },
+    {
+      "position": "03.06",
+      "description": "Traufausbildung mit Keilbohle",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 15.0,
+      "total_price": 360.0,
+      "ref": "component:roof-eaves-boards"
+    },
+    {
+      "position": "04.01",
+      "description": "Aufsparrendämmung Braas DivoDämm Top PIR WLS 023, 140 mm",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 55.0,
+      "total_price": 7700.0,
+      "ref": "material:pir-divodaemm-top"
+    },
+    {
+      "position": "05.01",
+      "description": "Flächeneindeckung Tondachziegel Braas Rubin 13 V",
+      "quantity": 140.0,
+      "unit": "m²",
+      "unit_price": 37.5,
+      "total_price": 5250.0,
+      "ref": "material:clay-tile-rubin"
+    },
+    {
+      "position": "05.02",
+      "description": "Ortgangausbildung mit Ortgangziegel",
+      "quantity": 25.0,
+      "unit": "m",
+      "unit_price": 62.0,
+      "total_price": 1550.0,
+      "ref": "component:roof-verge-tile"
+    },
+    {
+      "position": "05.03",
+      "description": "Ziegelverklammerung korrosionsgeschützt",
+      "quantity": 50.0,
+      "unit": "m²",
+      "unit_price": 4.5,
+      "total_price": 225.0
+    },
+    {
+      "position": "05.04",
+      "description": "Dunstrohrdurchgang Ton (Jacobi Walter W6V)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 220.0,
+      "total_price": 220.0,
+      "ref": "component:roof-vent-pipe-jacobi-w6v"
+    },
+    {
+      "position": "05.05",
+      "description": "Firstausbildung mit Sattelfirst",
+      "quantity": 14.0,
+      "unit": "m",
+      "unit_price": 67.5,
+      "total_price": 945.0,
+      "ref": "component:roof-ridge"
+    },
+    {
+      "position": "05.06",
+      "description": "Trauflüfterkamm",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 5.0,
+      "total_price": 120.0,
+      "ref": "component:roof-eaves-vent-comb"
+    },
+    {
+      "position": "06.01",
+      "description": "Vorhandene Rinne reinigen, abnehmen und neu montieren",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 35.0,
+      "total_price": 840.0,
+      "ref": "component:roof-gutter"
+    },
+    {
+      "position": "06.02",
+      "description": "Windbrett-Verkleidung bis 400 mm Zuschnitt",
+      "quantity": 25.0,
+      "unit": "m",
+      "unit_price": 43.6,
+      "total_price": 1090.0,
+      "ref": "component:roof-board-flashing"
+    },
+    {
+      "position": "06.03",
+      "description": "Stützbohle und Traufbohle mit Blechen verkleiden",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 43.6,
+      "total_price": 1046.4,
+      "ref": "component:roof-board-flashing"
+    },
+    {
+      "position": "06.04",
+      "description": "Kaminverwahrung Titanzink",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 200.0,
+      "total_price": 200.0
+    },
+    {
+      "position": "06.05",
+      "description": "Kaminverkleidung Titanzink bis 3 m²",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 470.0,
+      "total_price": 470.0
+    },
+    {
+      "position": "06.06",
+      "description": "Edelstahlabdeckung Kamin",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 270.0,
+      "total_price": 270.0,
+      "ref": "component:chimney-cap"
+    }
+  ],
+  "subtotal_net": 34913.3,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 34913.3,
+  "vat_rate": 19,
+  "vat_amount": 6633.53,
+  "total_gross": 41546.83,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2022-09-15-schuck-2191-angebot-dachsanierung.json",
+  "source_sha256": "66f117a4e22e510a4f5607fe7a4a027866659799de736d7d1204d79eb08a379e",
+  "original_filename": "2022-09-15-Angebot-Schuck Dach V2.pdf",
+  "related": [
+    "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+  ]
+}

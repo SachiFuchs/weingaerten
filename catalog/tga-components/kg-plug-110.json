@@ -1,0 +1,26 @@
+{
+  "id": "kg-plug-110",
+  "name": "KG-Muffenstopfen DN 110 (Reinigung)",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "plug",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.0
+  },
+  "note": "Platzhalter: nicht im gemeldeten Sortiment, wird für den Leitungsverlauf gebraucht - bitte bestätigen",
+  "estimated": true,
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "none"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "el-dose-kueche",
+  "name": "Aufputz-Verteilerdose Küche",
+  "component": "tga-component:abzweigkasten-aufputz-100-mm-x-100-mm-grau-ip54",
+  "storey": "storey:ground",
+  "room": "room-kueche",
+  "wall": "w-east",
+  "position": [
+    6.7735,
+    4.3,
+    1.1
+  ],
+  "estimated": true
+}

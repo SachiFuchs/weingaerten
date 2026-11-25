@@ -1,0 +1,43 @@
+{
+  "id": "lux-tools-quetschverschraubung-10-mm-t-stueck",
+  "name": "LUX-TOOLS Quetschverschraubung Ø 10 mm T-Stück",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874160133_lux-tools-quetschverschraubung-10-mm-t-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "LUX-TOOLS Quetschverschraubung Ø 10 mm T-Stück",
+    "article_no": "2312833",
+    "ean": "4007874160133",
+    "url": "https://www.obi.de/p/2312833",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "109 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "10 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-06-16",
+        "source": "Kassenbon 2026-06-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  }
+}

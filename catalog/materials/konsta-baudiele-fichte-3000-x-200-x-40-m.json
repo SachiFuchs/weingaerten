@@ -1,0 +1,104 @@
+{
+  "id": "konsta-baudiele-fichte-3000-x-200-x-40-m",
+  "name": "Konsta Baudiele Fichte 3000 x 200 x 40 mm",
+  "category": "Holz",
+  "description": "Hast Du Überlegungen zur Gestaltung Deines Innenausbaus? Musst Du nicht. Mit der Baudiele Fichte 40x200x3000mm setzt Du auf ein solides Material.\n\nProduktmerkmale der Konsta Baudiele Fichte 3000 x 200 x 40 mm\nDarum solltest Du zugreifen: Die Baudiele aus Fichtenholz ist vielseitig einsetzbar und eignet sich sowohl für den Innen- als auch den Außenbereich. Mit einer Abmessung von 3000 mm in der Länge, 200 mm in der Breite und 40 mm in der Stärke bietet sie eine zuverlässige Grundlage für verschiedene Bauprojekte. Die sägerauhe Oberfläche ermöglicht eine flexible Weiterverarbeitung, da keine Oberflächenbehandlung vorgenommen wurde. Dies macht die Baudiele ideal für den Einsatz in den Bereichen Wand, Boden und Decke, sowohl im Neubau als auch bei Schalungsarbeiten. Die natürliche Beschaffenheit des Fichtenholzes sorgt für eine robuste und langlebige Nutzung.\n\nFestgezurrt: Mit der Konsta Baudiele Fichte 3000 x 200 x 40 mm erhältst Du ein robustes und vielseitiges Bauholz für Deine Projekte.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-1000891_konsta-baudiele-fichte-3000-x-200-x-40-m"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Baudiele Fichte 3000 x 200 x 40 mm",
+    "article_no": "1000891",
+    "ean": "4007622013155",
+    "url": "https://www.hornbach.de/p/konsta-baudiele-fichte-3000-x-200-x-40-mm/1000891/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Bohle"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Baudiele"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Neubau, Schalung"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "-"
+        },
+        {
+          "label": "Dimension",
+          "value": "40x200 mm"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "Sägerau"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Anlieferhinweis",
+          "value": "Vor Bestellung muss vom Kunden sichergestellt sein, dass die Entladestelle mit einem 40 Tonnen - LKW erreichbar ist., Weitere Informationen entnehmen Sie bitte dem Datenblatt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "Y11E"
+        },
+        {
+          "label": "EAN",
+          "value": "2001000891009, 4005014000004, 4007622013155, 4049868000261, 4250821000185, 4260031140205, 4260162498206"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "40 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "200 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "3.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 16.17,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-05-10",
+        "source": "Kassenbon 2025-05-10, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 6×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-1000891_1.jpg",
+    "hornbach-1000891_2.jpg",
+    "hornbach-1000891_3.jpg"
+  ]
+}

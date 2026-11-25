@@ -1,0 +1,25 @@
+{
+  "id": "abstrakt-aufputzdose",
+  "name": "Aufputzdose",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "box_function",
+        "label": "Dosenart"
+      },
+      {
+        "param": "size",
+        "label": "Größe"
+      }
+    ],
+    "default": "tga-component:abzweigkasten-80-mm-x-80-mm-x-37-mm-ip55"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

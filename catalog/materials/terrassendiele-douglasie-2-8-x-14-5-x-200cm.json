@@ -1,0 +1,61 @@
+{
+  "id": "terrassendiele-douglasie-2-8-x-14-5-x-200cm",
+  "name": "Terrassendiele Douglasie 2,8 x 14,5 x 200cm",
+  "category": "Holz",
+  "description": "Die Terrassendielen aus hochwertigem Douglasie-Holz überzeugen durch vielseitige Anwendungsmöglichkeiten zur individuellen Gestaltung Ihrer Terrasse oder des gewünschten Außenbereiches. Die Douglasie gehört zu den beliebtesten Nadelholzarten und zeichnet sich durch eine sehr feste und elastische Oberfläche aus. Widerstandsfähiges Terrassenholz aus Douglasie Das kostengünstige Douglasienholz hat bereits von Natur aus viele Eigenschaften, durch die es sich zur Verwendung im Außenbereich, insbesondere als Terrassenboden gut eignet. Besonders beliebt sind Douglasienbretter wegen ihrer geringeren Anfälligkeit für Schädlingsbefall. Dabei ist das hochwertige Douglasienholz von Natur aus widerstandsfähig und langlebig, wodurch Sie problemlos auf chemischen Holzschutz verzichten können. Gleichzeitig ist die Oberfläche der Douglasiendielen äußerst barfußfreundlich. Somit eignet sich das Terrassenholz besonders gut für langfristige Bauvorhaben und ermöglicht Ihnen viele schöne Stunden auf der Terrasse. Optik der Douglasie Die natürliche Maserung des Holzes bietet eine sehr ansehnliche Optik. Die Terrassendiele hat einen warmen, rötlichen Farbton und ist vielseitig, frei nach Ihren Inspirationen einsetzbar. Des Weiteren verfügen die Terrassendielen über zwei verschiedene Oberflächen, fein und grob geriffelt. Auf diese Art und Weise können Sie sich Ihre Terrasse ganz nach Ihren Wünschen zusammenstellen. Bitte beachten Sie unbedingt unsere Verlegeanleitung für Holz-Terrassen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002908102882_terrassendiele-douglasie-2-8-x-14-5-x-200cm"
+  ],
+  "product": {
+    "manufacturer": "company:rettenmeier-holzindustrie-ramstein",
+    "model": "Terrassendiele Douglasie 2,8 x 14,5 x 200cm",
+    "article_no": "7239858",
+    "ean": "4002908102882",
+    "url": "https://www.obi.de/p/7239858",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "4,10 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "14,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,8 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 12.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-06",
+        "source": "Kassenbon 2022-08-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 8×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 11.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-12",
+        "source": "Kassenbon 2022-08-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 7×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

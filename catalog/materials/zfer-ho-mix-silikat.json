@@ -1,0 +1,30 @@
+{
+  "id": "zfer-ho-mix-silikat",
+  "name": "ZFER HO Mix Silikat-",
+  "category": "Farbe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10718039_zfer-ho-mix-silikat"
+  ],
+  "product": {
+    "model": "ZFER HO Mix Silikat-",
+    "article_no": "10718039",
+    "ean": "4306516016440",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 26.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-30",
+        "source": "Kassenbon 2025-04-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

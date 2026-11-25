@@ -1,0 +1,151 @@
+{
+  "id": "kaiser-up-geraetedose",
+  "name": "Kaiser UP Gerätedose",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "flush",
+    "box_function": "device",
+    "size": "68 × 68 × 47 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6060645_kaiser-up-geraetedose"
+  ],
+  "product": {
+    "model": "Kaiser UP Gerätedose",
+    "article_no": "6060645",
+    "ean": "4260484710024",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.51,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-11-22",
+        "source": "Kassenbon 2025-11-22, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.047
+    ],
+    "ports": [
+      {
+        "id": "rechts2",
+        "pos": [
+          0.034,
+          0.023,
+          0.03
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "any"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0,
+          0.034,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0,
+          -0.034,
+          -0.0235
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0,
+          -0.0235
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          -0.019,
+          -0.0235
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "flush",
+    "box_function": "device"
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

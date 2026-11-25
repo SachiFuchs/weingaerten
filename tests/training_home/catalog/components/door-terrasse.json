@@ -1,0 +1,9 @@
+{
+  "id": "door-terrasse",
+  "name": "Terrassentür Wohnzimmer 1,00 × 2,10",
+  "description": "Nebeneingangstür/Terrassentür (Marquardt), Side K5, Ug 0,6 (3-fach), Ornament Satinato. Maße nicht spezifiziert – 1,00 × 2,10 angenommen",
+  "class": "class:door",
+  "opening_capable": true,
+  "params": { "width": 1.0, "height": 2.1, "depth": 0.08, "frame_width": 0.08, "swing": "left" },
+  "materials": { "frame": "material:pvc-white", "leaf": "material:pvc-white" }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "naturbo-kantenkleber",
+  "name": "Naturbo Kantenkleber",
+  "category": "Baustoffe",
+  "description": "Kleber für Plattenkanten, Kartusche",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "manufacturer": "company:naturbo",
+    "model": "Naturbo Kantenkleber",
+    "offers": [
+      {
+        "supplier": "company:naturbo",
+        "price": 8.9,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-06-16",
+        "source": "Rechnung 13202600675, Pos. 14, je Kartusche",
+        "document": "document:2026-06-16-naturbo-13202600675-lehmplatten-wandhzg"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

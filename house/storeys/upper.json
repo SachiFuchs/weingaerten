@@ -1,0 +1,1058 @@
+{
+  "id": "upper",
+  "name": "Dachgeschoss",
+  "elevation": 2.95,
+  "height": 2.4,
+  "roof": {
+    "kind": "gable",
+    "pitch": 30,
+    "knee_wall_height": 1.25,
+    "ridge_direction": "south_north",
+    "eaves": [
+      0,
+      7.12
+    ],
+    "note": "Firsthöhe aus Kniestock 1,25 m + 30° berechnet"
+  },
+  "roof_structure": {
+    "material": "material:spruce-wood",
+    "estimated": true,
+    "note": "Pfettendach mit Mittelpfetten (Fotos Nov 2026), Maße geschätzt; Westseite läuft über Kammer 2 weiter bis zum First (Balkonzimmer.docx), dort getragen von einer Firstpfette 9,94–13,13",
+    "rafters": {
+      "width": 0.08,
+      "height": 0.16,
+      "spacing": 0.8
+    },
+    "purlins": {
+      "width": 0.14,
+      "height": 0.2,
+      "z_top": 2.1
+    },
+    "foot_purlins": {
+      "width": 0.12,
+      "height": 0.12
+    },
+    "collars": {
+      "width": 0.06,
+      "height": 0.16,
+      "z": 2.4
+    },
+    "slopes": [
+      {
+        "id": "west",
+        "side": "west",
+        "range": [
+          2.08,
+          9.94
+        ]
+      },
+      {
+        "id": "west-kammer",
+        "side": "west",
+        "range": [
+          9.94,
+          13.13
+        ]
+      },
+      {
+        "id": "east",
+        "side": "east",
+        "range": [
+          2.08,
+          9.94
+        ]
+      }
+    ],
+    "ridge_purlins": [
+      {
+        "id": "ridge-purlin-kammer",
+        "range": [
+          9.94,
+          13.13
+        ],
+        "width": 0.14,
+        "height": 0.2
+      }
+    ]
+  },
+  "roof_covering": {
+    "assembly": "assembly:roof-r1",
+    "estimated": true,
+    "note": "Schuck Dach RE 17.07.2023 (130 m²); Überstände aus den Rechnungsmengen abgeleitet; Fensterunterkante 1,35 m (über Kniestock 1,25), Lage Fenster/Kamin geschätzt",
+    "eaves_overhang": 1.2,
+    "verge_overhang": 1.2,
+    "invoice": {
+      "area": 130
+    },
+    "openings": [
+      {
+        "id": "dfe-schlaf",
+        "component": "component:roof-window-velux-fk06",
+        "flashing": "component:roof-flashing-velux-fk06",
+        "slope": "east",
+        "y": 7.61,
+        "sill": 1.35
+      },
+      {
+        "id": "dfe-durchgang",
+        "component": "component:roof-window-velux-ck04",
+        "flashing": "component:roof-flashing-velux-ck04",
+        "slope": "west",
+        "y": 3.77,
+        "sill": 1.35
+      },
+      {
+        "id": "kamin",
+        "kind": "chimney",
+        "name": "Kamin",
+        "slope": "east",
+        "rect_plan": [
+          3.62,
+          3.52,
+          0.5,
+          0.5
+        ],
+        "parts": [
+          "component:chimney-flashing",
+          "component:chimney-cladding",
+          "component:chimney-cap"
+        ]
+      }
+    ],
+    "items": [
+      {
+        "component": "component:roof-ridge",
+        "measure": "ridge"
+      },
+      {
+        "component": "component:roof-verge-tile",
+        "measure": "verge"
+      },
+      {
+        "component": "component:roof-gutter",
+        "measure": "eaves"
+      },
+      {
+        "component": "component:roof-eaves-flashing",
+        "measure": "eaves"
+      },
+      {
+        "component": "component:roof-eaves-vent-comb",
+        "measure": "eaves"
+      },
+      {
+        "component": "component:roof-eaves-boards",
+        "measure": "eaves"
+      },
+      {
+        "component": "component:roof-gutter-bracket",
+        "measure": "eaves",
+        "per_m": 1.5
+      },
+      {
+        "component": "component:roof-soffit-cladding",
+        "measure": "invoice"
+      },
+      {
+        "component": "component:roof-trimmer",
+        "measure": "invoice"
+      }
+    ]
+  },
+  "outdoor_areas": [
+    {
+      "id": "t-balkon",
+      "name": "Balkon",
+      "rect": [
+        2.72,
+        9.94,
+        4.4,
+        3.19
+      ]
+    }
+  ],
+  "walls": [
+    {
+      "id": "w-dg-north",
+      "name": "Außenwand Nord DG",
+      "assembly": "assembly:exterior-wall-ew1-holz",
+      "start": [
+        -0.011,
+        2.069
+      ],
+      "end": [
+        7.131,
+        2.069
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-balkon-treppenzimmer",
+          "component": "component:door-balkon-treppenzimmer",
+          "offset": 3.036,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-dg-east",
+      "name": "Kniestock Ost",
+      "assembly": "assembly:exterior-wall-ew1-holz",
+      "start": [
+        7.131,
+        2.069
+      ],
+      "end": [
+        7.131,
+        9.94
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "w-dg-south-balkon",
+      "name": "Außenwand Schlafzimmer/Balkon",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        7.131,
+        9.94
+      ],
+      "end": [
+        2.72,
+        9.94
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-fenster-schlaf",
+          "component": "component:window-schlafzimmer",
+          "offset": 1.776,
+          "sill": 0.8,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        },
+        {
+          "id": "o-balkon-schlaf",
+          "component": "component:door-balkon-schlafzimmer",
+          "offset": 2.981,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-dg-kammer-ost",
+      "name": "Außenwand Kammer 2/Balkon",
+      "assembly": "assembly:exterior-wall-ew1",
+      "start": [
+        2.72,
+        9.94
+      ],
+      "end": [
+        2.72,
+        13.141
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-balkon-kammer2",
+          "component": "component:door-balkon-kammer2",
+          "offset": 0.8,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-dg-south-kammer",
+      "name": "Außenwand Süd Kammer 2",
+      "assembly": "assembly:exterior-wall-ew1-holz",
+      "start": [
+        2.72,
+        13.141
+      ],
+      "end": [
+        -0.011,
+        13.141
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": [
+        {
+          "id": "o-1",
+          "component": "component:window-balkonkammer",
+          "offset": 0.77,
+          "sill": 0.57,
+          "joint": 0.01,
+          "inset": 0.1,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "w-dg-west",
+      "name": "Kniestock West",
+      "assembly": "assembly:exterior-wall-ew1-holz",
+      "start": [
+        -0.011,
+        13.141
+      ],
+      "end": [
+        -0.011,
+        2.069
+      ],
+      "reference": "outside_face",
+      "shape": {
+        "kind": "roof"
+      },
+      "outside": "left",
+      "openings": []
+    },
+    {
+      "id": "iw-dg-durchgang-schlaf",
+      "name": "Innenwand Treppenzimmer, Bad DG/Schlafzimmer",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        0.328,
+        5.46
+      ],
+      "end": [
+        6.792,
+        5.46
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "roof"
+      },
+      "openings": [
+        {
+          "id": "o-tuer-schlaf",
+          "component": "component:door-dg-durchgang",
+          "offset": 2.9,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.03,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-dg-treppe-bad",
+      "name": "Innenwand Treppenzimmer/Bad DG",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        4.6815,
+        2.408
+      ],
+      "end": [
+        4.6815,
+        5.4
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "roof"
+      },
+      "openings": [
+        {
+          "id": "o-tuer-bad-dg",
+          "component": "component:door-dg-durchgang",
+          "offset": 0.15,
+          "sill": 0,
+          "joint": 0.01,
+          "inset": 0.03,
+          "reveal_material": "material:interior-plaster"
+        }
+      ]
+    },
+    {
+      "id": "iw-dg-schlaf-kammer2",
+      "name": "Innenwand Schlafzimmer/Kammer 2",
+      "assembly": "assembly:interior-wall-iw2",
+      "start": [
+        0.328,
+        9.762
+      ],
+      "end": [
+        2.392,
+        9.762
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "roof"
+      },
+      "openings": []
+    },
+    {
+      "id": "iw-dg-balkon-trenn",
+      "name": "Trennwand Balkon vor Kammer 2",
+      "assembly": "assembly:interior-wall-iw1",
+      "start": [
+        2.72,
+        13.07
+      ],
+      "end": [
+        3.56,
+        13.07
+      ],
+      "reference": "center",
+      "shape": {
+        "kind": "roof"
+      },
+      "openings": []
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-dg-treppe",
+      "number": "1.01",
+      "name": "Treppenzimmer",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          0.328,
+          2.408
+        ],
+        [
+          4.621,
+          2.408
+        ],
+        [
+          4.621,
+          5.4
+        ],
+        [
+          0.328,
+          5.4
+        ]
+      ],
+      "estimated": true,
+      "note": "aus dem Durchgangszimmer (naturbo-Plan: 4,56 m breit, Modell schmaler)"
+    },
+    {
+      "id": "room-dg-bad",
+      "number": "1.04",
+      "name": "Bad DG",
+      "usage": "NUF7",
+      "polygon": [
+        [
+          4.742,
+          2.408
+        ],
+        [
+          6.792,
+          2.408
+        ],
+        [
+          6.792,
+          5.4
+        ],
+        [
+          4.742,
+          5.4
+        ]
+      ],
+      "estimated": true,
+      "note": "aus dem Durchgangszimmer (naturbo-Plan: 2,05 × 3,05 m)"
+    },
+    {
+      "id": "room-dg-schlaf",
+      "number": "1.02",
+      "name": "Schlafzimmer",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          0.328,
+          5.52
+        ],
+        [
+          6.792,
+          5.52
+        ],
+        [
+          6.792,
+          9.612
+        ],
+        [
+          0.328,
+          9.612
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)"
+    },
+    {
+      "id": "room-dg-kammer2",
+      "number": "1.03",
+      "name": "Kammer 2",
+      "usage": "NUF1",
+      "polygon": [
+        [
+          0.328,
+          9.912
+        ],
+        [
+          2.392,
+          9.912
+        ],
+        [
+          2.392,
+          12.802
+        ],
+        [
+          0.328,
+          12.802
+        ]
+      ],
+      "estimated": true,
+      "note": "Nummer und Nutzung geschätzt (Migration Rechteck → Polygon)",
+      "coverings": [
+        {
+          "id": "bel-1",
+          "surface": "floor",
+          "assembly": "assembly:covering-fliese-boden",
+          "area": "room",
+          "name": "Fliese 1"
+        }
+      ]
+    }
+  ],
+  "wall_heating": {
+    "name": "Lehm-Wandheizung DG (naturbo)",
+    "assembly": "assembly:interior-lining-wandheizung-naturbo",
+    "pipe": "tga-component:naturbo-alu-verbundrohr-11-6",
+    "pipe_diameter": 0.0116,
+    "feed_diameter": 0.016,
+    "panel_components": {
+      "D": "tga-component:naturbo-klima-platte-d",
+      "E": "tga-component:naturbo-klima-platte-e",
+      "F": "tga-component:naturbo-klima-platte-f",
+      "G": "tga-component:naturbo-klima-platte-g",
+      "I": "tga-component:naturbo-klima-platte-i",
+      "K": "tga-component:naturbo-klima-platte-k",
+      "L": "tga-component:naturbo-klima-platte-l"
+    },
+    "coupling": "tga-component:naturbo-presskupplung-11-6",
+    "adapter": "tga-component:naturbo-presskupplung-11-6-16",
+    "supply_temperature": 38,
+    "return_temperature": 33,
+    "estimated": true,
+    "note": "naturbo Verlegeskizze 260508_01DG_B (08.05.2026) und Massenermittlung MEER: Auslegung 38/33 °C, 50 W/m²; Plattenlage aus den Wandansichten, an die Modellmaße angepasst; Anbindeleitungen 16 mm und Verteilerlage geschätzt",
+    "distributor": {
+      "name": "Verteiler Wandheizung DG",
+      "component": "tga-component:kermi-x-net-verteiler-5",
+      "wall": "w-dg-east",
+      "position": [
+        6.762,
+        5.25
+      ],
+      "z": 0.1,
+      "width": 0.3,
+      "height": 0.45,
+      "outlets": 5,
+      "note": "rotes Viereck Anlage 2: Ostwand am Ende der Innenwand, im Leitungskanal"
+    },
+    "duct": {
+      "name": "Leitungskanal zum Keller",
+      "rect": [
+        6.492,
+        5.1,
+        0.3,
+        0.3
+      ]
+    },
+    "circuits": [
+      {
+        "id": "hk01",
+        "name": "HK 01 Schlafzimmer West",
+        "room": "Schlafzimmer",
+        "design_area": 6.56,
+        "design_output": 569.63
+      },
+      {
+        "id": "hk02",
+        "name": "HK 02 Schlafzimmer Ost",
+        "room": "Schlafzimmer",
+        "design_area": 5.91,
+        "design_output": 512.66
+      },
+      {
+        "id": "hk03",
+        "name": "HK 03 Bad",
+        "room": "Bad DG",
+        "design_area": 4.59,
+        "design_output": 398.74
+      },
+      {
+        "id": "hk04",
+        "name": "HK 04 Treppenzimmer",
+        "room": "Treppenzimmer",
+        "design_area": 3.94,
+        "design_output": 341.78
+      }
+    ],
+    "fields": [
+      {
+        "id": "wand-01-west",
+        "name": "01 DA Wand Schlafzimmer (West)",
+        "circuit": "hk01",
+        "room": "Schlafzimmer",
+        "wall": "iw-dg-schlaf-kammer2",
+        "origin": [
+          6.792,
+          9.612
+        ],
+        "direction": [
+          -1,
+          0
+        ],
+        "panels": [
+          {
+            "type": "L",
+            "u": 3.894,
+            "z": 0.06
+          },
+          {
+            "type": "G",
+            "u": 3.894,
+            "z": 0.485
+          },
+          {
+            "type": "I",
+            "u": 5.144,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 5.144,
+            "z": 0.685
+          }
+        ],
+        "port_u": 5.144,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            5.55
+          ],
+          [
+            0.358,
+            5.55
+          ],
+          [
+            0.358,
+            9.582
+          ],
+          [
+            1.6479999999999997,
+            9.582
+          ]
+        ]
+      },
+      {
+        "id": "wand-02",
+        "name": "02 DA Wand Schlafzimmer (Kniestock West)",
+        "circuit": "hk01",
+        "room": "Schlafzimmer",
+        "wall": "w-dg-west",
+        "origin": [
+          0.328,
+          9.612
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "panels": [
+          {
+            "type": "D",
+            "u": 0.07,
+            "z": 0.06
+          },
+          {
+            "type": "I",
+            "u": 0.695,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 0.695,
+            "z": 0.685
+          },
+          {
+            "type": "D",
+            "u": 1.945,
+            "z": 0.06
+          },
+          {
+            "type": "I",
+            "u": 2.57,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 2.57,
+            "z": 0.685
+          }
+        ],
+        "port_u": 0.6950000000000001,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            5.55
+          ],
+          [
+            0.358,
+            5.55
+          ],
+          [
+            0.358,
+            8.917
+          ]
+        ]
+      },
+      {
+        "id": "wand-01-ost",
+        "name": "01 DA Wand Schlafzimmer (Ost)",
+        "circuit": "hk02",
+        "room": "Schlafzimmer",
+        "wall": "w-dg-south-balkon",
+        "origin": [
+          6.792,
+          9.612
+        ],
+        "direction": [
+          -1,
+          0
+        ],
+        "panels": [
+          {
+            "type": "E",
+            "u": 0.07,
+            "z": 0.06,
+            "rotated": true
+          },
+          {
+            "type": "F",
+            "u": 1.12,
+            "z": 0.06,
+            "rotated": true
+          },
+          {
+            "type": "D",
+            "u": 2.17,
+            "z": 0.06,
+            "rotated": true
+          }
+        ],
+        "port_u": 3.22,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            9.582
+          ],
+          [
+            3.572,
+            9.582
+          ]
+        ]
+      },
+      {
+        "id": "wand-03",
+        "name": "03 DA Wand Schlafzimmer (Kniestock Ost)",
+        "circuit": "hk02",
+        "room": "Schlafzimmer",
+        "wall": "w-dg-east",
+        "origin": [
+          6.792,
+          5.52
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "panels": [
+          {
+            "type": "D",
+            "u": 0.272,
+            "z": 0.06
+          },
+          {
+            "type": "I",
+            "u": 0.897,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 0.897,
+            "z": 0.685
+          },
+          {
+            "type": "D",
+            "u": 2.147,
+            "z": 0.06
+          },
+          {
+            "type": "I",
+            "u": 2.772,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 2.772,
+            "z": 0.685
+          }
+        ],
+        "port_u": 0.897,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            6.417
+          ]
+        ]
+      },
+      {
+        "id": "wand-04",
+        "name": "04 DA Wand Bad (Nord)",
+        "circuit": "hk03",
+        "room": "Bad DG",
+        "wall": "w-dg-north",
+        "origin": [
+          4.742,
+          2.408
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "panels": [
+          {
+            "type": "D",
+            "u": 0.1,
+            "z": 0.06
+          },
+          {
+            "type": "I",
+            "u": 0.725,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 0.725,
+            "z": 0.685
+          }
+        ],
+        "port_u": 0.725,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            2.4379999999999997
+          ],
+          [
+            5.467,
+            2.4379999999999997
+          ]
+        ]
+      },
+      {
+        "id": "wand-05",
+        "name": "05 DA Wand Bad (Kniestock Ost)",
+        "circuit": "hk03",
+        "room": "Bad DG",
+        "wall": "w-dg-east",
+        "origin": [
+          6.792,
+          2.408
+        ],
+        "direction": [
+          0,
+          1
+        ],
+        "panels": [
+          {
+            "type": "L",
+            "u": 0.07,
+            "z": 0.06
+          },
+          {
+            "type": "G",
+            "u": 0.07,
+            "z": 0.485
+          },
+          {
+            "type": "I",
+            "u": 1.32,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 1.32,
+            "z": 0.685
+          }
+        ],
+        "port_u": 1.32,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            3.728
+          ]
+        ]
+      },
+      {
+        "id": "wand-07",
+        "name": "07 DA Wand Treppenzimmer (Kniestock West)",
+        "circuit": "hk04",
+        "room": "Treppenzimmer",
+        "wall": "w-dg-west",
+        "origin": [
+          0.328,
+          5.4
+        ],
+        "direction": [
+          0,
+          -1
+        ],
+        "panels": [
+          {
+            "type": "L",
+            "u": 0.192,
+            "z": 0.06
+          },
+          {
+            "type": "G",
+            "u": 0.192,
+            "z": 0.485
+          },
+          {
+            "type": "I",
+            "u": 1.442,
+            "z": 0.06
+          },
+          {
+            "type": "K",
+            "u": 1.442,
+            "z": 0.685
+          }
+        ],
+        "port_u": 1.442,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            5.37
+          ],
+          [
+            0.358,
+            5.37
+          ],
+          [
+            0.358,
+            3.958
+          ]
+        ]
+      },
+      {
+        "id": "wand-08",
+        "name": "08 DA Wand Treppenzimmer (Nord)",
+        "circuit": "hk04",
+        "room": "Treppenzimmer",
+        "wall": "w-dg-north",
+        "origin": [
+          0.328,
+          2.408
+        ],
+        "direction": [
+          1,
+          0
+        ],
+        "panels": [
+          {
+            "type": "D",
+            "u": 0.07,
+            "z": 0.06
+          },
+          {
+            "type": "E",
+            "u": 0.6950000000000001,
+            "z": 0.06
+          }
+        ],
+        "port_u": 0.6950000000000001,
+        "feed": [
+          [
+            6.762,
+            5.25
+          ],
+          [
+            6.762,
+            5.37
+          ],
+          [
+            0.358,
+            5.37
+          ],
+          [
+            0.358,
+            2.4379999999999997
+          ],
+          [
+            1.0230000000000001,
+            2.4379999999999997
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "abstrakt-kabel-nym-j",
+  "name": "NYM-J",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "cores",
+        "label": "Pole"
+      },
+      {
+        "param": "cross_section_mm2",
+        "label": "Querschnitt",
+        "unit": "mm²"
+      }
+    ],
+    "default": "tga-component:cable-nym-3x15"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)",
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ]
+  }
+}

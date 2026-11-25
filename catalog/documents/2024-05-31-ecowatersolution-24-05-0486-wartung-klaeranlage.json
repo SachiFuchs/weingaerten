@@ -1,0 +1,52 @@
+{
+  "id": "2024-05-31-ecowatersolution-24-05-0486-wartung-klaeranlage",
+  "name": "ECO Water 24-05-0486 – Wartung Kläranlage",
+  "doc_type": "invoice",
+  "supplier": "company:eco-water-solution",
+  "date": "2024-05-31",
+  "number": "24-05-0486",
+  "customer_number": "12769W01",
+  "category": "wasser-abwasser",
+  "object": "weingaerten-8",
+  "project": "Anlagenstandort: Weingärten 8, 73037 Göppingen (Wartungsprotokoll vom 28.05.2024)",
+  "description": "Wartungsrechnung der ECO Water Solution GmbH zur Turnuswartung der Kleinkläranlage BioTopp in Weingärten 8 am 28.05.2024 inklusive Laboranalyse (CSB und NH4-N). Im PDF-Layout fehlt die dritte Tabellenzeile (NH4-N über 34,00 € netto), sie ist jedoch im zugehörigen Laborbericht und in der ausgewiesenen Nettosumme von 220,00 € enthalten.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Wartung der Kläranlage laut Vertrag",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 150.0,
+      "total_price": 150.0
+    },
+    {
+      "position": "2",
+      "description": "Laboranalyse CSB",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 36.0,
+      "total_price": 36.0
+    },
+    {
+      "position": "3",
+      "description": "Laboranalyse NH4-N (im Laborbericht vom 28.05.2024 enthalten; im Rechnungsdruck ausgeblendet, aber in Nettosumme 220,00 € enthalten)",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 34.0,
+      "total_price": 34.0
+    }
+  ],
+  "subtotal_net": 220.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 220.0,
+  "vat_rate": 19,
+  "vat_amount": 41.8,
+  "total_gross": 261.8,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-05-31-ecowatersolution-24-05-0486-wartung-klaeranlage.json",
+  "source_sha256": "e0df46177729e5797e40143236bd9dc1d1368c0f21aa3ddfad0e84e625319ca9",
+  "original_filename": "20240531_12769W01_EcoRechnung.pdf"
+}

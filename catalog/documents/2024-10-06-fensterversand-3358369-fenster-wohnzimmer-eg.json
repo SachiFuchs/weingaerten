@@ -1,0 +1,46 @@
+{
+  "id": "2024-10-06-fensterversand-3358369-fenster-wohnzimmer-eg",
+  "name": "Fensterversand 3358369 – Fenster Wohnzimmer EG",
+  "doc_type": "invoice",
+  "supplier": "company:neuffer",
+  "date": "2024-10-06",
+  "number": "3358369",
+  "customer_number": "239043",
+  "category": "tueren-fenster-rollladen",
+  "object": "weingaerten-8",
+  "project": "Weingärten 8, 73037 Göppingen",
+  "description": "Rechnung von fensterversand.com über zwei dreifach verglaste Sicherheits- und Schallschutz-Kunststofffenster (Aluplast IDEAL 8000) für das Wohnzimmer im Erdgeschoss in Weingärten 8. Enthalten sind das große dreiteilige Wohnzimmerfenster (2970x1175 mm) sowie das einteilige Fenster zur Terrasse (1030x1175 mm) mit VSG-Verglasung, Sprossen und RC-1-N-Beschlägen. Die Zahlung erfolgte auf Rechnung über Klarna.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Fenster (NF/3/0) Kunststoff – Wohnzimmer grosses Fenster (Aluplast IDEAL 8000, Weiß, 3-teilig drehkipp, 2970x1175 mm, 3-fach Ug 0,7, Schallschutz Kl. 2 32 dB, VSG 8 mm innen & außen, Helima Sprossen 18 mm, RC 1 N, abschließbare Griffe)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 1448.05,
+      "total_price": 1448.05,
+      "ref": "component:window-wz-gross"
+    },
+    {
+      "position": "2",
+      "description": "Fenster (NF/3/0) Kunststoff – Wohnzimmer Fenster zu Terrasse (Aluplast IDEAL 8000, Weiß, 1-teilig drehkipp links, 1030x1175 mm, 3-fach Ug 0,7, Schallschutz Kl. 2 32 dB, VSG 8 mm innen & außen, Helima Sprossen 18 mm, RC 1 N, abschließbarer Griff)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 485.5,
+      "total_price": 485.5,
+      "ref": "component:window-wz-terrasse"
+    }
+  ],
+  "subtotal_net": 1933.55,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1933.55,
+  "vat_rate": 19,
+  "vat_amount": 367.37,
+  "total_gross": 2300.92,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-10-06-fensterversand-3358369-fenster-wohnzimmer-eg.json",
+  "source_sha256": "1e16f10bae697005ea0c60d4ace117961b2dfe1307f53ba72c2f6aa315e585f2",
+  "original_filename": "2024-11-11 Rechnung-Fensterversand 3358369.pdf"
+}

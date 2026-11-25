@@ -1,0 +1,8 @@
+{
+  "id": "pe-foil",
+  "name": "PE-Folie 0,2 mm",
+  "category": "Bahn",
+  "description": "Trenn- und Abdeckfolie auf dem Flachdach (Korrektur EG, rot: „Folie“); Produkt nicht angegeben",
+  "values_source": "Richtwert PE-Folie",
+  "appearance": { "color": "#3C3C3C", "roughness": 0.4, "hatch": "none" }
+}

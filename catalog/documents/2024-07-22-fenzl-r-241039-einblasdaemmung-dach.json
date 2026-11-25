@@ -1,0 +1,47 @@
+{
+  "id": "2024-07-22-fenzl-r-241039-einblasdaemmung-dach",
+  "name": "Fenzl R-241039 – Einblasdämmung Dach",
+  "doc_type": "invoice",
+  "supplier": "company:fenzl-zimmerei-und-holzbau",
+  "date": "2024-07-22",
+  "number": "R-241039",
+  "customer_number": "1002",
+  "category": "innenausbau",
+  "object": "weingaerten-8",
+  "project": "BV: Weingärten 8, Göppingen (Leistungsdatum: 21.06.2024)",
+  "description": "Rechnung der Zimmerei Felix Fenzl über das Einblasen der Zellulose-Dachdämmung (WLG 0,039) inklusive 14 Stunden Arbeitszeit am 21.06.2024 im Bauvorhaben Weingärten 8. Zahlbar innerhalb von 10 Tagen ohne Abzug.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1.10",
+      "description": "Dach mit Zellulose dämmen: Einblasdämmung Zellulose WLG 0,039",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 1128.7,
+      "total_price": 1128.7,
+      "unit_raw": "Pausch",
+      "ref": "material:zellulose-einblasdaemmung"
+    },
+    {
+      "position": "1.20",
+      "description": "Arbeitszeit",
+      "quantity": 14.0,
+      "unit": "Std",
+      "unit_price": 62.0,
+      "total_price": 868.0,
+      "unit_raw": "Std."
+    }
+  ],
+  "subtotal_net": 1996.7,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 1996.7,
+  "vat_rate": 19,
+  "vat_amount": 379.37,
+  "total_gross": 2376.07,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2024-07-22-fenzl-R-241039-einblasdaemmung-dach.json",
+  "source_sha256": "508b7ec9ee2933660ff6bd93b08b46111a0d164008f17d9f705d414342b65a73",
+  "original_filename": "2024-07-22 Fenzl Einblassdaemmung - Suri.R-241039.pdf"
+}

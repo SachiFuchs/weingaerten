@@ -1,0 +1,8 @@
+{
+  "id": "stadtverwaltung-goeppingen",
+  "name": "Stadtverwaltung Göppingen (Referat Verkehr/GVD/Waffen)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

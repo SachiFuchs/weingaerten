@@ -1,0 +1,30 @@
+{
+  "id": "broetje-europrof-33-900x700",
+  "name": "Brötje Ventil-Flachheizkörper EuroProfil Excellent Typ 33 E 900 × 700",
+  "category": "Heizung",
+  "description": "Bauhöhe 900, Baulänge 700, Bautiefe 158 mm, profilierte Front weiß, Ventilgarnitur Zweirohr, 10 bar, max. 120 °C",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:broetje",
+    "model": "EuroProfil Excellent 33 E 900x700",
+    "article_no": "092005",
+    "url": "https://heizung-billiger.de/587380-brotje-ventil-flachheizkorper-europrof-typ-33-e-900x700mm-lackiert-broetje-092005-4017042092005.html",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 580.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.1, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

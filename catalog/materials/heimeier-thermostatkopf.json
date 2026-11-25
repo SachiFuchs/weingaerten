@@ -1,0 +1,30 @@
+{
+  "id": "heimeier-thermostatkopf",
+  "name": "Heimeier Thermostatkopf K weiß",
+  "category": "Heizung",
+  "description": "Flüssigkeitsfühler, M30 × 1,5, 6–28 °C, Merkzahl 1–5, ohne Nullstellung",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:heimeier",
+    "model": "Thermostatkopf K",
+    "article_no": "6000-00.500",
+    "url": "https://www.unidomo.de/heizung/heizkoerper/heizkoerperzubehoer/heimeier-thermostatkopf-k-6000-00-500-m30-mal-1-5-mm_43253_2873/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 24.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.4, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

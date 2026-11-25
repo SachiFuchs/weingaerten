@@ -1,0 +1,61 @@
+{
+  "id": "marley-kanalgrundrohr-bogen-45-grad-dn-110",
+  "name": "Marley Kanalgrundrohr-Bogen 45 Grad DN 110",
+  "category": "Entwässerung",
+  "description": "Mit dem Kanalgrundrohr-Bogen führen Sie ein KG-Rohr um die Ecke. Es verhilft Ihnen somit zur gezielten Entwässerung Ihres Grundstücks.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4006395660337_marley-kanalgrundrohr-bogen-45-grad-dn-110"
+  ],
+  "product": {
+    "manufacturer": "company:peter-van-eyk",
+    "model": "Marley Kanalgrundrohr-Bogen 45 Grad DN 110",
+    "article_no": "7457096",
+    "ean": "4006395660337",
+    "url": "https://www.obi.de/p/7457096",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 1.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "310 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "19,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "19,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

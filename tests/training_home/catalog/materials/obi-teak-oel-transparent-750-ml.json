@@ -1,0 +1,53 @@
+{
+  "id": "obi-teak-oel-transparent-750-ml",
+  "name": "OBI Teak-Öl Transparent 750 ml",
+  "category": "Farbe",
+  "description": "OBI Teak-Öl ist ein lösemittelhaltiges, leicht zu verarbeitendes Naturöl, das tief in den Holzuntergrund eindringt, imprägniert, die Wasserabweisung erhöht, den natürlichen Ölgehalt auffrischt und den Farbton sowie die Maserung des Holzes betont. Es eignet sich zur Erstbehandlung, Auffrischung und Pflege von Harthölzern wie Teak, Eiche, Bangkirai, Eukalyptus, Mahagoni, Meranti, etc. im Außenbereich, wie z.B. Gartenmöbel, Terrassenbohlen, Holzfliesen, Palisaden, etc. Der Inhalt reicht für ca. 10 m².",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4003498365831_obi-teak-oel-transparent-750-ml"
+  ],
+  "product": {
+    "manufacturer": "company:meffert-farbwerke",
+    "model": "OBI Teak-Öl Transparent 750 ml",
+    "article_no": "7833056",
+    "ean": "4003498365831",
+    "url": "https://www.obi.de/p/7833056",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 14.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-13",
+        "source": "Kassenbon 2023-10-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "690 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "11,9 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "9,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "9,9 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

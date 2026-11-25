@@ -1,0 +1,28 @@
+{
+  "id": "pp-r-schweiss-t-stueck-dn-20",
+  "name": "Schweiß-T-Stück PP-R DN 20",
+  "category": "Trinkwasser",
+  "description": "T-Stück zum Abzweigen von PP-R-Leitungen DN 20 (alle drei Anschlüsse DN 20). Unlösbare Muffenschweißverbindung, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie. Werkstoff Polypropylen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "product": {
+    "model": "Schweiß-T-Stück DN 20, Polypropylen",
+    "article_no": "13562899",
+    "url": "https://www.bauhaus.info/schweissfittings/schweiss-t-stueck/p/13562899",
+    "offers": [
+      {
+        "supplier": "company:bauhaus",
+        "price": 1.35,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-11-21",
+        "source": "bauhaus.info 2026-11-21, pro Stück inkl. MwSt."
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#3E8E41",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

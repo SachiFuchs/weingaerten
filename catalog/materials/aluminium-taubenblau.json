@@ -1,0 +1,11 @@
+{
+  "id": "aluminium-taubenblau",
+  "name": "Aluminium taubenblau RAL 5014",
+  "category": "Metall",
+  "description": "Aluminiumprofil/-füllung beschichtet, Taubenblau RAL 5014 (Haustür außen)",
+  "conductivity": 160,
+  "density": 2700,
+  "fire_class": "A1",
+  "values_source": "Richtwert Aluminium (DIN EN ISO 10456)",
+  "appearance": { "color": "#606E8C", "roughness": 0.4, "hatch": "none" }
+}

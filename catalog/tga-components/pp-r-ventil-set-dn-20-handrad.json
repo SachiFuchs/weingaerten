@@ -1,0 +1,29 @@
+{
+  "id": "pp-r-ventil-set-dn-20-handrad",
+  "name": "Ventil-Set PP-R DN 20, 2-tlg., mit Handradgriff",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve",
+    "size": "DN 20"
+  },
+  "description": "Durchgangsventil zum Absperren und Regeln des Durchflusses, mit Handradgriff, 2-teilig (Messing, Kunststoff, Gummi). Unlösbare Muffenschweißverbindung an PP-R-Rohr DN 20, für Trinkwasser warm/kalt und Druckluft, korrosionsfrei, DVGW-zertifiziert, 10 Jahre Herstellergarantie.",
+  "catalog_material": "material:pp-r-ventil-set-dn-20-handrad",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "dn": 20,
+        "gender": "socket"
+      }
+    ]
+  }
+}

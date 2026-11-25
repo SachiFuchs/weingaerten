@@ -1,0 +1,44 @@
+{
+  "id": "marley-kanalgrundrohr-einfachabzweig-45-grad-dn-110-110",
+  "name": "Marley Kanalgrundrohr-Einfachabzweig 45 Grad DN 110/110",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.03,
+    "angle": 45,
+    "dn_branch": 110
+  },
+  "description": "Der Kanalgrundrohr-Einfachabzweig ist zur Verzweigung von 2 Kanalgrundrohren mit DN 110 im Winkel von 45 Grad geeignet.",
+  "imported_from": [
+    "ean-4006395660498_marley-kanalgrundrohr-einfachabzweig-45-grad-dn-110-110"
+  ],
+  "catalog_material": "material:marley-kanalgrundrohr-einfachabzweig-45-grad-dn-110-110",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

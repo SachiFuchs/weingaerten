@@ -1,0 +1,8 @@
+{
+  "id": "energieberatung-krause",
+  "name": "Ihre Energieberatung – Kai Krause",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "2023-04-17-blessing-20230000670-heizoel-3003-liter",
+  "name": "Blessing 20230000670 – Heizöl 3003 Liter",
+  "doc_type": "invoice",
+  "supplier": "company:reiner-blessing-brennstoffe",
+  "date": "2023-04-17",
+  "number": "20230000670",
+  "customer_number": "D41520",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Lieferanschrift: Suri-Bernas, Weingärten Gewann 8, 73037 Göppingen (Lieferschein 6419 vom 14.04.2023, Bestellung vom 30.03.2023)",
+  "description": "Rechnung von Reiner Blessing Brennstoffe (Göppingen-Faurndau) über die Lieferung von 3.003 Litern schwefelarmem Heizöl nach Weingärten 8 zu 83,30 EUR je 100 Liter netto. Grundlage ist der Lieferschein 6419 vom 14.04.2023; der CO2-Kostenanteil ist mit 286,92 EUR brutto ausgewiesen. Zahlbar bis 25.04.2023, handschriftlicher Bezahlvermerk vom 18.04.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Heizöl schwefelarm je 100 L (3.003,00 Ltr. aus Lieferschein 6419 vom 14.04.2023)",
+      "quantity": 30.03,
+      "unit": "100 L",
+      "unit_price": 83.3,
+      "total_price": 2501.5
+    }
+  ],
+  "subtotal_net": 2501.5,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 2501.5,
+  "vat_rate": 19,
+  "vat_amount": 475.29,
+  "total_gross": 2976.79,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-04-17-blessing-20230000670-heizoel-3003-liter.json",
+  "source_sha256": "6690656e2fe01e4d2e68b7fd9a5ecc661e193b451c87cc20ba92f11ebcb8ac12",
+  "original_filename": "2023-04-17-Blessing-Rechnung Oel.pdf"
+}

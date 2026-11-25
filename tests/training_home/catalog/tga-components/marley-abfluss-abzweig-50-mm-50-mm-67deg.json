@@ -1,0 +1,44 @@
+{
+  "id": "marley-abfluss-abzweig-50-mm-50-mm-67deg",
+  "name": "Marley Abfluss-Abzweig 50 mm / 50 mm 67°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 67,
+    "dn_branch": 50
+  },
+  "description": "Das innere Abflussrohrsystem HT aus Polypropylen ist für die Installation innerhalb von Gebäuden vorgesehen. Alle Rohre und Formstücke sind mit einer Steckmuffe mit Gummidichtung versehen, was die Installation wesentlich beschleunigt und dank dem Dehnungsspiel in den Verbindungen für einen sicheren Betrieb sorgt.",
+  "imported_from": [
+    "ean-4002644091839_marley-abfluss-abzweig-50-mm-50-mm-67deg"
+  ],
+  "catalog_material": "material:marley-abfluss-abzweig-50-mm-50-mm-67deg",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

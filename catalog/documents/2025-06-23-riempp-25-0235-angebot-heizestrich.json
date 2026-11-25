@@ -1,0 +1,91 @@
+{
+  "id": "2025-06-23-riempp-25-0235-angebot-heizestrich",
+  "name": "Riempp 25-0235 – Angebot Heizestrich",
+  "doc_type": "quote",
+  "supplier": "company:riempp-estriche",
+  "date": "2025-06-23",
+  "number": "25-0235",
+  "customer_number": "36716",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben: Umbau WH, Weingärten 8, Göppingen (Projektnummer 25/06/3952-P)",
+  "description": "Angebot der Riempp Estriche GmbH (Nürtingen) für den Heizestrich im Umbau Weingärten 8 mit dem dünnschichtigen Fußbodenheizungssystem Schlüter BEKOTEC-EN 23 F auf 60 m² einschließlich Trägerplatte, Randdämmstreifen und PUR-Dämmung. Die tatsächlich ausgeführte Leistung wurde mit Rechnung 2025397 vom 06.11.2025 über 46,70 m² abgerechnet.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Baustelleneinrichtung Estricharbeiten",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 320.0,
+      "total_price": 320.0
+    },
+    {
+      "position": "2",
+      "description": "Heizestrich d=38 mm System Schlüter (Bekotec EN 23F oder ENPF)",
+      "quantity": 60,
+      "unit": "m²",
+      "unit_price": 33.6,
+      "total_price": 2016.0,
+      "ref": "material:heating-screed"
+    },
+    {
+      "position": "3",
+      "description": "Trägerplatte Fußbodenheizung System Schlüter Bekotec EN 23F (Noppenplatte)",
+      "quantity": 60,
+      "unit": "m²",
+      "unit_price": 26.8,
+      "total_price": 1608.0,
+      "ref": "material:bekotec-en23f-plate"
+    },
+    {
+      "position": "4",
+      "description": "Randdämmstreifen Schlüter",
+      "quantity": 60,
+      "unit": "m²",
+      "unit_price": 1.95,
+      "total_price": 117.0,
+      "ref": "material:pe-edge-strip"
+    },
+    {
+      "position": "5",
+      "description": "Wärmedämmung PUR/PIR WLG 023, S=30mm",
+      "quantity": 60,
+      "unit": "m²",
+      "unit_price": 10.2,
+      "total_price": 612.0,
+      "ref": "material:pur-pir-023"
+    },
+    {
+      "position": "6",
+      "description": "Ausbildung von Abstellungen",
+      "quantity": 5,
+      "unit": "m",
+      "unit_price": 4.9,
+      "total_price": 24.5
+    },
+    {
+      "position": "7",
+      "description": "Regieleistungen - Mittellohn (Bedarfsposition)",
+      "quantity": 3,
+      "unit": "Std",
+      "unit_price": 56.8,
+      "total_price": 170.4
+    }
+  ],
+  "subtotal_net": 4867.9,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 4867.9,
+  "vat_rate": 19,
+  "vat_amount": 924.9,
+  "total_gross": 5792.8,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2025-06-23-riempp-25-0235-angebot-heizestrich.json",
+  "source_sha256": "96ba77a6727764fe57996fa1a391dc89f5a5352bd89bcca08b5c0013b884e50f",
+  "original_filename": "2025-06-23 Riempp-Angebot 25-0235.pdf",
+  "related": [
+    "document:2025-11-06-riempp-2025397-heizestrich-bekotec"
+  ]
+}

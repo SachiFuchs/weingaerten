@@ -1,0 +1,53 @@
+{
+  "id": "marley-abfluss-abzweig-50-mm-50-mm-67deg",
+  "name": "Marley Abfluss-Abzweig 50 mm / 50 mm 67°",
+  "category": "Entwässerung",
+  "description": "Das innere Abflussrohrsystem HT aus Polypropylen ist für die Installation innerhalb von Gebäuden vorgesehen. Alle Rohre und Formstücke sind mit einer Steckmuffe mit Gummidichtung versehen, was die Installation wesentlich beschleunigt und dank dem Dehnungsspiel in den Verbindungen für einen sicheren Betrieb sorgt.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644091839_marley-abfluss-abzweig-50-mm-50-mm-67deg"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Abfluss-Abzweig 50 mm / 50 mm 67°",
+    "article_no": "7433782",
+    "ean": "4002644091839",
+    "url": "https://www.obi.de/p/7433782",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "80 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,4 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "12,6 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "16,1 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-10-23",
+        "source": "Kassenbon 2023-10-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "universalgrundierung",
+  "name": "UNIVERSALGRUNDIERUNG",
+  "category": "Farbe",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-7196485_universalgrundierung"
+  ],
+  "product": {
+    "model": "UNIVERSALGRUNDIERUNG",
+    "article_no": "7196485",
+    "ean": "4005893017377",
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 25.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-08-01",
+        "source": "Kassenbon 2024-08-01, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#C8C2B8",
+    "roughness": 0.7,
+    "hatch": "none"
+  }
+}

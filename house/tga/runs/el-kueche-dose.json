@@ -1,0 +1,49 @@
+{
+  "id": "el-kueche-dose",
+  "name": "Stromleitung Küche Verteilerdose (NYM-J 3x2,5)",
+  "component": "tga-component:emskabel-feuchtraumleitung-nym-j-3-x-2-5-mm2-50-m",
+  "system": "electrical-kueche",
+  "installation": "surface",
+  "points": [
+    [
+      6.78,
+      4.87,
+      -0.6
+    ],
+    [
+      6.78,
+      4.87,
+      0.6
+    ],
+    [
+      6.78,
+      4.3,
+      0.6
+    ],
+    [
+      6.78,
+      4.3,
+      1.05
+    ]
+  ],
+  "conduit": {
+    "pipe": "tga-component:installationsrohr-m20-starr-lichtgrau-dr",
+    "bend": "tga-component:steckbogen-m20-fuer-installationsrohr-2",
+    "sleeve": "tga-component:steckmuffe-m20-fuer-installationsrohr-5",
+    "clamp": "tga-component:klemmschelle-m20-fuer-installationsrohr",
+    "clamp_spacing": 0.5
+  },
+  "open_end": {
+    "reserve": 1.5,
+    "note": "Keller, offen gelassen – Anschluss Sicherungskasten später"
+  },
+  "reserve": 0.5,
+  "to": "tga-terminal:el-dose-kueche",
+  "joints": [
+    {"at": "to", "role": "L", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1, "note": "Endstück, Abgänge zu Steckdosen später"},
+    {"at": "to", "role": "N", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1},
+    {"at": "to", "role": "PE", "clamp": "tga-component:wago-hebelklemme-0-2-4-mm2-5-polig-5-stueck", "wires": 1}
+  ],
+  "estimated": true,
+  "note": "im M20-Rohr aus dem Keller durch den Versorgungsschacht, waagrecht an der Ostwand, gerade Strecken"
+}

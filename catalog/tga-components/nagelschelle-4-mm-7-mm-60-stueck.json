@@ -1,0 +1,59 @@
+{
+  "id": "nagelschelle-4-mm-7-mm-60-stueck",
+  "name": "Nagelschelle Ø 4 mm - Ø 7 mm 60 Stück",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "cable_fixing"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007872908102_nagelschelle-4-mm-7-mm-60-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Nagelschelle Ø 4 mm - Ø 7 mm 60 Stück",
+    "article_no": "5462049",
+    "ean": "4007872908102",
+    "url": "https://www.obi.de/p/5462049",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,3 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "1,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 2.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-14",
+        "source": "Kassenbon 2024-05-14, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

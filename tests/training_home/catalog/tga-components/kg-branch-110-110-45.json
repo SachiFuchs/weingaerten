@@ -1,0 +1,40 @@
+{
+  "id": "kg-branch-110-110-45",
+  "name": "KG-Abzweig DN 110/110 45°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "branch",
+    "system_line": "kg",
+    "dn": 110,
+    "z_length": 0.05,
+    "angle": 45,
+    "dn_branch": 110
+  },
+  "note": "Platzhalter: nicht im gemeldeten Sortiment, wird für den Leitungsverlauf gebraucht - bitte bestätigen",
+  "estimated": true,
+  "connection": {
+    "line": "kg",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 110,
+        "gender": "spigot",
+        "flow": "out"
+      },
+      {
+        "id": "c",
+        "dn": 110,
+        "gender": "socket",
+        "flow": "in"
+      }
+    ]
+  }
+}

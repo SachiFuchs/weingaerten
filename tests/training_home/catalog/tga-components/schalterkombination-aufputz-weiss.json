@@ -1,0 +1,69 @@
+{
+  "id": "schalterkombination-aufputz-weiss",
+  "name": "Schalterkombination Aufputz Weiß",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "switch",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007873910425_schalterkombination-aufputz-weiss"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Schalterkombination Aufputz Weiß",
+    "article_no": "1697911",
+    "ean": "4007873910425",
+    "url": "https://www.obi.de/p/1697911",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "150 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,2 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "6,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,7 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 12.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-03-23",
+        "source": "Kassenbon 2023-03-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 5×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 9.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L",
+      "N",
+      "PE"
+    ],
+    "note": "Schalter mit Steckdose angenommen"
+  }
+}

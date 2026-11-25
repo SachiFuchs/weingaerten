@@ -1,0 +1,163 @@
+{
+  "id": "abwasser",
+  "name": "Abwasser",
+  "order": 2,
+  "nodes": [
+    {
+      "id": "ht-dn-50",
+      "name": "HT DN 50",
+      "nodes": [
+        {
+          "id": "boegen",
+          "name": "Bögen",
+          "nodes": [
+            {
+              "id": "ht-bend-50-15",
+              "ref": "tga-component:ht-bend-50-15"
+            },
+            {
+              "id": "ht-bend-50-30",
+              "ref": "tga-component:ht-bend-50-30"
+            },
+            {
+              "id": "ht-bend-50-45",
+              "ref": "tga-component:ht-bend-50-45"
+            }
+          ]
+        },
+        {
+          "id": "abzweige",
+          "name": "Abzweige",
+          "nodes": [
+            {
+              "id": "ht-branch-50-50-45",
+              "ref": "tga-component:ht-branch-50-50-45"
+            },
+            {
+              "id": "ht-branch-50-50-90",
+              "ref": "tga-component:ht-branch-50-50-90"
+            },
+            {
+              "id": "ht-branch-90-50-45",
+              "ref": "tga-component:ht-branch-90-50-45"
+            },
+            {
+              "id": "ht-branch-90-50-90",
+              "ref": "tga-component:ht-branch-90-50-90"
+            }
+          ]
+        },
+        {
+          "id": "rohre",
+          "name": "Rohre",
+          "nodes": [
+            {
+              "id": "ht-pipe-50",
+              "ref": "tga-component:ht-pipe-50"
+            }
+          ],
+          "filter": {
+            "class": "tga-class:pipe"
+          }
+        },
+        {
+          "id": "stopfen",
+          "name": "Stopfen",
+          "nodes": [
+            {
+              "id": "ht-plug-50",
+              "ref": "tga-component:ht-plug-50"
+            }
+          ]
+        },
+        {
+          "id": "uebergaenge",
+          "name": "Übergänge",
+          "nodes": [
+            {
+              "id": "ht-reducer-90-50",
+              "ref": "tga-component:ht-reducer-90-50"
+            }
+          ]
+        }
+      ],
+      "filter": {
+        "query": "ht 50"
+      }
+    },
+    {
+      "id": "ht-dn-90",
+      "name": "HT DN 90",
+      "nodes": [
+        {
+          "id": "boegen",
+          "name": "Bögen",
+          "nodes": [
+            {
+              "id": "ht-bend-90-15",
+              "ref": "tga-component:ht-bend-90-15"
+            },
+            {
+              "id": "ht-bend-90-30",
+              "ref": "tga-component:ht-bend-90-30"
+            },
+            {
+              "id": "ht-bend-90-45",
+              "ref": "tga-component:ht-bend-90-45"
+            }
+          ]
+        },
+        {
+          "id": "abzweige",
+          "name": "Abzweige",
+          "nodes": [
+            {
+              "id": "ht-branch-90-50-45",
+              "ref": "tga-component:ht-branch-90-50-45"
+            },
+            {
+              "id": "ht-branch-90-50-90",
+              "ref": "tga-component:ht-branch-90-50-90"
+            }
+          ]
+        },
+        {
+          "id": "rohre",
+          "name": "Rohre",
+          "nodes": [
+            {
+              "id": "ht-pipe-90",
+              "ref": "tga-component:ht-pipe-90"
+            }
+          ],
+          "filter": {
+            "class": "tga-class:pipe"
+          }
+        },
+        {
+          "id": "stopfen",
+          "name": "Stopfen",
+          "nodes": [
+            {
+              "id": "ht-plug-90",
+              "ref": "tga-component:ht-plug-90"
+            }
+          ]
+        },
+        {
+          "id": "uebergaenge",
+          "name": "Übergänge",
+          "nodes": [
+            {
+              "id": "ht-reducer-90-50",
+              "ref": "tga-component:ht-reducer-90-50"
+            }
+          ]
+        }
+      ],
+      "filter": {
+        "query": "ht 90"
+      }
+    }
+  ]
+}

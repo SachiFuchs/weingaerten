@@ -1,0 +1,45 @@
+{
+  "id": "roof-flashing-velux-fk06",
+  "name": "VELUX-Eindeckrahmen EDZ für 66 × 118",
+  "ifc": {
+    "entity": "IfcCovering",
+    "predefined_type": "USERDEFINED",
+    "object_type": "Eindeckrahmen"
+  },
+  "description": "Schuck Dach RE 17.07.2023, Titel 06: Eindeckrahmen Aluminium Typ EDZ passend zum Dachfenster FK06 (66 × 118 cm), in die Dachfläche eingebaut",
+  "class": "class:roof-part",
+  "opening_capable": false,
+  "params": {
+    "width": 0.66,
+    "height": 0.05,
+    "depth": 1.18,
+    "quantity": 1,
+    "unit": "pcs"
+  },
+  "materials": {
+    "main": "material:aluminium-brown"
+  },
+  "product": {
+    "manufacturer": "company:velux",
+    "model": "EDZ FK06",
+    "offers": [
+      {
+        "supplier": "company:schuck-dach",
+        "price": 150.0,
+        "currency": "EUR",
+        "date": "2023-07-17",
+        "source": "RE 17.07.2023, Titel 06",
+        "document": "document:2023-07-17-schuck-1783-schlussrechnung-dach"
+      },
+      {
+        "supplier": "company:schuck-dach",
+        "price": 150.0,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-06-21",
+        "source": "Angebot 2305, Pos. 01.04, je Stk",
+        "document": "document:2023-06-21-schuck-2305-nachtrag-dachfenster"
+      }
+    ]
+  }
+}

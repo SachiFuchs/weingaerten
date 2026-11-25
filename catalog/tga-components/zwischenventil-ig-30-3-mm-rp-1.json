@@ -1,0 +1,51 @@
+{
+  "id": "zwischenventil-ig-30-3-mm-rp-1",
+  "name": "Zwischenventil IG 30,3 mm (Rp 1)",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4078500723107_zwischenventil-ig-30-3-mm-rp-1"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Zwischenventil IG 30,3 mm (Rp 1)",
+    "article_no": "8395295",
+    "ean": "4078500723107",
+    "url": "https://www.obi.de/p/8395295",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "234 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "4,6 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "5,9 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,6 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 13.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

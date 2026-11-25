@@ -1,0 +1,13 @@
+{
+  "id": "stutzen-dg-kueche",
+  "name": "Stutzen DG über Küche (verschlossen)",
+  "component": "tga-component:waste-stub",
+  "storey": "storey:upper",
+  "room": "room-dg-bad",
+  "position": [
+    6.65,
+    5.0,
+    3.05
+  ],
+  "estimated": true
+}

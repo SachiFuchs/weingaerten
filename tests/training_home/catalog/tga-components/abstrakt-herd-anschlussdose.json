@@ -1,0 +1,21 @@
+{
+  "id": "abstrakt-herd-anschlussdose",
+  "name": "Herd-Anschlussdose",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "box_function": "cooker"
+  },
+  "abstract": {
+    "axes": [
+      {
+        "param": "mounting",
+        "label": "Montage"
+      }
+    ],
+    "default": "tga-component:herd-anschlussdose"
+  },
+  "note": "abstraktes TGA-Objekt (scripts/build_tga_tree.py)"
+}

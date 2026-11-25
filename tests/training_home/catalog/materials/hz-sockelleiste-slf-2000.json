@@ -1,0 +1,30 @@
+{
+  "id": "hz-sockelleiste-slf-2000",
+  "name": "HZ Sockelleiste SLF 2000 W weiß",
+  "category": "Heizung",
+  "description": "Kunststoff-Hohlkammerprofil 95 × 39 mm, Länge 4 m, für Rohre bis 22 mm, je m",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:hz-weitzel",
+    "model": "SLF 2000 W",
+    "article_no": "2080",
+    "url": "https://shop.ottenbruch.de/de/artikel/heizung,2989,hz-sockelleiste-slf-2000w-nr-2080,HZSLF2000W/",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 9.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 4.5, je m",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

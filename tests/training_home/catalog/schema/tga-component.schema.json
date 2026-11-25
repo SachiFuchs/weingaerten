@@ -1,0 +1,243 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-component",
+  "title": "TGA-Komponente (catalog/tga-components/<id>.json) – konkretes Produkt einer TGA-Klasse",
+  "type": "object",
+  "required": ["id", "name", "class", "din276", "system_type", "params"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name":        { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "class":       { "type": "string", "pattern": "^tga-class:[a-z0-9]+(-[a-z0-9]+)*$" },
+    "din276":      { "type": "string", "pattern": "^4[0-9]{2}$", "description": "Kostengruppe KG 400; Gewerk wird über catalog/reference/din276.json abgeleitet" },
+    "system_type": { "type": "string", "minLength": 1, "description": "Anlagensystem, z. B. \"Fußbodenheizung\", \"Trinkwasser\", \"Stromkreis\"" },
+    "params":      { "type": "object", "description": "Werte zu den Parametern der Klasse (gleiche Regeln wie component.params)" },
+    "stock": {
+      "type": "object",
+      "description": "Lieferbare Stangenlängen eines Rohrs (Zuschnitt in Stufe 2 der Formteilauflösung)",
+      "required": ["lengths"],
+      "additionalProperties": false,
+      "properties": {
+        "lengths":  { "type": "array", "minItems": 1, "items": { "type": "number", "exclusiveMinimum": 0 }, "description": "Stangenlängen in m" },
+        "cuttable": { "type": "boolean", "description": "darf gekürzt werden" }
+      }
+    },
+    "assembly": {
+      "type": "object",
+      "description": "TGA-Baugruppe: Hauptobjekt (Träger, z. B. Dose) mit Bestandteilen (z. B. 3 WAGO-Klemmen); Einbau, Eignung und Verbindungsdaten kommen vom Hauptobjekt, Bestandteile mit role sind die Klemmen je Leiter",
+      "required": ["main", "parts"],
+      "additionalProperties": false,
+      "properties": {
+        "main":  { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "max_connections": { "type": "integer", "minimum": 1, "description": "Anzahl Anschlusspunkte des Hauptobjekts, die in dieser Baugruppe verwendet werden dürfen (zusätzlich begrenzt durch die Polzahl der Klemmen)" },
+        "parts": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["ref"], "additionalProperties": false,
+            "properties": {
+              "ref":   { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "count": { "type": "integer", "minimum": 1, "description": "Anzahl (Standard 1)" },
+              "role":  { "enum": ["L", "L1", "L2", "L3", "N", "PE"], "description": "Klemme: Leiter, den sie klemmt (count 1)" }
+            }
+          }
+        }
+      }
+    },
+    "abstract": {
+      "type": "object",
+      "deprecated": true,
+      "description": "VERALTET (nicht mehr angeboten): Abstraktes TGA-Objekt: params = feste Werte; konkretisiert durch die Parameter axes zu einem konkreten TGA-Bauteil derselben Klasse (gleiche params + gewählte Werte)",
+      "required": ["axes"],
+      "additionalProperties": false,
+      "properties": {
+        "axes": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["param"], "additionalProperties": false,
+            "properties": {
+              "param": { "type": "string", "pattern": "^[a-z0-9_]+$", "description": "Parameter der Klasse, z. B. cross_section_mm2, cores" },
+              "label": { "type": "string" },
+              "unit":  { "type": "string" }
+            }
+          }
+        },
+        "default": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "vorgewählte Konkretisierung" }
+      }
+    },
+    "cut": {
+      "type": "object", "required": ["max_length", "default_length"], "additionalProperties": false,
+      "description": "Kürzungseigenschaft: in jeder Länge bis max_length verfügbar (z. B. Kabel NYY 50 m -> 15 m); default_length = Länge beim Anlegen (z. B. 1 m); gilt vor install.stretch",
+      "properties": { "max_length": { "type": "number", "exclusiveMinimum": 0 }, "default_length": { "type": "number", "exclusiveMinimum": 0 },
+                      "min_length": { "type": "number", "exclusiveMinimum": 0 } }
+    },
+    "placement": {
+      "type": "object",
+      "description": "Eignung: in welchen Bauteilen und ob in oder auf ihnen",
+      "additionalProperties": false,
+      "properties": {
+        "hosts": { "type": "array", "minItems": 1, "items": { "enum": ["wall", "floor", "ceiling", "roof"] } },
+        "modes": { "type": "array", "minItems": 1, "items": { "enum": ["in", "on"] }, "description": "in = eingelassen (Unterputz), on = aufliegend (Aufputz)" },
+        "estimated": { "type": "boolean" }
+      }
+    },
+    "estimated": { "type": "boolean", "description": "Platzhalter / Werte geschätzt, nicht im gemeldeten Sortiment" },
+    "note":      { "type": "string" },
+    "photos":    { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.-]*\\.(jpg|jpeg|png|webp)$" } },
+    "imported_from": { "type": "array", "items": { "type": "string" }, "description": "Quelldateien in catalog/imported_material (ohne .json)" },
+    "product": {
+      "type": "object",
+      "description": "Gekaufter Artikel eines Herstellers, bezogen über Lieferanten (wie component.product)",
+      "additionalProperties": false,
+      "properties": {
+        "manufacturer": { "type": "string", "pattern": "^company:[a-z0-9]+(-[a-z0-9]+)*$" },
+        "model":        { "type": "string" },
+        "article_no":   { "type": "string" },
+        "ean":          { "type": "string", "pattern": "^[0-9]+$" },
+        "url":          { "type": "string" },
+        "details":      { "type": "object" },
+        "offers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["supplier", "price"],
+            "additionalProperties": false,
+            "properties": {
+              "supplier":    { "type": "string", "pattern": "^company:[a-z0-9]+(-[a-z0-9]+)*$" },
+              "price":       { "type": "number", "minimum": 0, "description": "Preis je Verkaufseinheit" },
+              "currency":    { "type": "string", "default": "EUR" },
+              "price_basis": { "enum": ["net", "gross"] },
+              "date":        { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+              "source":      { "type": "string" },
+              "document":    { "type": "string", "pattern": "^document:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Beleg im Katalog" }
+            }
+          }
+        }
+      }
+    },
+    "catalog_material": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Herkunft: gleiches Produkt als Material (Belege, Baumarktimport)" },
+    "material_offer": { "type": "integer", "minimum": 0, "description": "nur dieses Angebot des catalog_material gilt (z. B. Preis je Plattentyp)" },
+    "connection": {
+      "type": "object",
+      "description": "Verbindungsdaten (Regeln der Klasse: connection_rules)",
+      "additionalProperties": false,
+      "properties": {
+        "line": { "enum": ["ht", "kg", "ppr", "alu_composite", "power"] },
+        "ends": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["id", "dn", "gender"], "additionalProperties": false,
+            "properties": {
+              "id":     { "type": "string", "pattern": "^[a-z0-9]+$" },
+              "line":   { "enum": ["ht", "kg", "ppr", "alu_composite", "thread", "metal", "other"], "description": "nur wenn anders als connection.line (Übergänge)" },
+              "dn":     { "type": "number", "exclusiveMinimum": 0 },
+              "gender": { "enum": ["spigot", "socket", "any"] },
+              "flow":   { "enum": ["in", "out", "none"], "description": "Abwasser: Muffe = in, Spitzende = out" }
+            }
+          }
+        },
+        "conductors": {
+          "type": "array", "description": "Kabel: eigene Aderbelegung (sonst Standard aus cores)",
+          "items": { "type": "object", "required": ["role"], "additionalProperties": false,
+                     "properties": { "role": { "enum": ["L", "L1", "L2", "L3", "N", "PE"] }, "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" } } }
+        },
+        "poles":         { "type": "integer", "minimum": 1, "maximum": 12, "description": "Klemme: Anzahl Eingänge" },
+        "cross_section": { "type": "array", "items": { "type": "number", "exclusiveMinimum": 0 }, "minItems": 2, "maxItems": 2, "description": "Klemme: Leiterquerschnitt min, max in mm²" },
+        "may_be_end":    { "type": "boolean", "description": "Klemme darf Endstück sein" },
+        "partial_use":   { "type": "boolean", "description": "nicht alle Eingänge müssen belegt sein" },
+        "mounting":      { "enum": ["surface", "flush", "hollow_wall"], "description": "Dose: Aufputz, Unterputz, Hohlwand" },
+        "box_function":  { "enum": ["junction", "device"], "description": "Abzweigdose oder Gerätedose" },
+        "accepts":       { "type": "array", "items": { "enum": ["L", "L1", "L2", "L3", "N", "PE"] }, "description": "Endgerät: anschließbare Leiter" },
+        "note":          { "type": "string" }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "pattern": "^material:[a-z0-9]+(-[a-z0-9]+)*$" }
+    },
+    "install": {
+      "type": "object",
+      "description": "Einbau als Einzelteil (house/tga/parts): Form, Maße und Anschlusspunkte im lokalen Teil-Koordinatensystem (x, y in der Wandebene, w aus der Wand heraus); erzeugt von scripts/build_ports.py",
+      "required": ["trade", "shape", "ports"],
+      "additionalProperties": false,
+      "properties": {
+        "trade":          { "enum": ["electrical", "waste_water", "water_supply"], "description": "Gewerk (Palette)" },
+        "group":          { "type": "string", "description": "Untergruppe der Palette, z. B. \"Rohre\", \"Bögen\"" },
+        "shape":          { "enum": ["pipe", "fitting", "box", "valve", "cap", "insert", "cable"], "description": "Zeichenform" },
+        "palette":        { "type": "array", "description": "Pfad im Palettenbaum (oder Liste von Pfaden), überschreibt die Ableitung" },
+        "outer_diameter": { "type": "number", "exclusiveMinimum": 0 },
+        "size":           { "type": "array", "items": { "type": "number", "exclusiveMinimum": 0 }, "minItems": 3, "maxItems": 3, "description": "Dosen/Einsätze: Breite x Höhe x Tiefe in m (Tiefe in die Wand)" },
+        "stretch":        {
+          "type": "object", "required": ["max_length"], "additionalProperties": false,
+          "description": "Gerades Rohr: Länge je Einbau frei bis max_length (abgeschnitten)",
+          "properties": { "max_length": { "type": "number", "exclusiveMinimum": 0 }, "default_length": { "type": "number", "exclusiveMinimum": 0 } }
+        },
+        "layout": {
+          "type": "object", "additionalProperties": false,
+          "description": "Planungsdaten (z. B. Dosen in Wänden)",
+          "properties": {
+            "size":   { "type": "array", "items": { "type": "number", "exclusiveMinimum": 0 }, "minItems": 3, "maxItems": 3, "description": "Ausmaße B x H x T in m, falls nicht am Produkt" },
+            "points": { "type": "object", "additionalProperties": false, "description": "Anschlusspunkte je Seite",
+                        "properties": { "top": { "type": "integer", "minimum": 0 }, "bottom": { "type": "integer", "minimum": 0 },
+                                        "left": { "type": "integer", "minimum": 0 }, "right": { "type": "integer", "minimum": 0 },
+                                        "front": { "type": "integer", "minimum": 0, "description": "vorne (aus der Wand)" },
+                                        "back": { "type": "integer", "minimum": 0 } } },
+            "max_connections": { "type": "integer", "minimum": 1, "description": "max. belegbare Anschlüsse (z. B. WAGO 3-polig -> 3)" },
+            "symbol": { "enum": ["box", "socket", "switch", "lamp", "pipe", "fitting", "valve", "cable", "other"], "description": "Objektdarstellung im Plan" },
+            "shapes": {
+              "type": "array", "description": "vereinfachte Darstellung in der Wandebene (lokale Teil-Koordinaten in m, Ursprung = Teilursprung); ohne shapes Rechteck aus size",
+              "items": {
+                "type": "object", "required": ["kind"], "additionalProperties": false,
+                "if": { "properties": { "kind": { "const": "cable" } } },
+                "then": { "required": ["from", "to"] },
+                "else": { "required": ["x", "y"] },
+                "properties": {
+                  "kind":   { "enum": ["rect", "circle", "line", "text", "cable"] },
+                  "from":   { "type": "string", "description": "cable: id des Anschlusspunktes am Anfang" },
+                  "to":     { "type": "string", "description": "cable: id des Anschlusspunktes am Ende" },
+                  "points": { "type": "array", "description": "cable: Biegepunkte [x, y] (m), Kurve läuft glatt hindurch",
+                              "items": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 } },
+                  "ends":   { "type": "array", "description": "cable: zwischengespeicherte Lage der beiden Anschlusspunkte [[x,y],[x,y]] (vom Editor gepflegt)",
+                              "items": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 }, "minItems": 2, "maxItems": 2 },
+                  "width":  { "type": "number", "exclusiveMinimum": 0, "description": "cable: Strichstärke in m" },
+                  "x":      { "type": "number", "description": "rect: Mitte, circle: Mitte, line: Anfang, text: Ankerpunkt" },
+                  "y":      { "type": "number" },
+                  "w":      { "type": "number", "exclusiveMinimum": 0 },
+                  "h":      { "type": "number", "exclusiveMinimum": 0 },
+                  "r":      { "type": "number", "exclusiveMinimum": 0 },
+                  "x2":     { "type": "number" },
+                  "y2":     { "type": "number" },
+                  "text":   { "type": "string" },
+                  "size":   { "type": "number", "exclusiveMinimum": 0, "description": "Texthöhe in m" },
+                  "stroke": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+                  "fill":   { "type": "string", "pattern": "^(#[0-9A-Fa-f]{6}|none)$" }
+                }
+              }
+            }
+          }
+        },
+        "ports": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object", "required": ["id", "pos", "dir", "line", "dn", "gender"], "additionalProperties": false,
+            "properties": {
+              "id":        { "type": "string", "pattern": "^[a-z0-9]+$" },
+              "pos":       { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+              "dir":       { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3, "description": "Einheitsvektor nach außen" },
+              "at_length": { "type": "boolean", "description": "pos.x wird um die Rohrlänge verschoben (Ende b eines geraden Rohrs)" },
+              "line":      { "enum": ["ht", "kg", "ppr", "conduit", "insert", "power"], "description": "power = Kabelende (dn = Aderzahl)" },
+              "dn":        { "type": "number", "exclusiveMinimum": 0 },
+              "gender":    { "enum": ["spigot", "socket", "any"], "description": "Spitzende passt in Muffe; any passt zu allem" },
+              "flow":      { "enum": ["in", "out", "none"], "description": "Abwasser-Fließrichtung: in = Wasser kommt hier an (Muffe), out = verlässt das Teil (Spitzende)" },
+              "cores":     { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 1, "description": "Kabeleinführung: erlaubte Aderzahlen eines Kabels (direkt oder im Leerrohr), z. B. [3] Geräte-/Abzweigdose, [5] Herd-Anschlussdose" },
+              "cable_types": { "type": "array", "items": { "type": "string" }, "minItems": 1, "description": "Kabeleinführung: erlaubte Kabeltypen (params.cable_type), z. B. [\"NYM-J\"] Zulauf, [\"H05VV-F\"] Herdanschlussleitung" },
+              "cross_section": { "type": "number", "exclusiveMinimum": 0, "description": "Kabeleinführung: geforderter Querschnitt in mm² (params.cross_section_mm2)" },
+              "label": { "type": "string", "description": "Anzeige, z. B. Zulauf, Abgang Herd" },
+              "angle": { "enum": ["right", "any"], "description": "right = nur rechtwinklig/koaxial (Rohr in Rohr), any = beliebiger Winkel (Leitungen); Standard: power/Kabeleinführung any, sonst right" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "konsta-kantholz-fichte-2000-x-60-x-40-mm",
+  "name": "Konsta Kantholz Fichte 2000 x 60 x 40 mm",
+  "category": "Holz",
+  "description": "Planst Du den Ausbau Deines Dachbodens oder andere Bauprojekte? Dann ist das Konsta Kantholz Fichte 2000 x 60 x 40 mm genau das Richtige für Dich.\n\nProduktmerkmale des Konsta Kantholzes Fichte 2000 x 60 x 40 mm\nDarum solltest Du zugreifen: Das Kantholz aus Fichte überzeugt durch seine Stabilität und ist ideal für den Innenausbau geeignet. Die sägeraue Oberfläche sorgt für einen festen Halt in Deinen Konstruktionen, sei es an Wänden, Böden oder Decken. Mit einer Länge von 2000 mm bietet es ausreichend Spielraum für Anpassungen und kann problemlos gekürzt werden, um den individuellen Anforderungen gerecht zu werden. Die Abmessungen von 40 x 60 mm machen es besonders geeignet für den Innenausbau, während die unbehandelte Oberfläche Dir die Freiheit gibt, es nach Bedarf zu versiegeln, zu lackieren oder zu streichen.\n\nDas Fichtenholz stammt aus europäischem Anbau und ist sowohl für den Innen- als auch für den Außenbereich einsetzbar. Es eignet sich hervorragend für einfache Konstruktionen, die ohne viel Werkzeug auskommen, aber auch für komplexere Projekte, die eine sorgfältige Planung erfordern.\n\nFestgezurrt: Das Konsta Kantholz Fichte bietet eine solide Basis für zahlreiche Holzkonstruktionen und ist ein verlässlicher Partner für Dein Bauvorhaben.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-1000357_konsta-kantholz-fichte-2000-x-60-x-40-mm"
+  ],
+  "product": {
+    "manufacturer": "company:konsta",
+    "model": "Konsta Kantholz Fichte 2000 x 60 x 40 mm",
+    "article_no": "1000357",
+    "ean": "4250821000055",
+    "url": "https://www.hornbach.de/p/konsta-kantholz-fichte-2000-x-60-x-40-mm/1000357/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Kreuzrahmen, Balken"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Kantholz"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Innenausbau, Messebau, Neubau"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Boden, Decke, Fussboden"
+        },
+        {
+          "label": "Holzart",
+          "value": "Fichte"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Sägerau, Unbehandelt, -"
+        },
+        {
+          "label": "Dimension",
+          "value": "40x60 mm"
+        },
+        {
+          "label": "Oberfläche/Kanten",
+          "value": "Sägerau"
+        },
+        {
+          "label": "Herkunftsland",
+          "value": "Europa"
+        },
+        {
+          "label": "Behandlung",
+          "value": "Unbehandelt"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "Y1ZT"
+        },
+        {
+          "label": "EAN",
+          "value": "2001000357000, 4005014000288, 4007622012028, 4049868000216, 4049868001725, 4250821000055, 4260031140120, 4260162490026"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Stärke",
+          "value": "40 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "60 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2.000 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.58,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-25",
+        "source": "Kassenbon 2023-07-25, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  },
+  "photos": [
+    "hornbach-1000357_1.jpg",
+    "hornbach-1000357_2.jpg",
+    "hornbach-1000357_3.jpg"
+  ]
+}

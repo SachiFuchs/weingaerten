@@ -1,0 +1,84 @@
+{
+  "id": "kaiser-1159-25-federdeckel-72-mm",
+  "name": "Kaiser 1159-25 Federdeckel 72 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "other"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-6060661_kaiser-1159-25-federdeckel-72-mm"
+  ],
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 1159-25 Federdeckel 72 mm",
+    "article_no": "6060661",
+    "ean": "4260484710086",
+    "url": "https://www.hornbach.de/p/kaiser-1159-25-federdeckel-72-mm/6060661/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Deckel"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Federdeckel"
+        },
+        {
+          "label": "Montageart",
+          "value": "Unterputz"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Hinweis",
+          "value": "mit bruchsicherer Feder"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Feuchtraum, Innen"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "S2H5"
+        },
+        {
+          "label": "EAN",
+          "value": "2007005763037, 4260484710086, 9008243007221"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "72 mm, 60 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.41,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-07-21",
+        "source": "Kassenbon 2023-07-21, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6060661_1.jpg"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "marley-gumminippel-mit-sickenwulst-dn-50-1-1-4",
+  "name": "Marley Gumminippel mit Sickenwulst DN 50-1 1 / 4",
+  "category": "Entwässerung",
+  "description": "Gumminippel mit Sickenwulst für Metall- oder Bleirohre.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644094717_marley-gumminippel-mit-sickenwulst-dn-50-1-1-4"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley Gumminippel mit Sickenwulst DN 50-1 1 / 4",
+    "article_no": "3794401",
+    "ean": "4002644094717",
+    "url": "https://www.obi.de/p/3794401",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "37 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,4 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "26,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "54,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 2.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

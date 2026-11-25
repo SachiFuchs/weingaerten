@@ -1,0 +1,9 @@
+{
+  "id": "window-winterraum",
+  "name": "Großes Fenster Winterraum 2,00 × 1,50",
+  "description": "Fenster Süd, einfach verglast; Öffnungsart nicht angegeben (fest angenommen)",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": { "width": 2.0, "height": 1.5, "depth": 0.06, "frame_width": 0.07, "sashes": 0, "glazing_type": "single" },
+  "materials": { "frame": "material:spruce-wood", "glazing": "material:glass" }
+}

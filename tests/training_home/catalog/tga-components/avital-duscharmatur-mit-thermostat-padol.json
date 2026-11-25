@@ -1,0 +1,147 @@
+{
+  "id": "avital-duscharmatur-mit-thermostat-padol",
+  "name": "AVITAL Duscharmatur mit Thermostat PADOLA DVGW geprüft nickel gebürstet",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "tap"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "hornbach-10119234_avital-duscharmatur-mit-thermostat-padol"
+  ],
+  "product": {
+    "manufacturer": "company:avital",
+    "model": "AVITAL Duscharmatur mit Thermostat PADOLA DVGW geprüft nickel gebürstet",
+    "article_no": "10119234",
+    "ean": "4306517431990",
+    "url": "https://www.hornbach.de/p/avital-duscharmatur-mit-thermostat-padola-dvgw-geprueft-nickel-gebuerstet/10119234/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Armatur"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Badarmatur"
+        },
+        {
+          "label": "Variante",
+          "value": "Duscharmatur mit Thermostat"
+        },
+        {
+          "label": "Farbton",
+          "value": "Nickel"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "Gebürstet"
+        },
+        {
+          "label": "Ausladung",
+          "value": "93 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Keramikkartusche, Sicherheitssperre bei 38° C"
+        },
+        {
+          "label": "Merkmale",
+          "value": "Keramikkartusche, Sicherheitssperre bei 38° C"
+        },
+        {
+          "label": "Durchflussmenge bei 3 bar",
+          "value": "0 l"
+        },
+        {
+          "label": "DVGW Zertifikat",
+          "value": "DW-6509CQ0625"
+        },
+        {
+          "label": "Perlator/Mischdüse",
+          "value": "Ohne Perlator"
+        },
+        {
+          "label": "System der Ablaufgarnitur",
+          "value": "Ohne Ablaufgarnitur"
+        },
+        {
+          "label": "Montageart",
+          "value": "Aufputz Wandmontage"
+        },
+        {
+          "label": "Anschlussart",
+          "value": "Anschlussgewinde 1/2\", Verstellbare S-Anschlüsse, Anschlussmaß 150 mm"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Durchlauferhitzer, Druckspeicher"
+        },
+        {
+          "label": "Anschluss",
+          "value": "Hochdruck - druckfest"
+        },
+        {
+          "label": "Form",
+          "value": "Rund"
+        },
+        {
+          "label": "Serie",
+          "value": "Padola"
+        },
+        {
+          "label": "Im Lieferumfang enthalten",
+          "value": "Montageanleitung, S-Anschlüsse, Rosette, Duscharmatur"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Die Oberfläche ist anfälliger als eine Chromschicht. Ein ungeeigneter Reiniger kann das Material beschädigen. Das führt dazu, dass sich die Farbe/ Beschichtung ablösen kann, was wiederum weiteres Abblättern verursachen könnte. - Bitte beachten sie hierzu unsere Pflegeanleitung (keine Reiniger verwenden) - Bei der Montage wie vorgeschrieben: Werkzeug nur mit den Schutzbacken verwenden!"
+        },
+        {
+          "label": "Passendes Ersatzteil",
+          "value": "10018215, 10018214"
+        },
+        {
+          "label": "Herstellerartikelnummer",
+          "value": "-"
+        },
+        {
+          "label": "Räume",
+          "value": "Badezimmer"
+        },
+        {
+          "label": "EAN",
+          "value": "4306517431990"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Höhe",
+          "value": "40 mm"
+        },
+        {
+          "label": "Breite",
+          "value": "317 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 116.1,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-10-02",
+        "source": "Kassenbon 2026-10-02, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-10119234_1.jpg",
+    "hornbach-10119234_2.jpg",
+    "hornbach-10119234_3.jpg",
+    "hornbach-10119234_4.jpg"
+  ]
+}

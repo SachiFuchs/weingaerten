@@ -1,0 +1,77 @@
+{
+  "id": "marley-ht-muffenstopfen-dn-50-grau",
+  "name": "Marley HT-Muffenstopfen DN 50 Grau",
+  "category": "Entwässerung",
+  "description": "Der Marley HT-Muffenstopfen verschließt Muffen an HT-Rohren oder Formstücken sicher und wasserdicht. Der Stopfen besteht aus schwer entflammbarem Polypropylen. Durch das robuste Material eignet sich der Rohrverschließer für heiße, kalte und aggressive Abwässer. Produktmerkmale auf einen Blick - Rohre und Formstücke für Abwasserleitungen innerhalb von Gebäuden nach DIN EN 1451/1 - Heißwasserbeständig bis 90 °C gemäß DIN EN 476 - Für heiße, kalte und aggressive Abwässer geeignet - Einfache Verbindung - Material: Schwer entflammbares Polypropylen (PP) nach DIN 4102/B1 - Farbe: Staubgrau RAL 7037 - Für Hochtemerpaturrohre",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4002644092836_marley-ht-muffenstopfen-dn-50-grau"
+  ],
+  "product": {
+    "manufacturer": "company:marley",
+    "model": "Marley HT-Muffenstopfen DN 50 Grau",
+    "article_no": "7434798",
+    "ean": "4002644092836",
+    "url": "https://www.obi.de/p/7434798",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "10 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "3,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "5,5 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 0.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-11-22",
+        "source": "Kassenbon 2023-11-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-16",
+        "source": "Kassenbon 2025-04-16, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 0.69,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-03-13",
+        "source": "Kassenbon 2026-03-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  }
+}

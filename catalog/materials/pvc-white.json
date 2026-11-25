@@ -1,0 +1,12 @@
+{
+  "id": "pvc-white",
+  "name": "Kunststoff weiß",
+  "category": "Kunststoff",
+  "description": "PVC-Profil für Fenster- und Türrahmen",
+  "conductivity": 0.17,
+  "density": 1390,
+  "vapour_resistance": 50000,
+  "fire_class": "B1",
+  "values_source": "Richtwert PVC-U (DIN EN ISO 10456)",
+  "appearance": { "color": "#F4F4F2", "roughness": 0.4, "hatch": "none" }
+}

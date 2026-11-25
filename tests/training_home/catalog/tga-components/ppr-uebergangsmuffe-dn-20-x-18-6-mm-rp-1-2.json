@@ -1,0 +1,75 @@
+{
+  "id": "ppr-uebergangsmuffe-dn-20-x-18-6-mm-rp-1-2",
+  "name": "PPR-Übergangsmuffe DN 20 x 18,6 mm (Rp 1/2)",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "thread_fitting"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874149183_ppr-uebergangsmuffe-dn-20-x-18-6-mm-rp-1-2"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "PPR-Übergangsmuffe DN 20 x 18,6 mm (Rp 1/2)",
+    "article_no": "4136024",
+    "ean": "4007874149183",
+    "url": "https://www.obi.de/p/4136024",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "100 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,7 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "3,7 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "4,2 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-01",
+        "source": "Kassenbon 2025-03-01, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 6.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-03-26",
+        "source": "Kassenbon 2025-03-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 2×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ppr",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 20,
+        "gender": "socket"
+      },
+      {
+        "id": "b",
+        "line": "thread",
+        "dn": 15,
+        "gender": "socket"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "primo-selbstklebende-universaldichtung-densa-25-grau-2-5-mm",
+  "name": "Primo selbstklebende Universaldichtung Densa 25 Grau 2-5 mm x 6 m",
+  "category": "Baustoffe",
+  "description": "Wenn nichts anderes passt, kann eine selbstklebende Universaldichtung die Arbeit erledigen. Die Universaldichtungen von Primo können innen oder außen für Fenster und Türen verwendet werden. Verwenden Sie die Dichtung 3 - 7 mm wo zuvor noch nichts versiegelt war oder wenn Sie Ihre vorherige Dichtung ersetzen möchten. Universelle Dichtungsstreifen sind einfach einzurichten und minimieren den Luftzug, Geräusche, Kälte, Lärm und Staub. Material ACA-Qualität mit hoher UV-Beständigkeit, einfache Montage und beste Lackverträglichkeit.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4260027233423_primo-selbstklebende-universaldichtung-densa-25-grau-2-5-mm"
+  ],
+  "product": {
+    "manufacturer": "company:primo-danmark-a-s",
+    "model": "Primo selbstklebende Universaldichtung Densa 25 Grau 2-5 mm x 6 m",
+    "article_no": "3307113",
+    "ean": "4260027233423",
+    "url": "https://www.obi.de/p/3307113",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "200 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "6,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "10 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-11-26",
+        "source": "Kassenbon 2022-11-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

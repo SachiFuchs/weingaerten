@@ -1,0 +1,12 @@
+{
+  "id": "floorboards-spruce",
+  "name": "Dielen Nadelholz 30 mm (Bestand)",
+  "category": "Holz",
+  "description": "Bestehender Dielenboden EG, 3 cm; bleibt unter dem neuen Fußbodenaufbau liegen",
+  "conductivity": 0.13,
+  "density": 450,
+  "vapour_resistance": 50,
+  "fire_class": "B2",
+  "values_source": "Richtwert Nadelholz (DIN EN ISO 10456)",
+  "appearance": { "color": "#C9A46E", "roughness": 0.7, "hatch": "wood" }
+}

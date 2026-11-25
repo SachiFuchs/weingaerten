@@ -1,0 +1,53 @@
+{
+  "id": "mem-spachtelmasse-1-kg",
+  "name": "MEM Spachtelmasse 1 kg",
+  "category": "Baustoffe",
+  "description": "Die MEM Spachtelmasse ist eine hochwertige Dichtmasse zum Reparieren von Rissen und Bruchstellen. Sie zeichnet sich durch vielseitige Anwendungsmöglichkeiten und höchste Qualität aus. Eigenschaften & Anwendungsbereiche Die Dichtmasse ist eine hochwertige, polymervergütete Reparatur- und Spachtelmasse auf Bitumenbasis. Sie eignet sich für die Reparatur von Bitumendachbahnen, Blasen, Löchern, Rissen und Bruchstellen im Außenbereich. Darüber hinaus kann sie zum Ausbessern von Dachkehlen sowie auf waagerechten und senkrechten Flächen eingesetzt werden. Als Untergrund eignen sich Bitumendachbahnen und -beschichtungen, Beton, Putz, Mauerwerk, Estrich oder Metall. Einfache Verarbeitung Für eine wirksame Verarbeitung muss der Untergrund trocken, sauber sowie frei von Öl, Fett, Rost und losen Bestandteilen sein. Zudem sind stark saugende Untergründe mit dem MEM Bitumen Voranstrich vorzubehandeln. Die Profi Spachtelmasse kann mit einem Spachtel, einer Kelle oder einer Traufel aufgebracht werden. Zu sanierende Blasen schneiden Sie zunächst auf, während Sie anschließend die Ränder anschmelzen und verspachteln. Folglich kann die Blasse mit der MEM Spachtelmasse überspachtelt werden, wobei Sie die Spachtelmasse an den Rändern flach auslaufen lassen können. Technische Details - Inhalt: 1 kg - Form: Pastös - Farbe: Schwarz - Verbrauch: Ca. 1,4 kg/m² (pro 1 mm Schichtstärke) - Dichte: Ca. 1,5 g/cm³ - Verarbeitungstemperatur: 5 °C bis 30 °C - Lagerfähigkeit: Mindestens 24 Monate - Lagerbedingung: Trocken und frostfrei. Im gut verschlossenem Originalgebinde.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4010327506990_mem-spachtelmasse-1-kg"
+  ],
+  "product": {
+    "manufacturer": "company:bostik",
+    "model": "MEM Spachtelmasse 1 kg",
+    "article_no": "9253717",
+    "ean": "4010327506990",
+    "url": "https://www.obi.de/p/9253717",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.79,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-09-12",
+        "source": "Kassenbon 2023-09-12, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,00 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "13,1 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "13,2 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "13,2 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

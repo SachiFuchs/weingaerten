@@ -1,0 +1,53 @@
+{
+  "id": "weber-boden-ausgleichsmasse-bis-60-mm-20-kg",
+  "name": "Weber Boden-Ausgleichsmasse bis 60 mm 20 kg",
+  "category": "Baustoffe",
+  "description": "Die Weber Boden-Ausgleichsmasse bis 60 mm ist eine universelle, schnelle, zementgebundene, standfeste oder fließfähige Ausgleichsmasse in flexiblen Schichtdicken für den Innen- und Außenbereich bis 60 mm. Sie ist flexibel einsetzbar und kann zusätzlich in standfester Konsistenz zur Ausbildung von Gefällen, Rampen und zum Verfüllen von Aussparungen und in fließfähiger Konsistenz zum Ausgleichen verwendet werden. Das Material wird im Verbund auf unterschiedliche Untergründe manuell eingebaut und bildet einen tragfähigen Untergrund für alle gängigen Bodenbeläge. Die Boden-Ausgleichmasse muss grundsätzlich belegt werden. Sie ist für den Innen- und Außenbereich geeignet, ebenso auf Heizestrichen. Die Stuhlrolleneignung beläuft sich ab 2 mm Spachteldicke für Stuhlrollen nach DIN EN 12 529. Verarbeitung Der Untergrund sollte fest, tragfähig, trocken und frei von Staub und Verunreinigungen sein (Staub und sonstige Rückstände z.B. mit einem Staubsauger entfernen). Alle den Haftverbund störenden Stoffe sind z. B. durch Schleifen vom Untergrund zu entfernen. Glasierte Fliesen sind grundsätzlich mit feiner Körnung anzuschleifen. Der Untergrund muss eine Oberflächenzugfestigkeit von mind. 1,0 N/mm² aufweisen. Untergrundbezogen grundieren mit Haftgrundierung Boden/Fliese. In Abhängigkeit vom jeweiligen Saugverhalten der zu bearbeitenden Fläche kann die Weber Haftgrundierung Boden/Fliese entsprechend den Grundiervorgaben verdünnt werden. Das Fehlen der Grundierung kann z. B. im Abbindeprozess zu Spannungsrissen führen. Bei manueller Verarbeitung muss das Material 1 - 2 Minuten mit einem geeigneten Rührwerkzeug aufgemischt werden. Das Material wird mit ca. 4,4 bis 5,6 l Wasser, entsprechend der erforderlichen Konsistenz, je 20-kg-Sack gemischt. Während des Mischens sollte die vollständige Aufmischung regelmäßig überwacht werden. Nach einer Reifezeit von ca. 1 Minute erneut kurz durchmischen. Beim Einbau wird das Material mit einem geeigneten Werkzeug aufgezogen und geglättet. Bei höheren Schichtdicken die Oberfläche durch Schwabbeln ebnen. Die dabei entstehende Wellenbewegung führt zu einer Nivellierung der Oberfläche. Frisch eingebaute Flächen sind vor Zugluft, direkter Sonnen- und Wärmeeinwirkung zu schützen. Eine Belüftung des Einbauortes nach Erreichen der Begehbarkeit ist notwendig. Die Innen- und Bodentemperatur muss während der Verarbeitung und eine Woche danach mind. 10 °C betragen. Luftentfeuchter dürfen in den ersten zwei Tagen nicht eingesetzt werden. Besonders bei hohen Schichtdicken ist nach Erreichen der Belegreife der Oberbelag aufzubringen oder das Material anderweitig vor Übertrocknung zu schützen. Hinweise Bei Anwendungen im Außenbereich darf keine direkte Bewitterung erfolgen und es ist eine flüssige oder bahnenförmige Verbundabdichtung vorzusehen. Auch in fließfähiger Konsistenz nicht selbstverlaufend. Für dünnschichtige Ausgleichsarbeiten empfehlen wir die selbstverlaufende Weber Boden-Ausgleichsmasse 1 - 40 mm. Die Boden-Ausgleichsmasse bis 60 mm ist partiell auslaufend im Randbereich bis 1 mm einsetzbar, bei Ausgleichsarbeiten empfohlene Mindestschichtdicke ca. > 5 mm. Technische Daten - Verarbeitungszeit: 15-20 Minuten - Verarbeitungstemperatur: Luft 10 °C - 30 °C, Untergrund 10 °C - 25 °C - Begehbarkeit: nach ca. 1 - 3 Stunden - Wasserbedarf: ca. 4,4 l/20 kg standfest, ca. 5,6 l/20 kg fließfähig - Verbrauch/Ergiebigkeit: pro mm Schichtdicke: ca. 1,6 kg/m² - Lagerung: Bei trockener, vor Feuchtigkeit geschützter Lagerung ist das Material mind. 12 Monate lagerfähig. - Belegreife (bei +20 °C und 65 % relativer Feuchte): Ab 2 Stunden bei Wasserzugabe von 4,4 l/Sack. Ab 12 Stunden bei Wasserzugabe von 5,6 l/Sack. Nach 7 Tagen bei Parkett und Laminat.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4011361143509_weber-boden-ausgleichsmasse-bis-60-mm-20-kg"
+  ],
+  "product": {
+    "manufacturer": "company:saint-gobain-weber",
+    "model": "Weber Boden-Ausgleichsmasse bis 60 mm 20 kg",
+    "article_no": "9800848",
+    "ean": "4011361143509",
+    "url": "https://www.obi.de/p/9800848",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 28.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2026-03-13",
+        "source": "Kassenbon 2026-03-13, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "20,0 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "12,5 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "27,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "56,5 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

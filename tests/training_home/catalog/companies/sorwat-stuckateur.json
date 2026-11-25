@@ -1,0 +1,8 @@
+{
+  "id": "sorwat-stuckateur",
+  "name": "Sorwat Stuckateur Fachbetrieb (Stefan Sorwat)",
+  "roles": [
+    "supplier"
+  ],
+  "description": "Lieferant/Handwerker aus den Belegen (catalog/imported_documents)"
+}

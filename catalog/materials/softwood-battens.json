@@ -1,0 +1,60 @@
+{
+  "id": "softwood-battens",
+  "name": "Dachlatten Nadelholz imprägniert",
+  "category": "Holz",
+  "description": "Konterlattung 40 × 60 mm und Traglattung 30 × 50 mm, Schnittklasse S10; Schuck Dach RE 17.07.2023, Titel 03. Als Schicht: Latten mit Luftraum. Zusätzlich OBI-Einkauf Latten Fichte/Tanne",
+  "conductivity": 0.13,
+  "density": 450,
+  "vapour_resistance": 50,
+  "fire_class": "B2",
+  "values_source": "Richtwert Nadelholz (DIN EN ISO 10456); belüftete Lattungsebene bauphysikalisch nicht anzusetzen",
+  "appearance": {
+    "color": "#C9A46A",
+    "roughness": 0.8,
+    "hatch": "wood"
+  },
+  "imported_from": [
+    "ean-4005014000790_latte-fichte-tanne-saegerau-24-mm-x-48-mm-x-2000-mm",
+    "ean-4005014000882_latte-fichte-tanne-gehobelt-gefast-40-mm-x-18-mm-x-2500-mm"
+  ],
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 1.7,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-12-09",
+        "source": "Kassenbon 2023-12-09, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 10×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 4.97,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-07-23",
+        "source": "Kassenbon 2022-07-23, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 3×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,04 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "4,8 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,4 cm"
+        }
+      ]
+    }
+  }
+}

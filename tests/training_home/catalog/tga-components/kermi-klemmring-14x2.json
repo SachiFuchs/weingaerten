@@ -1,0 +1,27 @@
+{
+  "id": "kermi-klemmring-14x2",
+  "name": "Kermi Klemmringverschraubung 14 × 2 mm",
+  "class": "tga-class:install-part",
+  "din276": "420",
+  "system_type": "Wandheizung",
+  "params": {
+    "part_type": "thread_fitting",
+    "size": "14x2"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:kermi",
+    "model": "Kermi Klemmringverschraubung 14 × 2 mm",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 3.84,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.5, je Stk",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "2023-10-17-speidel-10101973-verteiler-haus-garten",
+  "name": "Speidel 10101973 – Verteiler Haus Garten",
+  "doc_type": "invoice",
+  "supplier": "company:dussmann-speidel-elektro",
+  "date": "2023-10-17",
+  "number": "10101973",
+  "customer_number": "400817",
+  "category": "anschluss-elektrik-strom",
+  "object": "weingaerten-8",
+  "project": "Bauvorhaben: Weingärten 8, 73037 Göppingen (Projektnummer 442023)",
+  "description": "Rechnung von Dussmann Speidel Elektro für Arbeiten am 25.09.2023 und 26.09.2023 in Weingärten 8: im Hausverteiler Zuleitungen für Herd und Bad, im Gartenverteiler Zuleitungen für CEE-Steckdose und Steckdosen angeschlossen. Abgerechnet werden 5 Arbeitsstunden, FI/LS- und FI-Schutzschalter, Sicherungsautomaten sowie Klemm- und Kleinmaterial. Zahlbar bis 16.11.2023 oder mit 3 % Skonto (882,67 €) bis 31.10.2023.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "001",
+      "description": "Stunden vom 25.09.2023 und 26.09.2023, Herr Lindenschmid",
+      "quantity": 5.0,
+      "unit": "Std",
+      "unit_price": 72.0,
+      "total_price": 360.0,
+      "unit_raw": "Std."
+    },
+    {
+      "position": "002",
+      "description": "Fahrtauslagen PKW",
+      "quantity": 2.0,
+      "unit": "psch",
+      "unit_price": 13.0,
+      "total_price": 26.0,
+      "unit_raw": "psch."
+    },
+    {
+      "position": "003",
+      "description": "Siemens FI/LS B16 30mA",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 55.28,
+      "total_price": 165.84,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-fi-ls-b16-30ma"
+    },
+    {
+      "position": "004",
+      "description": "Siemens FI 4pol 40A 30mA",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 75.1,
+      "total_price": 75.1,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-fi-4p-40a-30ma"
+    },
+    {
+      "position": "005",
+      "description": "Siemens Automat B16A 3pol",
+      "quantity": 2.0,
+      "unit": "Stk",
+      "unit_price": 33.93,
+      "total_price": 67.86,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-ls-b16-3p"
+    },
+    {
+      "position": "006",
+      "description": "Siemens Automat B16A",
+      "quantity": 2.0,
+      "unit": "Stk",
+      "unit_price": 4.55,
+      "total_price": 9.1,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-ls-b16-1p"
+    },
+    {
+      "position": "007",
+      "description": "Siemens Brücke",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 12.2,
+      "total_price": 12.2,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-bruecke"
+    },
+    {
+      "position": "008",
+      "description": "Siemens Brücke für FI/LS",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 12.2,
+      "total_price": 12.2,
+      "unit_raw": "St.",
+      "ref": "tga-component:siemens-bruecke-fi-ls"
+    },
+    {
+      "position": "009",
+      "description": "Leitung 1x10mm2",
+      "quantity": 3.5,
+      "unit": "m",
+      "unit_price": 0.98,
+      "total_price": 3.43,
+      "ref": "tga-component:cable-1x10"
+    },
+    {
+      "position": "010",
+      "description": "Verschraubung 20",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 4.8,
+      "total_price": 4.8,
+      "unit_raw": "St."
+    },
+    {
+      "position": "011",
+      "description": "Klemmen HLAK25 1/2 M2 grau",
+      "quantity": 3.0,
+      "unit": "Stk",
+      "unit_price": 4.65,
+      "total_price": 13.95,
+      "unit_raw": "St."
+    },
+    {
+      "position": "012",
+      "description": "Klemme FTC KS741NPE",
+      "quantity": 1.0,
+      "unit": "Stk",
+      "unit_price": 4.3,
+      "total_price": 4.3,
+      "unit_raw": "St."
+    },
+    {
+      "position": "013",
+      "description": "Kleinmaterial",
+      "quantity": 1.0,
+      "unit": "psch",
+      "unit_price": 9.9,
+      "total_price": 9.9,
+      "unit_raw": "psch."
+    }
+  ],
+  "subtotal_net": 764.68,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 764.68,
+  "vat_rate": 19,
+  "vat_amount": 145.29,
+  "total_gross": 909.97,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-10-17-speidel-10101973-verteiler-haus-garten.json",
+  "source_sha256": "932d93a59b04295aded9edd9f23455fe5827d69e31f478c4030a48c15732e1a5",
+  "original_filename": "2023-10-17-Rechnung-Dussmann.pdf"
+}

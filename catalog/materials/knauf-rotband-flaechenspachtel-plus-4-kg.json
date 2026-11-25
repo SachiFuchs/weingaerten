@@ -1,0 +1,53 @@
+{
+  "id": "knauf-rotband-flaechenspachtel-plus-4-kg",
+  "name": "Knauf Rotband Flächenspachtel Plus 4 kg",
+  "category": "Baustoffe",
+  "description": "Der Knauf Rotband Flächenspachtel Plus ist eine gebrauchsfertige Allzweckspachtelmasse, um perfekte Untergründe für Tapeten, Farben oder andere dekorative Beschichtungen herzustellen. Unebene und raue Untergründe wie alte Putze, Mauerwerke, Beton- und Porenbetonflächen lassen sich damit verspachteln und glätten. Auch Gipsplatten können vollflächig gespachtelt werden, um die Qualitätsstufe Q4 herzustellen. Selbst alte Fliesen können mit dem Knauf Rotband Flächenspachtel Plus in eine fugenlose, glatte Oberfläche verwandelt werden. Die geschmeidige Spachtelmasse lässt sich in Schichtdicken von 0 bis 5 mm aufziehen und ist für Wände und Decken im Innenbereich geeignet. Sie zeichnet sich durch gutes Haftvermögen, Ergiebigkeit und geringe Schrumpfung aus. Sie trocknet sehr schnell und ist leicht schleifbar.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4006379138814_knauf-rotband-flaechenspachtel-plus-4-kg"
+  ],
+  "product": {
+    "manufacturer": "company:knauf-bauprodukte",
+    "model": "Knauf Rotband Flächenspachtel Plus 4 kg",
+    "article_no": "1227693",
+    "ean": "4006379138814",
+    "url": "https://www.obi.de/p/1227693",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 16.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-08-26",
+        "source": "Kassenbon 2023-08-26, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "4,00 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "17,0 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "19,3 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "19,3 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

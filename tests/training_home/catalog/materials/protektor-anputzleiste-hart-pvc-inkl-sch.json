@@ -1,0 +1,118 @@
+{
+  "id": "protektor-anputzleiste-hart-pvc-inkl-sch",
+  "name": "PROTEKTOR Anputzleiste Hart-PVC inkl. Schutzlippe und Gewebe für Putzstärke 9 mm 2600 mm x 26 mm x 103 mm",
+  "category": "Baustoffe",
+  "description": "Willst Du Fenster und Türen beim Verputzen sauber anschließen und gleichzeitig die Kante schützen, kommt es auf ein passendes Profil mit sicherer Abdeckung an.\n\nProduktmerkmale des/der PROTEKTOR Anputzleiste Hart-PVC inkl. Schutzlippe und Gewebe für Putzstärke 9 mm 2600 mm x 26 mm x 103 mm\n\nDarum solltest Du zugreifen: Die selbstklebende Anputzdichtleiste aus Hart-PVC erleichtert das Ansetzen an der Wand, sodass Du zügig einen geraden, sauberen Putzabschluss herstellen kannst. Die Schutzlippe hilft dabei, empfindliche Anschlussbereiche vor Verschmutzung und Beschädigung zu bewahren, wodurch Nacharbeiten am Rahmen reduziert werden. Das angenähte, alkalibeständige Glasfasergewebe unterstützt die Einbindung in den Putz und sorgt für einen stabilen Übergang, damit der Anschlussbereich belastbar ausgeführt werden kann.\n\nAls Anputzleiste und Laibungsprofil ist das Profil für Wandanschlüsse ausgelegt und passt durch die Profilbreite von 9 mm zu WDV-Systemen und Grundputzen, sodass Du die Putzstärke passend führen kannst. Die abreißbare Klebelasche ist für Folienabdeckung vorgesehen und unterstützt eine saubere Abdeckung während der Arbeiten, damit angrenzende Flächen geschützt bleiben. Das geschlossenzellige, selbstklebende Schaumstoffband unterstützt den dichten Sitz am Untergrund und hilft, Unebenheiten auszugleichen.\n\nFestgezurrt: Mit der weißen PROTEKTOR Anputzleiste aus Hart-PVC mit Schutzlippe, Gewebe und Abdecklasche setzt Du Wandanschlüsse beim Verputzen sauber, geschützt und praxisgerecht um.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-6348552_protektor-anputzleiste-hart-pvc-inkl-sch"
+  ],
+  "product": {
+    "manufacturer": "company:protektor",
+    "model": "PROTEKTOR Anputzleiste Hart-PVC inkl. Schutzlippe und Gewebe für Putzstärke 9 mm 2600 mm x 26 mm x 103 mm",
+    "article_no": "6348552",
+    "ean": "4009230866178",
+    "url": "https://www.hornbach.de/p/protektor-anputzleiste-hart-pvc-inkl-schutzlippe-und-gewebe-fuer-putzstaerke-9-mm-2600-mm-x-26-mm-x-103-mm/6348552/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Profil"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Anputzleiste, Laibungsprofil"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen, Innen"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Hart-PVC"
+        },
+        {
+          "label": "Putzstärke",
+          "value": "9 mm"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Artikelvorteil",
+          "value": "Mit Schutzlippe inkl. Gewebe"
+        },
+        {
+          "label": "Schenkellänge",
+          "value": "16 mm"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "-"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "VCVD"
+        },
+        {
+          "label": "EAN",
+          "value": "4009230866178"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "26 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "103 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2.600 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 5.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-09-28",
+        "source": "Kassenbon 2024-09-28, HORNBACH München-Freiham, 2×"
+      },
+      {
+        "supplier": "company:hornbach",
+        "price": 5.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-11-09",
+        "source": "Kassenbon 2024-11-09, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 3×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-6348552_1.jpg",
+    "hornbach-6348552_2.jpg",
+    "hornbach-6348552_3.jpg",
+    "hornbach-6348552_4.jpg",
+    "hornbach-6348552_5.jpg"
+  ]
+}

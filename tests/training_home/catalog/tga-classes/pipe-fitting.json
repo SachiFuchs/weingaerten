@@ -1,0 +1,156 @@
+{
+  "id": "pipe-fitting",
+  "name": "Rohr-Formteil",
+  "ifc": {
+    "entity": "IfcPipeFitting"
+  },
+  "description": "Formteil einer Rohrleitung: Bogen, Abzweig, Übergang (z. B. KG auf HT, Verbundrohr 11,6 auf 16), Kupplung oder Stopfen",
+  "kind": "fitting",
+  "parameters": [
+    {
+      "key": "fitting_type",
+      "name": "Art",
+      "type": "choice",
+      "default": "bend",
+      "options": [
+        "bend",
+        "branch",
+        "adapter",
+        "plug",
+        "coupling"
+      ],
+      "required": true
+    },
+    {
+      "key": "system_line",
+      "name": "Rohrsystem",
+      "type": "choice",
+      "default": "ht",
+      "options": [
+        "ht",
+        "kg",
+        "ppr",
+        "alu_composite"
+      ],
+      "required": true
+    },
+    {
+      "key": "connection_method",
+      "name": "Verbindungsart",
+      "type": "choice",
+      "options": [
+        "push",
+        "weld",
+        "press"
+      ],
+      "required": false
+    },
+    {
+      "key": "dn",
+      "name": "Nennweite DN",
+      "type": "number",
+      "min": 10,
+      "max": 200,
+      "required": true
+    },
+    {
+      "key": "angle",
+      "name": "Winkel °",
+      "type": "number",
+      "min": 0,
+      "max": 90,
+      "required": false
+    },
+    {
+      "key": "dn_branch",
+      "name": "Nennweite Abzweig DN",
+      "type": "number",
+      "min": 10,
+      "max": 200,
+      "required": false
+    },
+    {
+      "key": "line_to",
+      "name": "Übergang auf Rohrsystem",
+      "type": "choice",
+      "options": [
+        "ht",
+        "kg",
+        "ppr",
+        "alu_composite",
+        "thread",
+        "metal",
+        "other"
+      ],
+      "required": false
+    },
+    {
+      "key": "dn_to",
+      "name": "Übergang auf DN",
+      "type": "number",
+      "min": 10,
+      "max": 200,
+      "required": false
+    },
+    {
+      "key": "z_length",
+      "name": "Baulänge je Anschluss (Abzug vom Rohr)",
+      "type": "length",
+      "default": 0.03,
+      "min": 0,
+      "max": 0.3,
+      "required": false
+    }
+  ],
+  "material_roles": [
+    {
+      "key": "pipe",
+      "name": "Werkstoff"
+    }
+  ],
+  "connection_rules": [
+    {
+      "line": "ht",
+      "medium": "waste_water",
+      "method": "push",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "directed": true,
+      "note": "Formteil in Fließrichtung einbauen; DN-Wechsel nur über Übergang (auch Abzweig)"
+    },
+    {
+      "line": "kg",
+      "medium": "waste_water",
+      "method": "push",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "directed": true,
+      "note": "Formteil in Fließrichtung einbauen; DN-Wechsel und KG/HT nur über Übergang (auch Abzweig)"
+    },
+    {
+      "line": "ppr",
+      "medium": "water_supply",
+      "method": "weld",
+      "partners": [
+        "pipe",
+        "part",
+        "terminal"
+      ],
+      "note": "Schweißmuffen nehmen PP-R-Rohre auf; Gewindeseite nur an Gewinde"
+    },
+    {
+      "line": "alu_composite",
+      "medium": "heating",
+      "method": "press",
+      "partners": [
+        "pipe",
+        "terminal"
+      ],
+      "note": "Presskupplung nimmt Verbundrohr 11,6 / 16 mm bzw. Rohrende der Heizplatte auf; Durchmesserwechsel nur über Übergang 11,6/16"
+    }
+  ]
+}

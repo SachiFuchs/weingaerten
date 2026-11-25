@@ -1,0 +1,8 @@
+{
+  "id": "cellpack",
+  "name": "Cellpack",
+  "roles": [
+    "manufacturer"
+  ],
+  "description": "Cellpack"
+}

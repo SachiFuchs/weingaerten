@@ -1,0 +1,75 @@
+{
+  "id": "ht-bend-90-30",
+  "name": "HT-Bogen DN 90 30°",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ht",
+    "dn": 90,
+    "z_length": 0.03,
+    "angle": 30
+  },
+  "note": "Platzhalter: nicht im gemeldeten Sortiment, wird für den Leitungsverlauf gebraucht - bitte bestätigen",
+  "estimated": true,
+  "install": {
+    "trade": "waste_water",
+    "group": "Bögen",
+    "shape": "fitting",
+    "outer_diameter": 0.09,
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          -0.03,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 90,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0.026,
+          0.015,
+          0
+        ],
+        "dir": [
+          0.866025,
+          0.5,
+          0
+        ],
+        "line": "ht",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 90,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

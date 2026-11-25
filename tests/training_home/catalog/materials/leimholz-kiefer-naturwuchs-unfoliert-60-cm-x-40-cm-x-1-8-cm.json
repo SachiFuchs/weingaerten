@@ -1,0 +1,53 @@
+{
+  "id": "leimholz-kiefer-naturwuchs-unfoliert-60-cm-x-40-cm-x-1-8-cm",
+  "name": "Leimholz Kiefer Naturwuchs unfoliert 60 cm x 40 cm x 1,8 cm",
+  "category": "Holz",
+  "description": "Die Leimholzplatte ist aus Kiefernholz gefertigt. Sie ist bestens geeignet für den Möbelbau, Bastelarbeiten, die Gestaltung dekorativer Elemente oder im Innenausbau. Die Oberfläche ist geschliffen, die Kanten gefast.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4005014620516_leimholz-kiefer-naturwuchs-unfoliert-60-cm-x-40-cm-x-1-8-cm"
+  ],
+  "product": {
+    "manufacturer": "company:binderholz-oberrot-baruth",
+    "model": "Leimholz Kiefer Naturwuchs unfoliert 60 cm x 40 cm x 1,8 cm",
+    "article_no": "7454473",
+    "ean": "4005014620516",
+    "url": "https://www.obi.de/p/7454473",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "2,20 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "1,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "40,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "60,0 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.29,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2022-08-27",
+        "source": "Kassenbon 2022-08-27, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

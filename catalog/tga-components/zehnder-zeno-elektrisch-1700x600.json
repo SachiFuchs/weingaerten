@@ -1,0 +1,27 @@
+{
+  "id": "zehnder-zeno-elektrisch-1700x600",
+  "name": "Zehnder ZENO Handtuchheizkörper elektrisch 1700 × 600",
+  "class": "tga-class:terminal",
+  "din276": "420",
+  "system_type": "Heizung",
+  "params": {
+    "terminal_type": "radiator",
+    "mounting": "surface"
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "manufacturer": "company:zehnder",
+    "model": "ZENO",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 470.4,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2026-03-20",
+        "source": "Angebot 26-0015, Pos. 1.11, je Stk",
+        "document": "document:2026-03-20-boehringer-26-0015-wandheizung-dg"
+      }
+    ]
+  }
+}

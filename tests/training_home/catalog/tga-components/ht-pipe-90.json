@@ -1,0 +1,88 @@
+{
+  "id": "ht-pipe-90",
+  "name": "HT-Rohr DN 90",
+  "description": "Abwasserrohr HT DN 90",
+  "class": "tga-class:pipe",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "nominal_size_dn": 90,
+    "outer_diameter": 0.09,
+    "medium": "waste_water",
+    "system_line": "ht"
+  },
+  "stock": {
+    "lengths": [
+      1.0,
+      0.5,
+      0.25
+    ],
+    "cuttable": true
+  },
+  "note": "Platzhalter: nicht im gemeldeten Sortiment, wird für den Leitungsverlauf gebraucht - bitte bestätigen",
+  "estimated": true,
+  "install": {
+    "trade": "waste_water",
+    "group": "Rohre",
+    "shape": "pipe",
+    "outer_diameter": 0.09,
+    "stretch": {
+      "max_length": 2.0,
+      "default_length": 1.0
+    },
+    "ports": [
+      {
+        "id": "a",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 90,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "ht",
+        "dn": 90,
+        "gender": "spigot",
+        "at_length": true,
+        "flow": "out"
+      }
+    ]
+  },
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 90,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 90,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "window-kg-kipp",
+  "name": "Kellerfenster 0,50 × 0,50 (Kipp)",
+  "description": "Kellerfenster alte Bauart, einfaches Kipp-/Schließfenster, 2-fach-Verglasung (Bestand, Rahmenmaße geschätzt)",
+  "class": "class:window",
+  "opening_capable": true,
+  "params": {
+    "width": 0.5,
+    "height": 0.5,
+    "depth": 0.06,
+    "frame_width": 0.05,
+    "sashes": 1,
+    "opening_1": "tilt",
+    "glazing_type": "double"
+  },
+  "materials": {
+    "frame": "material:spruce-wood",
+    "glazing": "material:glass"
+  }
+}

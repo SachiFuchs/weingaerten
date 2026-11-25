@@ -1,0 +1,99 @@
+{
+  "id": "terminal",
+  "name": "TGA-Endstelle",
+  "ifc": {
+    "entity": "IfcFlowTerminal"
+  },
+  "description": "Anschluss- oder Auslasspunkt im Raum (Steckdose, Verteiler, Sanitärobjekt, Luftauslass)",
+  "kind": "terminal",
+  "parameters": [
+    {
+      "key": "terminal_type",
+      "name": "Art",
+      "type": "choice",
+      "default": "socket",
+      "options": [
+        "socket",
+        "switch",
+        "light",
+        "distribution_board",
+        "manifold",
+        "radiator",
+        "sanitary",
+        "air_outlet",
+        "heat_pump",
+        "stub",
+        "transfer",
+        "wall_plate"
+      ],
+      "required": true
+    },
+    {
+      "key": "mounting",
+      "name": "Montageart",
+      "type": "choice",
+      "default": "flush",
+      "options": [
+        "flush",
+        "surface",
+        "free"
+      ],
+      "required": true
+    },
+    {
+      "key": "width",
+      "name": "Breite",
+      "type": "length",
+      "min": 0.02,
+      "max": 3.0,
+      "required": false
+    },
+    {
+      "key": "height",
+      "name": "Höhe",
+      "type": "length",
+      "min": 0.02,
+      "max": 3.0,
+      "required": false
+    },
+    {
+      "key": "depth",
+      "name": "Tiefe",
+      "type": "length",
+      "min": 0.01,
+      "max": 1.0,
+      "required": false
+    }
+  ],
+  "connection_rules": [
+    {
+      "types": [
+        "socket",
+        "switch",
+        "light",
+        "distribution_board",
+        "radiator",
+        "heat_pump"
+      ],
+      "medium": "power",
+      "method": "clamp",
+      "partners": [
+        "cable"
+      ],
+      "note": "Kabelende am Gerät; nur die aufgeführten Leiter anschließen"
+    },
+    {
+      "types": [
+        "wall_plate"
+      ],
+      "line": "ppr",
+      "medium": "water_supply",
+      "method": "weld",
+      "partners": [
+        "pipe",
+        "fitting"
+      ],
+      "note": "Wandscheibe: PP-R-Muffe von hinten, Gewinde zur Armatur"
+    }
+  ]
+}

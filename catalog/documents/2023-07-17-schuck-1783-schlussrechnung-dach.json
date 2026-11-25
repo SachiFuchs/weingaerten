@@ -1,0 +1,364 @@
+{
+  "id": "2023-07-17-schuck-1783-schlussrechnung-dach",
+  "name": "Schuck 1783 – Schlussrechnung Dach",
+  "doc_type": "invoice",
+  "supplier": "company:schuck-dach",
+  "date": "2023-07-17",
+  "number": "1783",
+  "customer_number": null,
+  "category": "dachdecker-aussenwaende",
+  "object": "weingaerten-8",
+  "project": "Dachsanierung, Weingärten 8, Göppingen (Ausführungszeitraum Juli 2023)",
+  "description": "Schlussrechnung der Schuck Dachdeckungen GmbH über die komplette Dachsanierung Weingärten 8 nach Aufmaß: Gerüst, Abriss, Unterkonstruktion, Aufsparrendämmung, Neueindeckung Braas Rubin 13 V sowie Klempnerarbeiten mit Einbau von drei VELUX-Dachfenstern aus dem Nachtrag 2305. Von der Gesamtsumme 42.480,38 EUR brutto werden die bereits bezahlten Abschlagsrechnungen 1780 (20.000,00 EUR) und 1782 (11.900,00 EUR) abgezogen, offene Forderung 10.580,38 EUR. Laut Beleg sind 6.720 EUR Lohnkosten enthalten (steuerlich absetzbar).",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "01.01",
+      "description": "Standgerüst (Sicherheitsgerüst aufbauen, vorhalten, abbauen)",
+      "quantity": 186.0,
+      "unit": "m²",
+      "unit_price": 15.7,
+      "total_price": 2920.2
+    },
+    {
+      "position": "01.02",
+      "description": "Dachdeckerfangschutzgerüst",
+      "quantity": 30.0,
+      "unit": "m",
+      "unit_price": 10.8,
+      "total_price": 324.0
+    },
+    {
+      "position": "01.03",
+      "description": "Gerüstturm 3,00 m breit, 6,00 m hoch (Transport-/Treppenturm)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 530.0,
+      "total_price": 530.0
+    },
+    {
+      "position": "02.01",
+      "description": "Baustelleneinrichtung",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 250.0,
+      "total_price": 250.0
+    },
+    {
+      "position": "02.02",
+      "description": "Abriss Dacheindeckung inkl. Lattung",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 12.5,
+      "total_price": 1625.0
+    },
+    {
+      "position": "02.03",
+      "description": "Abriss Kaminverwahrung inkl. Container- und Deponiegebühren",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 50.0,
+      "total_price": 50.0
+    },
+    {
+      "position": "02.04",
+      "description": "Abriss Kaminverkleidung (Asbest)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 200.0,
+      "total_price": 200.0
+    },
+    {
+      "position": "02.05",
+      "description": "Ausbau Wohnraumdachfenster",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 250.0,
+      "total_price": 250.0
+    },
+    {
+      "position": "02.06",
+      "description": "Abriss Anschlussbleche",
+      "quantity": 30.0,
+      "unit": "m",
+      "unit_price": 5.5,
+      "total_price": 165.0
+    },
+    {
+      "position": "03.01",
+      "description": "Braas DivoDämm Membran Kompakt",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 11.4,
+      "total_price": 1482.0,
+      "ref": "material:vapour-membrane-divodaemm"
+    },
+    {
+      "position": "03.02",
+      "description": "Konterlattung mit Rahmenschenkel 40x60 mm",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 17.0,
+      "total_price": 2210.0,
+      "ref": "material:counter-batten-40x60"
+    },
+    {
+      "position": "03.03",
+      "description": "Traglattung 30x50 mm",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 12.8,
+      "total_price": 1664.0,
+      "ref": "material:roof-batten-30x50"
+    },
+    {
+      "position": "03.04",
+      "description": "Stützbohle Traufe, Höhe 140 mm",
+      "quantity": 20.0,
+      "unit": "m",
+      "unit_price": 20.3,
+      "total_price": 406.0,
+      "ref": "component:roof-eaves-support-board"
+    },
+    {
+      "position": "03.05",
+      "description": "Windbrett zur seitlichen Abdeckung der Aufsparrendämmung",
+      "quantity": 22.0,
+      "unit": "m",
+      "unit_price": 10.5,
+      "total_price": 231.0,
+      "ref": "component:roof-wind-board"
+    },
+    {
+      "position": "03.06",
+      "description": "Traufausbildung mit Keilbohle",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 15.0,
+      "total_price": 360.0,
+      "ref": "component:roof-eaves-boards"
+    },
+    {
+      "position": "04.01",
+      "description": "Aufsparrendämmung Braas DivoDämm Top PIR WLS 023, 140 mm",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 55.0,
+      "total_price": 7150.0,
+      "ref": "material:pir-divodaemm-top"
+    },
+    {
+      "position": "05.01",
+      "description": "Flächeneindeckung Tondachziegel Braas Rubin 13 V, Farbe Kupfer",
+      "quantity": 130.0,
+      "unit": "m²",
+      "unit_price": 37.5,
+      "total_price": 4875.0,
+      "ref": "material:clay-tile-rubin"
+    },
+    {
+      "position": "05.02",
+      "description": "Ortgangausbildung mit Ortgangziegel",
+      "quantity": 22.0,
+      "unit": "m",
+      "unit_price": 62.0,
+      "total_price": 1364.0,
+      "ref": "component:roof-verge-tile"
+    },
+    {
+      "position": "05.03",
+      "description": "Ziegelverklammerung korrosionsgeschützt",
+      "quantity": 50.0,
+      "unit": "m²",
+      "unit_price": 4.5,
+      "total_price": 225.0
+    },
+    {
+      "position": "05.05",
+      "description": "Firstausbildung mit Sattelfirst",
+      "quantity": 10.0,
+      "unit": "m",
+      "unit_price": 67.5,
+      "total_price": 675.0,
+      "ref": "component:roof-ridge"
+    },
+    {
+      "position": "05.06",
+      "description": "Trauflüfterkamm",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 5.0,
+      "total_price": 120.0,
+      "ref": "component:roof-eaves-vent-comb"
+    },
+    {
+      "position": "06.01",
+      "description": "Vorhandene Rinne reinigen, abnehmen und auf neue Keilbohle montieren",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 35.0,
+      "total_price": 840.0,
+      "ref": "component:roof-gutter"
+    },
+    {
+      "position": "06.02",
+      "description": "Rinnenhalter kupferummantelt 28er liefern",
+      "quantity": 35.0,
+      "unit": "Stk",
+      "unit_price": 8.5,
+      "total_price": 297.5,
+      "ref": "component:roof-gutter-bracket"
+    },
+    {
+      "position": "06.03",
+      "description": "Einlaufblech Kupfer Zuschnitt bis 0,40 m liefern und montieren",
+      "quantity": 24.0,
+      "unit": "m",
+      "unit_price": 38.9,
+      "total_price": 933.6,
+      "ref": "component:roof-eaves-flashing"
+    },
+    {
+      "position": "06.06",
+      "description": "Kaminverwahrung Sondergröße Kupfer liefern und montieren",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 460.0,
+      "total_price": 460.0,
+      "ref": "component:chimney-flashing"
+    },
+    {
+      "position": "06.07",
+      "description": "Kaminverkleidung Alu braun 0,7 mm bis 3 m²",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 470.0,
+      "total_price": 470.0,
+      "ref": "component:chimney-cladding"
+    },
+    {
+      "position": "06.08",
+      "description": "Edelstahlabdeckung Kamin",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 270.0,
+      "total_price": 270.0,
+      "ref": "component:chimney-cap"
+    },
+    {
+      "position": "06.09",
+      "description": "VELUX-Eindeckrahmen EDZ 2000 für Fenster 55 x 98 cm",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 140.0,
+      "total_price": 280.0,
+      "ref": "component:roof-flashing-velux-ck04"
+    },
+    {
+      "position": "06.10",
+      "description": "VELUX GGU CK 04 066 Energy Plus liefern",
+      "quantity": 2,
+      "unit": "Stk",
+      "unit_price": 680.0,
+      "total_price": 1360.0,
+      "ref": "component:roof-window-velux-ck04"
+    },
+    {
+      "position": "06.11",
+      "description": "VELUX GGU Energy Plus FK 06 (66 x 118 cm) liefern",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 864.0,
+      "total_price": 864.0,
+      "ref": "component:roof-window-velux-fk06"
+    },
+    {
+      "position": "06.12",
+      "description": "VELUX-Eindeckrahmen EDZ für Fenster 66 x 118 cm, liefern und einbauen",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 150.0,
+      "total_price": 150.0,
+      "ref": "component:roof-flashing-velux-fk06"
+    },
+    {
+      "position": "06.13",
+      "description": "Balkenwechsler liefern und einbauen",
+      "quantity": 1.0,
+      "unit": "m",
+      "unit_price": 150.0,
+      "total_price": 150.0,
+      "ref": "component:roof-trimmer"
+    },
+    {
+      "position": "06.14",
+      "description": "Dachfenster und Balkenwechsler einbauen",
+      "quantity": 16.0,
+      "unit": "Std",
+      "unit_price": 60.0,
+      "total_price": 960.0
+    },
+    {
+      "position": "06.15",
+      "description": "Nord Fichte Glattkantbretter liefern",
+      "quantity": 85.0,
+      "unit": "m",
+      "unit_price": 8.8,
+      "total_price": 748.0,
+      "ref": "material:glattkantbrett-nord-fichte"
+    },
+    {
+      "position": "06.15",
+      "description": "Fichte KVH gehobelt getrocknet liefern (ohne eigene Positionsnummer)",
+      "quantity": 23.0,
+      "unit": "m",
+      "unit_price": 7.5,
+      "total_price": 172.5,
+      "ref": "material:kvh-fichte"
+    },
+    {
+      "position": "06.15",
+      "description": "Nord Fichte US Faseprofil Scandia liefern (ohne eigene Positionsnummer)",
+      "quantity": 117.0,
+      "unit": "m",
+      "unit_price": 3.5,
+      "total_price": 409.5,
+      "ref": "component:roof-soffit-cladding"
+    },
+    {
+      "position": "06.15",
+      "description": "Tafel Alu braun liefern (ohne eigene Positionsnummer)",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": 120.0,
+      "total_price": 120.0,
+      "ref": "material:aluminium-brown"
+    },
+    {
+      "position": "06.15",
+      "description": "Dachbalken liefern (ohne eigene Positionsnummer)",
+      "quantity": 3,
+      "unit": "Stk",
+      "unit_price": 45.5,
+      "total_price": 136.5,
+      "ref": "material:spruce-wood"
+    }
+  ],
+  "subtotal_net": 35697.8,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 35697.8,
+  "vat_rate": 19,
+  "vat_amount": 6782.58,
+  "total_gross": 42480.38,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2023-07-17-schuck-1783-schlussrechnung-dach.json",
+  "source_sha256": "fe790288270ecdc2fc15088c31da3fe37a9321b77e612bf4916c0854d677e64a",
+  "original_filename": "2023-07-17-Endrechnung-Dach Schuck.pdf",
+  "related": [
+    "document:2022-09-15-schuck-2191-angebot-dachsanierung",
+    "document:2023-06-21-schuck-2305-nachtrag-dachfenster",
+    "document:2023-08-30-schuck-1800-geruest-verlaengerung"
+  ]
+}

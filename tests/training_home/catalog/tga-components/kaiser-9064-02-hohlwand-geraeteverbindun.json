@@ -1,0 +1,220 @@
+{
+  "id": "kaiser-9064-02-hohlwand-geraeteverbindun",
+  "name": "Kaiser 9064-02 Hohlwand Geräteverbindungsdose Ø 68 x T 62 mm",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "hollow_wall",
+    "box_function": "junction",
+    "size": "68 × 68 × 62 mm"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen; install-Block geschätzt (Maße aus dem Namen, Einführungen wie Kaiser UP Gerätedose)",
+  "imported_from": [
+    "hornbach-6760679_kaiser-9064-02-hohlwand-geraeteverbindun"
+  ],
+  "product": {
+    "manufacturer": "company:kaiser",
+    "model": "Kaiser 9064-02 Hohlwand Geräteverbindungsdose Ø 68 x T 62 mm",
+    "article_no": "6760679",
+    "ean": "4260484710307",
+    "url": "https://www.hornbach.de/p/kaiser-9064-02-hohlwand-geraeteverbindungsdose-o-68-x-t-62-mm/6760679/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Schalterdose"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Hohlwanddose"
+        },
+        {
+          "label": "Bohrdurchmesser",
+          "value": "68 mm"
+        },
+        {
+          "label": "Ausstattung",
+          "value": "Schrauben"
+        },
+        {
+          "label": "Befestigung der Geräte",
+          "value": "Schrauben"
+        },
+        {
+          "label": "Geeignet für",
+          "value": "Plattenstärke 7 mm - 40 mm"
+        },
+        {
+          "label": "Montageart",
+          "value": "Hohlwand"
+        },
+        {
+          "label": "Inhalt",
+          "value": "1 Stück"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen, Feuchtraum"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "SP65"
+        },
+        {
+          "label": "EAN",
+          "value": "4260484710307"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser",
+          "value": "68 mm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "62 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 1.03,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-30",
+        "source": "Kassenbon 2025-12-30, HORNBACH München-Freiham, 1×"
+      }
+    ]
+  },
+  "photos": [
+    "hornbach-6760679_1.jpg",
+    "hornbach-6760679_2.jpg",
+    "hornbach-6760679_3.jpg"
+  ],
+  "connection": {
+    "line": "power",
+    "mounting": "hollow_wall",
+    "box_function": "junction"
+  },
+  "install": {
+    "trade": "electrical",
+    "group": "Dosen",
+    "shape": "box",
+    "size": [
+      0.068,
+      0.068,
+      0.062
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0.0,
+          0.034,
+          -0.031
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0.0,
+          -0.034,
+          -0.031
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "left",
+        "pos": [
+          -0.034,
+          0.0,
+          -0.031
+        ],
+        "dir": [
+          -1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.034,
+          0.0,
+          -0.031
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "in"
+    ],
+    "estimated": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "konstruktionsholz-douglasie-natur-2-8-cm-x-4-5-cm-x-300-cm",
+  "name": "Konstruktionsholz Douglasie Natur 2,8 cm x 4,5 cm x 300 cm",
+  "category": "Holz",
+  "description": "Bauen Sie sich mit diesem Konstruktionsholz das Projekt Ihrer Wahl, egal ob beim Dach- oder Innenausbau oder als Unterkonstruktion verschiedener Bauvorhaben. Die Holzlatte aus Douglasie überzeugt nicht nur durch ihr individuelles Farbspiel, sondern ist auch für den Außenbereich perfekt geeignet. Kantholz aus Douglasie Besonders beliebt ist die Holzart wegen ihrer geringeren Anfälligkeit für Schädlingsbefall. Zudem handelt es sich bei der Douglasie um ein festes und witterungsbeständiges Holz, welches sich beispielsweise beim Bau einer Terrasse als sehr formstabil erweist.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4000868800299_konstruktionsholz-douglasie-natur-2-8-cm-x-4-5-cm-x-300-cm"
+  ],
+  "product": {
+    "manufacturer": "company:rettenmeier-holzindustrie-ramstein",
+    "model": "Konstruktionsholz Douglasie Natur 2,8 cm x 4,5 cm x 300 cm",
+    "article_no": "1410893",
+    "ean": "4000868800299",
+    "url": "https://www.obi.de/p/1410893",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "1,89 kg"
+        },
+        {
+          "label": "Höhe",
+          "value": "3,00 m"
+        },
+        {
+          "label": "Breite",
+          "value": "14,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "2,8 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 11.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-01-22",
+        "source": "Kassenbon 2024-01-22, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

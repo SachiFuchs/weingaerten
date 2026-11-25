@@ -1,0 +1,9 @@
+{
+  "id": "pipe-mlcp-16",
+  "name": "Mehrschichtverbundrohr 16 × 2",
+  "description": "Beispiel (Muster, kein reales System): Heizungsrohr, z. B. Fußbodenheizung",
+  "class": "tga-class:pipe",
+  "din276": "420",
+  "system_type": "Heizung",
+  "params": { "nominal_size_dn": 12, "outer_diameter": 0.016, "pressure_bar": 3, "insulation": 0, "medium": "heating_supply" }
+}

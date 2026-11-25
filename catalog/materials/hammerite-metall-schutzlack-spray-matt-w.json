@@ -1,0 +1,117 @@
+{
+  "id": "hammerite-metall-schutzlack-spray-matt-w",
+  "name": "Hammerite Metall Schutzlack Spray matt weiß 400 ml",
+  "category": "Farbe",
+  "description": "Möchtest Du Deine Metallgeländer vor Witterungseinflüssen schützen? Dann ist das Hammerite Metall Schutzlack Spray matt weiß 400 ml die ideale Wahl für Dich. \n\nProduktmerkmale des Hammerite Metall Schutzlack Sprays matt weiß 400 ml \nDarum solltest Du zugreifen: Dieser lösemittelhaltige Sprühlack eignet sich hervorragend für den Einsatz im Außenbereich und bietet optimalen Schutz für Metalloberflächen. Der matte weiße Farbton verleiht den Metallgeländern nicht nur ein ansprechendes Aussehen, sondern schützt sie auch zuverlässig vor Rost und Witterungseinflüssen. Mit einer Trockendauer von etwa 10 Minuten ist eine schnelle Weiterverarbeitung möglich, was den Arbeitsprozess effizient gestaltet. Dank der Sprühverarbeitung lässt sich der Lack gleichmäßig auftragen und ermöglicht eine vollständige Abdeckung. Die Reichweite des Sprays liegt bei einem einmaligen Anstrich bei etwa 1,25 m² pro Liter, was sparsames Arbeiten möglich macht.\n\nFestgezurrt: Das Hammerite Metall Schutzlack Spray kombiniert Schutz und Ästhetik in einem Arbeitsschritt, ideal für langlebige und schöne Metalloberflächen im Außenbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10546091_hammerite-metall-schutzlack-spray-matt-w"
+  ],
+  "product": {
+    "manufacturer": "company:hammerite",
+    "model": "Hammerite Metall Schutzlack Spray matt weiß 400 ml",
+    "article_no": "10546091",
+    "ean": "4007591725554",
+    "url": "https://www.hornbach.de/p/hammerite-metall-schutzlack-spray-matt-weiss-400-ml/10546091/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Sprühlack"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Metallschutzlack"
+        },
+        {
+          "label": "Ideal geeignet für",
+          "value": "Geländer"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Metall"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Farbton",
+          "value": "Weiß"
+        },
+        {
+          "label": "Verarbeitung",
+          "value": "Sprühen"
+        },
+        {
+          "label": "Reichweite (ca.) bei einmaligem Anstrich",
+          "value": "1,25 m²/l"
+        },
+        {
+          "label": "Gebindegröße",
+          "value": "0,4 l"
+        },
+        {
+          "label": "Glanzgrad",
+          "value": "Matt"
+        },
+        {
+          "label": "Basis",
+          "value": "Lösemittelhaltig"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Trockendauer ca.",
+          "value": "0,167 h"
+        },
+        {
+          "label": "Signalwort",
+          "value": "Gefahr"
+        },
+        {
+          "label": "Gefahrenhinweise (H-Sätze)",
+          "value": "(H336) Kann Schläfrigkeit und Benommenheit verursachen., (H222) Extrem entzündbares Aerosol., (H229) Behälter steht unter Druck: kann bei Erwärmung bersten., (H315) Verursacht Hautreizungen., (H411) Giftig für Wasserorganismen, mit langfristiger Wirkung."
+        },
+        {
+          "label": "Sicherheitshinweise (P-Sätze)",
+          "value": "(P103) Vor Gebrauch Kennzeichnungsetikett lesen., (P102) Darf nicht in die Hände von Kindern gelangen."
+        },
+        {
+          "label": "Ergänzende Gefahrenmerkmale (EUH-Sätze)",
+          "value": "(EUH211) Achtung! Beim Sprühen können gefährliche lungengängige Tröpfchen entstehen. Aerosol oder Nebel nicht einatmen."
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "AMKU"
+        },
+        {
+          "label": "EAN",
+          "value": "4007591725554"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 13.45,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-06-18",
+        "source": "Kassenbon 2025-06-18, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#F2F2EE",
+    "roughness": 0.7,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-10546091_1.jpg",
+    "hornbach-10546091_2.jpg"
+  ]
+}

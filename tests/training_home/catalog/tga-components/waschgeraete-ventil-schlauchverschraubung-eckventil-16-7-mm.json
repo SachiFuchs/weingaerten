@@ -1,0 +1,39 @@
+{
+  "id": "waschgeraete-ventil-schlauchverschraubung-eckventil-16-7-mm",
+  "name": "Waschgeräte-Ventil Schlauchverschraubung Eckventil 16,7 mm (R 3/8) x10x20 mm",
+  "class": "tga-class:install-part",
+  "din276": "412",
+  "system_type": "Trinkwasser",
+  "params": {
+    "part_type": "valve"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4007874115706_waschgeraete-ventil-schlauchverschraubung-eckventil-16-7-mm"
+  ],
+  "product": {
+    "manufacturer": "company:obi-group-sourcing",
+    "model": "Waschgeräte-Ventil Schlauchverschraubung Eckventil 16,7 mm (R 3/8) x10x20 mm",
+    "article_no": "7401664",
+    "ean": "4007874115706",
+    "url": "https://www.obi.de/p/7401664",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "260 g"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 12.49,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-21",
+        "source": "Kassenbon 2025-10-21, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  }
+}

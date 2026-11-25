@@ -1,0 +1,46 @@
+{
+  "id": "cable-nym-j-5x16",
+  "name": "NYM-J 5 × 16 mm²",
+  "class": "tga-class:cable",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "cable_type": "NYM-J",
+    "cores": 5,
+    "cross_section_mm2": 16
+  },
+  "note": "aus Beleg (catalog/documents), Maße/Parameter offen",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:dussmann-speidel-elektro",
+        "price": 11.65,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-04-03",
+        "source": "Rechnung 10007385, Pos. 011, je m",
+        "document": "document:2023-04-03-speidel-10007385-uv-zaehlerplatz"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power"
+  },
+  "cut": {
+    "max_length": 50.0,
+    "default_length": 1.0
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "floor",
+      "ceiling",
+      "roof"
+    ],
+    "modes": [
+      "in",
+      "on"
+    ],
+    "estimated": true
+  }
+}

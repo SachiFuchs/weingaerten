@@ -1,0 +1,98 @@
+{
+  "id": "bostik-block-b766-top-tape-bitumenband-k",
+  "name": "Bostik BLOCK B766 TOP TAPE Bitumenband Kupfer 10 m x 7,5 cm",
+  "category": "Baustoffe",
+  "description": "Zur Abdichtung von Lichtkuppeln, Dachrinnen, Dachbahnen usw. Zur Reparatur von Dachrinnen, Fallrohren und bituminösen Dachabdeckungen.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-10715654_bostik-block-b766-top-tape-bitumenband-k"
+  ],
+  "product": {
+    "manufacturer": "company:bostik",
+    "model": "Bostik BLOCK B766 TOP TAPE Bitumenband Kupfer 10 m x 7,5 cm",
+    "article_no": "10715654",
+    "ean": "4008373137701",
+    "url": "https://www.hornbach.de/p/bostik-block-b766-top-tape-bitumenband-kupfer-10-m-x-7-5-cm/10715654/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Dichtungsband, Klebeband"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bitumenband"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Farbton",
+          "value": "Beige"
+        },
+        {
+          "label": "Material",
+          "value": "Bitumen, Butylkautschuk"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Abdichten"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Dach"
+        },
+        {
+          "label": "Geeignet für Untergrund",
+          "value": "Beton, Holz, Kunststoff, Metall"
+        },
+        {
+          "label": "Eigenschaften",
+          "value": "Selbstklebend"
+        },
+        {
+          "label": "Hinweis",
+          "value": "Lagerung: im verschlossenen Originalgebinde, bei sachgerechter Lagerung, mindestens 60 Monate haltbar."
+        },
+        {
+          "label": "EAN",
+          "value": "4008373137701"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "75 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "10 m"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 11.95,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-05-28",
+        "source": "Kassenbon 2024-05-28, HORNBACH Tübingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-10715654_1.jpg",
+    "hornbach-10715654_2.jpg",
+    "hornbach-10715654_3.jpg",
+    "hornbach-10715654_4.jpg",
+    "hornbach-10715654_5.jpg"
+  ]
+}

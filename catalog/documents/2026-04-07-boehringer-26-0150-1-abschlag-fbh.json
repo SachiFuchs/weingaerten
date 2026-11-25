@@ -1,0 +1,39 @@
+{
+  "id": "2026-04-07-boehringer-26-0150-1-abschlag-fbh",
+  "name": "Böhringer 26-0150 – 1 Abschlag FBH",
+  "doc_type": "invoice",
+  "supplier": "company:boehringer-heizungsbau",
+  "date": "2026-04-07",
+  "number": "26-0150",
+  "customer_number": "12600",
+  "category": "heizung-kamin",
+  "object": "weingaerten-8",
+  "project": "Wohnhaus-Sanierung Weingärten 8, Göppingen; Heizungsanlage",
+  "description": "Erste Abschlagsrechnung der Böhringer Bauplanung und Heizungsbau GmbH für die Heizungsanlage in Weingärten 8. Pauschal abgerechnet werden Lieferung, Montage und Inbetriebnahme der Fußbodenheizung einschließlich Aufheizen. Eine Schlussrechnung zum Angebot 25-0023 liegt im Ordner noch nicht vor, daher wird dieser Abschlag einzeln erfasst.",
+  "prices_are_net": true,
+  "items": [
+    {
+      "position": "1",
+      "description": "Pauschaler Abschlag für die Lieferung und Montage sowie die Inbetriebnahme Fußbodenheizung, inkl. Aufheizen derselben",
+      "quantity": 1,
+      "unit": "psch",
+      "unit_price": 3000.0,
+      "total_price": 3000.0
+    }
+  ],
+  "subtotal_net": 3000.0,
+  "discount_net": 0.0,
+  "shipping_net": 0.0,
+  "total_net": 3000.0,
+  "vat_rate": 19,
+  "vat_amount": 570.0,
+  "total_gross": 3570.0,
+  "currency": "EUR",
+  "pdf": null,
+  "imported_from": "imported_documents/2026-04-07-boehringer-26-0150-1-abschlag-fbh.json",
+  "source_sha256": "dfe6c6ee1093a6b0195830077a3dc9934713ca1f120fbdb4f2606b1da3126fa1",
+  "original_filename": "2026-04-07 Boehringer - Rechnung_26-0150.pdf",
+  "related": [
+    "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+  ]
+}

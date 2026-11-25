@@ -1,0 +1,30 @@
+{
+  "id": "weishaupt-weh-f180-3-5",
+  "name": "Weishaupt Elektro-Heizeinsatz WEH F180 3,5 kW",
+  "category": "Heizung",
+  "description": "Flansch Ø 180 mm, 400 V Sternschaltung, Heizleistung 0,5–3,5 kW wählbar (PV-Nutzung), elektropoliert gegen Kalk (E9 im Hydraulikplan)",
+  "conductivity": null,
+  "values_source": "aus Beleg; Produktdaten laut Händlerseiten (Websuche Nov 2026), Kennwerte offen",
+  "product": {
+    "manufacturer": "company:weishaupt",
+    "model": "WEH F180 3,5 - 0,5/1/2",
+    "article_no": "47330018040",
+    "url": "https://www.heizbude.de/heizung/elektro-heizeinsatz-3-5-kw-weh-f180-3-5-0-5-1-2-47330018040-von-weishaupt-hb-185220",
+    "offers": [
+      {
+        "supplier": "company:boehringer-heizungsbau",
+        "price": 524.7,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2025-04-14",
+        "source": "Angebot 25-0023, Pos. 1.17, je Stk",
+        "document": "document:2025-04-14-boehringer-25-0023-angebot-waermepumpe"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B87333",
+    "roughness": 0.4,
+    "hatch": "none"
+  }
+}

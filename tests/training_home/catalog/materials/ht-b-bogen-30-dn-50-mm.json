@@ -1,0 +1,107 @@
+{
+  "id": "ht-b-bogen-30-dn-50-mm",
+  "name": "HT-B Bogen 30° DN 50 mm",
+  "category": "Entwässerung",
+  "description": "Sorgen Sie sich um die Langlebigkeit Ihrer Abflussrohre? Mit dem HT-B Bogen 30° DN 50 mm sind Sie bestens gerüstet.\n\nProduktmerkmale des HT-B Bogen 30° DN 50 mm\nDarum solltest Du zugreifen: Dieses Formteil ist speziell für die Hausentwässerung im Innenbereich konzipiert und erfüllt die Norm DIN EN 1451-1. Der Bogen aus Polypropylen (PP) ist heißwasserbeständig, was ihn ideal für den Einsatz in Abwassersystemen macht, die hohen Temperaturen ausgesetzt sind. Mit einem Außendurchmesser von 110 mm und einer Nennweite von 50 mm passt er perfekt in bestehende Systeme. Die Materialstärke von 1,8 mm sorgt für eine hohe Stabilität und Langlebigkeit. Der 30-Grad-Winkel ermöglicht eine flexible Installation, um den individuellen Anforderungen gerecht zu werden. Die graue Farbe fügt sich unauffällig in das Rohrsystem ein und sorgt für ein einheitliches Erscheinungsbild.\n\nFestgezurrt: Der HT-B Bogen 30° DN 50 mm vereint Beständigkeit und Flexibilität für eine zuverlässige Hausentwässerung.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-263229_ht-b-bogen-30-dn-50-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "HT-B Bogen 30° DN 50 mm",
+    "article_no": "263229",
+    "ean": "4052836121103",
+    "url": "https://www.hornbach.de/p/ht-b-bogen-30-dn-50-mm/263229/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "HT"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bogen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Innen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polypropylen (PP)"
+        },
+        {
+          "label": "Winkel",
+          "value": "30 °"
+        },
+        {
+          "label": "Nennweite",
+          "value": "50 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "1,8 mm"
+        },
+        {
+          "label": "Eigenschaft",
+          "value": "Heißwasserbeständig"
+        },
+        {
+          "label": "Norm",
+          "value": "DIN EN 1451-1"
+        },
+        {
+          "label": "Farbton",
+          "value": "Grau"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "7WFV"
+        },
+        {
+          "label": "EAN",
+          "value": "2000263229000, 4002644091235, 4025075111105, 4052836121103, 5902650651838, 5907660713255, 8023857032934, 8028025013777, 8586019760613, 8594169670362, 8595156223981, 8600198009711, 9003844001111"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen",
+          "value": "110 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 0.59,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-10-18",
+        "source": "Kassenbon 2025-10-18, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-263229_1.jpg",
+    "hornbach-263229_2.jpg"
+  ]
+}

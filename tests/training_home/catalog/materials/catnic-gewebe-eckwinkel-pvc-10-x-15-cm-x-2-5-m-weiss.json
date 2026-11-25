@@ -1,0 +1,61 @@
+{
+  "id": "catnic-gewebe-eckwinkel-pvc-10-x-15-cm-x-2-5-m-weiss",
+  "name": "Catnic Gewebe-Eckwinkel PVC 10 x 15 cm x 2,5 m Weiß",
+  "category": "Baustoffe",
+  "description": "Der Catnic Gewebewinkel mit PVC-Profil eignet sich für WDVS-Systeme und hat ein Gewicht von 165 g/m². Er ist verschiebefest, wasserfest und alkalibeständig und schafft eine optimale Verbindung im Eckbereich.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "ean-4022842014232_catnic-gewebe-eckwinkel-pvc-10-x-15-cm-x-2-5-m-weiss"
+  ],
+  "product": {
+    "manufacturer": "company:catnic",
+    "model": "Catnic Gewebe-Eckwinkel PVC 10 x 15 cm x 2,5 m Weiß",
+    "article_no": "6209340",
+    "ean": "4022842014232",
+    "url": "https://www.obi.de/p/6209340",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 3.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-05-02",
+        "source": "Kassenbon 2023-05-02, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      },
+      {
+        "supplier": "company:obi",
+        "price": 3.39,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2024-08-03",
+        "source": "Kassenbon 2024-08-03, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 4×"
+      }
+    ],
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "280 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "2,50 m"
+        },
+        {
+          "label": "Breite",
+          "value": "15,0 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "10,0 cm"
+        }
+      ]
+    }
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  }
+}

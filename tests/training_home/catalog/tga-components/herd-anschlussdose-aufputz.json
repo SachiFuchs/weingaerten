@@ -1,0 +1,130 @@
+{
+  "id": "herd-anschlussdose-aufputz",
+  "name": "Herd-Anschlussdose Aufputz",
+  "class": "tga-class:install-part",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "part_type": "box",
+    "mounting": "surface",
+    "box_function": "cooker",
+    "size": "80 × 80 × 37 mm"
+  },
+  "estimated": true,
+  "note": "Platzhalter: Zulauf NYM-J 5 x 2,5; Abgänge Herdanschlussleitung H05VV-F 5G2,5 und NYM-J 3 x 2,5 (einphasig); Maße wie Abzweigkasten 80 x 80 angenommen",
+  "install": {
+    "trade": "electrical",
+    "group": "Herdanschlussdosen",
+    "shape": "box",
+    "size": [
+      0.08,
+      0.08,
+      0.037
+    ],
+    "ports": [
+      {
+        "id": "front",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "dir": [
+          0,
+          0,
+          1
+        ],
+        "line": "insert",
+        "dn": 60,
+        "gender": "socket"
+      },
+      {
+        "id": "top",
+        "pos": [
+          0,
+          0.04,
+          -0.0185
+        ],
+        "dir": [
+          0,
+          1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          5
+        ],
+        "cable_types": [
+          "NYM-J"
+        ],
+        "cross_section": 2.5,
+        "label": "Zulauf"
+      },
+      {
+        "id": "bottom",
+        "pos": [
+          0,
+          -0.04,
+          -0.0185
+        ],
+        "dir": [
+          0,
+          -1,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          5
+        ],
+        "cable_types": [
+          "H05VV-F"
+        ],
+        "cross_section": 2.5,
+        "label": "Abgang Herd"
+      },
+      {
+        "id": "right",
+        "pos": [
+          0.04,
+          0,
+          -0.0185
+        ],
+        "dir": [
+          1,
+          0,
+          0
+        ],
+        "line": "conduit",
+        "dn": 20,
+        "gender": "any",
+        "cores": [
+          3
+        ],
+        "cable_types": [
+          "NYM-J"
+        ],
+        "cross_section": 2.5,
+        "label": "Abgang einphasig"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "mounting": "surface",
+    "box_function": "device"
+  },
+  "placement": {
+    "hosts": [
+      "wall",
+      "ceiling"
+    ],
+    "modes": [
+      "on"
+    ],
+    "estimated": true
+  }
+}

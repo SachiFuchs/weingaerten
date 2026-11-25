@@ -1,0 +1,42 @@
+{
+  "id": "ht-b-bogen-15-dn-50-mm",
+  "name": "HT-B Bogen 15° DN 50 mm",
+  "class": "tga-class:pipe-fitting",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "fitting_type": "bend",
+    "system_line": "ht",
+    "dn": 50,
+    "z_length": 0.03,
+    "angle": 15
+  },
+  "description": "Benötigst Du ein zuverlässiges Formteil für die Hausentwässerung? Der HT-B Bogen 15° DN 50 mm erfüllt alle Anforderungen.\n\nProduktmerkmale des HT-B Bogen 15° DN 50 mm\nDarum solltest Du zugreifen: Dieses Formteil aus Polypropylen (PP) ist speziell für den Einsatz im Innenbereich konzipiert. Der Bogen mit einem Winkel von 15 Grad und einem Außendurchmesser von 63 mm bietet eine optimale Lösung für die Hausentwässerung. Die Heißwasserbeständigkeit des Materials gewährleistet, dass der Bogen auch bei hohen Temperaturen seine Form und Funktion behält. Die chemische Beständigkeit sorgt dafür, dass er gegen viele haushaltsübliche Chemikalien resistent ist. Mit einer Materialstärke von 1,8 mm und einer Ringsteifigkeit von SN2 bietet der Bogen eine hohe Stabilität und Langlebigkeit. Die graue Farbe passt sich unauffällig in bestehende Rohrsysteme ein. Der Bogen entspricht der Norm DIN EN 1451-1, was eine hohe Qualität und Sicherheit garantiert.\n\nFestgezurrt: Der HT-B Bogen 15° DN 50 mm ist die ideale Wahl für eine zuverlässige und langlebige Hausentwässerungslösung.",
+  "photos": [
+    "hornbach-262986_1.jpg",
+    "hornbach-262986_2.jpg",
+    "hornbach-262986_3.jpg"
+  ],
+  "imported_from": [
+    "hornbach-262986_ht-b-bogen-15-dn-50-mm"
+  ],
+  "catalog_material": "material:ht-b-bogen-15-dn-50-mm",
+  "note": "aus Material übernommen (scripts/migrate_drain_materials.py); Baulänge geschätzt",
+  "connection": {
+    "line": "ht",
+    "ends": [
+      {
+        "id": "a",
+        "dn": 50,
+        "gender": "socket",
+        "flow": "in"
+      },
+      {
+        "id": "b",
+        "dn": 50,
+        "gender": "spigot",
+        "flow": "out"
+      }
+    ]
+  }
+}

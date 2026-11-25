@@ -1,0 +1,27 @@
+{
+  "id": "kalksplitt-11-22",
+  "name": "Kalksplitt 11–22 mm",
+  "category": "Schüttgut",
+  "description": "lose, je Tonne",
+  "conductivity": null,
+  "values_source": "aus Beleg; Kennwerte sonst offen",
+  "product": {
+    "model": "Kalksplitt 11–22 mm",
+    "offers": [
+      {
+        "supplier": "company:helmut-kaelberer",
+        "price": 24.2,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-07-31",
+        "source": "Rechnung S9-4427907, Pos. 5, je t",
+        "document": "document:2023-07-31-kaelberer-s9-4427907-schuettgueter-bigbag"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#A8A39A",
+    "roughness": 1.0,
+    "hatch": "concrete"
+  }
+}

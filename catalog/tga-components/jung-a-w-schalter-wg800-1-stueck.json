@@ -1,0 +1,58 @@
+{
+  "id": "jung-a-w-schalter-wg800-1-stueck",
+  "name": "Jung A/W-Schalter WG800 1 Stück",
+  "class": "tga-class:terminal",
+  "din276": "440",
+  "system_type": "Stromkreis",
+  "params": {
+    "terminal_type": "switch",
+    "mounting": "flush"
+  },
+  "note": "Baumarkt-Artikel (Import), Maße/Parameter offen",
+  "imported_from": [
+    "ean-4011377655607_jung-a-w-schalter-wg800-1-stueck"
+  ],
+  "product": {
+    "manufacturer": "company:albrecht-jung",
+    "model": "Jung A/W-Schalter WG800 1 Stück",
+    "article_no": "2788164",
+    "ean": "4011377655607",
+    "url": "https://www.obi.de/p/2788164",
+    "details": {
+      "dimensions_weight": [
+        {
+          "label": "Gewicht",
+          "value": "147 g"
+        },
+        {
+          "label": "Höhe",
+          "value": "5,8 cm"
+        },
+        {
+          "label": "Breite",
+          "value": "7,5 cm"
+        },
+        {
+          "label": "Tiefe",
+          "value": "5,8 cm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 8.99,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-04-08",
+        "source": "Kassenbon 2023-04-08, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "connection": {
+    "line": "power",
+    "accepts": [
+      "L"
+    ]
+  }
+}

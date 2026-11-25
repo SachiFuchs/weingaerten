@@ -1,0 +1,109 @@
+{
+  "id": "kg-bogen-87-dn-110-mm",
+  "name": "KG Bogen 87° DN 110 mm",
+  "category": "Entwässerung",
+  "description": "Möchtest Du sicherstellen, dass Dein Entwässerungssystem zuverlässig funktioniert? Der KG Bogen 87° DN 110 mm bietet die ideale Lösung.\n\nProduktmerkmale des KG Bogen 87° DN 110 mm\nDarum solltest Du zugreifen: Der KG Bogen ist ein essenzielles Formteil für die Haus- und Hofentwässerung. Mit einem Außendurchmesser von 127 mm und einem Nennwert von 110 mm ist er optimal für den Einsatz im Außenbereich geeignet. Hergestellt aus Polyvinylchlorid (PVC), bietet er eine hohe Beständigkeit gegen Wasser und Umwelteinflüsse. Die Materialstärke von 3,2 mm und die Ringsteifigkeit SN4 gewährleisten eine robuste Bauweise, die den Anforderungen im Erdreich standhält. Der Bogen mit einem Winkel von 87° ermöglicht eine präzise Anpassung an bestehende Rohrleitungen, was den Einbau erleichtert und die Effizienz des Entwässerungssystems erhöht.\n\nFestgezurrt: Der KG Bogen 87° DN 110 mm ist die zuverlässige Wahl für ein effizientes und sicheres Entwässerungssystem.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-267378_kg-bogen-87-dn-110-mm"
+  ],
+  "product": {
+    "manufacturer": "company:ostendorf-kunststoffe",
+    "model": "KG Bogen 87° DN 110 mm",
+    "article_no": "267378",
+    "ean": "4052836202406",
+    "url": "https://www.hornbach.de/p/kg-bogen-87-dn-110-mm/267378/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Formteil"
+        },
+        {
+          "label": "Variante",
+          "value": "KG"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Bogen"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendung",
+          "value": "Hausentwässerung, Hofentwässerung"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Polyvinylchlorid (PVC)"
+        },
+        {
+          "label": "Winkel",
+          "value": "87 °"
+        },
+        {
+          "label": "Nennweite",
+          "value": "110 mm"
+        },
+        {
+          "label": "Materialstärke (s)",
+          "value": "3,2 mm"
+        },
+        {
+          "label": "Ringsteifigkeit",
+          "value": "SN4"
+        },
+        {
+          "label": "Farbton",
+          "value": "Orange"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "44US"
+        },
+        {
+          "label": "EAN",
+          "value": "2000267378001, 4002644096520, 4002644806785, 4022804050209, 4025075213502, 4036494106795, 4052836017222, 4052836202406, 8586019764543, 8594157260056, 8594169671185, 8600198021102, 9003844006444"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Durchmesser außen (d1)",
+          "value": "110 mm"
+        },
+        {
+          "label": "Durchmesser außen (D)",
+          "value": "127 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 2.25,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2023-01-30",
+        "source": "Kassenbon 2023-01-30, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 1×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#6E6E6E",
+    "roughness": 0.5,
+    "hatch": "none"
+  },
+  "photos": [
+    "hornbach-267378_1.jpg",
+    "hornbach-267378_2.jpg",
+    "hornbach-267378_3.jpg",
+    "hornbach-267378_4.jpg"
+  ]
+}

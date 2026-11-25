@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "weingaerten/tga-part",
+  "title": "Eingebautes TGA-Einzelteil (house/tga/parts/<id>.json) – Rohrstück, Formteil, Dose, Ventil mit Lage, Drehung und Verbindungen",
+  "type": "object",
+  "required": ["id", "component", "storey"],
+  "additionalProperties": false,
+  "properties": {
+    "id":        { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "component": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Komponente mit install-Block" },
+    "storey":    { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "host": {
+      "type": ["object", "null"],
+      "description": "Wand und Wandseite; null = frei (Estrich, Decke) mit position/axes",
+      "required": ["wall", "face"],
+      "additionalProperties": false,
+      "properties": {
+        "wall": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "face": { "enum": ["outside", "inside", "left", "right"] }
+      }
+    },
+    "u":     { "type": "number", "description": "Lage entlang der Wand (m ab Wandanfang, wie u_range)" },
+    "z":     { "type": "number", "description": "Höhe über Geschossboden (m)" },
+    "depth": { "type": "number", "description": "Abstand von der Wandseite: > 0 vor der Wand (Raum), < 0 in der Wand" },
+    "rot": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "plane": { "type": "number", "description": "Drehung in der Wandebene (Grad, um w)" },
+        "tilt":  { "type": "number", "description": "Kippen um die waagerechte Wandachse (Grad) – senkrechte Teile in die Wand" },
+        "turn":  { "type": "number", "description": "Schwenken um die Senkrechte (Grad) – waagerechte Teile in die Wand" },
+        "flip":  { "type": "boolean", "description": "gespiegelt (x → −x), zuerst angewandt" }
+      }
+    },
+    "position": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3, "description": "freies Teil: Ursprung [x, y, z] absolut" },
+    "axes": {
+      "type": "object", "required": ["x", "y"], "additionalProperties": false,
+      "description": "freies Teil: lokale Achsen x und y als Weltvektoren (w = x × y)",
+      "properties": {
+        "x": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+        "y": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 }
+      }
+    },
+    "length":      { "type": "number", "exclusiveMinimum": 0, "description": "gerades Rohr: Länge (≤ install.stretch.max_length)" },
+    "path":        { "type": "array", "minItems": 1, "items": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "number" } }, "description": "Leitung mit Knickpunkten: Punkte [x, y, w] im Teilsystem nach dem Ursprung (Anschluss a), der letzte = Anschluss b; Länge = Summe der Stücke" },
+    "connections": { "type": "object", "additionalProperties": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*\\.[a-z0-9]+$" }, "description": "eigener Port -> \"<teil-id>.<port>\"" },
+    "open_ok":     { "type": "array", "items": { "type": "string" }, "description": "bewusst offene Ports (blau)" },
+    "system":      { "type": "string" },
+    "medium":      { "enum": ["cold_water", "hot_water", "circulation", "waste_water"] },
+    "cable":       { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$", "description": "Leerrohr: eingezogenes Kabel" },
+    "circuit":     { "type": "string", "description": "Stromkreis" },
+    "clamps": {
+      "type": "array",
+      "description": "Elektrodose: Klemme je Leiter (z. B. WAGO 3- oder 5-polig); kleinste Polzahl = Zahl der aktiven Kabeleinführungen",
+      "items": {
+        "type": "object", "required": ["role", "clamp"], "additionalProperties": false,
+        "properties": {
+          "role":  { "enum": ["L", "L1", "L2", "L3", "N", "PE"] },
+          "clamp": { "type": "string", "pattern": "^tga-component:[a-z0-9]+(-[a-z0-9]+)*$" }
+        }
+      }
+    },
+    "estimated":   { "type": "boolean" },
+    "note":        { "type": "string" }
+  }
+}

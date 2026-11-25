@@ -1,0 +1,109 @@
+{
+  "id": "protektor-gewebeeckwinkel-hart-pvc-fuer",
+  "name": "PROTEKTOR Gewebeeckwinkel Hart-PVC für Fassadendämmung und WDV-System 2500 mm x 100 mm x 150 mm",
+  "category": "Baustoffe",
+  "description": "Unsichere Kanten an der Fassade können schnell zu Rissen und ungleichmäßigen Abschlüssen führen, wenn der Aufbau nicht sauber geführt wird.\n\nProduktmerkmale des/der PROTEKTOR Gewebeeckwinkel Hart-PVC für Fassadendämmung und WDV-System 2500 mm x 100 mm x 150 mm\n\nDarum solltest Du zugreifen: Der Gewebewinkel aus Hart-PVC bringt Formstabilität an Außenecken und sorgt damit für gerade, saubere Kanten an Wand und Fassade. Das integrierte, alkalibeständige Glasfasergewebe ist auf den Einsatz im Putz- und Armierungsbereich ausgelegt, sodass die Einbindung in das System zuverlässig gelingt und die Ecke im Aufbau stabil geführt wird. Durch die Ausführung als Profil für Wärmedämmverbundsysteme unterstützt der Eckwinkel einen gleichmäßigen Schichtaufbau und reduziert das Risiko von Beschädigungen an stoßgefährdeten Kanten.\n\nMit der weißen Grundfarbe lässt sich der Eckbereich optisch neutral in den Fassadenaufbau integrieren. Die Länge von 2,5 m erleichtert das Arbeiten an durchgehenden Kanten, weil weniger Stöße entstehen und Du die Ecke über längere Strecken sauber ausrichten kannst.\n\nFestgezurrt: Dieser Gewebeeckwinkel stabilisiert Fassadenecken im WDVS-Aufbau und unterstützt einen geraden, belastbaren Abschluss an Wand und Fassade.",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "hornbach-8858790_protektor-gewebeeckwinkel-hart-pvc-fuer"
+  ],
+  "product": {
+    "manufacturer": "company:protektor",
+    "model": "PROTEKTOR Gewebeeckwinkel Hart-PVC für Fassadendämmung und WDV-System 2500 mm x 100 mm x 150 mm",
+    "article_no": "8858790",
+    "ean": "4009230860008",
+    "url": "https://www.hornbach.de/p/protektor-gewebeeckwinkel-hart-pvc-fuer-fassadendaemmung-und-wdv-system-2500-mm-x-100-mm-x-150-mm/8858790/",
+    "details": {
+      "product_data": [
+        {
+          "label": "Artikeltyp",
+          "value": "Profil"
+        },
+        {
+          "label": "Ausführung",
+          "value": "Gewebewinkel"
+        },
+        {
+          "label": "Einsatzbereich",
+          "value": "Außen"
+        },
+        {
+          "label": "Anwendungsbereich",
+          "value": "Wand, Fassade"
+        },
+        {
+          "label": "Material",
+          "value": "Kunststoff"
+        },
+        {
+          "label": "Materialspezifizierung",
+          "value": "Hart-PVC"
+        },
+        {
+          "label": "Putzstärke",
+          "value": "6 mm"
+        },
+        {
+          "label": "Grundfarbe",
+          "value": "Weiß"
+        },
+        {
+          "label": "Artikelvorteil",
+          "value": "Alkalibeständig, Hart-PVC mit Glasfasergewebe, ideal für Wärmedämmverbundsysteme"
+        },
+        {
+          "label": "Schenkellänge",
+          "value": "23 mm"
+        },
+        {
+          "label": "Oberfläche/Oberflächenbehandlung",
+          "value": "-"
+        },
+        {
+          "label": "AKN (Artikelkurznummer)",
+          "value": "P3YZ"
+        },
+        {
+          "label": "EAN",
+          "value": "4009230843339, 4009230855912, 4009230860008"
+        }
+      ],
+      "dimensions_weight": [
+        {
+          "label": "Breite",
+          "value": "100 mm"
+        },
+        {
+          "label": "Höhe",
+          "value": "150 mm"
+        },
+        {
+          "label": "Länge",
+          "value": "2.500 mm"
+        }
+      ]
+    },
+    "offers": [
+      {
+        "supplier": "company:hornbach",
+        "price": 3.35,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-04-12",
+        "source": "Kassenbon 2025-04-12, HORNBACH Göppingen, Ulmer Straße 95-97, 73037 Göppingen, 6×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#B8B4AC",
+    "roughness": 0.9,
+    "hatch": "plaster"
+  },
+  "photos": [
+    "hornbach-8858790_1.jpg",
+    "hornbach-8858790_2.jpg",
+    "hornbach-8858790_3.jpg",
+    "hornbach-8858790_4.jpg"
+  ]
+}

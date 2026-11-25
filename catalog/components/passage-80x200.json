@@ -1,0 +1,12 @@
+{
+  "id": "passage-80x200",
+  "name": "Durchgang 0,80 × 2,00",
+  "description": "Durchgang Gang – Küche (Korrektur EG, rot)",
+  "class": "class:passage",
+  "opening_capable": true,
+  "params": {
+    "width": 0.8,
+    "height": 2.0
+  },
+  "materials": {}
+}

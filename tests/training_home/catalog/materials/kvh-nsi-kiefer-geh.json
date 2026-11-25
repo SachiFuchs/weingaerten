@@ -1,0 +1,29 @@
+{
+  "id": "kvh-nsi-kiefer-geh",
+  "name": "KVH Nsi Kiefer geh.+",
+  "category": "Holz",
+  "conductivity": null,
+  "values_source": "Baumarkt-Artikel, Kennwerte offen",
+  "imported_from": [
+    "obi-2106572497540_kvh-nsi-kiefer-geh"
+  ],
+  "product": {
+    "model": "KVH Nsi Kiefer geh.+",
+    "article_no": "2106572497540",
+    "offers": [
+      {
+        "supplier": "company:obi",
+        "price": 7.5,
+        "currency": "EUR",
+        "price_basis": "gross",
+        "date": "2025-12-06",
+        "source": "Kassenbon 2025-12-06, OBI Göppingen, Heininger Str. 26, 73037 Göppingen, 0.743×"
+      }
+    ]
+  },
+  "appearance": {
+    "color": "#D8B991",
+    "roughness": 0.7,
+    "hatch": "wood"
+  }
+}

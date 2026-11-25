@@ -1,0 +1,34 @@
+{
+  "id": "biotopp-ok-4-ew",
+  "name": "Kleinkläranlage BioTopp OK 4 EW",
+  "class": "tga-class:terminal",
+  "din276": "411",
+  "system_type": "Abwasser",
+  "params": {
+    "terminal_type": "sanitary",
+    "mounting": "free"
+  },
+  "note": "PE-Klärbehälter mit Membranrohrbelüftern, Lufthebern, Rechen, Gebläse; Hersteller im Beleg nicht genannt",
+  "product": {
+    "offers": [
+      {
+        "supplier": "company:eco-water-solution",
+        "price": 5322.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2022-12-20",
+        "source": "Angebot 221108S-b, Pos. 2, je Stk",
+        "document": "document:2022-12-20-ecowatersolution-221108s-b-angebot-klaeranlage"
+      },
+      {
+        "supplier": "company:eco-water-solution",
+        "price": 5322.6,
+        "currency": "EUR",
+        "price_basis": "net",
+        "date": "2023-05-15",
+        "source": "Rechnung 30024A01, Pos. 2, je Stk",
+        "document": "document:2023-05-15-ecowatersolution-30024a01-schlussrechnung-biotopp"
+      }
+    ]
+  }
+}
